@@ -1,0 +1,19 @@
+* C:\Users\jeann\Documents\TD\td-fpga-developing-board\AnalogIn.asc
+R1 N003 VinM 8k2
+XU1 N003 N001 3.3V 0 N002 level.2 Avol=1Meg GBW=10Meg Slew=10Meg ilimit=25m rail=0 Vos=0 phimargin=45 en=0 enk=0 in=0 ink=0 Rin=500Meg
+R2 N001 VinP 8k2
+R3 N003 N004 18k
+R4 Vout N001 18k
+R5 Vout N002 82
+R6 Vout 0 10k
+C1 Vout 0 2n2
+C2 N001 N002 47p
+C3 N003 0 47p
+V1 N004 0 1.5
+V2 3.3V 0 5
+V3 VinP 0 SINE(0.5 0.5 100)
+V4 VinM 0 SINE(0.5 0.5 100 5m)
+.tran 100ms
+.lib UniversalOpamps2.sub
+.backanno
+.end
