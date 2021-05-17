@@ -22,9 +22,12 @@ SN74ABT5402A pour le driver de ligne !
 74LVC16241A ==> Fastest
 ==> Cooooooooooooooool
 ==> Plus besoin d'une grosse FPGA !
+J'ai effectué des calculs. On peut au MAX regroupper 3 ADC avec le 74LVC16241A... Car il y a des delais dans les portes TRI-STATE. On commence a parler de nano secondes...
+Donc la FPGA devrais tourner encore plus vite pour être plus précise. Ce n'est pas la bonne solution.
 
 
 Plot plot twist !
+LVDS est un bus série bas voltage. Souvent utilisé pour transmettre des infos a haute vitesse.
 ADC12QS065 Quad 12-Bit 65 MSPS A/D Converter with LVDS Serialized Outputs datasheet (Rev. I)
 
 
@@ -44,5 +47,7 @@ Le DFO (celui qui indique quand une nouvelle trame de data est envoyé) doit êt
 Schéma bloc le matin ! Ca rends bien. Les CLOCKs des ADC sont en différentiel.
 Il faut que j'aille voir Alain !
 Il faut mettre une flash, une ram je pense pour stocker les valeurs mesurées peut etre
+
+
 # Sources
 Passe bas 2 ème ordre  http://www.bedwani.ch/electro/ch9/
