@@ -44,6 +44,7 @@ Il faut aussi connecter le clock des data qui vient depuis l'ADC sur un clock ca
 Le DFO (celui qui indique quand une nouvelle trame de data est envoyé) doit être connecté sur la même bank
 
 ## 17.05.2021
+
 Schéma bloc le matin ! Ca rends bien. Les CLOCKs des ADC sont en différentiel.
 Il faut que j'aille voir Alain !
 Il faut mettre une flash, une ram je pense pour stocker les valeurs mesurées peut etre
@@ -51,3 +52,5 @@ Il faut mettre une flash, une ram je pense pour stocker les valeurs mesurées pe
 
 # Sources
 Passe bas 2 ème ordre  http://www.bedwani.ch/electro/ch9/
+
+ADC AD3421QRWETQ1 : https://www.ti.com/lit/ds/symlink/adc3421-q1.pdf
