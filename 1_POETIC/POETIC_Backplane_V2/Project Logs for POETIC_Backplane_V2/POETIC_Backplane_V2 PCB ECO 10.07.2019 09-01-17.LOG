@@ -1,0 +1,16 @@
+Added Component: Designator=Z1(FIDUCIAL)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1 - 3"; VariantName = "[No Variations]"
+Added Component: Designator=Z2(FIDUCIAL)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1 - 3"; VariantName = "[No Variations]"
+Added Component: Designator=Z3(FIDUCIAL)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1 - 3"; VariantName = "[No Variations]"
+Added Component: Designator=Z4(FIDUCIAL)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1 - 3"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=Supply Member=Component Z1 1 - 3
+Added Member To Class: ClassName=Supply Member=Component Z2 1 - 3
+Added Member To Class: ClassName=Supply Member=Component Z3 1 - 3
+Added Member To Class: ClassName=Supply Member=Component Z4 1 - 3

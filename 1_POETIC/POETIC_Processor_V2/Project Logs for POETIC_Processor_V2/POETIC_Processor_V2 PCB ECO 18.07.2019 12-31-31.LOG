@@ -1,0 +1,26 @@
+Change Component Description : Designator=C165 Old Description=Capacitor New Description=Capacitor X7R 10% 50V 1608(0603)
+Change Component Description : Designator=C39 Old Description=Capacitor X7R 10% 50V 2012(0805) New Description=Capacitor X7R 10% 50V 1608(0603)
+Change Component Description : Designator=C59 Old Description=Capacitor X7R 10% 50V 2012(0805) New Description=Capacitor X7R 10% 50V 1608(0603)
+Change Component Description : Designator=C61 Old Description=Capacitor X7R 10% 50V 2012(0805) New Description=Capacitor X7R 10% 50V 1608(0603)
+Change Component Description : Designator=C62 Old Description=Capacitor X7R 10% 50V 2012(0805) New Description=Capacitor X7R 10% 50V 1608(0603)
+Change component parameters: Designator = "L1"; Footprint = "DR73"; UniqueID = "\CBONVDNS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Info"; Value = "2u2, 4.15A, 16m?"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Coiltronics / Eaton"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser No."; Value = "704-DR73-2R2-R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "DR73-2R2-R"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L2"; Footprint = "INDUCTOR 2012 REFLOW"; UniqueID = "\JHMYYXCV"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Info"; Value = "220u, 2A, 220?@100Mhz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Bourns"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser No."; Value = "652-MH2029-221Y"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "MH2029-221Y"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C69"; Footprint = "CAPACITOR 2012 REFLOW"; UniqueID = "\UHRMPEEE"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C70"; Footprint = "CAPACITOR 2012 REFLOW"; UniqueID = "\GHTGJGBI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C71"; Footprint = "CAPACITOR 2012 REFLOW"; UniqueID = "\GUPDLPSC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
