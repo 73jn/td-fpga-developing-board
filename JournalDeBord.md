@@ -49,8 +49,29 @@ Schéma bloc le matin ! Ca rends bien. Les CLOCKs des ADC sont en différentiel.
 Il faut que j'aille voir Alain !
 Il faut mettre une flash, une ram je pense pour stocker les valeurs mesurées peut etre
 
+Alors, 25MSPS est beaucoup trop. Chaque 400ns le processeur effectues 4 mesures, ==> donc il faudrait echantillonner 500KSPS par canal au minimum.
+==>>>>>>>>>>ADS7886SBDCKT, 1MSPS, 1 canal, serie ==> peu de connexions
+en stock sur mouser, environ 4CHF/pce
+
+## 18.05.2021
+
+J'ai commencé a refaire le schéma block avec ADS7886SBDCKT.
+J'ai connecté les clocks ensemble car ils ont tous besoin de 20MHz constamment.
+Pour leur alimentation, il faut utiliser une référence de tension de préférence. J'ai trouvé LT1461CCS8-3#PBF sur mouser qui est ultra précis et qui pourrait alimenter tous les chips. Un chip consomme 1.5mA. Il faut donc 30mA en tout.
+Il en faudrait deux en tout pour limiter les erreurs de tensions.
+Il faut l'alimenter en 5V !
+Mettre pleins de condos !
+
+
+Pour les 8 sorties DAC, on peut intervertir des connecteurs SMA traversant; un fois au top une fois au bot. Il faudra peut etre changer l'USBA en micro USB
+
+
+
 
 # Sources
 Passe bas 2 ème ordre  http://www.bedwani.ch/electro/ch9/
 
 ADC AD3421QRWETQ1 : https://www.ti.com/lit/ds/symlink/adc3421-q1.pdf
+
+# Pour le rapport
+Mesure sur la référence de tension !

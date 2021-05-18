@@ -2,17 +2,17 @@ Circuit: * C:\Users\jeann\Documents\TD\td-fpga-developing-board\AnalogIn.asc
 
 Direct Newton iteration for .op point succeeded.
 
-Date: Mon May 17 15:08:17 2021
-Total elapsed time: 0.274 seconds.
+Date: Mon May 17 15:27:59 2021
+Total elapsed time: 0.326 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 4037
-traniter = 4002
-tranpoints = 1527
-accept = 1343
-rejected = 184
+totiter = 3910
+traniter = 3876
+tranpoints = 1479
+accept = 1311
+rejected = 168
 matrix size = 13
 fillins = 1
 solver = Normal

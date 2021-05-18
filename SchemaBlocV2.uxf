@@ -1,0 +1,3312 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>4</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>728</x>
+      <y>216</y>
+      <w>204</w>
+      <h>1072</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+FPGA
+bg=dark_gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>996</x>
+      <y>500</y>
+      <w>80</w>
+      <h>124</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+LED1
+568-0721-111F
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>512</y>
+      <w>76</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=1
+LED1_0_RED
+</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>524</y>
+      <w>76</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=1
+LED1_1_RED
+</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>536</y>
+      <w>76</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=1
+LED1_2_RED
+</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>548</y>
+      <w>76</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=1
+LED1_3_RED
+</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>568</y>
+      <w>76</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=1
+LED1_0_GREEN
+</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>580</y>
+      <w>76</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=1
+LED1_1_GREEN
+</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>592</y>
+      <w>76</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=1
+LED1_2_GREEN
+</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>604</y>
+      <w>76</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=1
+LED1_3_GREEN
+</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>996</x>
+      <y>628</y>
+      <w>80</w>
+      <h>124</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+LED2
+568-0721-111F
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>640</y>
+      <w>76</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=1
+LED2_0_RED
+</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>652</y>
+      <w>76</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=1
+LED2_1_RED
+</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>664</y>
+      <w>76</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=1
+LED2_2_RED
+</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>676</y>
+      <w>76</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=1
+LED2_3_RED
+</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>696</y>
+      <w>76</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=1
+LED2_0_GREEN
+</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>708</y>
+      <w>76</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=1
+LED2_1_GREEN
+</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>720</y>
+      <w>76</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=1
+LED2_2_GREEN
+</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>732</y>
+      <w>76</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=1
+LED2_3_GREEN
+</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>996</x>
+      <y>756</y>
+      <w>80</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+BTN1
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>764</y>
+      <w>76</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=[&lt;]-[&lt;]</panel_attributes>
+    <additional_attributes>10.0;10.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>996</x>
+      <y>784</y>
+      <w>80</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+BTN2
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>792</y>
+      <w>76</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=[&lt;]-[&lt;]</panel_attributes>
+    <additional_attributes>10.0;10.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>996</x>
+      <y>812</y>
+      <w>80</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+BTN3
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>820</y>
+      <w>76</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=[&lt;]-[&lt;]</panel_attributes>
+    <additional_attributes>10.0;10.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>256</y>
+      <w>64</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=2
+UART_FPGA
+</panel_attributes>
+    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>984</x>
+      <y>244</y>
+      <w>80</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Digital Isolator
+SI8422AB-D-ISR
+bg=#3c7a00</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1060</x>
+      <y>256</y>
+      <w>60</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=2
+UART_USB
+</panel_attributes>
+    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1112</x>
+      <y>244</y>
+      <w>68</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+USB to UART
+bg=#3c7a00</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1204</x>
+      <y>244</y>
+      <w>68</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+USB Connector
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1176</x>
+      <y>256</y>
+      <w>36</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=2
+
+</panel_attributes>
+    <additional_attributes>10.0;20.0;70.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>304</y>
+      <w>132</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=2
+SPI-C
+</panel_attributes>
+    <additional_attributes>10.0;20.0;310.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1052</x>
+      <y>292</y>
+      <w>80</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+LVDS Driver
+DS90LV047ATMTC/NOPB
+bg=#3c7a00</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1204</x>
+      <y>292</y>
+      <w>68</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Frontal Connector
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1128</x>
+      <y>304</y>
+      <w>84</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=2
+
+</panel_attributes>
+    <additional_attributes>10.0;20.0;190.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>384</y>
+      <w>108</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=2
+SPI-A
+</panel_attributes>
+    <additional_attributes>10.0;20.0;250.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1028</x>
+      <y>372</y>
+      <w>80</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+DAC 4 channel
+DAC124S085CIMM/NOPB
+bg=#3c7a00</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1120</x>
+      <y>372</y>
+      <w>80</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Suiveur ?
+AOP
+bg=#3c7a00</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1104</x>
+      <y>372</y>
+      <w>24</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=2
+
+</panel_attributes>
+    <additional_attributes>10.0;20.0;40.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1104</x>
+      <y>380</y>
+      <w>24</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=2
+
+</panel_attributes>
+    <additional_attributes>10.0;20.0;40.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1104</x>
+      <y>388</y>
+      <w>24</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lw=2
+</panel_attributes>
+    <additional_attributes>10.0;20.0;40.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1104</x>
+      <y>396</y>
+      <w>24</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=2
+
+</panel_attributes>
+    <additional_attributes>10.0;20.0;40.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>940</y>
+      <w>76</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=2
+PWM1 .. PWM 12
+Differential
+lt=[&gt;]-[&gt;]</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>996</x>
+      <y>936</y>
+      <w>80</w>
+      <h>116</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+BackPlane Connector
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>968</y>
+      <w>76</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=2
+GPIO0 .. GPIO36
+
+lt=[&gt;]-[&gt;]</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>996</y>
+      <w>76</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=1
+BN_EN
+
+lt=[&gt;]-[&gt;]</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>1008</y>
+      <w>76</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=1
+BN_ERROR_W
+
+lt=[&gt;]-[&gt;]</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>1020</y>
+      <w>76</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=1
+BN_ERROR_R
+
+lt=[&gt;]-[&gt;]</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>1032</y>
+      <w>76</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lw=1
+BN_MASTER_RESET
+lt=[&gt;]-[&gt;]</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>396</x>
+      <y>216</y>
+      <w>80</w>
+      <h>1048</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Connector for Analog
+input board
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1224</x>
+      <y>368</y>
+      <w>60</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Connector
+CONSMA002-G
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1224</x>
+      <y>396</y>
+      <w>60</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Connector
+CONSMA002-G
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1196</x>
+      <y>372</y>
+      <w>36</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=2
+
+</panel_attributes>
+    <additional_attributes>10.0;20.0;50.0;20.0;70.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1196</x>
+      <y>384</y>
+      <w>36</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lw=2
+
+</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;10.0;60.0;60.0;70.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1196</x>
+      <y>392</y>
+      <w>36</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lw=2
+
+</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0;40.0;110.0;70.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1196</x>
+      <y>400</y>
+      <w>36</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lw=2
+
+</panel_attributes>
+    <additional_attributes>10.0;10.0;20.0;10.0;20.0;160.0;70.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>996</x>
+      <y>1064</y>
+      <w>80</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Flash
+M25P64-ME
+bg=RED</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>1088</y>
+      <w>76</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=1
+FLASH_SPI_DO
+
+lt=[&gt;]-[&gt;]</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>1100</y>
+      <w>76</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=1
+FLASH_SPI_CLK
+
+lt=[&gt;]-[&gt;]</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>1112</y>
+      <w>76</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=1
+FLASH_SPI_CS_N
+
+lt=[&gt;]-[&gt;]</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>1132</y>
+      <w>76</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=1
+FLASH_SPI_DI
+
+lt=[&lt;]-[&lt;]</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1008</x>
+      <y>1192</y>
+      <w>80</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+JTAG Connector
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>1204</y>
+      <w>88</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lw=1
+r2=JTAG_TCK
+
+lt=[&lt;]-[&lt;]</panel_attributes>
+    <additional_attributes>10.0;20.0;200.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>1216</y>
+      <w>88</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lw=1
+r2=JTAG_TDI
+lt=[&lt;]-[&lt;]</panel_attributes>
+    <additional_attributes>10.0;20.0;200.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>1228</y>
+      <w>88</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lw=1
+r2=JTAG_TMS
+lt=[&lt;]-[&lt;]</panel_attributes>
+    <additional_attributes>10.0;20.0;200.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>1240</y>
+      <w>88</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lw=1
+r2=JTAG_TDO
+lt=[&gt;]-[&gt;]</panel_attributes>
+    <additional_attributes>10.0;20.0;200.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>996</x>
+      <y>472</y>
+      <w>80</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+DIP SWITCH
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>476</y>
+      <w>76</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lw=2
+DIP0 ... DIP3
+lt=[&lt;]-[&lt;]</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>388</x>
+      <y>140</y>
+      <w>312</w>
+      <h>1140</h>
+    </coordinates>
+    <panel_attributes>*Analog Interfce (20x ADC)*
+fg=red
+lt=.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>984</x>
+      <y>1176</y>
+      <w>128</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>*Programmation Interface*
+fg=red
+lt=.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>972</x>
+      <y>228</y>
+      <w>312</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>*Communication/Control Interface*
+fg=red
+lt=.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>972</x>
+      <y>916</y>
+      <w>124</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>*Control Outputs/Inputs*
+fg=red
+lt=.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>972</x>
+      <y>360</y>
+      <w>332</w>
+      <h>544</h>
+    </coordinates>
+    <panel_attributes>*User Interface*
+fg=red
+lt=.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>440</y>
+      <w>108</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lw=2
+SPI-B</panel_attributes>
+    <additional_attributes>10.0;20.0;250.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1028</x>
+      <y>428</y>
+      <w>80</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+DAC 4 channel
+DAC124S085CIMM/NOPB
+bg=#3c7a00</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1120</x>
+      <y>428</y>
+      <w>80</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Suiveur ?
+AOP
+bg=#3c7a00</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1104</x>
+      <y>428</y>
+      <w>24</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=2
+
+</panel_attributes>
+    <additional_attributes>10.0;20.0;40.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1104</x>
+      <y>436</y>
+      <w>24</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=2
+
+</panel_attributes>
+    <additional_attributes>10.0;20.0;40.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1104</x>
+      <y>444</y>
+      <w>24</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lw=2
+</panel_attributes>
+    <additional_attributes>10.0;20.0;40.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1104</x>
+      <y>452</y>
+      <w>24</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=2
+
+</panel_attributes>
+    <additional_attributes>10.0;20.0;40.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1224</x>
+      <y>424</y>
+      <w>60</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Connector
+CONSMA002-G
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1224</x>
+      <y>452</y>
+      <w>60</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Connector
+CONSMA002-G
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1224</x>
+      <y>480</y>
+      <w>60</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Connector
+CONSMA002-G
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1224</x>
+      <y>508</y>
+      <w>60</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Connector
+CONSMA002-G
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1180</x>
+      <y>464</y>
+      <w>52</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lw=2
+
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0;110.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1164</x>
+      <y>464</y>
+      <w>68</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lw=2
+
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0;150.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1224</x>
+      <y>536</y>
+      <w>60</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Connector
+CONSMA002-G
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1148</x>
+      <y>464</y>
+      <w>84</w>
+      <h>92</h>
+    </coordinates>
+    <panel_attributes>lw=2
+
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;210.0;190.0;210.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1224</x>
+      <y>564</y>
+      <w>60</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Connector
+CONSMA002-G
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1132</x>
+      <y>464</y>
+      <w>100</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lw=2
+
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;280.0;230.0;280.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>516</x>
+      <y>232</y>
+      <w>52</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+AOP
+Center @ 1.5V
+Gain = 1.8
+bg=#3c7a00</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>588</x>
+      <y>232</y>
+      <w>60</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+ADC
+ADS7886SBDCKT
+1MSPS
+Serial
+bg=pink</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>236</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
++</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>248</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+-</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>564</x>
+      <y>244</y>
+      <w>32</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+S.E</panel_attributes>
+    <additional_attributes>60.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>240</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+SDO</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>216</y>
+      <w>92</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=[&lt;]-[&lt;]
+r1=SCLK</panel_attributes>
+    <additional_attributes>210.0;20.0;50.0;20.0;50.0;140.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>252</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&lt;]-[&lt;]
+/CS</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>516</x>
+      <y>284</y>
+      <w>52</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+AOP
+Center @ 1.5V
+Gain = 1.8
+bg=#3c7a00</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>588</x>
+      <y>284</y>
+      <w>60</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+ADC
+ADS7886SBDCKT
+1MSPS
+Serial
+bg=pink</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>288</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
++</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>300</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+-</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>564</x>
+      <y>296</y>
+      <w>32</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+S.E</panel_attributes>
+    <additional_attributes>60.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>292</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+SDO</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>268</y>
+      <w>28</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=-[&lt;]</panel_attributes>
+    <additional_attributes>50.0;10.0;50.0;140.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>304</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&lt;]-[&lt;]
+/CS</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>516</x>
+      <y>336</y>
+      <w>52</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+AOP
+Center @ 1.5V
+Gain = 1.8
+bg=#3c7a00</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>588</x>
+      <y>336</y>
+      <w>60</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+ADC
+ADS7886SBDCKT
+1MSPS
+Serial
+bg=pink</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>340</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
++</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>352</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+-</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>564</x>
+      <y>348</y>
+      <w>32</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+S.E</panel_attributes>
+    <additional_attributes>60.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>344</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+SDO</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>356</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&lt;]-[&lt;]
+/CS</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>516</x>
+      <y>388</y>
+      <w>52</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+AOP
+Center @ 1.5V
+Gain = 1.8
+bg=#3c7a00</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>588</x>
+      <y>388</y>
+      <w>60</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+ADC
+ADS7886SBDCKT
+1MSPS
+Serial
+bg=pink</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>392</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
++</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>404</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+-</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>564</x>
+      <y>400</y>
+      <w>32</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+S.E</panel_attributes>
+    <additional_attributes>60.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>396</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+SDO</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>408</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&lt;]-[&lt;]
+/CS</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>516</x>
+      <y>440</y>
+      <w>52</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+AOP
+Center @ 1.5V
+Gain = 1.8
+bg=#3c7a00</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>588</x>
+      <y>440</y>
+      <w>60</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+ADC
+ADS7886SBDCKT
+1MSPS
+Serial
+bg=pink</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>444</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
++</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>456</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+-</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>564</x>
+      <y>452</y>
+      <w>32</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+S.E</panel_attributes>
+    <additional_attributes>60.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>448</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+SDO</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>460</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&lt;]-[&lt;]
+/CS</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>516</x>
+      <y>492</y>
+      <w>52</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+AOP
+Center @ 1.5V
+Gain = 1.8
+bg=#3c7a00</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>588</x>
+      <y>492</y>
+      <w>60</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+ADC
+ADS7886SBDCKT
+1MSPS
+Serial
+bg=pink</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>496</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
++</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>508</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+-</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>564</x>
+      <y>504</y>
+      <w>32</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+S.E</panel_attributes>
+    <additional_attributes>60.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>500</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+SDO</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>512</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&lt;]-[&lt;]
+/CS</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>516</x>
+      <y>544</y>
+      <w>52</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+AOP
+Center @ 1.5V
+Gain = 1.8
+bg=#3c7a00</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>588</x>
+      <y>544</y>
+      <w>60</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+ADC
+ADS7886SBDCKT
+1MSPS
+Serial
+bg=pink</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>548</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
++</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>560</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+-</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>564</x>
+      <y>556</y>
+      <w>32</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+S.E</panel_attributes>
+    <additional_attributes>60.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>552</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+SDO</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>564</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&lt;]-[&lt;]
+/CS</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>516</x>
+      <y>596</y>
+      <w>52</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+AOP
+Center @ 1.5V
+Gain = 1.8
+bg=#3c7a00</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>588</x>
+      <y>596</y>
+      <w>60</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+ADC
+ADS7886SBDCKT
+1MSPS
+Serial
+bg=pink</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>600</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
++</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>612</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+-</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>564</x>
+      <y>608</y>
+      <w>32</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+S.E</panel_attributes>
+    <additional_attributes>60.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>604</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+SDO</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>616</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&lt;]-[&lt;]
+/CS</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>516</x>
+      <y>648</y>
+      <w>52</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+AOP
+Center @ 1.5V
+Gain = 1.8
+bg=#3c7a00</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>588</x>
+      <y>648</y>
+      <w>60</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+ADC
+ADS7886SBDCKT
+1MSPS
+Serial
+bg=pink</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>652</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
++</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>664</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+-</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>564</x>
+      <y>660</y>
+      <w>32</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+S.E</panel_attributes>
+    <additional_attributes>60.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>656</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+SDO</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>668</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&lt;]-[&lt;]
+/CS</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>516</x>
+      <y>700</y>
+      <w>52</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+AOP
+Center @ 1.5V
+Gain = 1.8
+bg=#3c7a00</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>588</x>
+      <y>700</y>
+      <w>60</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+ADC
+ADS7886SBDCKT
+1MSPS
+Serial
+bg=pink</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>704</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
++</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>716</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+-</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>564</x>
+      <y>712</y>
+      <w>32</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+S.E</panel_attributes>
+    <additional_attributes>60.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>708</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+SDO</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>720</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&lt;]-[&lt;]
+/CS</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>516</x>
+      <y>752</y>
+      <w>52</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+AOP
+Center @ 1.5V
+Gain = 1.8
+bg=#3c7a00</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>588</x>
+      <y>752</y>
+      <w>60</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+ADC
+ADS7886SBDCKT
+1MSPS
+Serial
+bg=pink</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>756</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
++</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>768</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+-</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>564</x>
+      <y>764</y>
+      <w>32</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+S.E</panel_attributes>
+    <additional_attributes>60.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>760</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+SDO</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>772</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&lt;]-[&lt;]
+/CS</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>516</x>
+      <y>804</y>
+      <w>52</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+AOP
+Center @ 1.5V
+Gain = 1.8
+bg=#3c7a00</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>588</x>
+      <y>804</y>
+      <w>60</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+ADC
+ADS7886SBDCKT
+1MSPS
+Serial
+bg=pink</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>808</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
++</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>820</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+-</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>564</x>
+      <y>816</y>
+      <w>32</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+S.E</panel_attributes>
+    <additional_attributes>60.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>812</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+SDO</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>824</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&lt;]-[&lt;]
+/CS</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>516</x>
+      <y>856</y>
+      <w>52</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+AOP
+Center @ 1.5V
+Gain = 1.8
+bg=#3c7a00</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>588</x>
+      <y>856</y>
+      <w>60</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+ADC
+ADS7886SBDCKT
+1MSPS
+Serial
+bg=pink</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>860</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
++</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>872</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+-</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>564</x>
+      <y>868</y>
+      <w>32</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+S.E</panel_attributes>
+    <additional_attributes>60.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>864</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+SDO</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>876</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&lt;]-[&lt;]
+/CS</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>516</x>
+      <y>908</y>
+      <w>52</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+AOP
+Center @ 1.5V
+Gain = 1.8
+bg=#3c7a00</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>588</x>
+      <y>908</y>
+      <w>60</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+ADC
+ADS7886SBDCKT
+1MSPS
+Serial
+bg=pink</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>912</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
++</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>924</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+-</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>564</x>
+      <y>920</y>
+      <w>32</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+S.E</panel_attributes>
+    <additional_attributes>60.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>916</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+SDO</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>928</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&lt;]-[&lt;]
+/CS</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>516</x>
+      <y>960</y>
+      <w>52</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+AOP
+Center @ 1.5V
+Gain = 1.8
+bg=#3c7a00</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>588</x>
+      <y>960</y>
+      <w>60</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+ADC
+ADS7886SBDCKT
+1MSPS
+Serial
+bg=pink</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>964</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
++</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>976</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+-</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>564</x>
+      <y>972</y>
+      <w>32</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+S.E</panel_attributes>
+    <additional_attributes>60.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>968</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+SDO</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>980</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&lt;]-[&lt;]
+/CS</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>516</x>
+      <y>1012</y>
+      <w>52</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+AOP
+Center @ 1.5V
+Gain = 1.8
+bg=#3c7a00</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>588</x>
+      <y>1012</y>
+      <w>60</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+ADC
+ADS7886SBDCKT
+1MSPS
+Serial
+bg=pink</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>1016</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
++</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>1028</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+-</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>564</x>
+      <y>1024</y>
+      <w>32</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+S.E</panel_attributes>
+    <additional_attributes>60.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>1020</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+SDO</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>1032</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&lt;]-[&lt;]
+/CS</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>516</x>
+      <y>1064</y>
+      <w>52</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+AOP
+Center @ 1.5V
+Gain = 1.8
+bg=#3c7a00</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>588</x>
+      <y>1064</y>
+      <w>60</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+ADC
+ADS7886SBDCKT
+1MSPS
+Serial
+bg=pink</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>1068</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
++</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>1080</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+-</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>564</x>
+      <y>1076</y>
+      <w>32</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+S.E</panel_attributes>
+    <additional_attributes>60.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>1072</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+SDO</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>1084</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&lt;]-[&lt;]
+/CS</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>516</x>
+      <y>1116</y>
+      <w>52</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+AOP
+Center @ 1.5V
+Gain = 1.8
+bg=#3c7a00</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>588</x>
+      <y>1116</y>
+      <w>60</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+ADC
+ADS7886SBDCKT
+1MSPS
+Serial
+bg=pink</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>1120</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
++</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>1132</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+-</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>564</x>
+      <y>1128</y>
+      <w>32</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+S.E</panel_attributes>
+    <additional_attributes>60.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>1124</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+SDO</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>1136</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&lt;]-[&lt;]
+/CS</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>516</x>
+      <y>1168</y>
+      <w>52</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+AOP
+Center @ 1.5V
+Gain = 1.8
+bg=#3c7a00</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>588</x>
+      <y>1168</y>
+      <w>60</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+ADC
+ADS7886SBDCKT
+1MSPS
+Serial
+bg=pink</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>1172</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
++</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>1184</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+-</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>564</x>
+      <y>1180</y>
+      <w>32</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+S.E</panel_attributes>
+    <additional_attributes>60.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>1176</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+SDO</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>1188</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&lt;]-[&lt;]
+/CS</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>516</x>
+      <y>1220</y>
+      <w>52</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+AOP
+Center @ 1.5V
+Gain = 1.8
+bg=#3c7a00</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>588</x>
+      <y>1220</y>
+      <w>60</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+ADC
+ADS7886SBDCKT
+1MSPS
+Serial
+bg=pink</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>1224</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
++</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>1236</y>
+      <w>52</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+-</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>564</x>
+      <y>1232</y>
+      <w>32</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+S.E</panel_attributes>
+    <additional_attributes>60.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>1228</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+SDO</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>1240</y>
+      <w>92</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&lt;]-[&lt;]
+/CS</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>320</y>
+      <w>28</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=-[&lt;]</panel_attributes>
+    <additional_attributes>50.0;10.0;50.0;140.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>372</y>
+      <w>28</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=-[&lt;]</panel_attributes>
+    <additional_attributes>50.0;10.0;50.0;140.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>424</y>
+      <w>28</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=-[&lt;]</panel_attributes>
+    <additional_attributes>50.0;10.0;50.0;140.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>476</y>
+      <w>28</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=-[&lt;]</panel_attributes>
+    <additional_attributes>50.0;10.0;50.0;140.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>528</y>
+      <w>28</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=-[&lt;]</panel_attributes>
+    <additional_attributes>50.0;10.0;50.0;140.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>580</y>
+      <w>28</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=-[&lt;]</panel_attributes>
+    <additional_attributes>50.0;10.0;50.0;140.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>632</y>
+      <w>28</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=-[&lt;]</panel_attributes>
+    <additional_attributes>50.0;10.0;50.0;140.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>684</y>
+      <w>28</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=-[&lt;]</panel_attributes>
+    <additional_attributes>50.0;10.0;50.0;140.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>736</y>
+      <w>28</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=-[&lt;]</panel_attributes>
+    <additional_attributes>50.0;10.0;50.0;140.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>788</y>
+      <w>28</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=-[&lt;]</panel_attributes>
+    <additional_attributes>50.0;10.0;50.0;140.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>840</y>
+      <w>28</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=-[&lt;]</panel_attributes>
+    <additional_attributes>50.0;10.0;50.0;140.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>892</y>
+      <w>28</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=-[&lt;]</panel_attributes>
+    <additional_attributes>50.0;10.0;50.0;140.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>944</y>
+      <w>28</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=-[&lt;]</panel_attributes>
+    <additional_attributes>50.0;10.0;50.0;140.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>996</y>
+      <w>28</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=-[&lt;]</panel_attributes>
+    <additional_attributes>50.0;10.0;50.0;140.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>1048</y>
+      <w>28</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=-[&lt;]</panel_attributes>
+    <additional_attributes>50.0;10.0;50.0;140.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>1100</y>
+      <w>28</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=-[&lt;]</panel_attributes>
+    <additional_attributes>50.0;10.0;50.0;140.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>1152</y>
+      <w>28</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=-[&lt;]</panel_attributes>
+    <additional_attributes>50.0;10.0;50.0;140.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>1204</y>
+      <w>28</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=-[&lt;]</panel_attributes>
+    <additional_attributes>50.0;10.0;50.0;140.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1112</x>
+      <y>844</y>
+      <w>92</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Spare Connector
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>860</y>
+      <w>192</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+lw=2
+SPARE0 .. SPARE0</panel_attributes>
+    <additional_attributes>10.0;20.0;460.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>876</y>
+      <w>192</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lw=2
+UART-C</panel_attributes>
+    <additional_attributes>10.0;20.0;460.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>584</x>
+      <y>164</y>
+      <w>76</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+LT1461CCS8-3#PBF
+bg=pink</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>584</x>
+      <y>192</y>
+      <w>76</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+LT1461CCS8-3#PBF
+bg=pink
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>572</x>
+      <y>152</y>
+      <w>100</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>*ADC Power Supply*
+fg=red
+lt=.</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
