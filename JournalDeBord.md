@@ -67,6 +67,23 @@ Pour les 8 sorties DAC, on peut intervertir des connecteurs SMA traversant; un f
 
 
 
+J'ai cherché des FPGA, aucun stock pour les SPARTAN 7...
+Chez mouser il n'y a que le 
+XC6SLX100-3FG484C (n° mouser : 217-C6SLX100-3FG484C)
+en stock...
+
+https://octopart.com/search?q=XC6S&currency=USD&specs=1&sort=numberofi_os&sort-dir=desc&distributor_id=2401&manufacturer_id=404&in_stock_only=1&numberofpins=484&case_package=FBGA
+
+La FPGA drive 24mA au max !
+
+## 19.05.2021
+J'ai cherché FPGA, discuté avec Alain, Fabien Matter, Silvan Zahno
+
+## 20.05.2021
+Les référence de 3V doivent être alimentés en 5V
+La FPGA doit avoir du 1.2V et le 3.3V des banks
+Les Ampli-Op doivent être alimenté en 3.3V
+Les AD sont alimenté par la référence de tension et le niveau n'a pas besoin d'être adapté : https://datasheet.lcsc.com/szlcsc/XILINX-XC6SLX16-2FTG256C_C39313.pdf
 
 # Sources
 Passe bas 2 ème ordre  http://www.bedwani.ch/electro/ch9/
@@ -75,3 +92,4 @@ ADC AD3421QRWETQ1 : https://www.ti.com/lit/ds/symlink/adc3421-q1.pdf
 
 # Pour le rapport
 Mesure sur la référence de tension !
+Expliquer pourquoi pas besoin d'un adapteur de tension entre AD et FPGA

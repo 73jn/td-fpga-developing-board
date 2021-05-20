@@ -1,0 +1,85 @@
+Added Component: Designator=C?(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "2n2"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=JP?(JUMPER2 SMD 2012 Connected)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "NC"; VariantName = "[No Variations]"
+Added Component: Designator=JP?(JUMPER2 SMD 2012 Connected)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "NC"; VariantName = "[No Variations]"
+Added Component: Designator=JP?(JUMPER3 SMD 2012 Connected)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "{Value}"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "DNP"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "DNP"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "82R"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U1(SO14 P1.27 C4.0X8.8 H1.75)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND_A Pin=C?-1
+Added Pin To Net: NetName=GND_A Pin=C?-1
+Added Pin To Net: NetName=NetC?_1 Pin=C?-1
+Added Pin To Net: NetName=NetC?_2 Pin=C?-2
+Added Pin To Net: NetName=NetJP?_1 Pin=JP?-1
+Added Pin To Net: NetName=NetJP?_2 Pin=JP?-2
+Added Pin To Net: NetName=GND_A Pin=JP?-3
+Added Pin To Net: NetName=NetC?_1 Pin=R?-1
+Added Pin To Net: NetName=NetC?_2 Pin=R?-1
+Added Pin To Net: NetName=NetJP?_1 Pin=R?-1
+Added Pin To Net: NetName=NetJP?_2 Pin=R?-1
+Added Pin To Net: NetName=GND_A Pin=R?-2
+Added Pin To Net: NetName=NetC?_2 Pin=R?-2
+Added Pin To Net: NetName=NetJP?_2 Pin=R?-2
+Added Pin To Net: NetName=NetC?_1 Pin=U1-1
+Added Pin To Net: NetName=NetC?_2 Pin=U1-2
+Added Member To Class: ClassName=FPGA-1 Member=Component C? 2n2
+Added Member To Class: ClassName=FPGA-1 Member=Component C? 47p
+Added Member To Class: ClassName=FPGA-1 Member=Component C? 47p
+Added Member To Class: ClassName=FPGA-1 Member=Component JP? NC
+Added Member To Class: ClassName=FPGA-1 Member=Component JP? NC
+Added Member To Class: ClassName=FPGA-1 Member=Component JP? {Value}
+Added Member To Class: ClassName=FPGA-1 Member=Component R? DNP
+Added Member To Class: ClassName=FPGA-1 Member=Component R? DNP
+Added Member To Class: ClassName=FPGA-1 Member=Component R? 10k
+Added Member To Class: ClassName=FPGA-1 Member=Component R? 18k
+Added Member To Class: ClassName=FPGA-1 Member=Component R? 8k2
+Added Member To Class: ClassName=FPGA-1 Member=Component R? 8k2
+Added Member To Class: ClassName=FPGA-1 Member=Component R? 82R
+Added Member To Class: ClassName=FPGA-1 Member=Component R? 18k
+Added Member To Class: ClassName=FPGA-1 Member=Component R? *
+Added Member To Class: ClassName=FPGA-1 Member=Component R? *
+Added Member To Class: ClassName=FPGA-1 Member=Component U1 *
+Added Room: Name=FPGA-1
