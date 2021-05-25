@@ -2,3 +2,25 @@
 [0520/114654:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
 [0520/114654:ERROR:cache_util.cc(134)] Unable to move cache folder C:\ProgramData\Altium\Altium Designer {B2BD5E5F-1C43-422A-A207-67ACEC1C2B0E}\BrowserCache to C:\ProgramData\Altium\Altium Designer {B2BD5E5F-1C43-422A-A207-67ACEC1C2B0E}\old_BrowserCache_000
 [0520/114654:ERROR:cache_creator.cc(129)] Unable to create cache
+[0525/084422:ERROR:backend_impl.cc(2020)] Corrupt Index file
+[0525/084422:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0525/084422:ERROR:cache_util.cc(134)] Unable to move cache folder C:\ProgramData\Altium\Altium Designer {B2BD5E5F-1C43-422A-A207-67ACEC1C2B0E}\BrowserCache to C:\ProgramData\Altium\Altium Designer {B2BD5E5F-1C43-422A-A207-67ACEC1C2B0E}\old_BrowserCache_000
+[0525/084422:ERROR:cache_creator.cc(129)] Unable to create cache
+[0525/084424:INFO:CONSOLE(0)] "Mixed Content: The page at 'https://start.hevs.ch/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Noto+Sans'. This request has been blocked; the content must be served over HTTPS.", source: https://start.hevs.ch/ (0)
+[0525/084425:INFO:CONSOLE(18)] "JQMIGRATE: Migrate is installed with logging active, version 3.0.0", source: https://start.hevs.ch/Resources/libraries/jQuery-Migrate/03_00_00/jquery-migrate.js?cdv=491 (18)
+[0525/084425:INFO:CONSOLE(62)] "JQMIGRATE: jQuery.expr[":"] is now jQuery.expr.pseudos", source: https://start.hevs.ch/Resources/libraries/jQuery-Migrate/03_00_00/jquery-migrate.js?cdv=491 (62)
+[0525/084425:INFO:CONSOLE(62)] "JQMIGRATE: jQuery.expr.filters is now jQuery.expr.pseudos", source: https://start.hevs.ch/Resources/libraries/jQuery-Migrate/03_00_00/jquery-migrate.js?cdv=491 (62)
+[0525/084425:INFO:CONSOLE(62)] "JQMIGRATE: jQuery.fn.load() is deprecated", source: https://start.hevs.ch/Resources/libraries/jQuery-Migrate/03_00_00/jquery-migrate.js?cdv=491 (62)
+[0525/084425:INFO:CONSOLE(62)] "JQMIGRATE: jQuery.fn.unbind() is deprecated", source: https://start.hevs.ch/Resources/libraries/jQuery-Migrate/03_00_00/jquery-migrate.js?cdv=491 (62)
+[0525/084425:INFO:CONSOLE(62)] "JQMIGRATE: jQuery.fn.bind() is deprecated", source: https://start.hevs.ch/Resources/libraries/jQuery-Migrate/03_00_00/jquery-migrate.js?cdv=491 (62)
+[0525/084425:INFO:CONSOLE(15)] "carouFredSel: No element found for "undefined".", source: https://start.hevs.ch/Portals/_default/Skins/ClearStart/js/jquery.carouFredSel-6.2.1-packed.js (15)
+[0525/084425:INFO:CONSOLE(15)] "carouFredSel: No element found for "undefined".", source: https://start.hevs.ch/Portals/_default/Skins/ClearStart/js/jquery.carouFredSel-6.2.1-packed.js (15)
+[0525/084425:INFO:CONSOLE(15)] "carouFredSel: No element found for "undefined".", source: https://start.hevs.ch/Portals/_default/Skins/ClearStart/js/jquery.carouFredSel-6.2.1-packed.js (15)
+[0525/084425:INFO:CONSOLE(15)] "carouFredSel: No element found for "undefined".", source: https://start.hevs.ch/Portals/_default/Skins/ClearStart/js/jquery.carouFredSel-6.2.1-packed.js (15)
+[0525/084450:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[0525/084450:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[0525/084450:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[0525/084724:ERROR:backend_impl.cc(2020)] Corrupt Index file
+[0525/084724:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0525/084724:ERROR:cache_util.cc(134)] Unable to move cache folder C:\ProgramData\Altium\Altium Designer {B2BD5E5F-1C43-422A-A207-67ACEC1C2B0E}\BrowserCache to C:\ProgramData\Altium\Altium Designer {B2BD5E5F-1C43-422A-A207-67ACEC1C2B0E}\old_BrowserCache_000
+[0525/084724:ERROR:cache_creator.cc(129)] Unable to create cache

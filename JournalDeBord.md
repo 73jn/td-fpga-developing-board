@@ -85,6 +85,24 @@ La FPGA doit avoir du 1.2V et le 3.3V des banks
 Les Ampli-Op doivent être alimenté en 3.3V
 Les AD sont alimenté par la référence de tension et le niveau n'a pas besoin d'être adapté : https://datasheet.lcsc.com/szlcsc/XILINX-XC6SLX16-2FTG256C_C39313.pdf
 
+J'ai fait la schématique
+
+
+## 21.05.2021
+Il faut ajouter un 3.3 to 1.2 : https://www.mouser.ch/ProductDetail/Texas-Instruments/LM2852YMXAX-12-NOPB?qs=X1J7HmVL2ZHkGMFREL3tMQ%3D%3D
+LM2852YMXAX-1.2/NOPB
+
+## 25.05.2021
+ Oscillateur 
+831022731
+HCMOS, 100MHz, 5.2mm * 7.2mm
+
+DEMANDER A STEVE DE FAIRE LE SC189CULTRT EN SOCKET RELOU A SOUDER
+C'est le seul, 2.5MHz switching ==> Plus petits composants, moins de noise
+1.2V, la bobine est indiquée dans le dataaaaasheeezt
+
+
+
 # Sources
 Passe bas 2 ème ordre  http://www.bedwani.ch/electro/ch9/
 

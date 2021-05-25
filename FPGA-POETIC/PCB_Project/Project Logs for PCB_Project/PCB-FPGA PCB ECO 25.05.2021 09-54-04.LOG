@@ -1,0 +1,1782 @@
+Removed Pin From Net: NetName=GND_A Pin=C3-1
+Removed Pin From Net: NetName=GND_A Pin=C4-1
+Removed Pin From Net: NetName=GND_A Pin=C5-1
+Removed Pin From Net: NetName=GND_A Pin=C6-1
+Removed Pin From Net: NetName=GND_A Pin=C9-1
+Removed Pin From Net: NetName=GND_A Pin=C10-1
+Removed Pin From Net: NetName=GND_A Pin=C11-1
+Removed Pin From Net: NetName=GND_A Pin=C12-1
+Removed Pin From Net: NetName=+5V Pin=C?-2
+Removed Pin From Net: NetName=NetJP?_2 Pin=JP?-2
+Removed Pin From Net: NetName=GND_A Pin=R11-2
+Removed Pin From Net: NetName=GND_A Pin=R12-2
+Removed Pin From Net: NetName=GND_A Pin=R27-2
+Removed Pin From Net: NetName=GND_A Pin=R29-2
+Removed Pin From Net: NetName=NetJP?_2 Pin=R31-2
+Removed Pin From Net: NetName=NetC56_2 Pin=U11-3
+Removed Pin From Net: NetName=NetC62_2 Pin=U14-3
+Removed Pin From Net: NetName=NetC55_2 Pin=U17-3
+Removed Pin From Net: NetName=NetC61_2 Pin=U20-3
+Removed Pin From Net: NetName=GND_A Pin=U23-3
+Removed Pin From Net: NetName=+5V Pin=U25-2
+Removed Pin From Net: NetName=GND_A Pin=U25-3
+Removed Pin From Net: NetName=GND_A Pin=U25-4
+Removed Member From Class: ClassName=FPGA-6 Member=JP?
+Removed Member From Class: ClassName=FPGA-6 Member=U25
+Change Component Footprint: Designator=C? Old Footprint=CAPACITOR 1608 REFLOW New Footprint=CAPACITOR 2012 REFLOW
+Change Component Comment : Designator=C? Old Comment=10uF New Comment=0.1uF
+Change Component Comment : Designator=C? Old Comment=10uF New Comment=1uF
+Change Component Comment : Designator=C? Old Comment=10uF New Comment=10u
+Change Component Comment : Designator=C? Old Comment=10uF New Comment=100n
+Change Component Designator: OldDesignator=C53 NewDesignator=C1
+Change Component Designator: OldDesignator=C54 NewDesignator=C2
+Change Component Designator: OldDesignator=C55 NewDesignator=C3
+Change Component Designator: OldDesignator=C56 NewDesignator=C4
+Change Component Designator: OldDesignator=C57 NewDesignator=C5
+Change Component Designator: OldDesignator=C58 NewDesignator=C6
+Change Component Designator: OldDesignator=C59 NewDesignator=C7
+Change Component Designator: OldDesignator=C60 NewDesignator=C8
+Change Component Designator: OldDesignator=C61 NewDesignator=C9
+Change Component Designator: OldDesignator=C62 NewDesignator=C10
+Change Component Designator: OldDesignator=C63 NewDesignator=C11
+Change Component Designator: OldDesignator=C64 NewDesignator=C12
+Change Component Designator: OldDesignator=C65 NewDesignator=C13
+Change Component Designator: OldDesignator=R129 NewDesignator=R1
+Change Component Designator: OldDesignator=R130 NewDesignator=R2
+Change Component Designator: OldDesignator=R133 NewDesignator=R5
+Change Component Designator: OldDesignator=R134 NewDesignator=R6
+Change Component Designator: OldDesignator=R135 NewDesignator=R7
+Change Component Designator: OldDesignator=R136 NewDesignator=R8
+Change Component Designator: OldDesignator=R137 NewDesignator=R9
+Change Component Designator: OldDesignator=R138 NewDesignator=R10
+Change Component Designator: OldDesignator=R139 NewDesignator=R11
+Change Component Designator: OldDesignator=R140 NewDesignator=R12
+Change Component Designator: OldDesignator=R143 NewDesignator=R15
+Change Component Designator: OldDesignator=R144 NewDesignator=R16
+Change Component Designator: OldDesignator=R145 NewDesignator=R17
+Change Component Designator: OldDesignator=R147 NewDesignator=R19
+Change Component Designator: OldDesignator=R149 NewDesignator=R21
+Change Component Designator: OldDesignator=R150 NewDesignator=R22
+Change Component Designator: OldDesignator=R151 NewDesignator=R23
+Change Component Designator: OldDesignator=R152 NewDesignator=R24
+Change Component Designator: OldDesignator=R153 NewDesignator=R25
+Change Component Designator: OldDesignator=R154 NewDesignator=R26
+Change Component Designator: OldDesignator=R155 NewDesignator=R27
+Change Component Designator: OldDesignator=R157 NewDesignator=R29
+Change Component Designator: OldDesignator=R159 NewDesignator=R31
+Change Component Designator: OldDesignator=R160 NewDesignator=R32
+Change Component Designator: OldDesignator=U5 NewDesignator=U1
+Change component parameters: Designator = "C?"; Footprint = "CAPACITOR 1608 REFLOW"; UniqueID = "\MPYRVINE"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C?"; Footprint = "CAPACITOR 2012 REFLOW"; UniqueID = "\LWFONKML"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "10u"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C?"; Footprint = "CAPACITOR 1608 REFLOW"; UniqueID = "\XXJNWWAN"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C?"; Footprint = "CAPACITOR 1608 REFLOW"; UniqueID = "\PPDUWWGI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Added Component: Designator=C14(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C15(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C16(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "2n2"; VariantName = "[No Variations]"
+Added Component: Designator=C17(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "2n2"; VariantName = "[No Variations]"
+Added Component: Designator=C18(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C19(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C20(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C21(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C22(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "2n2"; VariantName = "[No Variations]"
+Added Component: Designator=C23(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "2n2"; VariantName = "[No Variations]"
+Added Component: Designator=C24(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C25(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C26(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Added Component: Designator=C27(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C28(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C29(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "2n2"; VariantName = "[No Variations]"
+Added Component: Designator=C30(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "2n2"; VariantName = "[No Variations]"
+Added Component: Designator=C31(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C32(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C33(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C34(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C35(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "2n2"; VariantName = "[No Variations]"
+Added Component: Designator=C36(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "2n2"; VariantName = "[No Variations]"
+Added Component: Designator=C37(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C38(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C39(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Added Component: Designator=C40(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C41(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C42(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "2n2"; VariantName = "[No Variations]"
+Added Component: Designator=C43(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "2n2"; VariantName = "[No Variations]"
+Added Component: Designator=C44(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C45(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C46(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C47(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C48(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "2n2"; VariantName = "[No Variations]"
+Added Component: Designator=C49(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "2n2"; VariantName = "[No Variations]"
+Added Component: Designator=C50(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C51(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C52(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Added Component: Designator=C53(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C54(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C55(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "2n2"; VariantName = "[No Variations]"
+Added Component: Designator=C56(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "2n2"; VariantName = "[No Variations]"
+Added Component: Designator=C57(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C58(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C59(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C60(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C61(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "2n2"; VariantName = "[No Variations]"
+Added Component: Designator=C62(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "2n2"; VariantName = "[No Variations]"
+Added Component: Designator=C63(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C64(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47p"; VariantName = "[No Variations]"
+Added Component: Designator=C65(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 2012 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "3u3"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 2012 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1u"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 2012 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "3u3"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 2012 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10u"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 2012 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 2012 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10u"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 2012 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 2012 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10u"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 2012 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Added Component: Designator=J?(FlatCable2x10 2.54MM Straight TH)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser No."; Value = "710-61202021621"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "61202021621"; VariantName = "[No Variations]"
+Added Component: Designator=J?(FlatCable2x10 2.54MM Straight TH)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser No."; Value = "710-61202021621"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "61202021621"; VariantName = "[No Variations]"
+Added Component: Designator=J?(DIN41612 MALE 3X32 ABC R90)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Harting"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser No."; Value = "617-09-03-196-6921"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "09031966921"; VariantName = "[No Variations]"
+Added Component: Designator=J?(DIN41612 MALE 3X32 ABC R90)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Harting"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser No."; Value = "617-09-03-196-6921"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "09031966921"; VariantName = "[No Variations]"
+Added Component: Designator=J?(DIN41612 MALE 3X32 ABC R90)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Harting"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser No."; Value = "617-09-03-196-6921"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "09031966921"; VariantName = "[No Variations]"
+Added Component: Designator=J?(USB-B TH AMPHENOL UE27-BC54-130)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J?(FlatCable2x5 2MM Straight TH FCI 98414-G06-10ULF)
+Add component. Clean all parameters for all variants
+Added Component: Designator=LD?(LED 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=NT?(NET TIE 1005)
+Add component. Clean all parameters for all variants
+Added Component: Designator=NT?(NET TIE 1005)
+Add component. Clean all parameters for all variants
+Added Component: Designator=NT?(NET TIE 1005)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R33(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R34(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R37(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R38(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R39(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "82R"; VariantName = "[No Variations]"
+Added Component: Designator=R40(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "82R"; VariantName = "[No Variations]"
+Added Component: Designator=R41(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R42(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R43(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R44(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R47(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R48(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R49(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R51(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R53(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R54(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R55(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "82R"; VariantName = "[No Variations]"
+Added Component: Designator=R56(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "82R"; VariantName = "[No Variations]"
+Added Component: Designator=R57(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R58(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R59(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R61(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R63(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R64(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R65(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R66(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R69(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R70(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R71(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "82R"; VariantName = "[No Variations]"
+Added Component: Designator=R72(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "82R"; VariantName = "[No Variations]"
+Added Component: Designator=R73(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R74(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R75(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R76(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R79(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R80(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R81(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R83(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R85(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R86(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R87(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "82R"; VariantName = "[No Variations]"
+Added Component: Designator=R88(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "82R"; VariantName = "[No Variations]"
+Added Component: Designator=R89(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R90(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R91(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R93(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R95(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R96(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R97(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R98(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R101(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R102(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R103(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "82R"; VariantName = "[No Variations]"
+Added Component: Designator=R104(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "82R"; VariantName = "[No Variations]"
+Added Component: Designator=R105(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R106(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R107(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R108(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R111(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R112(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R113(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R115(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R117(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R118(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R119(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "82R"; VariantName = "[No Variations]"
+Added Component: Designator=R120(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "82R"; VariantName = "[No Variations]"
+Added Component: Designator=R121(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R122(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R123(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R125(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R127(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R128(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R129(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R130(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R133(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R134(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R135(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "82R"; VariantName = "[No Variations]"
+Added Component: Designator=R136(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "82R"; VariantName = "[No Variations]"
+Added Component: Designator=R137(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R138(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R139(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R140(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R143(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R144(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R145(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R147(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R149(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R150(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R151(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "82R"; VariantName = "[No Variations]"
+Added Component: Designator=R152(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "82R"; VariantName = "[No Variations]"
+Added Component: Designator=R153(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R154(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "8k2"; VariantName = "[No Variations]"
+Added Component: Designator=R155(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R157(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R159(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R160(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "18k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 2012 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "4.7k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 2012 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 2012 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "330"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 2012 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 2012 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "4.7k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 2012 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 2012 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "56R"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "560R"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k / 0.1%"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k / 0.1%"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "4k7"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "4k7"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "15k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=S?(Push Button C2.5X3.0 OMRON B3U-1000P(M)-B)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP?(Test Point Keystone Miniature BLACK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP?(Test Point Keystone Miniature BLACK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U?(BGA484 P1.0 C23X23 H2.2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "XC6SLX75-FG484"; VariantName = "[No Variations]"
+Added Component: Designator=U?(BGA484 P1.0 C23X23 H2.2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "XC6SLX75-FG484"; VariantName = "[No Variations]"
+Added Component: Designator=U?(BGA484 P1.0 C23X23 H2.2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "XC6SLX75-FG484"; VariantName = "[No Variations]"
+Added Component: Designator=U?(SO8 P1.27 C4.0X5.0 H1.75)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "IS25LP064D-JB"; VariantName = "[No Variations]"
+Added Component: Designator=U?(BGA484 P1.0 C23X23 H2.2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "XC6SLX75-FG484"; VariantName = "[No Variations]"
+Added Component: Designator=U?(BGA484 P1.0 C23X23 H2.2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "XC6SLX75-FG484"; VariantName = "[No Variations]"
+Added Component: Designator=U?(BGA484 P1.0 C23X23 H2.2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "XC6SLX75-FG484"; VariantName = "[No Variations]"
+Added Component: Designator=U?(BGA484 P1.0 C23X23 H2.2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "XC6SLX75-FG484"; VariantName = "[No Variations]"
+Added Component: Designator=U?(QFN32 P0.5 T3.2x3.2 C5.0X5.0 H1.0)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "FT232RQ"; VariantName = "[No Variations]"
+Added Component: Designator=U?(TO252-2 P2.29 C6.2x6.7 H2.4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "LM317MDTRKG"; VariantName = "[No Variations]"
+Added Component: Designator=X?(Oscillator C5.2x7.2 IQD LFSPXO)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MouserNumber"; Value = "710-831022731"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = " 831022731"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC14_1 Pin=C53-1
+Added Pin To Net: NetName=NetC14_2 Pin=C53-2
+Added Pin To Net: NetName=NetC15_1 Pin=C54-1
+Added Pin To Net: NetName=NetC15_2 Pin=C54-2
+Added Pin To Net: NetName=GND_A Pin=C55-1
+Added Pin To Net: NetName=NetC16_2 Pin=C55-2
+Added Pin To Net: NetName=GND_A Pin=C56-1
+Added Pin To Net: NetName=NetC17_2 Pin=C56-2
+Added Pin To Net: NetName=GND_A Pin=C57-1
+Added Pin To Net: NetName=NetC18_2 Pin=C57-2
+Added Pin To Net: NetName=GND_A Pin=C58-1
+Added Pin To Net: NetName=NetC19_2 Pin=C58-2
+Added Pin To Net: NetName=NetC20_1 Pin=C59-1
+Added Pin To Net: NetName=NetC20_2 Pin=C59-2
+Added Pin To Net: NetName=NetC21_1 Pin=C60-1
+Added Pin To Net: NetName=NetC21_2 Pin=C60-2
+Added Pin To Net: NetName=GND_A Pin=C61-1
+Added Pin To Net: NetName=NetC22_2 Pin=C61-2
+Added Pin To Net: NetName=GND_A Pin=C62-1
+Added Pin To Net: NetName=NetC23_2 Pin=C62-2
+Added Pin To Net: NetName=GND_A Pin=C63-1
+Added Pin To Net: NetName=NetC24_2 Pin=C63-2
+Added Pin To Net: NetName=GND_A Pin=C64-1
+Added Pin To Net: NetName=NetC25_2 Pin=C64-2
+Added Pin To Net: NetName=NetC26_1 Pin=C65-1
+Added Pin To Net: NetName=NetC26_2 Pin=C65-2
+Added Pin To Net: NetName=NetC27_1 Pin=C53-1
+Added Pin To Net: NetName=NetC27_2 Pin=C53-2
+Added Pin To Net: NetName=NetC28_1 Pin=C54-1
+Added Pin To Net: NetName=NetC28_2 Pin=C54-2
+Added Pin To Net: NetName=GND_A Pin=C55-1
+Added Pin To Net: NetName=NetC29_2 Pin=C55-2
+Added Pin To Net: NetName=GND_A Pin=C56-1
+Added Pin To Net: NetName=NetC30_2 Pin=C56-2
+Added Pin To Net: NetName=GND_A Pin=C57-1
+Added Pin To Net: NetName=NetC31_2 Pin=C57-2
+Added Pin To Net: NetName=GND_A Pin=C58-1
+Added Pin To Net: NetName=NetC32_2 Pin=C58-2
+Added Pin To Net: NetName=NetC33_1 Pin=C59-1
+Added Pin To Net: NetName=NetC33_2 Pin=C59-2
+Added Pin To Net: NetName=NetC34_1 Pin=C60-1
+Added Pin To Net: NetName=NetC34_2 Pin=C60-2
+Added Pin To Net: NetName=GND_A Pin=C61-1
+Added Pin To Net: NetName=NetC35_2 Pin=C61-2
+Added Pin To Net: NetName=GND_A Pin=C62-1
+Added Pin To Net: NetName=NetC36_2 Pin=C62-2
+Added Pin To Net: NetName=GND_A Pin=C63-1
+Added Pin To Net: NetName=NetC37_2 Pin=C63-2
+Added Pin To Net: NetName=GND_A Pin=C64-1
+Added Pin To Net: NetName=NetC38_2 Pin=C64-2
+Added Pin To Net: NetName=NetC39_1 Pin=C65-1
+Added Pin To Net: NetName=NetC39_2 Pin=C65-2
+Added Pin To Net: NetName=NetC40_1 Pin=C53-1
+Added Pin To Net: NetName=NetC40_2 Pin=C53-2
+Added Pin To Net: NetName=NetC41_1 Pin=C54-1
+Added Pin To Net: NetName=NetC41_2 Pin=C54-2
+Added Pin To Net: NetName=GND_A Pin=C55-1
+Added Pin To Net: NetName=NetC42_2 Pin=C55-2
+Added Pin To Net: NetName=GND_A Pin=C56-1
+Added Pin To Net: NetName=NetC43_2 Pin=C56-2
+Added Pin To Net: NetName=GND_A Pin=C57-1
+Added Pin To Net: NetName=NetC44_2 Pin=C57-2
+Added Pin To Net: NetName=GND_A Pin=C58-1
+Added Pin To Net: NetName=NetC45_2 Pin=C58-2
+Added Pin To Net: NetName=NetC46_1 Pin=C59-1
+Added Pin To Net: NetName=NetC46_2 Pin=C59-2
+Added Pin To Net: NetName=NetC47_1 Pin=C60-1
+Added Pin To Net: NetName=NetC47_2 Pin=C60-2
+Added Pin To Net: NetName=GND_A Pin=C61-1
+Added Pin To Net: NetName=NetC48_2 Pin=C61-2
+Added Pin To Net: NetName=GND_A Pin=C62-1
+Added Pin To Net: NetName=NetC49_2 Pin=C62-2
+Added Pin To Net: NetName=GND_A Pin=C63-1
+Added Pin To Net: NetName=NetC50_2 Pin=C63-2
+Added Pin To Net: NetName=GND_A Pin=C64-1
+Added Pin To Net: NetName=NetC51_2 Pin=C64-2
+Added Pin To Net: NetName=NetC52_1 Pin=C65-1
+Added Pin To Net: NetName=NetC52_2 Pin=C65-2
+Added Pin To Net: NetName=GND_A Pin=C55-1
+Added Pin To Net: NetName=GND_A Pin=C56-1
+Added Pin To Net: NetName=GND_A Pin=C57-1
+Added Pin To Net: NetName=GND_A Pin=C58-1
+Added Pin To Net: NetName=GND_A Pin=C61-1
+Added Pin To Net: NetName=GND_A Pin=C62-1
+Added Pin To Net: NetName=GND_A Pin=C63-1
+Added Pin To Net: NetName=GND_A Pin=C64-1
+Added Pin To Net: NetName=+3V3_D Pin=C?-1
+Added Pin To Net: NetName=+3V3_D Pin=C?-1
+Added Pin To Net: NetName=GND_A Pin=C?-1
+Added Pin To Net: NetName=GND_A Pin=C?-1
+Added Pin To Net: NetName=GND_A Pin=C?-1
+Added Pin To Net: NetName=GND_A Pin=C?-2
+Added Pin To Net: NetName=GND_A Pin=C?-2
+Added Pin To Net: NetName=GND_D Pin=C?-2
+Added Pin To Net: NetName=GND_D Pin=C?-2
+Added Pin To Net: NetName=GND_D Pin=C?-2
+Added Pin To Net: NetName=GND_D Pin=C?-2
+Added Pin To Net: NetName=NetJP?_1 Pin=C?-2
+Added Pin To Net: NetName=+3V3_D Pin=J?-1
+Added Pin To Net: NetName=GND_D Pin=J?-2
+Added Pin To Net: NetName=GND_D Pin=J?-4
+Added Pin To Net: NetName=GND_D Pin=J?-6
+Added Pin To Net: NetName=GND_D Pin=J?-8
+Added Pin To Net: NetName=GND_D Pin=J?-10
+Added Pin To Net: NetName=GND_D Pin=J?-A1
+Added Pin To Net: NetName=GND_D Pin=J?-A4
+Added Pin To Net: NetName=GND_D Pin=J?-A7
+Added Pin To Net: NetName=GND_D Pin=J?-A10
+Added Pin To Net: NetName=GND_D Pin=J?-A13
+Added Pin To Net: NetName=GND_D Pin=J?-A18
+Added Pin To Net: NetName=GND_D Pin=J?-A23
+Added Pin To Net: NetName=GND_D Pin=J?-A28
+Added Pin To Net: NetName=GND_D Pin=J?-A30
+Added Pin To Net: NetName=+3V3_D Pin=J?-A31
+Added Pin To Net: NetName=+3V3_D Pin=J?-A32
+Added Pin To Net: NetName=GND_D Pin=J?-B1
+Added Pin To Net: NetName=GND_D Pin=J?-B4
+Added Pin To Net: NetName=GND_D Pin=J?-B7
+Added Pin To Net: NetName=GND_D Pin=J?-B10
+Added Pin To Net: NetName=GND_D Pin=J?-B13
+Added Pin To Net: NetName=GND_D Pin=J?-B18
+Added Pin To Net: NetName=GND_D Pin=J?-B23
+Added Pin To Net: NetName=GND_D Pin=J?-B28
+Added Pin To Net: NetName=GND_D Pin=J?-B30
+Added Pin To Net: NetName=+3V3_D Pin=J?-B31
+Added Pin To Net: NetName=GND_D Pin=J?-C1
+Added Pin To Net: NetName=GND_D Pin=J?-C4
+Added Pin To Net: NetName=GND_D Pin=J?-C7
+Added Pin To Net: NetName=GND_D Pin=J?-C10
+Added Pin To Net: NetName=GND_D Pin=J?-C13
+Added Pin To Net: NetName=GND_D Pin=J?-C18
+Added Pin To Net: NetName=GND_D Pin=J?-C23
+Added Pin To Net: NetName=GND_D Pin=J?-C28
+Added Pin To Net: NetName=GND_D Pin=J?-C30
+Added Pin To Net: NetName=+3V3_D Pin=J?-C31
+Added Pin To Net: NetName=NetJP?_2 Pin=JP?-2
+Added Pin To Net: NetName=+3V3_D Pin=NT?-1
+Added Pin To Net: NetName=+3V3_D Pin=NT?-1
+Added Pin To Net: NetName=GND_D Pin=NT?-1
+Added Pin To Net: NetName=GND_A Pin=NT?-2
+Added Pin To Net: NetName=NetJP?_2 Pin=R160-2
+Added Pin To Net: NetName=NetC14_2 Pin=R129-1
+Added Pin To Net: NetName=NetC16_2 Pin=R129-2
+Added Pin To Net: NetName=NetC15_2 Pin=R130-1
+Added Pin To Net: NetName=NetC17_2 Pin=R130-2
+Added Pin To Net: NetName=NetC14_2 Pin=R133-2
+Added Pin To Net: NetName=NetC15_2 Pin=R134-2
+Added Pin To Net: NetName=NetC14_1 Pin=R135-1
+Added Pin To Net: NetName=NetC16_2 Pin=R135-2
+Added Pin To Net: NetName=NetC15_1 Pin=R136-1
+Added Pin To Net: NetName=NetC17_2 Pin=R136-2
+Added Pin To Net: NetName=NetC18_2 Pin=R137-2
+Added Pin To Net: NetName=NetC19_2 Pin=R138-2
+Added Pin To Net: NetName=NetC16_2 Pin=R139-1
+Added Pin To Net: NetName=GND_A Pin=R139-2
+Added Pin To Net: NetName=NetC17_2 Pin=R140-1
+Added Pin To Net: NetName=GND_A Pin=R140-2
+Added Pin To Net: NetName=NetC18_2 Pin=R143-1
+Added Pin To Net: NetName=NetC19_2 Pin=R144-1
+Added Pin To Net: NetName=NetC20_2 Pin=R145-1
+Added Pin To Net: NetName=NetC22_2 Pin=R145-2
+Added Pin To Net: NetName=NetC21_2 Pin=R147-1
+Added Pin To Net: NetName=NetC23_2 Pin=R147-2
+Added Pin To Net: NetName=NetC20_2 Pin=R149-2
+Added Pin To Net: NetName=NetC21_2 Pin=R150-2
+Added Pin To Net: NetName=NetC20_1 Pin=R151-1
+Added Pin To Net: NetName=NetC22_2 Pin=R151-2
+Added Pin To Net: NetName=NetC21_1 Pin=R152-1
+Added Pin To Net: NetName=NetC23_2 Pin=R152-2
+Added Pin To Net: NetName=NetC24_2 Pin=R153-2
+Added Pin To Net: NetName=NetC25_2 Pin=R154-2
+Added Pin To Net: NetName=NetC22_2 Pin=R155-1
+Added Pin To Net: NetName=GND_A Pin=R155-2
+Added Pin To Net: NetName=NetC23_2 Pin=R157-1
+Added Pin To Net: NetName=GND_A Pin=R157-2
+Added Pin To Net: NetName=NetC24_2 Pin=R159-1
+Added Pin To Net: NetName=NetC25_2 Pin=R160-1
+Added Pin To Net: NetName=NetC27_2 Pin=R129-1
+Added Pin To Net: NetName=NetC29_2 Pin=R129-2
+Added Pin To Net: NetName=NetC28_2 Pin=R130-1
+Added Pin To Net: NetName=NetC30_2 Pin=R130-2
+Added Pin To Net: NetName=NetC27_2 Pin=R133-2
+Added Pin To Net: NetName=NetC28_2 Pin=R134-2
+Added Pin To Net: NetName=NetC27_1 Pin=R135-1
+Added Pin To Net: NetName=NetC29_2 Pin=R135-2
+Added Pin To Net: NetName=NetC28_1 Pin=R136-1
+Added Pin To Net: NetName=NetC30_2 Pin=R136-2
+Added Pin To Net: NetName=NetC31_2 Pin=R137-2
+Added Pin To Net: NetName=NetC32_2 Pin=R138-2
+Added Pin To Net: NetName=NetC29_2 Pin=R139-1
+Added Pin To Net: NetName=GND_A Pin=R139-2
+Added Pin To Net: NetName=NetC30_2 Pin=R140-1
+Added Pin To Net: NetName=GND_A Pin=R140-2
+Added Pin To Net: NetName=NetC31_2 Pin=R143-1
+Added Pin To Net: NetName=NetC32_2 Pin=R144-1
+Added Pin To Net: NetName=NetC33_2 Pin=R145-1
+Added Pin To Net: NetName=NetC35_2 Pin=R145-2
+Added Pin To Net: NetName=NetC34_2 Pin=R147-1
+Added Pin To Net: NetName=NetC36_2 Pin=R147-2
+Added Pin To Net: NetName=NetC33_2 Pin=R149-2
+Added Pin To Net: NetName=NetC34_2 Pin=R150-2
+Added Pin To Net: NetName=NetC33_1 Pin=R151-1
+Added Pin To Net: NetName=NetC35_2 Pin=R151-2
+Added Pin To Net: NetName=NetC34_1 Pin=R152-1
+Added Pin To Net: NetName=NetC36_2 Pin=R152-2
+Added Pin To Net: NetName=NetC37_2 Pin=R153-2
+Added Pin To Net: NetName=NetC38_2 Pin=R154-2
+Added Pin To Net: NetName=NetC35_2 Pin=R155-1
+Added Pin To Net: NetName=GND_A Pin=R155-2
+Added Pin To Net: NetName=NetC36_2 Pin=R157-1
+Added Pin To Net: NetName=GND_A Pin=R157-2
+Added Pin To Net: NetName=NetC37_2 Pin=R159-1
+Added Pin To Net: NetName=NetC38_2 Pin=R160-1
+Added Pin To Net: NetName=NetC40_2 Pin=R129-1
+Added Pin To Net: NetName=NetC42_2 Pin=R129-2
+Added Pin To Net: NetName=NetC41_2 Pin=R130-1
+Added Pin To Net: NetName=NetC43_2 Pin=R130-2
+Added Pin To Net: NetName=NetC40_2 Pin=R133-2
+Added Pin To Net: NetName=NetC41_2 Pin=R134-2
+Added Pin To Net: NetName=NetC40_1 Pin=R135-1
+Added Pin To Net: NetName=NetC42_2 Pin=R135-2
+Added Pin To Net: NetName=NetC41_1 Pin=R136-1
+Added Pin To Net: NetName=NetC43_2 Pin=R136-2
+Added Pin To Net: NetName=NetC44_2 Pin=R137-2
+Added Pin To Net: NetName=NetC45_2 Pin=R138-2
+Added Pin To Net: NetName=NetC42_2 Pin=R139-1
+Added Pin To Net: NetName=GND_A Pin=R139-2
+Added Pin To Net: NetName=NetC43_2 Pin=R140-1
+Added Pin To Net: NetName=GND_A Pin=R140-2
+Added Pin To Net: NetName=NetC44_2 Pin=R143-1
+Added Pin To Net: NetName=NetC45_2 Pin=R144-1
+Added Pin To Net: NetName=NetC46_2 Pin=R145-1
+Added Pin To Net: NetName=NetC48_2 Pin=R145-2
+Added Pin To Net: NetName=NetC47_2 Pin=R147-1
+Added Pin To Net: NetName=NetC49_2 Pin=R147-2
+Added Pin To Net: NetName=NetC46_2 Pin=R149-2
+Added Pin To Net: NetName=NetC47_2 Pin=R150-2
+Added Pin To Net: NetName=NetC46_1 Pin=R151-1
+Added Pin To Net: NetName=NetC48_2 Pin=R151-2
+Added Pin To Net: NetName=NetC47_1 Pin=R152-1
+Added Pin To Net: NetName=NetC49_2 Pin=R152-2
+Added Pin To Net: NetName=NetC50_2 Pin=R153-2
+Added Pin To Net: NetName=NetC51_2 Pin=R154-2
+Added Pin To Net: NetName=NetC48_2 Pin=R155-1
+Added Pin To Net: NetName=GND_A Pin=R155-2
+Added Pin To Net: NetName=NetC49_2 Pin=R157-1
+Added Pin To Net: NetName=GND_A Pin=R157-2
+Added Pin To Net: NetName=NetC50_2 Pin=R159-1
+Added Pin To Net: NetName=NetC51_2 Pin=R160-1
+Added Pin To Net: NetName=GND_A Pin=R139-2
+Added Pin To Net: NetName=GND_A Pin=R140-2
+Added Pin To Net: NetName=NetR149_1 Pin=R149-1
+Added Pin To Net: NetName=NetR153_1 Pin=R153-1
+Added Pin To Net: NetName=GND_A Pin=R155-2
+Added Pin To Net: NetName=GND_A Pin=R157-2
+Added Pin To Net: NetName=GND_A Pin=R?-1
+Added Pin To Net: NetName=GND_D Pin=R?-1
+Added Pin To Net: NetName=GND_D Pin=R?-1
+Added Pin To Net: NetName=GND_D Pin=R?-1
+Added Pin To Net: NetName=GND_D Pin=R?-1
+Added Pin To Net: NetName=NetJP?_1 Pin=R?-1
+Added Pin To Net: NetName=NetJP?_1 Pin=R?-1
+Added Pin To Net: NetName=NetJP?_1 Pin=R?-1
+Added Pin To Net: NetName=+3V3_D Pin=R?-2
+Added Pin To Net: NetName=+3V3_D Pin=R?-2
+Added Pin To Net: NetName=+3V3_D Pin=R?-2
+Added Pin To Net: NetName=+3V3_D Pin=R?-2
+Added Pin To Net: NetName=+3V3_D Pin=R?-2
+Added Pin To Net: NetName=+3V3_D Pin=R?-2
+Added Pin To Net: NetName=+3V3_D Pin=R?-2
+Added Pin To Net: NetName=+3V3_D Pin=R?-2
+Added Pin To Net: NetName=+3V3_D Pin=R?-2
+Added Pin To Net: NetName=+3V3_D Pin=R?-2
+Added Pin To Net: NetName=+3V3_D Pin=R?-2
+Added Pin To Net: NetName=+3V3_D Pin=R?-2
+Added Pin To Net: NetName=+3V3_D Pin=R?-2
+Added Pin To Net: NetName=+3V3_D Pin=R?-2
+Added Pin To Net: NetName=+5V Pin=R?-2
+Added Pin To Net: NetName=GND_A Pin=R?-2
+Added Pin To Net: NetName=GND_A Pin=R?-2
+Added Pin To Net: NetName=GND_D Pin=S?-1
+Added Pin To Net: NetName=GND_D Pin=TP?-1
+Added Pin To Net: NetName=GND_D Pin=TP?-1
+Added Pin To Net: NetName=3VREFF_2 Pin=U6-1
+Added Pin To Net: NetName=NetC56_2 Pin=U6-3
+Added Pin To Net: NetName=3VREFF_2 Pin=U7-1
+Added Pin To Net: NetName=3VREFF_2 Pin=U9-1
+Added Pin To Net: NetName=NetC62_2 Pin=U9-3
+Added Pin To Net: NetName=3VREFF_2 Pin=U12-1
+Added Pin To Net: NetName=NetC55_2 Pin=U12-3
+Added Pin To Net: NetName=3VREFF_2 Pin=U15-1
+Added Pin To Net: NetName=NetC61_2 Pin=U15-3
+Added Pin To Net: NetName=3VREFF_2 Pin=U18-1
+Added Pin To Net: NetName=3VREFF_2 Pin=U21-1
+Added Pin To Net: NetName=+5V Pin=U23-3
+Added Pin To Net: NetName=3VREFF_2 Pin=U24-1
+Added Pin To Net: NetName=3VREFF_2 Pin=U26-1
+Added Pin To Net: NetName=3VREFF_2 Pin=U27-1
+Added Pin To Net: NetName=+3V3_D Pin=U?-1
+Added Pin To Net: NetName=+3V3_D Pin=U?-1
+Added Pin To Net: NetName=+3V3_D Pin=U?-1
+Added Pin To Net: NetName=+5V Pin=U?-3
+Added Pin To Net: NetName=GND_A Pin=U?-3
+Added Pin To Net: NetName=GND_D Pin=U?-3
+Added Pin To Net: NetName=GND_D Pin=U?-3
+Added Pin To Net: NetName=GND_D Pin=U?-4
+Added Pin To Net: NetName=+3V3_D Pin=U?-8
+Added Pin To Net: NetName=GND_D Pin=U?-A1
+Added Pin To Net: NetName=GND_D Pin=U?-A22
+Added Pin To Net: NetName=+3V3_D Pin=U?-AA3
+Added Pin To Net: NetName=GND_D Pin=U?-AA5
+Added Pin To Net: NetName=+3V3_D Pin=U?-AA7
+Added Pin To Net: NetName=GND_D Pin=U?-AA9
+Added Pin To Net: NetName=+3V3_D Pin=U?-AA11
+Added Pin To Net: NetName=GND_D Pin=U?-AA13
+Added Pin To Net: NetName=+3V3_D Pin=U?-AA15
+Added Pin To Net: NetName=GND_D Pin=U?-AA17
+Added Pin To Net: NetName=+3V3_D Pin=U?-AA19
+Added Pin To Net: NetName=GND_D Pin=U?-AB1
+Added Pin To Net: NetName=GND_D Pin=U?-AB22
+Added Pin To Net: NetName=+3V3_D Pin=U?-B4
+Added Pin To Net: NetName=GND_D Pin=U?-B5
+Added Pin To Net: NetName=+3V3_D Pin=U?-B7
+Added Pin To Net: NetName=GND_D Pin=U?-B9
+Added Pin To Net: NetName=+3V3_D Pin=U?-B11
+Added Pin To Net: NetName=GND_D Pin=U?-B13
+Added Pin To Net: NetName=+3V3_D Pin=U?-B15
+Added Pin To Net: NetName=GND_D Pin=U?-B17
+Added Pin To Net: NetName=+3V3_D Pin=U?-B19
+Added Pin To Net: NetName=+3V3_D Pin=U?-C2
+Added Pin To Net: NetName=+3V3_D Pin=U?-C21
+Added Pin To Net: NetName=GND_D Pin=U?-D4
+Added Pin To Net: NetName=+3V3_D Pin=U?-D16
+Added Pin To Net: NetName=GND_D Pin=U?-D18
+Added Pin To Net: NetName=GND_D Pin=U?-E2
+Added Pin To Net: NetName=GND_D Pin=U?-E7
+Added Pin To Net: NetName=+3V3_D Pin=U?-E9
+Added Pin To Net: NetName=GND_D Pin=U?-E11
+Added Pin To Net: NetName=+3V3_D Pin=U?-E13
+Added Pin To Net: NetName=GND_D Pin=U?-E15
+Added Pin To Net: NetName=+3V3_D Pin=U?-E17
+Added Pin To Net: NetName=+3V3_D Pin=U?-E19
+Added Pin To Net: NetName=GND_D Pin=U?-E21
+Added Pin To Net: NetName=+3V3_D Pin=U?-F4
+Added Pin To Net: NetName=+3V3_D Pin=U?-F6
+Added Pin To Net: NetName=+3V3_D Pin=U?-F11
+Added Pin To Net: NetName=+3V3_D Pin=U?-G2
+Added Pin To Net: NetName=GND_D Pin=U?-G5
+Added Pin To Net: NetName=+3V3_D Pin=U?-G10
+Added Pin To Net: NetName=+3V3_D Pin=U?-G12
+Added Pin To Net: NetName=+3V3_D Pin=U?-G14
+Added Pin To Net: NetName=GND_D Pin=U?-G18
+Added Pin To Net: NetName=+3V3_D Pin=U?-G21
+Added Pin To Net: NetName=GND_D Pin=U?-H7
+Added Pin To Net: NetName=+3V3_D Pin=U?-H9
+Added Pin To Net: NetName=+3V3_D Pin=U?-H15
+Added Pin To Net: NetName=GND_D Pin=U?-J2
+Added Pin To Net: NetName=+3V3_D Pin=U?-J5
+Added Pin To Net: NetName=GND_D Pin=U?-J9
+Added Pin To Net: NetName=GND_D Pin=U?-J11
+Added Pin To Net: NetName=GND_D Pin=U?-J13
+Added Pin To Net: NetName=GND_D Pin=U?-J15
+Added Pin To Net: NetName=+3V3_D Pin=U?-J18
+Added Pin To Net: NetName=GND_D Pin=U?-J21
+Added Pin To Net: NetName=GND_D Pin=U?-K10
+Added Pin To Net: NetName=GND_D Pin=U?-K12
+Added Pin To Net: NetName=GND_D Pin=U?-K14
+Added Pin To Net: NetName=+3V3_D Pin=U?-K15
+Added Pin To Net: NetName=+3V3_D Pin=U?-L2
+Added Pin To Net: NetName=GND_D Pin=U?-L5
+Added Pin To Net: NetName=+3V3_D Pin=U?-L7
+Added Pin To Net: NetName=+3V3_D Pin=U?-L8
+Added Pin To Net: NetName=GND_D Pin=U?-L9
+Added Pin To Net: NetName=GND_D Pin=U?-L11
+Added Pin To Net: NetName=GND_D Pin=U?-L13
+Added Pin To Net: NetName=+3V3_D Pin=U?-L16
+Added Pin To Net: NetName=GND_D Pin=U?-L18
+Added Pin To Net: NetName=+3V3_D Pin=U?-L21
+Added Pin To Net: NetName=GND_D Pin=U?-M10
+Added Pin To Net: NetName=GND_D Pin=U?-M12
+Added Pin To Net: NetName=GND_D Pin=U?-M14
+Added Pin To Net: NetName=+3V3_D Pin=U?-M15
+Added Pin To Net: NetName=GND_D Pin=U?-N2
+Added Pin To Net: NetName=+3V3_D Pin=U?-N5
+Added Pin To Net: NetName=+3V3_D Pin=U?-N8
+Added Pin To Net: NetName=GND_D Pin=U?-N9
+Added Pin To Net: NetName=GND_D Pin=U?-N11
+Added Pin To Net: NetName=GND_D Pin=U?-N13
+Added Pin To Net: NetName=GND_D Pin=U?-N15
+Added Pin To Net: NetName=GND_D Pin=U?-N17
+Added Pin To Net: NetName=+3V3_D Pin=U?-N18
+Added Pin To Net: NetName=GND_D Pin=U?-N21
+Added Pin To Net: NetName=GND_D Pin=U?-P10
+Added Pin To Net: NetName=GND_D Pin=U?-P12
+Added Pin To Net: NetName=GND_D Pin=U?-P14
+Added Pin To Net: NetName=GND_D Pin=U?-P15
+Added Pin To Net: NetName=GND_D Pin=U?-P16
+Added Pin To Net: NetName=+3V3_D Pin=U?-R2
+Added Pin To Net: NetName=GND_D Pin=U?-R5
+Added Pin To Net: NetName=+3V3_D Pin=U?-R6
+Added Pin To Net: NetName=+3V3_D Pin=U?-R10
+Added Pin To Net: NetName=+3V3_D Pin=U?-R12
+Added Pin To Net: NetName=GND_D Pin=U?-R17
+Added Pin To Net: NetName=GND_D Pin=U?-R18
+Added Pin To Net: NetName=+3V3_D Pin=U?-R21
+Added Pin To Net: NetName=+3V3_D Pin=U?-T9
+Added Pin To Net: NetName=+3V3_D Pin=U?-T13
+Added Pin To Net: NetName=GND_D Pin=U?-U2
+Added Pin To Net: NetName=+3V3_D Pin=U?-U5
+Added Pin To Net: NetName=GND_D Pin=U?-U7
+Added Pin To Net: NetName=+3V3_D Pin=U?-U11
+Added Pin To Net: NetName=+3V3_D Pin=U?-U18
+Added Pin To Net: NetName=GND_D Pin=U?-U21
+Added Pin To Net: NetName=GND_D Pin=U?-V4
+Added Pin To Net: NetName=+3V3_D Pin=U?-V6
+Added Pin To Net: NetName=+3V3_D Pin=U?-V8
+Added Pin To Net: NetName=GND_D Pin=U?-V10
+Added Pin To Net: NetName=+3V3_D Pin=U?-V12
+Added Pin To Net: NetName=GND_D Pin=U?-V14
+Added Pin To Net: NetName=+3V3_D Pin=U?-V16
+Added Pin To Net: NetName=+3V3_D Pin=U?-W2
+Added Pin To Net: NetName=+3V3_D Pin=U?-W5
+Added Pin To Net: NetName=GND_D Pin=U?-W7
+Added Pin To Net: NetName=GND_D Pin=U?-W16
+Added Pin To Net: NetName=GND_D Pin=U?-W19
+Added Pin To Net: NetName=+3V3_D Pin=U?-W21
+Added Pin To Net: NetName=+3V3_D Pin=X?-1
+Added Pin To Net: NetName=GND_D Pin=X?-2
+Added Pin To Net: NetName=+3V3_D Pin=X?-4
+Change Net Name : Old Net Name=+5V New Net Name=+20V_A
+Change Net Name : Old Net Name=3VREFF_2 New Net Name=3VREFF
+Change Net Name : Old Net Name=NetC53_1 New Net Name=NetC1_1
+Change Net Name : Old Net Name=NetC53_2 New Net Name=NetC1_2
+Change Net Name : Old Net Name=NetC54_1 New Net Name=NetC2_1
+Change Net Name : Old Net Name=NetC54_2 New Net Name=NetC2_2
+Change Net Name : Old Net Name=NetC55_2 New Net Name=NetC3_2
+Change Net Name : Old Net Name=NetC56_2 New Net Name=NetC4_2
+Change Net Name : Old Net Name=NetC57_2 New Net Name=NetC5_2
+Change Net Name : Old Net Name=NetC58_2 New Net Name=NetC6_2
+Change Net Name : Old Net Name=NetC59_1 New Net Name=NetC7_1
+Change Net Name : Old Net Name=NetC59_2 New Net Name=NetC7_2
+Change Net Name : Old Net Name=NetC60_1 New Net Name=NetC8_1
+Change Net Name : Old Net Name=NetC60_2 New Net Name=NetC8_2
+Change Net Name : Old Net Name=NetC61_2 New Net Name=NetC9_2
+Change Net Name : Old Net Name=NetC62_2 New Net Name=NetC10_2
+Change Net Name : Old Net Name=NetC63_2 New Net Name=NetC11_2
+Change Net Name : Old Net Name=NetC64_2 New Net Name=NetC12_2
+Change Net Name : Old Net Name=NetC65_1 New Net Name=NetC13_1
+Change Net Name : Old Net Name=NetC65_2 New Net Name=NetC13_2
+Change Net Name : Old Net Name=NetJP?_1 New Net Name=NetC?_2
+Added Pin To Net: NetName=+1.2V Pin=U?-J8
+Added Pin To Net: NetName=+1.2V Pin=U?-J10
+Added Pin To Net: NetName=+1.2V Pin=U?-J12
+Added Pin To Net: NetName=+1.2V Pin=U?-J14
+Added Pin To Net: NetName=+1.2V Pin=U?-K9
+Added Pin To Net: NetName=+1.2V Pin=U?-K11
+Added Pin To Net: NetName=+1.2V Pin=U?-K13
+Added Pin To Net: NetName=+1.2V Pin=U?-L10
+Added Pin To Net: NetName=+1.2V Pin=U?-L12
+Added Pin To Net: NetName=+1.2V Pin=U?-L14
+Added Pin To Net: NetName=+1.2V Pin=U?-M9
+Added Pin To Net: NetName=+1.2V Pin=U?-M11
+Added Pin To Net: NetName=+1.2V Pin=U?-M13
+Added Pin To Net: NetName=+1.2V Pin=U?-N10
+Added Pin To Net: NetName=+1.2V Pin=U?-N12
+Added Pin To Net: NetName=+1.2V Pin=U?-N14
+Added Pin To Net: NetName=+1.2V Pin=U?-P9
+Added Pin To Net: NetName=+1.2V Pin=U?-P11
+Added Pin To Net: NetName=+1.2V Pin=U?-P13
+Added Pin To Net: NetName=+1.2V Pin=U?-R14
+Added Net: Name=+1.2V
+Added Pin To Net: NetName=+3V3_A Pin=C?-1
+Added Pin To Net: NetName=+3V3_A Pin=C?-1
+Added Pin To Net: NetName=+3V3_A Pin=C?-2
+Added Pin To Net: NetName=+3V3_A Pin=C?-2
+Added Pin To Net: NetName=+3V3_A Pin=NT?-2
+Added Pin To Net: NetName=+3V3_A Pin=U?-1
+Added Net: Name=+3V3_A
+Added Pin To Net: NetName=+3V3_F Pin=C?-1
+Added Pin To Net: NetName=+3V3_F Pin=C?-1
+Added Pin To Net: NetName=+3V3_F Pin=NT?-2
+Added Net: Name=+3V3_F
+Added Pin To Net: NetName=+24V_BP Pin=C?-2
+Added Pin To Net: NetName=+24V_BP Pin=J?-C32
+Added Pin To Net: NetName=+24V_BP Pin=U?-2
+Added Net: Name=+24V_BP
+Added Pin To Net: NetName=CLK_100MHz Pin=X?-3
+Added Net: Name=CLK_100MHz
+Added Pin To Net: NetName=FPGA_DONE Pin=LD?-2
+Added Pin To Net: NetName=FPGA_DONE Pin=R?-1
+Added Pin To Net: NetName=FPGA_DONE Pin=U?-Y22
+Added Net: Name=FPGA_DONE
+Added Pin To Net: NetName=GND_+24V_BP Pin=J?-B32
+Added Net: Name=GND_+24V_BP
+Added Pin To Net: NetName=HARDRESET_N Pin=R?-1
+Added Pin To Net: NetName=HARDRESET_N Pin=S?-2
+Added Pin To Net: NetName=HARDRESET_N Pin=U?-AA1
+Added Net: Name=HARDRESET_N
+Added Pin To Net: NetName=HSWAPEN Pin=R?-2
+Added Pin To Net: NetName=HSWAPEN Pin=U?-A3
+Added Net: Name=HSWAPEN
+Added Pin To Net: NetName=NetC53_1 Pin=C53-1
+Added Pin To Net: NetName=NetC53_1 Pin=R135-1
+Added Net: Name=NetC53_1
+Added Pin To Net: NetName=NetC53_2 Pin=C53-2
+Added Pin To Net: NetName=NetC53_2 Pin=R129-1
+Added Pin To Net: NetName=NetC53_2 Pin=R133-2
+Added Net: Name=NetC53_2
+Added Pin To Net: NetName=NetC54_1 Pin=C54-1
+Added Pin To Net: NetName=NetC54_1 Pin=R136-1
+Added Net: Name=NetC54_1
+Added Pin To Net: NetName=NetC54_2 Pin=C54-2
+Added Pin To Net: NetName=NetC54_2 Pin=R130-1
+Added Pin To Net: NetName=NetC54_2 Pin=R134-2
+Added Net: Name=NetC54_2
+Added Pin To Net: NetName=NetC55_2 Pin=C55-2
+Added Pin To Net: NetName=NetC55_2 Pin=R129-2
+Added Pin To Net: NetName=NetC55_2 Pin=R135-2
+Added Pin To Net: NetName=NetC55_2 Pin=R139-1
+Added Pin To Net: NetName=NetC55_2 Pin=U17-3
+Added Net: Name=NetC55_2
+Added Pin To Net: NetName=NetC56_2 Pin=C56-2
+Added Pin To Net: NetName=NetC56_2 Pin=R130-2
+Added Pin To Net: NetName=NetC56_2 Pin=R136-2
+Added Pin To Net: NetName=NetC56_2 Pin=R140-1
+Added Pin To Net: NetName=NetC56_2 Pin=U11-3
+Added Net: Name=NetC56_2
+Added Pin To Net: NetName=NetC57_2 Pin=C57-2
+Added Pin To Net: NetName=NetC57_2 Pin=R137-2
+Added Pin To Net: NetName=NetC57_2 Pin=R143-1
+Added Net: Name=NetC57_2
+Added Pin To Net: NetName=NetC58_2 Pin=C58-2
+Added Pin To Net: NetName=NetC58_2 Pin=R138-2
+Added Pin To Net: NetName=NetC58_2 Pin=R144-1
+Added Net: Name=NetC58_2
+Added Pin To Net: NetName=NetC59_1 Pin=C59-1
+Added Pin To Net: NetName=NetC59_1 Pin=R151-1
+Added Net: Name=NetC59_1
+Added Pin To Net: NetName=NetC59_2 Pin=C59-2
+Added Pin To Net: NetName=NetC59_2 Pin=R145-1
+Added Pin To Net: NetName=NetC59_2 Pin=R149-2
+Added Net: Name=NetC59_2
+Added Pin To Net: NetName=NetC60_1 Pin=C60-1
+Added Pin To Net: NetName=NetC60_1 Pin=R152-1
+Added Net: Name=NetC60_1
+Added Pin To Net: NetName=NetC60_2 Pin=C60-2
+Added Pin To Net: NetName=NetC60_2 Pin=R147-1
+Added Pin To Net: NetName=NetC60_2 Pin=R150-2
+Added Net: Name=NetC60_2
+Added Pin To Net: NetName=NetC61_2 Pin=C61-2
+Added Pin To Net: NetName=NetC61_2 Pin=R145-2
+Added Pin To Net: NetName=NetC61_2 Pin=R151-2
+Added Pin To Net: NetName=NetC61_2 Pin=R155-1
+Added Pin To Net: NetName=NetC61_2 Pin=U20-3
+Added Net: Name=NetC61_2
+Added Pin To Net: NetName=NetC62_2 Pin=C62-2
+Added Pin To Net: NetName=NetC62_2 Pin=R147-2
+Added Pin To Net: NetName=NetC62_2 Pin=R152-2
+Added Pin To Net: NetName=NetC62_2 Pin=R157-1
+Added Pin To Net: NetName=NetC62_2 Pin=U14-3
+Added Net: Name=NetC62_2
+Added Pin To Net: NetName=NetC63_2 Pin=C63-2
+Added Pin To Net: NetName=NetC63_2 Pin=R153-2
+Added Pin To Net: NetName=NetC63_2 Pin=R159-1
+Added Net: Name=NetC63_2
+Added Pin To Net: NetName=NetC64_2 Pin=C64-2
+Added Pin To Net: NetName=NetC64_2 Pin=R154-2
+Added Pin To Net: NetName=NetC64_2 Pin=R160-1
+Added Net: Name=NetC64_2
+Added Pin To Net: NetName=NetC65_1 Pin=C65-1
+Added Net: Name=NetC65_1
+Added Pin To Net: NetName=NetC65_2 Pin=C65-2
+Added Net: Name=NetC65_2
+Added Pin To Net: NetName=NetJ?_1 Pin=J?-1
+Added Net: Name=NetJ?_1
+Added Pin To Net: NetName=NetJ?_2 Pin=J?-2
+Added Net: Name=NetJ?_2
+Added Pin To Net: NetName=NetJ?_3 Pin=J?-3
+Added Pin To Net: NetName=NetJ?_3 Pin=R?-1
+Added Pin To Net: NetName=NetJ?_3 Pin=U?-C18
+Added Net: Name=NetJ?_3
+Added Pin To Net: NetName=NetJ?_4 Pin=J?-4
+Added Pin To Net: NetName=NetJ?_4 Pin=R137-1
+Added Net: Name=NetJ?_4
+Added Pin To Net: NetName=NetJ?_5 Pin=J?-5
+Added Pin To Net: NetName=NetJ?_5 Pin=R?-1
+Added Pin To Net: NetName=NetJ?_5 Pin=U?-G15
+Added Net: Name=NetJ?_5
+Added Pin To Net: NetName=NetJ?_6 Pin=J?-6
+Added Pin To Net: NetName=NetJ?_6 Pin=R153-1
+Added Net: Name=NetJ?_6
+Added Pin To Net: NetName=NetJ?_7 Pin=J?-7
+Added Pin To Net: NetName=NetJ?_7 Pin=R?-1
+Added Pin To Net: NetName=NetJ?_7 Pin=U?-A19
+Added Net: Name=NetJ?_7
+Added Pin To Net: NetName=NetJ?_8 Pin=J?-8
+Added Pin To Net: NetName=NetJ?_8 Pin=R138-1
+Added Net: Name=NetJ?_8
+Added Pin To Net: NetName=NetJ?_9 Pin=J?-9
+Added Pin To Net: NetName=NetJ?_9 Pin=R?-1
+Added Pin To Net: NetName=NetJ?_9 Pin=U?-E18
+Added Net: Name=NetJ?_9
+Added Pin To Net: NetName=NetJ?_10 Pin=J?-10
+Added Pin To Net: NetName=NetJ?_10 Pin=R154-1
+Added Pin To Net: NetName=NetJ?_10 Pin=R138-1
+Added Net: Name=NetJ?_10
+Added Pin To Net: NetName=NetJ?_11 Pin=J?-11
+Added Pin To Net: NetName=NetJ?_11 Pin=R133-1
+Added Net: Name=NetJ?_11
+Added Pin To Net: NetName=NetJ?_12 Pin=J?-12
+Added Pin To Net: NetName=NetJ?_12 Pin=R137-1
+Added Net: Name=NetJ?_12
+Added Pin To Net: NetName=NetJ?_13 Pin=J?-13
+Added Pin To Net: NetName=NetJ?_13 Pin=R149-1
+Added Net: Name=NetJ?_13
+Added Pin To Net: NetName=NetJ?_14 Pin=J?-14
+Added Pin To Net: NetName=NetJ?_14 Pin=R153-1
+Added Net: Name=NetJ?_14
+Added Pin To Net: NetName=NetJ?_15 Pin=J?-15
+Added Pin To Net: NetName=NetJ?_15 Pin=R133-1
+Added Net: Name=NetJ?_15
+Added Pin To Net: NetName=NetJ?_16 Pin=J?-16
+Added Net: Name=NetJ?_16
+Added Pin To Net: NetName=NetJ?_17 Pin=J?-17
+Added Pin To Net: NetName=NetJ?_17 Pin=R150-1
+Added Net: Name=NetJ?_17
+Added Pin To Net: NetName=NetJ?_18 Pin=J?-18
+Added Pin To Net: NetName=NetJ?_18 Pin=R154-1
+Added Net: Name=NetJ?_18
+Added Pin To Net: NetName=NetJ?_19 Pin=J?-19
+Added Pin To Net: NetName=NetJ?_19 Pin=R134-1
+Added Net: Name=NetJ?_19
+Added Pin To Net: NetName=NetJ?_20 Pin=J?-20
+Added Pin To Net: NetName=NetJ?_20 Pin=R138-1
+Added Net: Name=NetJ?_20
+Added Pin To Net: NetName=NetJ?_A2 Pin=J?-A2
+Added Net: Name=NetJ?_A2
+Added Pin To Net: NetName=NetJ?_A3 Pin=J?-A3
+Added Net: Name=NetJ?_A3
+Added Pin To Net: NetName=NetJ?_A5 Pin=J?-A5
+Added Net: Name=NetJ?_A5
+Added Pin To Net: NetName=NetJ?_A6 Pin=J?-A6
+Added Net: Name=NetJ?_A6
+Added Pin To Net: NetName=NetJ?_A8 Pin=J?-A8
+Added Net: Name=NetJ?_A8
+Added Pin To Net: NetName=NetJ?_A9 Pin=J?-A9
+Added Net: Name=NetJ?_A9
+Added Pin To Net: NetName=NetJ?_A11 Pin=J?-A11
+Added Net: Name=NetJ?_A11
+Added Pin To Net: NetName=NetJ?_A12 Pin=J?-A12
+Added Net: Name=NetJ?_A12
+Added Pin To Net: NetName=NetJ?_A14 Pin=J?-A14
+Added Net: Name=NetJ?_A14
+Added Pin To Net: NetName=NetJ?_A15 Pin=J?-A15
+Added Net: Name=NetJ?_A15
+Added Pin To Net: NetName=NetJ?_A16 Pin=J?-A16
+Added Net: Name=NetJ?_A16
+Added Pin To Net: NetName=NetJ?_A17 Pin=J?-A17
+Added Net: Name=NetJ?_A17
+Added Pin To Net: NetName=NetJ?_A19 Pin=J?-A19
+Added Net: Name=NetJ?_A19
+Added Pin To Net: NetName=NetJ?_A20 Pin=J?-A20
+Added Net: Name=NetJ?_A20
+Added Pin To Net: NetName=NetJ?_A21 Pin=J?-A21
+Added Net: Name=NetJ?_A21
+Added Pin To Net: NetName=NetJ?_A22 Pin=J?-A22
+Added Net: Name=NetJ?_A22
+Added Pin To Net: NetName=NetJ?_A24 Pin=J?-A24
+Added Net: Name=NetJ?_A24
+Added Pin To Net: NetName=NetJ?_A25 Pin=J?-A25
+Added Net: Name=NetJ?_A25
+Added Pin To Net: NetName=NetJ?_A26 Pin=J?-A26
+Added Net: Name=NetJ?_A26
+Added Pin To Net: NetName=NetJ?_A27 Pin=J?-A27
+Added Net: Name=NetJ?_A27
+Added Pin To Net: NetName=NetJ?_A29 Pin=J?-A29
+Added Net: Name=NetJ?_A29
+Added Pin To Net: NetName=NetJ?_B2 Pin=J?-B2
+Added Net: Name=NetJ?_B2
+Added Pin To Net: NetName=NetJ?_B3 Pin=J?-B3
+Added Net: Name=NetJ?_B3
+Added Pin To Net: NetName=NetJ?_B5 Pin=J?-B5
+Added Net: Name=NetJ?_B5
+Added Pin To Net: NetName=NetJ?_B6 Pin=J?-B6
+Added Net: Name=NetJ?_B6
+Added Pin To Net: NetName=NetJ?_B8 Pin=J?-B8
+Added Net: Name=NetJ?_B8
+Added Pin To Net: NetName=NetJ?_B9 Pin=J?-B9
+Added Net: Name=NetJ?_B9
+Added Pin To Net: NetName=NetJ?_B11 Pin=J?-B11
+Added Net: Name=NetJ?_B11
+Added Pin To Net: NetName=NetJ?_B12 Pin=J?-B12
+Added Net: Name=NetJ?_B12
+Added Pin To Net: NetName=NetJ?_B14 Pin=J?-B14
+Added Net: Name=NetJ?_B14
+Added Pin To Net: NetName=NetJ?_B15 Pin=J?-B15
+Added Net: Name=NetJ?_B15
+Added Pin To Net: NetName=NetJ?_B16 Pin=J?-B16
+Added Net: Name=NetJ?_B16
+Added Pin To Net: NetName=NetJ?_B17 Pin=J?-B17
+Added Net: Name=NetJ?_B17
+Added Pin To Net: NetName=NetJ?_B19 Pin=J?-B19
+Added Net: Name=NetJ?_B19
+Added Pin To Net: NetName=NetJ?_B20 Pin=J?-B20
+Added Net: Name=NetJ?_B20
+Added Pin To Net: NetName=NetJ?_B21 Pin=J?-B21
+Added Net: Name=NetJ?_B21
+Added Pin To Net: NetName=NetJ?_B22 Pin=J?-B22
+Added Net: Name=NetJ?_B22
+Added Pin To Net: NetName=NetJ?_B24 Pin=J?-B24
+Added Net: Name=NetJ?_B24
+Added Pin To Net: NetName=NetJ?_B25 Pin=J?-B25
+Added Net: Name=NetJ?_B25
+Added Pin To Net: NetName=NetJ?_B26 Pin=J?-B26
+Added Net: Name=NetJ?_B26
+Added Pin To Net: NetName=NetJ?_B27 Pin=J?-B27
+Added Net: Name=NetJ?_B27
+Added Pin To Net: NetName=NetJ?_B29 Pin=J?-B29
+Added Pin To Net: NetName=NetJ?_B29 Pin=R?-1
+Added Net: Name=NetJ?_B29
+Added Pin To Net: NetName=NetJ?_C2 Pin=J?-C2
+Added Net: Name=NetJ?_C2
+Added Pin To Net: NetName=NetJ?_C3 Pin=J?-C3
+Added Net: Name=NetJ?_C3
+Added Pin To Net: NetName=NetJ?_C5 Pin=J?-C5
+Added Net: Name=NetJ?_C5
+Added Pin To Net: NetName=NetJ?_C6 Pin=J?-C6
+Added Net: Name=NetJ?_C6
+Added Pin To Net: NetName=NetJ?_C8 Pin=J?-C8
+Added Net: Name=NetJ?_C8
+Added Pin To Net: NetName=NetJ?_C9 Pin=J?-C9
+Added Net: Name=NetJ?_C9
+Added Pin To Net: NetName=NetJ?_C11 Pin=J?-C11
+Added Net: Name=NetJ?_C11
+Added Pin To Net: NetName=NetJ?_C12 Pin=J?-C12
+Added Net: Name=NetJ?_C12
+Added Pin To Net: NetName=NetJ?_C14 Pin=J?-C14
+Added Net: Name=NetJ?_C14
+Added Pin To Net: NetName=NetJ?_C15 Pin=J?-C15
+Added Net: Name=NetJ?_C15
+Added Pin To Net: NetName=NetJ?_C16 Pin=J?-C16
+Added Net: Name=NetJ?_C16
+Added Pin To Net: NetName=NetJ?_C17 Pin=J?-C17
+Added Net: Name=NetJ?_C17
+Added Pin To Net: NetName=NetJ?_C19 Pin=J?-C19
+Added Net: Name=NetJ?_C19
+Added Pin To Net: NetName=NetJ?_C20 Pin=J?-C20
+Added Net: Name=NetJ?_C20
+Added Pin To Net: NetName=NetJ?_C21 Pin=J?-C21
+Added Net: Name=NetJ?_C21
+Added Pin To Net: NetName=NetJ?_C22 Pin=J?-C22
+Added Net: Name=NetJ?_C22
+Added Pin To Net: NetName=NetJ?_C24 Pin=J?-C24
+Added Net: Name=NetJ?_C24
+Added Pin To Net: NetName=NetJ?_C25 Pin=J?-C25
+Added Net: Name=NetJ?_C25
+Added Pin To Net: NetName=NetJ?_C26 Pin=J?-C26
+Added Net: Name=NetJ?_C26
+Added Pin To Net: NetName=NetJ?_C27 Pin=J?-C27
+Added Net: Name=NetJ?_C27
+Added Pin To Net: NetName=NetJ?_C29 Pin=J?-C29
+Added Pin To Net: NetName=NetJ?_C29 Pin=R?-1
+Added Net: Name=NetJ?_C29
+Added Pin To Net: NetName=NetLD?_1 Pin=LD?-1
+Added Pin To Net: NetName=NetLD?_1 Pin=R?-2
+Added Net: Name=NetLD?_1
+Added Pin To Net: NetName=NetR?_2 Pin=R?-2
+Added Pin To Net: NetName=NetR?_2 Pin=U?-19
+Added Net: Name=NetR?_2
+Added Pin To Net: NetName=NetU?_2 Pin=U?-2
+Added Pin To Net: NetName=NetU?_2 Pin=U?-AA20
+Added Net: Name=NetU?_2
+Added Pin To Net: NetName=NetU?_5 Pin=U?-5
+Added Pin To Net: NetName=NetU?_5 Pin=U?-AB20
+Added Net: Name=NetU?_5
+Added Class: Name=FPGA-Connector
+Added Class: Name=FPGA-Supply
+Added Member To Class: ClassName=FPGA-1 Member=Component C1 47p
+Added Member To Class: ClassName=FPGA-1 Member=Component C2 47p
+Added Member To Class: ClassName=FPGA-1 Member=Component C3 2n2
+Added Member To Class: ClassName=FPGA-1 Member=Component C4 2n2
+Added Member To Class: ClassName=FPGA-1 Member=Component C5 47p
+Added Member To Class: ClassName=FPGA-1 Member=Component C6 47p
+Added Member To Class: ClassName=FPGA-1 Member=Component C7 47p
+Added Member To Class: ClassName=FPGA-1 Member=Component C8 47p
+Added Member To Class: ClassName=FPGA-1 Member=Component C9 2n2
+Added Member To Class: ClassName=FPGA-1 Member=Component C10 2n2
+Added Member To Class: ClassName=FPGA-1 Member=Component C11 47p
+Added Member To Class: ClassName=FPGA-1 Member=Component C12 47p
+Added Member To Class: ClassName=FPGA-1 Member=Component C13 100n
+Added Member To Class: ClassName=FPGA-2 Member=Component C14 47p
+Added Member To Class: ClassName=FPGA-2 Member=Component C15 47p
+Added Member To Class: ClassName=FPGA-2 Member=Component C16 2n2
+Added Member To Class: ClassName=FPGA-2 Member=Component C17 2n2
+Added Member To Class: ClassName=FPGA-2 Member=Component C18 47p
+Added Member To Class: ClassName=FPGA-2 Member=Component C19 47p
+Added Member To Class: ClassName=FPGA-2 Member=Component C20 47p
+Added Member To Class: ClassName=FPGA-2 Member=Component C21 47p
+Added Member To Class: ClassName=FPGA-2 Member=Component C22 2n2
+Added Member To Class: ClassName=FPGA-2 Member=Component C23 2n2
+Added Member To Class: ClassName=FPGA-2 Member=Component C24 47p
+Added Member To Class: ClassName=FPGA-2 Member=Component C25 47p
+Added Member To Class: ClassName=FPGA-2 Member=Component C26 100n
+Added Member To Class: ClassName=FPGA-3 Member=Component C27 47p
+Added Member To Class: ClassName=FPGA-3 Member=Component C28 47p
+Added Member To Class: ClassName=FPGA-3 Member=Component C29 2n2
+Added Member To Class: ClassName=FPGA-3 Member=Component C30 2n2
+Added Member To Class: ClassName=FPGA-3 Member=Component C31 47p
+Added Member To Class: ClassName=FPGA-3 Member=Component C32 47p
+Added Member To Class: ClassName=FPGA-3 Member=Component C33 47p
+Added Member To Class: ClassName=FPGA-3 Member=Component C34 47p
+Added Member To Class: ClassName=FPGA-3 Member=Component C35 2n2
+Added Member To Class: ClassName=FPGA-3 Member=Component C36 2n2
+Added Member To Class: ClassName=FPGA-3 Member=Component C37 47p
+Added Member To Class: ClassName=FPGA-3 Member=Component C38 47p
+Added Member To Class: ClassName=FPGA-3 Member=Component C39 100n
+Added Member To Class: ClassName=FPGA-4 Member=Component C40 47p
+Added Member To Class: ClassName=FPGA-4 Member=Component C41 47p
+Added Member To Class: ClassName=FPGA-4 Member=Component C42 2n2
+Added Member To Class: ClassName=FPGA-4 Member=Component C43 2n2
+Added Member To Class: ClassName=FPGA-4 Member=Component C44 47p
+Added Member To Class: ClassName=FPGA-4 Member=Component C45 47p
+Added Member To Class: ClassName=FPGA-4 Member=Component C46 47p
+Added Member To Class: ClassName=FPGA-4 Member=Component C47 47p
+Added Member To Class: ClassName=FPGA-4 Member=Component C48 2n2
+Added Member To Class: ClassName=FPGA-4 Member=Component C49 2n2
+Added Member To Class: ClassName=FPGA-4 Member=Component C50 47p
+Added Member To Class: ClassName=FPGA-4 Member=Component C51 47p
+Added Member To Class: ClassName=FPGA-4 Member=Component C52 100n
+Added Member To Class: ClassName=FPGA-5 Member=Component C53 47p
+Added Member To Class: ClassName=FPGA-5 Member=Component C54 47p
+Added Member To Class: ClassName=FPGA-5 Member=Component C55 2n2
+Added Member To Class: ClassName=FPGA-5 Member=Component C56 2n2
+Added Member To Class: ClassName=FPGA-5 Member=Component C57 47p
+Added Member To Class: ClassName=FPGA-5 Member=Component C58 47p
+Added Member To Class: ClassName=FPGA-5 Member=Component C59 47p
+Added Member To Class: ClassName=FPGA-5 Member=Component C60 47p
+Added Member To Class: ClassName=FPGA-5 Member=Component C61 2n2
+Added Member To Class: ClassName=FPGA-5 Member=Component C62 2n2
+Added Member To Class: ClassName=FPGA-5 Member=Component C63 47p
+Added Member To Class: ClassName=FPGA-5 Member=Component C64 47p
+Added Member To Class: ClassName=FPGA-5 Member=Component C65 100n
+Added Member To Class: ClassName=FPGA-6 Member=Component C? 0.1uF
+Added Member To Class: ClassName=FPGA-6 Member=Component C? 1uF
+Added Member To Class: ClassName=FPGA-6 Member=Component C? 10uF
+Added Member To Class: ClassName=FPGA-6 Member=Component C? 10uF
+Added Member To Class: ClassName=FPGA-6 Member=Component C? 10uF
+Added Member To Class: ClassName=FPGA-7 Member=Component C? 100n
+Added Member To Class: ClassName=FPGA-7 Member=Component C? 1u
+Added Member To Class: ClassName=FPGA-7 Member=Component C? 100n
+Added Member To Class: ClassName=FPGA-7 Member=Component C? 100p
+Added Member To Class: ClassName=FPGA-7 Member=Component C? 150p
+Added Member To Class: ClassName=FPGA-7 Member=Component C? 100p
+Added Member To Class: ClassName=FPGA-7 Member=Component C? 150p
+Added Member To Class: ClassName=FPGA-7 Member=Component C? 100p
+Added Member To Class: ClassName=FPGA-7 Member=Component C? 150p
+Added Member To Class: ClassName=FPGA-7 Member=Component C? 100p
+Added Member To Class: ClassName=FPGA-7 Member=Component C? 100n
+Added Member To Class: ClassName=FPGA-8 Member=Component C? 100n
+Added Member To Class: ClassName=FPGA-8 Member=Component C? 1u
+Added Member To Class: ClassName=FPGA-8 Member=Component C? 100n
+Added Member To Class: ClassName=FPGA-8 Member=Component C? 150p
+Added Member To Class: ClassName=FPGA-8 Member=Component C? 100p
+Added Member To Class: ClassName=FPGA-8 Member=Component C? 150p
+Added Member To Class: ClassName=FPGA-8 Member=Component C? 100p
+Added Member To Class: ClassName=FPGA-8 Member=Component C? 150p
+Added Member To Class: ClassName=FPGA-8 Member=Component C? 100p
+Added Member To Class: ClassName=FPGA-8 Member=Component C? 150p
+Added Member To Class: ClassName=FPGA-8 Member=Component C? 100n
+Added Member To Class: ClassName=FPGA-7 Member=Component J? CONSMA002-G
+Added Member To Class: ClassName=FPGA-7 Member=Component J? CONSMA002-G
+Added Member To Class: ClassName=FPGA-7 Member=Component J? CONSMA002-G
+Added Member To Class: ClassName=FPGA-8 Member=Component J? CONSMA002-G
+Added Member To Class: ClassName=FPGA-8 Member=Component J? CONSMA002-G
+Added Member To Class: ClassName=FPGA-8 Member=Component J? CONSMA002-G
+Added Member To Class: ClassName=FPGA-1 Member=Component JP? {Value}
+Added Member To Class: ClassName=FPGA-1 Member=Component JP? {Value}
+Added Member To Class: ClassName=FPGA-1 Member=Component JP? {Value}
+Added Member To Class: ClassName=FPGA-2 Member=Component JP? {Value}
+Added Member To Class: ClassName=FPGA-2 Member=Component JP? {Value}
+Added Member To Class: ClassName=FPGA-2 Member=Component JP? {Value}
+Added Member To Class: ClassName=FPGA-3 Member=Component JP? {Value}
+Added Member To Class: ClassName=FPGA-3 Member=Component JP? {Value}
+Added Member To Class: ClassName=FPGA-3 Member=Component JP? {Value}
+Added Member To Class: ClassName=FPGA-4 Member=Component JP? {Value}
+Added Member To Class: ClassName=FPGA-4 Member=Component JP? {Value}
+Added Member To Class: ClassName=FPGA-4 Member=Component JP? {Value}
+Added Member To Class: ClassName=FPGA-5 Member=Component JP? {Value}
+Added Member To Class: ClassName=FPGA-5 Member=Component JP? {Value}
+Added Member To Class: ClassName=FPGA-5 Member=Component JP? {Value}
+Added Member To Class: ClassName=FPGA Member=Component LD? *
+Added Member To Class: ClassName=FPGA-1 Member=Component R1 18k
+Added Member To Class: ClassName=FPGA-1 Member=Component R2 18k
+Added Member To Class: ClassName=FPGA-1 Member=Component R5 8k2
+Added Member To Class: ClassName=FPGA-1 Member=Component R6 8k2
+Added Member To Class: ClassName=FPGA-1 Member=Component R7 82R
+Added Member To Class: ClassName=FPGA-1 Member=Component R8 82R
+Added Member To Class: ClassName=FPGA-1 Member=Component R9 8k2
+Added Member To Class: ClassName=FPGA-1 Member=Component R10 8k2
+Added Member To Class: ClassName=FPGA-1 Member=Component R11 10k
+Added Member To Class: ClassName=FPGA-1 Member=Component R12 10k
+Added Member To Class: ClassName=FPGA-1 Member=Component R15 18k
+Added Member To Class: ClassName=FPGA-1 Member=Component R16 18k
+Added Member To Class: ClassName=FPGA-1 Member=Component R17 18k
+Added Member To Class: ClassName=FPGA-1 Member=Component R19 18k
+Added Member To Class: ClassName=FPGA-1 Member=Component R21 8k2
+Added Member To Class: ClassName=FPGA-1 Member=Component R22 8k2
+Added Member To Class: ClassName=FPGA-1 Member=Component R23 82R
+Added Member To Class: ClassName=FPGA-1 Member=Component R24 82R
+Added Member To Class: ClassName=FPGA-1 Member=Component R25 8k2
+Added Member To Class: ClassName=FPGA-1 Member=Component R26 8k2
+Added Member To Class: ClassName=FPGA-1 Member=Component R27 10k
+Added Member To Class: ClassName=FPGA-1 Member=Component R29 10k
+Added Member To Class: ClassName=FPGA-1 Member=Component R31 18k
+Added Member To Class: ClassName=FPGA-1 Member=Component R32 18k
+Added Member To Class: ClassName=FPGA-2 Member=Component R33 18k
+Added Member To Class: ClassName=FPGA-2 Member=Component R34 18k
+Added Member To Class: ClassName=FPGA-2 Member=Component R37 8k2
+Added Member To Class: ClassName=FPGA-2 Member=Component R38 8k2
+Added Member To Class: ClassName=FPGA-2 Member=Component R39 82R
+Added Member To Class: ClassName=FPGA-2 Member=Component R40 82R
+Added Member To Class: ClassName=FPGA-2 Member=Component R41 8k2
+Added Member To Class: ClassName=FPGA-2 Member=Component R42 8k2
+Added Member To Class: ClassName=FPGA-2 Member=Component R43 10k
+Added Member To Class: ClassName=FPGA-2 Member=Component R44 10k
+Added Member To Class: ClassName=FPGA-2 Member=Component R47 18k
+Added Member To Class: ClassName=FPGA-2 Member=Component R48 18k
+Added Member To Class: ClassName=FPGA-2 Member=Component R49 18k
+Added Member To Class: ClassName=FPGA-2 Member=Component R51 18k
+Added Member To Class: ClassName=FPGA-2 Member=Component R53 8k2
+Added Member To Class: ClassName=FPGA-2 Member=Component R54 8k2
+Added Member To Class: ClassName=FPGA-2 Member=Component R55 82R
+Added Member To Class: ClassName=FPGA-2 Member=Component R56 82R
+Added Member To Class: ClassName=FPGA-2 Member=Component R57 8k2
+Added Member To Class: ClassName=FPGA-2 Member=Component R58 8k2
+Added Member To Class: ClassName=FPGA-2 Member=Component R59 10k
+Added Member To Class: ClassName=FPGA-2 Member=Component R61 10k
+Added Member To Class: ClassName=FPGA-2 Member=Component R63 18k
+Added Member To Class: ClassName=FPGA-2 Member=Component R64 18k
+Added Member To Class: ClassName=FPGA-3 Member=Component R65 18k
+Added Member To Class: ClassName=FPGA-3 Member=Component R66 18k
+Added Member To Class: ClassName=FPGA-3 Member=Component R69 8k2
+Added Member To Class: ClassName=FPGA-3 Member=Component R70 8k2
+Added Member To Class: ClassName=FPGA-3 Member=Component R71 82R
+Added Member To Class: ClassName=FPGA-3 Member=Component R72 82R
+Added Member To Class: ClassName=FPGA-3 Member=Component R73 8k2
+Added Member To Class: ClassName=FPGA-3 Member=Component R74 8k2
+Added Member To Class: ClassName=FPGA-3 Member=Component R75 10k
+Added Member To Class: ClassName=FPGA-3 Member=Component R76 10k
+Added Member To Class: ClassName=FPGA-3 Member=Component R79 18k
+Added Member To Class: ClassName=FPGA-3 Member=Component R80 18k
+Added Member To Class: ClassName=FPGA-3 Member=Component R81 18k
+Added Member To Class: ClassName=FPGA-3 Member=Component R83 18k
+Added Member To Class: ClassName=FPGA-3 Member=Component R85 8k2
+Added Member To Class: ClassName=FPGA-3 Member=Component R86 8k2
+Added Member To Class: ClassName=FPGA-3 Member=Component R87 82R
+Added Member To Class: ClassName=FPGA-3 Member=Component R88 82R
+Added Member To Class: ClassName=FPGA-3 Member=Component R89 8k2
+Added Member To Class: ClassName=FPGA-3 Member=Component R90 8k2
+Added Member To Class: ClassName=FPGA-3 Member=Component R91 10k
+Added Member To Class: ClassName=FPGA-3 Member=Component R93 10k
+Added Member To Class: ClassName=FPGA-3 Member=Component R95 18k
+Added Member To Class: ClassName=FPGA-3 Member=Component R96 18k
+Added Member To Class: ClassName=FPGA-4 Member=Component R97 18k
+Added Member To Class: ClassName=FPGA-4 Member=Component R98 18k
+Added Member To Class: ClassName=FPGA-4 Member=Component R101 8k2
+Added Member To Class: ClassName=FPGA-4 Member=Component R102 8k2
+Added Member To Class: ClassName=FPGA-4 Member=Component R103 82R
+Added Member To Class: ClassName=FPGA-4 Member=Component R104 82R
+Added Member To Class: ClassName=FPGA-4 Member=Component R105 8k2
+Added Member To Class: ClassName=FPGA-4 Member=Component R106 8k2
+Added Member To Class: ClassName=FPGA-4 Member=Component R107 10k
+Added Member To Class: ClassName=FPGA-4 Member=Component R108 10k
+Added Member To Class: ClassName=FPGA-4 Member=Component R111 18k
+Added Member To Class: ClassName=FPGA-4 Member=Component R112 18k
+Added Member To Class: ClassName=FPGA-4 Member=Component R113 18k
+Added Member To Class: ClassName=FPGA-4 Member=Component R115 18k
+Added Member To Class: ClassName=FPGA-4 Member=Component R117 8k2
+Added Member To Class: ClassName=FPGA-4 Member=Component R118 8k2
+Added Member To Class: ClassName=FPGA-4 Member=Component R119 82R
+Added Member To Class: ClassName=FPGA-4 Member=Component R120 82R
+Added Member To Class: ClassName=FPGA-4 Member=Component R121 8k2
+Added Member To Class: ClassName=FPGA-4 Member=Component R122 8k2
+Added Member To Class: ClassName=FPGA-4 Member=Component R123 10k
+Added Member To Class: ClassName=FPGA-4 Member=Component R125 10k
+Added Member To Class: ClassName=FPGA-4 Member=Component R127 18k
+Added Member To Class: ClassName=FPGA-4 Member=Component R128 18k
+Added Member To Class: ClassName=FPGA-5 Member=Component R129 18k
+Added Member To Class: ClassName=FPGA-5 Member=Component R130 18k
+Added Member To Class: ClassName=FPGA-5 Member=Component R133 8k2
+Added Member To Class: ClassName=FPGA-5 Member=Component R134 8k2
+Added Member To Class: ClassName=FPGA-5 Member=Component R135 82R
+Added Member To Class: ClassName=FPGA-5 Member=Component R136 82R
+Added Member To Class: ClassName=FPGA-5 Member=Component R137 8k2
+Added Member To Class: ClassName=FPGA-5 Member=Component R138 8k2
+Added Member To Class: ClassName=FPGA-5 Member=Component R139 10k
+Added Member To Class: ClassName=FPGA-5 Member=Component R140 10k
+Added Member To Class: ClassName=FPGA-5 Member=Component R143 18k
+Added Member To Class: ClassName=FPGA-5 Member=Component R144 18k
+Added Member To Class: ClassName=FPGA-5 Member=Component R145 18k
+Added Member To Class: ClassName=FPGA-5 Member=Component R147 18k
+Added Member To Class: ClassName=FPGA-5 Member=Component R149 8k2
+Added Member To Class: ClassName=FPGA-5 Member=Component R150 8k2
+Added Member To Class: ClassName=FPGA-5 Member=Component R151 82R
+Added Member To Class: ClassName=FPGA-5 Member=Component R152 82R
+Added Member To Class: ClassName=FPGA-5 Member=Component R153 8k2
+Added Member To Class: ClassName=FPGA-5 Member=Component R154 8k2
+Added Member To Class: ClassName=FPGA-5 Member=Component R155 10k
+Added Member To Class: ClassName=FPGA-5 Member=Component R157 10k
+Added Member To Class: ClassName=FPGA-5 Member=Component R159 18k
+Added Member To Class: ClassName=FPGA-5 Member=Component R160 18k
+Added Member To Class: ClassName=FPGA-6 Member=Component R? 15k
+Added Member To Class: ClassName=FPGA-6 Member=Component R? 1k
+Added Member To Class: ClassName=FPGA-7 Member=Component R? 3k6
+Added Member To Class: ClassName=FPGA-7 Member=Component R? 3k6
+Added Member To Class: ClassName=FPGA-7 Member=Component R? 3k3
+Added Member To Class: ClassName=FPGA-7 Member=Component R? 3k6
+Added Member To Class: ClassName=FPGA-7 Member=Component R? 3k3
+Added Member To Class: ClassName=FPGA-7 Member=Component R? 3k6
+Added Member To Class: ClassName=FPGA-7 Member=Component R? 3k3
+Added Member To Class: ClassName=FPGA-8 Member=Component R? 3k6
+Added Member To Class: ClassName=FPGA-8 Member=Component R? 3k3
+Added Member To Class: ClassName=FPGA-8 Member=Component R? 3k6
+Added Member To Class: ClassName=FPGA-8 Member=Component R? 3k3
+Added Member To Class: ClassName=FPGA-8 Member=Component R? 3k6
+Added Member To Class: ClassName=FPGA-8 Member=Component R? 3k3
+Added Member To Class: ClassName=FPGA-8 Member=Component R? 3k3
+Added Member To Class: ClassName=FPGA Member=Component R? 4.7k
+Added Member To Class: ClassName=FPGA Member=Component R? 100
+Added Member To Class: ClassName=FPGA Member=Component R? 330
+Added Member To Class: ClassName=FPGA Member=Component R? 0
+Added Member To Class: ClassName=FPGA Member=Component R? 4.7k
+Added Member To Class: ClassName=FPGA Member=Component R? 0
+Added Member To Class: ClassName=FPGA Member=Component R? 0
+Added Member To Class: ClassName=FPGA Member=Component R? 100
+Added Member To Class: ClassName=FPGA Member=Component R? 100
+Added Member To Class: ClassName=FPGA Member=Component R? 10k
+Added Member To Class: ClassName=FPGA Member=Component R? 10k
+Added Member To Class: ClassName=FPGA Member=Component R? 10k
+Added Member To Class: ClassName=FPGA Member=Component S? *
+Added Member To Class: ClassName=FPGA-1 Member=Component U1 *
+Added Member To Class: ClassName=FPGA-6 Member=Component U? LM317MDTRKG
+Added Member To Class: ClassName=FPGA-7 Member=Component U? AD8648ARZ-REEL7
+Added Member To Class: ClassName=FPGA-7 Member=Component U? AD8648ARZ-REEL7
+Added Member To Class: ClassName=FPGA-7 Member=Component U? AD8648ARZ-REEL7
+Added Member To Class: ClassName=FPGA-7 Member=Component U? REF3130AIDBZTG4
+Added Member To Class: ClassName=FPGA-7 Member=Component U? AD8648ARZ-REEL7
+Added Member To Class: ClassName=FPGA-7 Member=Component U? AD8648ARZ-REEL7
+Added Member To Class: ClassName=FPGA-8 Member=Component U? AD8648ARZ-REEL7
+Added Member To Class: ClassName=FPGA-8 Member=Component U? AD8648ARZ-REEL7
+Added Member To Class: ClassName=FPGA-8 Member=Component U? REF3130AIDBZTG4
+Added Member To Class: ClassName=FPGA-8 Member=Component U? DAC124S085CIMM/NOPB
+Added Member To Class: ClassName=FPGA-8 Member=Component U? AD8648ARZ-REEL7
+Added Member To Class: ClassName=FPGA-8 Member=Component U? AD8648ARZ-REEL7
+Added Member To Class: ClassName=FPGA Member=Component U? XC6SLX75-FG484
+Added Member To Class: ClassName=FPGA Member=Component U? XC6SLX75-FG484
+Added Member To Class: ClassName=FPGA Member=Component U? XC6SLX75-FG484
+Added Member To Class: ClassName=FPGA Member=Component U? IS25LP064D-JB
+Added Member To Class: ClassName=FPGA Member=Component U? XC6SLX75-FG484
+Added Member To Class: ClassName=FPGA Member=Component U? XC6SLX75-FG484
+Added Member To Class: ClassName=FPGA Member=Component U? XC6SLX75-FG484
+Added Member To Class: ClassName=FPGA Member=Component U? XC6SLX75-FG484
+Added Member To Class: ClassName=FPGA Member=Component X?  831022731
+Added Room: Name=FPGA
+Added Room: Name=FPGA-6
+Added Room: Name=FPGA-7
+Added Room: Name=FPGA-8
+Added Room: Name=FPGA-Connector
+Added Room: Name=FPGA-Supply
