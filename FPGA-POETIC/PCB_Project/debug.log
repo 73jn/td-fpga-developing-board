@@ -24,3 +24,4 @@
 [0525/084724:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
 [0525/084724:ERROR:cache_util.cc(134)] Unable to move cache folder C:\ProgramData\Altium\Altium Designer {B2BD5E5F-1C43-422A-A207-67ACEC1C2B0E}\BrowserCache to C:\ProgramData\Altium\Altium Designer {B2BD5E5F-1C43-422A-A207-67ACEC1C2B0E}\old_BrowserCache_000
 [0525/084724:ERROR:cache_creator.cc(129)] Unable to create cache
+[0525/134739:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.

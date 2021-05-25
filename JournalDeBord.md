@@ -102,6 +102,10 @@ C'est le seul, 2.5MHz switching ==> Plus petits composants, moins de noise
 1.2V, la bobine est indiquée dans le dataaaaasheeezt
 
 
+mettre deS trous avec des entretoises
+garder les autres trous fpga rack
+Attention mezzannines espacement
+
 
 # Sources
 Passe bas 2 ème ordre  http://www.bedwani.ch/electro/ch9/
