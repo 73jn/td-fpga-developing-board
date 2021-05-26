@@ -1,0 +1,148 @@
+Removed Pin From Net: NetName=3VREFF Pin=U24-6
+Added Component: Designator=R142(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Added Component: Designator=TP6(Test Point Keystone Miniature BLACK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP7(Test Point Keystone Miniature BLACK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3VREFF Pin=R142-2
+Added Pin To Net: NetName=+3V3_D Pin=TP6-1
+Added Pin To Net: NetName=+3V3_A Pin=TP7-1
+Change Net Name : Old Net Name=NetC4_2 New Net Name=ADC_CH1
+Change Net Name : Old Net Name=NetC5_2 New Net Name=ADC_CH9
+Change Net Name : Old Net Name=NetC6_2 New Net Name=ADC_CH3
+Change Net Name : Old Net Name=NetC13_2 New Net Name=ADC_CH2
+Change Net Name : Old Net Name=NetC14_2 New Net Name=ADC_CH10
+Change Net Name : Old Net Name=NetC15_2 New Net Name=ADC_CH4
+Change Net Name : Old Net Name=NetC22_2 New Net Name=ADC_CH5
+Change Net Name : Old Net Name=NetC23_2 New Net Name=ADC_CH7
+Change Net Name : Old Net Name=NetC24_2 New Net Name=ADC_CH11
+Change Net Name : Old Net Name=NetC31_2 New Net Name=ADC_CH6
+Change Net Name : Old Net Name=NetC32_2 New Net Name=ADC_CH12
+Change Net Name : Old Net Name=NetC33_2 New Net Name=ADC_CH8
+Change Net Name : Old Net Name=NetC42_2 New Net Name=ADC_CH15
+Change Net Name : Old Net Name=NetC43_2 New Net Name=ADC_CH13
+Change Net Name : Old Net Name=NetC48_2 New Net Name=ADC_CH16
+Change Net Name : Old Net Name=NetC49_2 New Net Name=ADC_CH14
+Change Net Name : Old Net Name=NetC56_2 New Net Name=ADC_CH19
+Change Net Name : Old Net Name=NetC57_2 New Net Name=ADC_CH17
+Change Net Name : Old Net Name=NetC62_2 New Net Name=ADC_CH0
+Change Net Name : Old Net Name=NetC63_2 New Net Name=ADC_CH18
+Change Net Name : Old Net Name=NetC139_2 New Net Name=REF_1V5
+Change Net Name : Old Net Name=NetJ1_1 New Net Name=MEAS_0_MINUS
+Change Net Name : Old Net Name=NetJ1_2 New Net Name=MEAS_0_PLUS
+Change Net Name : Old Net Name=NetJ1_3 New Net Name=MEAS_1_MINUS
+Change Net Name : Old Net Name=NetJ1_4 New Net Name=MEAS_1_PLUS
+Change Net Name : Old Net Name=NetJ1_5 New Net Name=MEAS_2_MINUS
+Change Net Name : Old Net Name=NetJ1_6 New Net Name=MEAS_2_PLUS
+Change Net Name : Old Net Name=NetJ1_7 New Net Name=MEAS_3_MINUS
+Change Net Name : Old Net Name=NetJ1_8 New Net Name=MEAS_3_PLUS
+Change Net Name : Old Net Name=NetJ1_9 New Net Name=MEAS_4_MINUS
+Change Net Name : Old Net Name=NetJ1_10 New Net Name=MEAS_4_PLUS
+Change Net Name : Old Net Name=NetJ1_11 New Net Name=MEAS_5_MINUS
+Change Net Name : Old Net Name=NetJ1_12 New Net Name=MEAS_5_PLUS
+Change Net Name : Old Net Name=NetJ1_13 New Net Name=MEAS_6_MINUS
+Change Net Name : Old Net Name=NetJ1_14 New Net Name=MEAS_6_PLUS
+Change Net Name : Old Net Name=NetJ1_15 New Net Name=MEAS_7_MINUS
+Change Net Name : Old Net Name=NetJ1_16 New Net Name=MEAS_7_PLUS
+Change Net Name : Old Net Name=NetJ1_17 New Net Name=MEAS_8_MINUS
+Change Net Name : Old Net Name=NetJ1_18 New Net Name=MEAS_8_PLUS
+Change Net Name : Old Net Name=NetJ1_19 New Net Name=MEAS_9_MINUS
+Change Net Name : Old Net Name=NetJ1_20 New Net Name=MEAS_9_PLUS
+Change Net Name : Old Net Name=NetJ2_1 New Net Name=MEAS_10_MINUS
+Change Net Name : Old Net Name=NetJ2_2 New Net Name=MEAS_10_PLUS
+Change Net Name : Old Net Name=NetJ2_3 New Net Name=MEAS_11_MINUS
+Change Net Name : Old Net Name=NetJ2_4 New Net Name=MEAS_11_PLUS
+Change Net Name : Old Net Name=NetJ2_5 New Net Name=MEAS_12_MINUS
+Change Net Name : Old Net Name=NetJ2_6 New Net Name=MEAS_12_PLUS
+Change Net Name : Old Net Name=NetJ2_7 New Net Name=MEAS_13_MINUS
+Change Net Name : Old Net Name=NetJ2_8 New Net Name=MEAS_13_PLUS
+Change Net Name : Old Net Name=NetJ2_9 New Net Name=MEAS_14_MINUS
+Change Net Name : Old Net Name=NetJ2_10 New Net Name=MEAS_14_PLUS
+Change Net Name : Old Net Name=NetJ2_11 New Net Name=MEAS_15_MINUS
+Change Net Name : Old Net Name=NetJ2_12 New Net Name=MEAS_15_PLUS
+Change Net Name : Old Net Name=NetJ2_13 New Net Name=MEAS_16_MINUS
+Change Net Name : Old Net Name=NetJ2_14 New Net Name=MEAS_16_PLUS
+Change Net Name : Old Net Name=NetJ2_15 New Net Name=MEAS_17_MINUS
+Change Net Name : Old Net Name=NetJ2_16 New Net Name=MEAS_17_PLUS
+Change Net Name : Old Net Name=NetJ2_17 New Net Name=MEAS_18_MINUS
+Change Net Name : Old Net Name=NetJ2_18 New Net Name=MEAS_18_PLUS
+Change Net Name : Old Net Name=NetJ2_19 New Net Name=MEAS_19_MINUS
+Change Net Name : Old Net Name=NetJ2_20 New Net Name=MEAS_19_PLUS
+Change Net Name : Old Net Name=NetJ3_a2 New Net Name=ADC_CH0_SDO
+Change Net Name : Old Net Name=NetJ3_a3 New Net Name=ADC_CH2_SDO
+Change Net Name : Old Net Name=NetJ3_a4 New Net Name=ADC_CH4_SDO
+Change Net Name : Old Net Name=NetJ3_a5 New Net Name=ADC_CH6_SDO
+Change Net Name : Old Net Name=NetJ3_a6 New Net Name=ADC_CH8_SDO
+Change Net Name : Old Net Name=NetJ3_a8 New Net Name=ADC_CH16_CS
+Change Net Name : Old Net Name=NetJ3_a9 New Net Name=ADC_CH18_CS
+Change Net Name : Old Net Name=NetJ3_a11 New Net Name=ADC_CH0_CS
+Change Net Name : Old Net Name=NetJ3_a12 New Net Name=ADC_CH2_CS
+Change Net Name : Old Net Name=NetJ3_a13 New Net Name=ADC_CH4_CS
+Change Net Name : Old Net Name=NetJ3_a14 New Net Name=ADC_CH6_CS
+Change Net Name : Old Net Name=NetJ3_a15 New Net Name=ADC_CH8_CS
+Change Net Name : Old Net Name=NetJ3_a16 New Net Name=ADC_CH10_CS
+Change Net Name : Old Net Name=NetJ3_a17 New Net Name=ADC_CH12_CS
+Change Net Name : Old Net Name=NetJ3_a18 New Net Name=ADC_CH14_CS
+Change Net Name : Old Net Name=NetJ3_a20 New Net Name=ADC_SCLK
+Change Net Name : Old Net Name=NetJ3_b2 New Net Name=ADC_CH1_SDO
+Change Net Name : Old Net Name=NetJ3_b3 New Net Name=ADC_CH3_SDO
+Change Net Name : Old Net Name=NetJ3_b4 New Net Name=ADC_CH5_SDO
+Change Net Name : Old Net Name=NetJ3_b5 New Net Name=ADC_CH7_SDO
+Change Net Name : Old Net Name=NetJ3_b6 New Net Name=ADC_CH9_SDO
+Change Net Name : Old Net Name=NetJ3_b8 New Net Name=ADC_CH17_CS
+Change Net Name : Old Net Name=NetJ3_b9 New Net Name=ADC_CH19_CS
+Change Net Name : Old Net Name=NetJ3_b11 New Net Name=ADC_CH1_CS
+Change Net Name : Old Net Name=NetJ3_b12 New Net Name=ADC_CH3_CS
+Change Net Name : Old Net Name=NetJ3_b13 New Net Name=ADC_CH5_CS
+Change Net Name : Old Net Name=NetJ3_b14 New Net Name=ADC_CH7_CS
+Change Net Name : Old Net Name=NetJ3_b15 New Net Name=ADC_CH9_CS
+Change Net Name : Old Net Name=NetJ3_b16 New Net Name=ADC_CH11_CS
+Change Net Name : Old Net Name=NetJ3_b17 New Net Name=ADC_CH13_CS
+Change Net Name : Old Net Name=NetJ3_b18 New Net Name=ADC_CH15_CS
+Change Net Name : Old Net Name=NetJ4_a2 New Net Name=\S\P\I\A\_\S\T\E\
+Change Net Name : Old Net Name=NetJ4_a3 New Net Name=SPIA_CLK
+Change Net Name : Old Net Name=NetJ4_a4 New Net Name=SPIB_SIMO
+Change Net Name : Old Net Name=NetJ4_a6 New Net Name=Spare_0
+Change Net Name : Old Net Name=NetJ4_a7 New Net Name=Spare_2
+Change Net Name : Old Net Name=NetJ4_a8 New Net Name=Spare_4
+Change Net Name : Old Net Name=NetJ4_a9 New Net Name=Spare_6
+Change Net Name : Old Net Name=NetJ4_a10 New Net Name=SCIC_RX
+Change Net Name : Old Net Name=NetJ4_a11 New Net Name=\S\P\I\C\_\S\T\E\
+Change Net Name : Old Net Name=NetJ4_a18 New Net Name=ADC_CH10_SDO
+Change Net Name : Old Net Name=NetJ4_a19 New Net Name=ADC_CH12_SDO
+Change Net Name : Old Net Name=NetJ4_a20 New Net Name=ADC_CH14_SDO
+Change Net Name : Old Net Name=NetJ4_a21 New Net Name=ADC_CH16_SDO
+Change Net Name : Old Net Name=NetJ4_a22 New Net Name=ADC_CH18_SDO
+Change Net Name : Old Net Name=NetJ4_b2 New Net Name=SPIA_SIMO
+Change Net Name : Old Net Name=NetJ4_b3 New Net Name=\S\P\I\B\_\S\T\E\
+Change Net Name : Old Net Name=NetJ4_b4 New Net Name=SPIB_CLK
+Change Net Name : Old Net Name=NetJ4_b6 New Net Name=Spare_1
+Change Net Name : Old Net Name=NetJ4_b7 New Net Name=Spare_3
+Change Net Name : Old Net Name=NetJ4_b8 New Net Name=Spare_5
+Change Net Name : Old Net Name=NetJ4_b9 New Net Name=SCIC_TX
+Change Net Name : Old Net Name=NetJ4_b10 New Net Name=SPIC_CLK
+Change Net Name : Old Net Name=NetJ4_b11 New Net Name=SPIC_SIMO
+Change Net Name : Old Net Name=NetJ4_b18 New Net Name=ADC_CH11_SDO
+Change Net Name : Old Net Name=NetJ4_b19 New Net Name=ADC_CH13_SDO
+Change Net Name : Old Net Name=NetJ4_b20 New Net Name=ADC_CH15_SDO
+Change Net Name : Old Net Name=NetJ4_b21 New Net Name=ADC_CH17_SDO
+Change Net Name : Old Net Name=NetJ4_b22 New Net Name=ADC_CH19_SDO
+Change Net Name : Old Net Name=NetJ6_1 New Net Name=SPIC_SIMO_-
+Change Net Name : Old Net Name=NetJ6_2 New Net Name=SPIC_SIMO_+
+Change Net Name : Old Net Name=NetJ6_5 New Net Name=SPIC_CLK_-
+Change Net Name : Old Net Name=NetJ6_6 New Net Name=SPIC_CLK_+
+Change Net Name : Old Net Name=NetJ6_7 New Net Name=\S\P\I\C\_\S\T\E\_\-\
+Change Net Name : Old Net Name=NetJ6_8 New Net Name=\S\P\I\C\_\S\T\E\_\+\
+Added Pin To Net: NetName=NetR142_1 Pin=R142-1
+Added Pin To Net: NetName=NetR142_1 Pin=U24-6
+Added Net: Name=NetR142_1
+Added Member To Class: ClassName=AD_3 Member=Component R142 0
+Added Member To Class: ClassName=Supply_0 Member=Component TP6 *
+Added Member To Class: ClassName=Supply_0 Member=Component TP7 *
+Added Room: Name=Connector_0
+Added Room: Name=DAC_0
+Added Room: Name=Supply_0

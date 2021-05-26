@@ -1,0 +1,56 @@
+Added Component: Designator=J5(FlatCable2x9 2MM Straight SMD FCI 98414-G52-18ALF)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Amphenol FCI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser No."; Value = "649-98464-G61-18ULF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "98464-G61-18ULF"; VariantName = "[No Variations]"
+Added Component: Designator=J6(FlatCable2x5 2.54MM Straight TH)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser No."; Value = "710-61201021721"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "61201021721"; VariantName = "[No Variations]"
+Added Component: Designator=TP3(Test Point Keystone Miniature RED)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP4(Test Point Keystone Miniature RED)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP5(Test Point Keystone Miniature RED)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3V3_D Pin=J5-1
+Added Pin To Net: NetName=GND_D Pin=J5-2
+Added Pin To Net: NetName=NetJ4_a6 Pin=J5-3
+Added Pin To Net: NetName=GND_D Pin=J5-4
+Added Pin To Net: NetName=NetJ4_b6 Pin=J5-5
+Added Pin To Net: NetName=GND_D Pin=J5-6
+Added Pin To Net: NetName=NetJ4_a7 Pin=J5-7
+Added Pin To Net: NetName=GND_D Pin=J5-8
+Added Pin To Net: NetName=NetJ4_b7 Pin=J5-9
+Added Pin To Net: NetName=GND_D Pin=J5-10
+Added Pin To Net: NetName=NetJ4_a8 Pin=J5-11
+Added Pin To Net: NetName=GND_D Pin=J5-12
+Added Pin To Net: NetName=NetJ4_b8 Pin=J5-13
+Added Pin To Net: NetName=GND_D Pin=J5-14
+Added Pin To Net: NetName=NetJ4_a9 Pin=J5-15
+Added Pin To Net: NetName=GND_D Pin=J5-16
+Added Pin To Net: NetName=NetJ4_b9 Pin=J5-17
+Added Pin To Net: NetName=NetJ4_a10 Pin=J5-18
+Added Pin To Net: NetName=NetJ6_1 Pin=J6-1
+Added Pin To Net: NetName=NetJ6_2 Pin=J6-2
+Added Pin To Net: NetName=NetJ6_5 Pin=J6-5
+Added Pin To Net: NetName=NetJ6_6 Pin=J6-6
+Added Pin To Net: NetName=NetJ6_7 Pin=J6-7
+Added Pin To Net: NetName=NetJ6_8 Pin=J6-8
+Added Pin To Net: NetName=GND_D Pin=J6-9
+Added Pin To Net: NetName=+3V3_D Pin=J6-10
+Added Pin To Net: NetName=+5V Pin=TP3-1
+Added Pin To Net: NetName=3VREFF Pin=TP4-1
+Added Pin To Net: NetName=NetC139_2 Pin=TP5-1
+Added Member To Class: ClassName=Connector_0 Member=Component J5 98464-G61-18ULF
+Added Member To Class: ClassName=Connector_0 Member=Component J6 61201021721
+Added Member To Class: ClassName=AD_3 Member=Component TP3 *
+Added Member To Class: ClassName=AD_3 Member=Component TP4 *
+Added Member To Class: ClassName=Supply_0 Member=Component TP5 *
+Added Room: Name=Connector_0
+Added Room: Name=DAC_0
+Added Room: Name=Supply_0

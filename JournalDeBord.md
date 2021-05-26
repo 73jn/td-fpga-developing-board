@@ -107,6 +107,16 @@ garder les autres trous fpga rack
 Attention mezzannines espacement
 
 
+
+## 26.01.2021
+Schématique finie de la mezzanine
+Connecteur mezzanine : https://www.erni.com/de/produkte-und-loesungen/detail/234208/
+On peut passer dessus le connecteur 
+
+
+LVDS to TTL : SN65LVDS2DR
+
+
 # Sources
 Passe bas 2 ème ordre  http://www.bedwani.ch/electro/ch9/
 
