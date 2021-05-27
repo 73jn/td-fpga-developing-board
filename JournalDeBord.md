@@ -114,8 +114,15 @@ Connecteur mezzanine : https://www.erni.com/de/produkte-und-loesungen/detail/234
 On peut passer dessus le connecteur 
 
 
-LVDS to TTL : SN65LVDS2DR
+LVDS to TTL : SN65LVDS2DR  https://www.mouser.ch/ProductDetail/Texas-Instruments/SN65LVDS2DR?qs=QViXGNcIEAuNo4UJspnA0g%3D%3D
+ou bien
+DS90LV018ATMX/NOPB : https://www.mouser.ch/ProductDetail/Texas-Instruments/DS90LV018ATMX-NOPB?qs=X1J7HmVL2ZGhGuL83KQT5g%3D%3D
 
+
+## 27.05.2021
+J'ai ajouté le receiver LVDS (DS90LV018ATMX)
+J'ai été voir Steve
+Et maintenant je fais la schématique de la board FPGA
 
 # Sources
 Passe bas 2 ème ordre  http://www.bedwani.ch/electro/ch9/
