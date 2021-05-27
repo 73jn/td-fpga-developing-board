@@ -119,10 +119,17 @@ ou bien
 DS90LV018ATMX/NOPB : https://www.mouser.ch/ProductDetail/Texas-Instruments/DS90LV018ATMX-NOPB?qs=X1J7HmVL2ZGhGuL83KQT5g%3D%3D
 
 
+
 ## 27.05.2021
 J'ai ajouté le receiver LVDS (DS90LV018ATMX)
 J'ai été voir Steve
 Et maintenant je fais la schématique de la board FPGA
+
+
+Alors :
+- 3V3 to 5V : RP402N501F-TR-FE    800mA ==> bobine environ 1A - 1.5A
+- 5V to 3V3 : SC189ZSKTRT      1.5A
+- 5V - 3V3 to 1V2 : SC189CULTRT      1.5A
 
 # Sources
 Passe bas 2 ème ordre  http://www.bedwani.ch/electro/ch9/
