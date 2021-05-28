@@ -129,7 +129,48 @@ Et maintenant je fais la schématique de la board FPGA
 Alors :
 - 3V3 to 5V : RP402N501F-TR-FE    800mA ==> bobine environ 1A - 1.5A
 - 5V to 3V3 : SC189ZSKTRT      1.5A
-- 5V - 3V3 to 1V2 : SC189CULTRT      1.5A
+
+bobine : 74437334022 (2.2uH en 5020)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- 5V - 3V3 to 1V2 : SC189CULTRT      1.5A   ==> Remplacé par ADP2119ACPZ-1.2-R7
+
+
+ADP2119
+The inductor value is determined by the operating frequency,
+input voltage, output voltage, and ripple current. A small inductor
+value leads to a larger inductor current ripple and provides a
+faster transient response; however, it degrades efficiency. A
+large inductor value leads to a smaller current ripple and good
+efficiency but slows the transient response. As a guideline, the
+inductor current ripple, ΔIL, is typically set to 1/3 of the maximum
+load current trade-off between the transient response and efficiency.
+The inductor value can be calculated using the following equation:
+
+En gros : petite inductance, temps de réponse rapide mais efficence = nul
+
+Il faut 1.5uH j'ai calculé dans le datasheet ! (3v3 et 5V)
+Bobine => 74437334015, 5020
+
+
+
+
+
+
+## 28.05.2021
+KSZ8041FTL-TR sur mouser
 
 # Sources
 Passe bas 2 ème ordre  http://www.bedwani.ch/electro/ch9/
