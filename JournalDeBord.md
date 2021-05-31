@@ -170,7 +170,15 @@ Bobine => 74437334015, 5020
 
 
 ## 28.05.2021
-KSZ8041FTL-TR sur mouser
+
+998-KSZ8041TL SUR MOUSER !!!
+
+## 31.05.2021
+
+Je fais l'ethernet
+831019170 pour le quartz 25 MHz
+1N4148 en SOD323
+
 
 # Sources
 Passe bas 2 ème ordre  http://www.bedwani.ch/electro/ch9/
