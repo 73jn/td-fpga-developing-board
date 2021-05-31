@@ -170,6 +170,7 @@ Bobine => 74437334015, 5020
 
 
 ## 28.05.2021
+Les buck et les boost
 
 998-KSZ8041TL SUR MOUSER !!!
 
@@ -180,6 +181,8 @@ Je fais l'ethernet
 1N4148 en SOD323
 
 
+Je dois modifier le pinout du connecteur des mezzanines... Car il faut séparer analog et digital
+
 # Sources
 Passe bas 2 ème ordre  http://www.bedwani.ch/electro/ch9/
 
@@ -188,3 +191,5 @@ ADC AD3421QRWETQ1 : https://www.ti.com/lit/ds/symlink/adc3421-q1.pdf
 # Pour le rapport
 Mesure sur la référence de tension !
 Expliquer pourquoi pas besoin d'un adapteur de tension entre AD et FPGA
+
+Dire qu'on utilise toutes les pins dans le rapport
