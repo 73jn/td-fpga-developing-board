@@ -39,40 +39,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=..\..\..\..\AltiumLL\SamacSys.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=MPRJBCLL
-
-[Document2]
-DocumentPath=..\..\..\..\AltiumLL\SamacSys.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=NGLTGAHM
-
-[Document3]
 DocumentPath=AD_0.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -89,7 +55,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RDFDRBHQ
 
-[Document4]
+[Document2]
 DocumentPath=AD_1.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -106,7 +72,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GDJGVLYU
 
-[Document5]
+[Document3]
 DocumentPath=AD_3.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -123,7 +89,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JJEFJVOX
 
-[Document6]
+[Document4]
 DocumentPath=Connector_0.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -140,7 +106,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DAODYPQQ
 
-[Document7]
+[Document5]
 DocumentPath=Supply_0.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -157,7 +123,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=POHQWCKS
 
-[Document8]
+[Document6]
 DocumentPath=DAC_0.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -174,7 +140,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ABYTGBLP
 
-[Document9]
+[Document7]
 DocumentPath=PCB-Mezzanine.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -191,7 +157,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DWRSSTJJ
 
-[Document10]
+[Document8]
 DocumentPath=MEZZANINE-BOARD.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1

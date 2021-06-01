@@ -183,6 +183,9 @@ Je fais l'ethernet
 
 Je dois modifier le pinout du connecteur des mezzanines... Car il faut séparer analog et digital
 
+
+## 01.06.2021
+Demander a Alain pourquoi jumper sur les spares.
 # Sources
 Passe bas 2 ème ordre  http://www.bedwani.ch/electro/ch9/
 
@@ -193,3 +196,21 @@ Mesure sur la référence de tension !
 Expliquer pourquoi pas besoin d'un adapteur de tension entre AD et FPGA
 
 Dire qu'on utilise toutes les pins dans le rapport
+
+https://www.xilinx.com/support/documentation/user_guides/ug385.pdf
+P92 : On voit que le LX75 et le LX100 et le LX150 sont compatible : il n'y a jamais nc LX100 tout seul ==> Compatible
+
+Buck : différence entre une petite et grosse bobine.
+
+
+
+https://www.xilinx.com/support/documentation/user_guides/ug393.pdf
+https://resources.ultralibrarian.com/wp-content/uploads/2020/06/0402-table-750x339.png
+COMMANDER LES CONDOS
+P15-16 capacitor
+Ils peuvent etre plus petit mais pas plus grands....
+1005 pour les 470nF
+2012 pour 4.7uF
+3216 pour les 100uF
+
+
