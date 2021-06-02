@@ -9,4 +9,4 @@ stem(t,sin(t*frequency*2*pi),'.')
 hold on
 
 plot(t2,sin(2*pi*frequency*t2));
-legend('Sine 200KHz sampled @ 25MSPS','Sine 200KHz')
+legend('Sine 200KHz sampled @ 1MSPS','Sine 200KHz')
