@@ -49,7 +49,7 @@ Schéma bloc le matin ! Ca rends bien. Les CLOCKs des ADC sont en différentiel.
 Il faut que j'aille voir Alain !
 Il faut mettre une flash, une ram je pense pour stocker les valeurs mesurées peut etre
 
-Alors, 25MSPS est beaucoup trop. Chaque 400ns le processeur effectues 4 mesures, ==> donc il faudrait echantillonner 500KSPS par canal au minimum.
+Alors, 25MSPS est beaucoup trop. Chaque 400ns le processeur effectues 4 mesures ou une, ==> donc il faudrait echantillonner 500KSPS par canal au minimum.
 ==>>>>>>>>>>ADS7886SBDCKT, 1MSPS, 1 canal, serie ==> peu de connexions
 en stock sur mouser, environ 4CHF/pce
 
@@ -186,6 +186,10 @@ Je dois modifier le pinout du connecteur des mezzanines... Car il faut séparer 
 
 ## 01.06.2021
 Demander a Alain pourquoi jumper sur les spares.
+## 02.06.2021
+rapport
+## 04.06.2021
+planning et rapport
 # Sources
 Passe bas 2 ème ordre  http://www.bedwani.ch/electro/ch9/
 
@@ -214,3 +218,19 @@ Ils peuvent etre plus petit mais pas plus grands....
 3216 pour les 100uF
 
 
+
+
+ADC TI : https://www.ti.com/europe/downloads/Choose%20the%20right%20data%20converter%20for%20your%20application.pdf
+
+
+
+## presentation
+
+- C'est quoi le projet ?
+- Expliquer comment fonctionne le RACK en gros (photos), comment sont connectés les modules entre eux
+- Faire un tour de la carte processeur
+- Expliquer que je dois remplacer le processeur par un FPGA
+- Je dois rajouter des ADC, plus de DAC
+- J'i fait en sorte que la mezzanine peut se clipper sur la board de l'école
+- Ce que j'ai fait durant ces 4 semaines
+- 
