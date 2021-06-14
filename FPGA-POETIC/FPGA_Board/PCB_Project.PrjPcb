@@ -39,6 +39,40 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=..\..\..\..\..\Downloads\AltiumDesigner\2021-06-11_12-56-41\2021-06-11_12-56-41.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VEMAUIPO
+
+[Document2]
+DocumentPath=..\..\..\..\..\Downloads\AltiumDesigner\2021-06-11_12-56-41\2021-06-11_12-56-41.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=COIGLYTN
+
+[Document3]
 DocumentPath=FPGA_0.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -55,7 +89,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GHTRKIPV
 
-[Document2]
+[Document4]
 DocumentPath=FPGA_1.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -72,7 +106,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MXXXNCNW
 
-[Document3]
+[Document5]
 DocumentPath=Ethernet_0.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -89,7 +123,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RDFDRBHQ
 
-[Document4]
+[Document6]
 DocumentPath=Connector_0.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -106,7 +140,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BITGKUTE
 
-[Document5]
+[Document7]
 DocumentPath=Supply_0.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -123,7 +157,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RMVHNFUB
 
-[Document6]
+[Document8]
 DocumentPath=..\..\..\..\AltiumLL\SamacSys.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -140,7 +174,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MPRJBCLL
 
-[Document7]
+[Document9]
 DocumentPath=..\..\..\..\AltiumLL\SamacSys.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -157,7 +191,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NGLTGAHM
 
-[Document8]
+[Document10]
 DocumentPath=UserInterface_0.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -174,7 +208,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UBQDPQHL
 
-[Document9]
+[Document11]
 DocumentPath=PCB_Project.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -191,7 +225,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
+[Document12]
 DocumentPath=FPGA_Board.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1

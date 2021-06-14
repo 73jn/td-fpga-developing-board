@@ -1,0 +1,14 @@
+Added Component: Designator=J5(USB-MICRO-B HIROSE ZX62D-B-5PA8)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetC1_2 Pin=J5-1
+Added Pin To Net: NetName=NetJ5_2 Pin=J5-2
+Added Pin To Net: NetName=NetJ5_3 Pin=J5-3
+Added Pin To Net: NetName=GND_D Pin=J5-5
+Added Pin To Net: NetName=NetJ5_6 Pin=J5-6
+Added Pin To Net: NetName=NetJ5_6 Pin=J5-7
+Added Pin To Net: NetName=NetJ5_6 Pin=J5-8
+Added Pin To Net: NetName=NetJ5_6 Pin=J5-9
+Added Net: Name=NetJ5_6
+Added Member To Class: ClassName=Connector_0 Member=Component J5 USB-MICRO-B HIROSE ZX62D-B-5PA8
+Added Member To Class: ClassName=Supply_0 Member=Component R? 0
+Added Member To Class: ClassName=Supply_0 Member=Component R? 0

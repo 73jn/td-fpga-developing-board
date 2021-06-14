@@ -190,6 +190,17 @@ Demander a Alain pourquoi jumper sur les spares.
 rapport
 ## 04.06.2021
 planning et rapport
+
+
+## 10.06.2021
+Placement des connecteurs sur le PCB
+Modif de la schematique
+Mettre ca : https://www.mouser.ch/ProductDetail/Amphenol-Commercial-Products/12402054M611A?qs=%2Fha2pyFaduhDLF0U5hR%252B%2F2vYAFYydRRYM3C7ZXJwSBBFaC4mYQ11Ww%3D%3D
+Un USB C UPRight
+
+## 11.06.2021
+Commande des composants, il n'y a plus de deac j'ai de prendre rapidement un autre en 8bit mais il y avait des 10 bits fuck
+
 # Sources
 Passe bas 2 ème ordre  http://www.bedwani.ch/electro/ch9/
 
