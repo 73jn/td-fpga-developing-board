@@ -1,0 +1,43 @@
+Removed Pin From Net: NetName=NetC1_2 Pin=J5-1
+Removed Pin From Net: NetName=USBD_N Pin=J5-2
+Removed Pin From Net: NetName=USBD_P Pin=J5-3
+Removed Pin From Net: NetName=GND_D Pin=J5-5
+Removed Pin From Net: NetName=+5V_USB Pin=R58-2
+Removed Pin From Net: NetName=GND_D Pin=R60-2
+Removed Member From Class: ClassName=Connector_0 Member=R60
+Change Component Footprint: Designator=J5 Old Footprint=USB-MICRO-B HIROSE ZX62D-B-5PA8 New Footprint=USB-C-TH MOLEX 2169890001
+Change Component Comment : Designator=R58 Old Comment=Ferrite New Comment=5.1k
+Change Component Comment : Designator=J5 Old Comment=USB-MICRO-B HIROSE ZX62D-B-5PA8 New Comment=2169890001
+Change component parameters: Designator = "R58"; Footprint = "RESISTOR 1608 REFLOW"; UniqueID = "\FYFPXWDJ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "5.1k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J5"; Footprint = "USB-C-TH MOLEX 2169890001"; UniqueID = "\ERDBJNGD"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "https://katalog.we-online.com/em/datasheet/632722110112.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "2169890001"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND_D Pin=J5-A1
+Added Pin To Net: NetName=NetC1_2 Pin=J5-A4
+Added Pin To Net: NetName=USBD_P Pin=J5-A6
+Added Pin To Net: NetName=USBD_N Pin=J5-A7
+Added Pin To Net: NetName=NetC1_2 Pin=J5-A9
+Added Pin To Net: NetName=GND_D Pin=J5-A12
+Added Pin To Net: NetName=GND_D Pin=J5-B1
+Added Pin To Net: NetName=NetC1_2 Pin=J5-B4
+Added Pin To Net: NetName=USBD_P Pin=J5-B6
+Added Pin To Net: NetName=USBD_N Pin=J5-B7
+Added Pin To Net: NetName=NetC1_2 Pin=J5-B9
+Added Pin To Net: NetName=GND_D Pin=J5-B12
+Added Pin To Net: NetName=GND_D Pin=J5-S1
+Added Pin To Net: NetName=GND_D Pin=J5-S2
+Added Pin To Net: NetName=GND_D Pin=J5-S3
+Added Pin To Net: NetName=GND_D Pin=J5-S4
+Added Pin To Net: NetName=GND_D Pin=R58-2
+Added Pin To Net: NetName=NetJ5_A5 Pin=J5-A5
+Added Pin To Net: NetName=NetJ5_A5 Pin=R58-1
+Added Net: Name=NetJ5_A5
+Added Pin To Net: NetName=NetJ5_B5 Pin=J5-B5
+Added Pin To Net: NetName=NetJ5_B5 Pin=R59-1
+Added Net: Name=NetJ5_B5

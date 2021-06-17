@@ -1,0 +1,129 @@
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+NO_GRAPHIC 0
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+GRAPHIC 187,0 9 0 
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+NO_GRAPHIC 12
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+GRAPHIC 0,0 16 2 
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+GRAPHIC 1,0 19 0 
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+NO_GRAPHIC 19
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+GRAPHIC 3552,0 23 0 
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+GRAPHIC 3584,0 24 0 
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+GRAPHIC 3576,0 25 0 
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+GRAPHIC 3544,0 26 0 
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+GRAPHIC 3592,0 27 0 
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+NO_GRAPHIC 28
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+NO_GRAPHIC 29
+LIBRARY Cordic
+DESIGN cordic@pipelined
+VIEW @r@t@l
+GRAPHIC 3967,0 31 0 
+DESIGN cordic@pipelined
+VIEW symbol.sb
+GRAPHIC 14,0 32 1 
+DESIGN cordic@pipelined
+VIEW symbol.sb
+GRAPHIC 62,0 37 0 
+DESIGN cordic@pipelined
+VIEW symbol.sb
+GRAPHIC 77,0 38 0 
+DESIGN cordic@pipelined
+VIEW symbol.sb
+GRAPHIC 72,0 39 0 
+DESIGN cordic@pipelined
+VIEW symbol.sb
+GRAPHIC 94,0 40 0 
+DESIGN cordic@pipelined
+VIEW symbol.sb
+GRAPHIC 67,0 41 0 
+LIBRARY Cordic_test
+DESIGN cordic@pipelined_tester
+VIEW test
+GRAPHIC 1774,0 44 0 
+DESIGN cordic@pipelined_tester
+VIEW interface
+GRAPHIC 14,0 45 1 
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+GRAPHIC 3586,0 50 0 
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+GRAPHIC 3594,0 51 0 
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+GRAPHIC 3554,0 52 0 
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+GRAPHIC 3578,0 53 0 
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+GRAPHIC 3546,0 54 0 
+LIBRARY Cordic_test
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+NO_GRAPHIC 57
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+GRAPHIC 3967,0 60 0 
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+GRAPHIC 1774,0 61 0 
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+NO_GRAPHIC 64
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+NO_GRAPHIC 66
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+GRAPHIC 3967,0 68 0 
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+GRAPHIC 3974,0 69 1 
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+GRAPHIC 3554,0 74 0 
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+GRAPHIC 3578,0 75 0 
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+GRAPHIC 3546,0 76 0 
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+GRAPHIC 3586,0 77 0 
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+GRAPHIC 3594,0 78 0 
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+GRAPHIC 1774,0 80 0 
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+GRAPHIC 1781,0 81 1 
+DESIGN cordic@pipelined_tb
+VIEW struct.bd
+NO_GRAPHIC 93

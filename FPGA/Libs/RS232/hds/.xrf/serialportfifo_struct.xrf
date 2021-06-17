@@ -1,0 +1,243 @@
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+NO_GRAPHIC 0
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 42,0 9 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+NO_GRAPHIC 12
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 0,0 16 2 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 773,0 21 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 1398,0 22 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 1402,0 23 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 670,0 24 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 1400,0 25 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 763,0 26 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+NO_GRAPHIC 27
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+NO_GRAPHIC 28
+LIBRARY Memory
+DESIGN @f@i@f@o
+VIEW struct
+GRAPHIC 2304,0 30 0 
+DESIGN @f@i@f@o
+VIEW symbol.sb
+GRAPHIC 14,0 31 1 
+DESIGN @f@i@f@o
+VIEW symbol.sb
+GRAPHIC 168,0 36 0 
+DESIGN @f@i@f@o
+VIEW symbol.sb
+GRAPHIC 173,0 37 0 
+DESIGN @f@i@f@o
+VIEW symbol.sb
+GRAPHIC 178,0 38 0 
+DESIGN @f@i@f@o
+VIEW symbol.sb
+GRAPHIC 188,0 39 0 
+DESIGN @f@i@f@o
+VIEW symbol.sb
+GRAPHIC 193,0 40 0 
+DESIGN @f@i@f@o
+VIEW symbol.sb
+GRAPHIC 216,0 41 0 
+DESIGN @f@i@f@o
+VIEW symbol.sb
+GRAPHIC 221,0 42 0 
+DESIGN @f@i@f@o
+VIEW symbol.sb
+GRAPHIC 229,0 43 0 
+LIBRARY RS232
+DESIGN serial@port@receiver
+VIEW @r@t@l
+GRAPHIC 1663,0 46 0 
+DESIGN serial@port@receiver
+VIEW symbol.sb
+GRAPHIC 14,0 47 1 
+DESIGN serial@port@receiver
+VIEW symbol.sb
+GRAPHIC 168,0 52 0 
+DESIGN serial@port@receiver
+VIEW symbol.sb
+GRAPHIC 173,0 53 0 
+DESIGN serial@port@receiver
+VIEW symbol.sb
+GRAPHIC 178,0 54 0 
+DESIGN serial@port@receiver
+VIEW symbol.sb
+GRAPHIC 188,0 55 0 
+DESIGN serial@port@receiver
+VIEW symbol.sb
+GRAPHIC 193,0 56 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 1696,0 59 0 
+DESIGN serial@port@transmitter
+VIEW symbol.sb
+GRAPHIC 14,0 60 1 
+DESIGN serial@port@transmitter
+VIEW symbol.sb
+GRAPHIC 168,0 65 0 
+DESIGN serial@port@transmitter
+VIEW symbol.sb
+GRAPHIC 173,0 66 0 
+DESIGN serial@port@transmitter
+VIEW symbol.sb
+GRAPHIC 178,0 67 0 
+DESIGN serial@port@transmitter
+VIEW symbol.sb
+GRAPHIC 188,0 68 0 
+DESIGN serial@port@transmitter
+VIEW symbol.sb
+GRAPHIC 193,0 69 0 
+DESIGN serial@port@transmitter
+VIEW symbol.sb
+GRAPHIC 216,0 70 0 
+LIBRARY RS232
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+NO_GRAPHIC 73
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 2304,0 76 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 1663,0 77 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 1696,0 78 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+NO_GRAPHIC 81
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 1410,0 84 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+NO_GRAPHIC 98
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+NO_GRAPHIC 99
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 2304,0 101 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 2311,0 102 1 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 240,0 107 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 382,0 108 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 374,0 109 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 444,0 110 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 1390,0 111 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 230,0 112 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 1376,0 113 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 1819,0 116 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 1826,0 117 1 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 1451,0 122 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 609,0 123 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 601,0 124 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 674,0 125 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 765,0 126 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 654,0 127 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 664,0 128 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 1437,0 129 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 1663,0 131 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 1670,0 132 1 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 115,0 137 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 59,0 138 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 101,0 139 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 230,0 140 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 240,0 141 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 1696,0 143 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 1703,0 144 1 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 143,0 149 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 747,0 150 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 739,0 151 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 674,0 152 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 765,0 153 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+GRAPHIC 757,0 154 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct.bd
+NO_GRAPHIC 157

@@ -1,0 +1,79 @@
+Added Component: Designator=J10(ERNI SMC-Q50-SMD-BA)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J11(ERNI SMC-Q50-SMD-BA)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=Spare_0 Pin=J10-a2
+Added Pin To Net: NetName=Spare_1 Pin=J10-a3
+Added Pin To Net: NetName=Spare_2 Pin=J10-a4
+Added Pin To Net: NetName=Spare_3 Pin=J10-a5
+Added Pin To Net: NetName=Spare_4 Pin=J10-a6
+Added Pin To Net: NetName=+3V3_D Pin=J10-a7
+Added Pin To Net: NetName=Spare_5 Pin=J10-a8
+Added Pin To Net: NetName=Spare_6 Pin=J10-a9
+Added Pin To Net: NetName=GND_D Pin=J10-a10
+Added Pin To Net: NetName=SCIC_TX Pin=J10-a11
+Added Pin To Net: NetName=SCIC_RX Pin=J10-a12
+Added Pin To Net: NetName=GND_D Pin=J10-a19
+Added Pin To Net: NetName=\S\P\I\C\_\S\T\E\ Pin=J10-b2
+Added Pin To Net: NetName=SPIC_CLK Pin=J10-b3
+Added Pin To Net: NetName=SPIC_SIMO Pin=J10-b4
+Added Pin To Net: NetName=SPIC_SOMI Pin=J10-b5
+Added Pin To Net: NetName=SPIB_CLK Pin=J10-b6
+Added Pin To Net: NetName=+3V3_D Pin=J10-b7
+Added Pin To Net: NetName=\S\P\I\B\_\S\T\E\ Pin=J10-b8
+Added Pin To Net: NetName=SPIB_SIMO Pin=J10-b9
+Added Pin To Net: NetName=GND_D Pin=J10-b10
+Added Pin To Net: NetName=SPIA_SIMO Pin=J10-b11
+Added Pin To Net: NetName=\S\P\I\A\_\S\T\E\ Pin=J10-b12
+Added Pin To Net: NetName=SPIA_CLK Pin=J10-b13
+Added Pin To Net: NetName=GND_D Pin=J10-b19
+Added Pin To Net: NetName=ADC_CH18_SDO Pin=J10-b21
+Added Pin To Net: NetName=ADC_CH18_CS Pin=J10-b22
+Added Pin To Net: NetName=ADC_CH0_SDO Pin=J10-b23
+Added Pin To Net: NetName=ADC_CH0_CS Pin=J10-b25
+Added Pin To Net: NetName=ADC_CH5_SDO Pin=J11-a2
+Added Pin To Net: NetName=ADC_CH5_CS Pin=J11-a3
+Added Pin To Net: NetName=ADC_CH6_SDO Pin=J11-a4
+Added Pin To Net: NetName=ADC_CH6_CS Pin=J11-a6
+Added Pin To Net: NetName=ADC_CH8_SDO Pin=J11-a7
+Added Pin To Net: NetName=ADC_CH8_CS Pin=J11-a8
+Added Pin To Net: NetName=ADC_CH15_SDO Pin=J11-a9
+Added Pin To Net: NetName=ADC_CH15_CS Pin=J11-a10
+Added Pin To Net: NetName=ADC_CH13_SDO Pin=J11-a11
+Added Pin To Net: NetName=ADC_CH13_CS Pin=J11-a13
+Added Pin To Net: NetName=ADC_CH14_SDO Pin=J11-a14
+Added Pin To Net: NetName=ADC_CH14_CS Pin=J11-a16
+Added Pin To Net: NetName=ADC_CH16_SDO Pin=J11-a18
+Added Pin To Net: NetName=ADC_CH16_CS Pin=J11-a19
+Added Pin To Net: NetName=ADC_CH19_SDO Pin=J11-a20
+Added Pin To Net: NetName=ADC_CH19_CS Pin=J11-a21
+Added Pin To Net: NetName=ADC_CH17_SDO Pin=J11-a22
+Added Pin To Net: NetName=ADC_CH17_CS Pin=J11-a23
+Added Pin To Net: NetName=ADC_SCLK Pin=J11-a24
+Added Pin To Net: NetName=+5V_MEZZA Pin=J11-a25
+Added Pin To Net: NetName=ADC_CH11_SDO Pin=J11-b2
+Added Pin To Net: NetName=ADC_CH11_CS Pin=J11-b3
+Added Pin To Net: NetName=ADC_CH12_SDO Pin=J11-b4
+Added Pin To Net: NetName=ADC_CH12_CS Pin=J11-b6
+Added Pin To Net: NetName=ADC_CH10_SDO Pin=J11-b7
+Added Pin To Net: NetName=ADC_CH10_CS Pin=J11-b8
+Added Pin To Net: NetName=ADC_CH9_SDO Pin=J11-b9
+Added Pin To Net: NetName=ADC_CH9_CS Pin=J11-b10
+Added Pin To Net: NetName=ADC_CH7_SDO Pin=J11-b11
+Added Pin To Net: NetName=ADC_CH7_CS Pin=J11-b13
+Added Pin To Net: NetName=ADC_CH4_SDO Pin=J11-b16
+Added Pin To Net: NetName=ADC_CH4_CS Pin=J11-b18
+Added Pin To Net: NetName=ADC_CH2_SDO Pin=J11-b19
+Added Pin To Net: NetName=ADC_CH2_CS Pin=J11-b20
+Added Pin To Net: NetName=ADC_CH1_SDO Pin=J11-b21
+Added Pin To Net: NetName=ADC_CH1_CS Pin=J11-b22
+Added Pin To Net: NetName=ADC_CH3_SDO Pin=J11-b23
+Added Pin To Net: NetName=ADC_CH3_CS Pin=J11-b24
+Added Member To Class: ClassName=Connector_0 Member=Component J10 ERNI SMC-Q50-SMD-BA
+Added Member To Class: ClassName=Connector_0 Member=Component J11 ERNI SMC-Q50-SMD-BA
+Added Room: Name=Connector_0
+Added Room: Name=Ethernet_0
+Added Room: Name=FPGA_0
+Added Room: Name=FPGA_1
+Added Room: Name=Supply_0
+Added Room: Name=UserInterface_0

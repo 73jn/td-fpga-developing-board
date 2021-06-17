@@ -1,0 +1,198 @@
+DESIGN poetic_test
+VIEW struct.bd
+NO_GRAPHIC 0
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 142,0 9 0 
+DESIGN poetic_test
+VIEW struct.bd
+NO_GRAPHIC 12
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 0,0 16 2 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 1,0 19 0 
+DESIGN poetic_test
+VIEW struct.bd
+NO_GRAPHIC 19
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 3939,0 23 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 4324,0 24 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 3947,0 25 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 1562,0 26 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 3839,0 27 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 3831,0 28 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 1554,0 29 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 3931,0 30 0 
+DESIGN poetic_test
+VIEW struct.bd
+NO_GRAPHIC 31
+DESIGN poetic_test
+VIEW struct.bd
+NO_GRAPHIC 32
+LIBRARY Poetic
+DESIGN @a@d@c
+VIEW ads7886_decoder
+GRAPHIC 4315,0 34 0 
+DESIGN @a@d@c
+VIEW symbol.sb
+GRAPHIC 14,0 35 1 
+DESIGN @a@d@c
+VIEW symbol.sb
+GRAPHIC 66,0 39 0 
+DESIGN @a@d@c
+VIEW symbol.sb
+GRAPHIC 71,0 40 0 
+DESIGN @a@d@c
+VIEW symbol.sb
+GRAPHIC 51,0 41 0 
+DESIGN @a@d@c
+VIEW symbol.sb
+GRAPHIC 61,0 42 0 
+DESIGN @a@d@c
+VIEW symbol.sb
+GRAPHIC 168,0 43 0 
+DESIGN @a@d@c
+VIEW symbol.sb
+GRAPHIC 56,0 44 0 
+DESIGN @a@d@c
+VIEW symbol.sb
+GRAPHIC 196,0 45 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 3867,0 48 0 
+DESIGN clock@generator
+VIEW symbol.sb
+GRAPHIC 14,0 49 1 
+DESIGN clock@generator
+VIEW symbol.sb
+GRAPHIC 51,0 54 0 
+DESIGN clock@generator
+VIEW symbol.sb
+GRAPHIC 61,0 55 0 
+DESIGN clock@generator
+VIEW symbol.sb
+GRAPHIC 154,0 56 0 
+DESIGN clock@generator
+VIEW symbol.sb
+GRAPHIC 56,0 57 0 
+LIBRARY Poetic_test
+DESIGN poetic_tester
+VIEW test
+GRAPHIC 421,0 60 0 
+DESIGN poetic_tester
+VIEW interface
+GRAPHIC 14,0 61 1 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 3941,0 65 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 4326,0 66 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 3841,0 67 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 3949,0 68 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 1564,0 69 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 3833,0 70 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 1556,0 71 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 3933,0 72 0 
+LIBRARY Poetic_test
+DESIGN poetic_test
+VIEW struct.bd
+NO_GRAPHIC 75
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 4315,0 78 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 3867,0 79 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 421,0 80 0 
+DESIGN poetic_test
+VIEW struct.bd
+NO_GRAPHIC 83
+DESIGN poetic_test
+VIEW struct.bd
+NO_GRAPHIC 85
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 4315,0 87 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 4322,0 88 1 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 3913,0 92 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 3949,0 93 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 3925,0 94 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 3919,0 95 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 3933,0 96 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 3941,0 97 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 4326,0 98 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 3867,0 100 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 3874,0 101 1 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 1564,0 106 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 3833,0 107 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 1556,0 108 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 3841,0 109 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 421,0 111 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 428,0 112 1 
+DESIGN poetic_test
+VIEW struct.bd
+NO_GRAPHIC 126

@@ -1,0 +1,265 @@
+Change Component Comment : Designator=R56 Old Comment=0 New Comment=NC
+Change Component Comment : Designator=R26 Old Comment=NC New Comment=0
+Change Component Designator: OldDesignator=C? NewDesignator=C32
+Change Component Designator: OldDesignator=R? NewDesignator=R61
+Change Component Designator: OldDesignator=R? NewDesignator=R62
+Change Component Designator: OldDesignator=R? NewDesignator=R63
+Change component parameters: Designator = "R26"; Footprint = "RESISTOR 2012 REFLOW"; UniqueID = "\YNMIGIMP"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R56"; Footprint = "RESISTOR 2012 REFLOW"; UniqueID = "\IPWBYLLT"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "NC"; VariantName = "[No Variations]"
+Added Component: Designator=J10(USB-C-SMD WE 632722110112)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Application"; Value = "USB 3.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://katalog.we-online.com/em/datasheet/632722110112.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Receptacle"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Interface Type"; Value = "Type C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40 to +85degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "632722110112"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Number"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published Date"; Value = "September 2019"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "20VAC"; VariantName = "[No Variations]"
+Added Component: Designator=R58(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "Ferrite"; VariantName = "[No Variations]"
+Added Component: Designator=R59(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "5.1k"; VariantName = "[No Variations]"
+Added Component: Designator=R60(RESISTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "5.1k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND_D Pin=J10-A1
+Added Pin To Net: NetName=GND_D Pin=J10-A12
+Added Pin To Net: NetName=GND_D Pin=J10-B1
+Added Pin To Net: NetName=GND_D Pin=J10-B12
+Added Pin To Net: NetName=GND_D Pin=J10-S1
+Added Pin To Net: NetName=GND_D Pin=J10-S2
+Added Pin To Net: NetName=GND_D Pin=J10-S3
+Added Pin To Net: NetName=GND_D Pin=J10-S4
+Added Pin To Net: NetName=+5V_USB Pin=R58-2
+Added Pin To Net: NetName=GND_D Pin=R59-2
+Added Pin To Net: NetName=GND_D Pin=R60-2
+Change Net Name : Old Net Name=NetC29_2 New Net Name=Push_BT_0
+Change Net Name : Old Net Name=NetC30_2 New Net Name=Push_BT_1
+Change Net Name : Old Net Name=NetC31_2 New Net Name=Push_BT_2
+Change Net Name : Old Net Name=NetC34_2 New Net Name=SOFTRESET_N
+Change Net Name : Old Net Name=NetD2_1 New Net Name=ETH_RESET_N
+Change Net Name : Old Net Name=NetIC1_18 New Net Name=ETH_MDIO
+Change Net Name : Old Net Name=NetIC1_19 New Net Name=ETH_MDC
+Change Net Name : Old Net Name=NetIC1_20 New Net Name=ETH_RXD3
+Change Net Name : Old Net Name=NetIC1_21 New Net Name=ETH_RXD2
+Change Net Name : Old Net Name=NetIC1_22 New Net Name=ETH_RXD1
+Change Net Name : Old Net Name=NetIC1_23 New Net Name=ETH_RXD0
+Change Net Name : Old Net Name=NetIC1_27 New Net Name=ETH_RX_DV
+Change Net Name : Old Net Name=NetIC1_28 New Net Name=ETH_RX_CLK
+Change Net Name : Old Net Name=NetIC1_29 New Net Name=ETH_RX_ER
+Change Net Name : Old Net Name=NetIC1_32 New Net Name=ETH_INTRP
+Change Net Name : Old Net Name=NetIC1_33 New Net Name=ETH_TX_CLK
+Change Net Name : Old Net Name=NetIC1_34 New Net Name=ETH_TX_EN
+Change Net Name : Old Net Name=NetIC1_35 New Net Name=ETH_TXD0
+Change Net Name : Old Net Name=NetIC1_36 New Net Name=ETH_TXD1
+Change Net Name : Old Net Name=NetIC1_38 New Net Name=ETH_TXD2
+Change Net Name : Old Net Name=NetIC1_39 New Net Name=ETH_TXD3
+Change Net Name : Old Net Name=NetIC1_40 New Net Name=ETH_COL
+Change Net Name : Old Net Name=NetIC1_41 New Net Name=ETH_CRS
+Change Net Name : Old Net Name=NetJ1_a2 New Net Name=Spare_0
+Change Net Name : Old Net Name=NetJ1_a3 New Net Name=Spare_1
+Change Net Name : Old Net Name=NetJ1_a4 New Net Name=Spare_2
+Change Net Name : Old Net Name=NetJ1_a5 New Net Name=Spare_3
+Change Net Name : Old Net Name=NetJ1_a6 New Net Name=Spare_4
+Change Net Name : Old Net Name=NetJ1_a8 New Net Name=Spare_5
+Change Net Name : Old Net Name=NetJ1_a9 New Net Name=Spare_6
+Change Net Name : Old Net Name=NetJ1_a11 New Net Name=SCIC_TX
+Change Net Name : Old Net Name=NetJ1_a12 New Net Name=SCIC_RX
+Change Net Name : Old Net Name=NetJ1_b2 New Net Name=\S\P\I\C\_\S\T\E\
+Change Net Name : Old Net Name=NetJ1_b3 New Net Name=SPIC_CLK
+Change Net Name : Old Net Name=NetJ1_b4 New Net Name=SPIC_SIMO
+Change Net Name : Old Net Name=NetJ1_b5 New Net Name=SPIC_SOMI
+Change Net Name : Old Net Name=NetJ1_b6 New Net Name=SPIB_CLK
+Change Net Name : Old Net Name=NetJ1_b8 New Net Name=\S\P\I\B\_\S\T\E\
+Change Net Name : Old Net Name=NetJ1_b9 New Net Name=SPIB_SIMO
+Change Net Name : Old Net Name=NetJ1_b11 New Net Name=SPIA_SIMO
+Change Net Name : Old Net Name=NetJ1_b12 New Net Name=\S\P\I\A\_\S\T\E\
+Change Net Name : Old Net Name=NetJ1_b13 New Net Name=SPIA_CLK
+Change Net Name : Old Net Name=NetJ1_b21 New Net Name=ADC_CH18_SDO
+Change Net Name : Old Net Name=NetJ1_b22 New Net Name=ADC_CH18_CS
+Change Net Name : Old Net Name=NetJ1_b23 New Net Name=ADC_CH0_SDO
+Change Net Name : Old Net Name=NetJ1_b25 New Net Name=ADC_CH0_CS
+Change Net Name : Old Net Name=NetJ2_a2 New Net Name=ADC_CH5_SDO
+Change Net Name : Old Net Name=NetJ2_a3 New Net Name=ADC_CH5_CS
+Change Net Name : Old Net Name=NetJ2_a4 New Net Name=ADC_CH6_SDO
+Change Net Name : Old Net Name=NetJ2_a6 New Net Name=ADC_CH6_CS
+Change Net Name : Old Net Name=NetJ2_a7 New Net Name=ADC_CH8_SDO
+Change Net Name : Old Net Name=NetJ2_a8 New Net Name=ADC_CH8_CS
+Change Net Name : Old Net Name=NetJ2_a9 New Net Name=ADC_CH15_SDO
+Change Net Name : Old Net Name=NetJ2_a10 New Net Name=ADC_CH15_CS
+Change Net Name : Old Net Name=NetJ2_a11 New Net Name=ADC_CH13_SDO
+Change Net Name : Old Net Name=NetJ2_a13 New Net Name=ADC_CH13_CS
+Change Net Name : Old Net Name=NetJ2_a14 New Net Name=ADC_CH14_SDO
+Change Net Name : Old Net Name=NetJ2_a16 New Net Name=ADC_CH14_CS
+Change Net Name : Old Net Name=NetJ2_a18 New Net Name=ADC_CH16_SDO
+Change Net Name : Old Net Name=NetJ2_a19 New Net Name=ADC_CH16_CS
+Change Net Name : Old Net Name=NetJ2_a20 New Net Name=ADC_CH19_SDO
+Change Net Name : Old Net Name=NetJ2_a21 New Net Name=ADC_CH19_CS
+Change Net Name : Old Net Name=NetJ2_a22 New Net Name=ADC_CH17_SDO
+Change Net Name : Old Net Name=NetJ2_a23 New Net Name=ADC_CH17_CS
+Change Net Name : Old Net Name=NetJ2_a24 New Net Name=ADC_SCLK
+Change Net Name : Old Net Name=NetJ2_b2 New Net Name=ADC_CH11_SDO
+Change Net Name : Old Net Name=NetJ2_b3 New Net Name=ADC_CH11_CS
+Change Net Name : Old Net Name=NetJ2_b4 New Net Name=ADC_CH12_SDO
+Change Net Name : Old Net Name=NetJ2_b6 New Net Name=ADC_CH12_CS
+Change Net Name : Old Net Name=NetJ2_b7 New Net Name=ADC_CH10_SDO
+Change Net Name : Old Net Name=NetJ2_b8 New Net Name=ADC_CH10_CS
+Change Net Name : Old Net Name=NetJ2_b9 New Net Name=ADC_CH9_SDO
+Change Net Name : Old Net Name=NetJ2_b10 New Net Name=ADC_CH9_CS
+Change Net Name : Old Net Name=NetJ2_b11 New Net Name=ADC_CH7_SDO
+Change Net Name : Old Net Name=NetJ2_b13 New Net Name=ADC_CH7_CS
+Change Net Name : Old Net Name=NetJ2_b16 New Net Name=ADC_CH4_SDO
+Change Net Name : Old Net Name=NetJ2_b18 New Net Name=ADC_CH4_CS
+Change Net Name : Old Net Name=NetJ2_b19 New Net Name=ADC_CH2_SDO
+Change Net Name : Old Net Name=NetJ2_b20 New Net Name=ADC_CH2_CS
+Change Net Name : Old Net Name=NetJ2_b21 New Net Name=ADC_CH1_SDO
+Change Net Name : Old Net Name=NetJ2_b22 New Net Name=ADC_CH1_CS
+Change Net Name : Old Net Name=NetJ2_b23 New Net Name=ADC_CH3_SDO
+Change Net Name : Old Net Name=NetJ2_b24 New Net Name=ADC_CH3_CS
+Change Net Name : Old Net Name=NetJ3_3 New Net Name=FPGA_JTAG_TMS
+Change Net Name : Old Net Name=NetJ3_5 New Net Name=FPGA_JTAG_TCK
+Change Net Name : Old Net Name=NetJ3_7 New Net Name=FPGA_JTAG_TDO
+Change Net Name : Old Net Name=NetJ3_9 New Net Name=FPGA_JTAG_TDI
+Change Net Name : Old Net Name=NetJ4_A2 New Net Name=BP_PWM1A
+Change Net Name : Old Net Name=NetJ4_A3 New Net Name=BP_PWM1B
+Change Net Name : Old Net Name=NetJ4_A5 New Net Name=BP_PWM2A
+Change Net Name : Old Net Name=NetJ4_A6 New Net Name=BP_PWM2B
+Change Net Name : Old Net Name=NetJ4_A8 New Net Name=BP_PWM3A
+Change Net Name : Old Net Name=NetJ4_A9 New Net Name=BP_PWM3B
+Change Net Name : Old Net Name=NetJ4_A11 New Net Name=BP_PWM4A
+Change Net Name : Old Net Name=NetJ4_A12 New Net Name=BP_PWM4B
+Change Net Name : Old Net Name=NetJ4_A14 New Net Name=BP_GPIO_0
+Change Net Name : Old Net Name=NetJ4_A15 New Net Name=BP_GPIO_1
+Change Net Name : Old Net Name=NetJ4_A16 New Net Name=BP_GPIO_2
+Change Net Name : Old Net Name=NetJ4_A17 New Net Name=BP_GPIO_3
+Change Net Name : Old Net Name=NetJ4_A19 New Net Name=BP_GPIO_4
+Change Net Name : Old Net Name=NetJ4_A20 New Net Name=BP_GPIO_5
+Change Net Name : Old Net Name=NetJ4_A21 New Net Name=BP_GPIO_6
+Change Net Name : Old Net Name=NetJ4_A22 New Net Name=BP_GPIO_7
+Change Net Name : Old Net Name=NetJ4_A24 New Net Name=BP_GPIO_8
+Change Net Name : Old Net Name=NetJ4_A25 New Net Name=BP_GPIO_9
+Change Net Name : Old Net Name=NetJ4_A26 New Net Name=BP_GPIO_10
+Change Net Name : Old Net Name=NetJ4_A27 New Net Name=BP_GPIO_11
+Change Net Name : Old Net Name=NetJ4_A29 New Net Name=BN_EN
+Change Net Name : Old Net Name=NetJ4_B2 New Net Name=BP_PWM5A
+Change Net Name : Old Net Name=NetJ4_B3 New Net Name=BP_PWM5B
+Change Net Name : Old Net Name=NetJ4_B5 New Net Name=BP_PWM6A
+Change Net Name : Old Net Name=NetJ4_B6 New Net Name=BP_PWM6B
+Change Net Name : Old Net Name=NetJ4_B8 New Net Name=BP_PWM7A
+Change Net Name : Old Net Name=NetJ4_B9 New Net Name=BP_PWM7B
+Change Net Name : Old Net Name=NetJ4_B11 New Net Name=BP_PWM8A
+Change Net Name : Old Net Name=NetJ4_B12 New Net Name=BP_PWM8B
+Change Net Name : Old Net Name=NetJ4_B14 New Net Name=BP_GPIO_13
+Change Net Name : Old Net Name=NetJ4_B15 New Net Name=BP_GPIO_14
+Change Net Name : Old Net Name=NetJ4_B16 New Net Name=BP_GPIO_15
+Change Net Name : Old Net Name=NetJ4_B17 New Net Name=BP_GPIO_16
+Change Net Name : Old Net Name=NetJ4_B19 New Net Name=BP_GPIO_17
+Change Net Name : Old Net Name=NetJ4_B20 New Net Name=BP_GPIO_18
+Change Net Name : Old Net Name=NetJ4_B21 New Net Name=BP_GPIO_19
+Change Net Name : Old Net Name=NetJ4_B22 New Net Name=BP_GPIO_20
+Change Net Name : Old Net Name=NetJ4_B24 New Net Name=BP_GPIO_21
+Change Net Name : Old Net Name=NetJ4_B25 New Net Name=BP_GPIO_22
+Change Net Name : Old Net Name=NetJ4_B26 New Net Name=BP_GPIO_23
+Change Net Name : Old Net Name=NetJ4_B27 New Net Name=BP_GPIO_24
+Change Net Name : Old Net Name=NetJ4_B29 New Net Name=BN_ERROR_W
+Change Net Name : Old Net Name=NetJ4_C2 New Net Name=BP_PWM9A
+Change Net Name : Old Net Name=NetJ4_C3 New Net Name=BP_PWM9B
+Change Net Name : Old Net Name=NetJ4_C5 New Net Name=BP_PWM10A
+Change Net Name : Old Net Name=NetJ4_C6 New Net Name=BP_PWM10B
+Change Net Name : Old Net Name=NetJ4_C8 New Net Name=BP_PWM11A
+Change Net Name : Old Net Name=NetJ4_C9 New Net Name=BP_PWM11B
+Change Net Name : Old Net Name=NetJ4_C11 New Net Name=BP_PWM12A
+Change Net Name : Old Net Name=NetJ4_C12 New Net Name=BP_PWM12B_BN_PWM
+Change Net Name : Old Net Name=NetJ4_C14 New Net Name=BP_GPIO_26
+Change Net Name : Old Net Name=NetJ4_C15 New Net Name=BP_GPIO_27
+Change Net Name : Old Net Name=NetJ4_C16 New Net Name=BP_GPIO_28
+Change Net Name : Old Net Name=NetJ4_C17 New Net Name=BP_GPIO_29
+Change Net Name : Old Net Name=NetJ4_C19 New Net Name=BP_GPIO_30
+Change Net Name : Old Net Name=NetJ4_C20 New Net Name=BP_GPIO_31
+Change Net Name : Old Net Name=NetJ4_C21 New Net Name=BP_GPIO_32
+Change Net Name : Old Net Name=NetJ4_C22 New Net Name=BP_GPIO_33
+Change Net Name : Old Net Name=NetJ4_C24 New Net Name=BP_GPIO_34
+Change Net Name : Old Net Name=NetJ4_C25 New Net Name=BP_GPIO_35
+Change Net Name : Old Net Name=NetJ4_C26 New Net Name=BP_GPIO_36
+Change Net Name : Old Net Name=NetJ4_C27 New Net Name=BN_MASTER_RST
+Change Net Name : Old Net Name=NetJ4_C29 New Net Name=BN_ERROR_R
+Change Net Name : Old Net Name=NetLD4_2 New Net Name=LED1_3_RED
+Change Net Name : Old Net Name=NetLD4_4 New Net Name=LED1_2_RED
+Change Net Name : Old Net Name=NetLD4_6 New Net Name=LED1_1_RED
+Change Net Name : Old Net Name=NetLD4_8 New Net Name=LED1_0_RED
+Change Net Name : Old Net Name=NetLD5_2 New Net Name=LED2_3_RED
+Change Net Name : Old Net Name=NetLD5_4 New Net Name=LED2_2_RED
+Change Net Name : Old Net Name=NetLD5_6 New Net Name=LED2_1_RED
+Change Net Name : Old Net Name=NetLD5_8 New Net Name=LED2_0_RED
+Change Net Name : Old Net Name=NetR31_1 New Net Name=FLASH_SPI_CS_N
+Change Net Name : Old Net Name=NetR33_1 New Net Name=FLASH_SPI_CLK
+Change Net Name : Old Net Name=NetR41_1 New Net Name=LED1_0_GREEN
+Change Net Name : Old Net Name=NetR42_1 New Net Name=LED2_0_GREEN
+Change Net Name : Old Net Name=NetR43_1 New Net Name=LED1_1_GREEN
+Change Net Name : Old Net Name=NetR44_1 New Net Name=LED2_1_GREEN
+Change Net Name : Old Net Name=NetR45_1 New Net Name=LED1_2_GREEN
+Change Net Name : Old Net Name=NetR46_1 New Net Name=LED2_2_GREEN
+Change Net Name : Old Net Name=NetR47_1 New Net Name=LED1_3_GREEN
+Change Net Name : Old Net Name=NetR48_1 New Net Name=LED2_3_GREEN
+Change Net Name : Old Net Name=NetS6_2 New Net Name=DIL_0
+Change Net Name : Old Net Name=NetS6_4 New Net Name=DIL_1
+Change Net Name : Old Net Name=NetS6_6 New Net Name=DIL_2
+Change Net Name : Old Net Name=NetS6_8 New Net Name=DIL_3
+Change Net Name : Old Net Name=NetU1_2 New Net Name=USB_RXD
+Change Net Name : Old Net Name=NetU1_8 New Net Name=USB_C\T\S\
+Change Net Name : Old Net Name=NetU1_30 New Net Name=USB_TXD
+Change Net Name : Old Net Name=NetU1_32 New Net Name=USB_R\T\S\
+Change Net Name : Old Net Name=NetU2_AA20 New Net Name=FLASH_SPI_DI
+Change Net Name : Old Net Name=NetU2_AB20 New Net Name=FLASH_SPI_DO
+Change Net Name : Old Net Name=NetU2_J3 New Net Name=CLK_100MHz
+Added Pin To Net: NetName=NetJ10_A4 Pin=J10-A4
+Added Pin To Net: NetName=NetJ10_A4 Pin=J10-A9
+Added Pin To Net: NetName=NetJ10_A4 Pin=J10-B4
+Added Pin To Net: NetName=NetJ10_A4 Pin=J10-B9
+Added Pin To Net: NetName=NetJ10_A4 Pin=R58-1
+Added Net: Name=NetJ10_A4
+Added Pin To Net: NetName=NetJ10_A5 Pin=J10-A5
+Added Pin To Net: NetName=NetJ10_A5 Pin=R59-1
+Added Net: Name=NetJ10_A5
+Added Pin To Net: NetName=NetJ10_B5 Pin=J10-B5
+Added Pin To Net: NetName=NetJ10_B5 Pin=R60-1
+Added Net: Name=NetJ10_B5
+Added Pin To Net: NetName=USBD_N Pin=J5-2
+Added Pin To Net: NetName=USBD_N Pin=J10-A7
+Added Pin To Net: NetName=USBD_N Pin=J10-B7
+Added Pin To Net: NetName=USBD_N Pin=U1-15
+Added Net: Name=USBD_N
+Added Pin To Net: NetName=USBD_P Pin=J5-3
+Added Pin To Net: NetName=USBD_P Pin=J10-A6
+Added Pin To Net: NetName=USBD_P Pin=J10-B6
+Added Pin To Net: NetName=USBD_P Pin=U1-14
+Added Net: Name=USBD_P
+Added Differential Pair: Name=USBD
+Added Member To Class: ClassName=Connector_0 Member=Component J10 USB 3.1 Type C Receptacle
+Added Member To Class: ClassName=Connector_0 Member=Component R58 Ferrite
+Added Member To Class: ClassName=Connector_0 Member=Component R59 5.1k
+Added Member To Class: ClassName=Connector_0 Member=Component R60 5.1k
+Added Member To Class: ClassName=Supply_0 Member=Component R61 0
+Added Member To Class: ClassName=Supply_0 Member=Component R62 0
+Added Room: Name=Connector_0
+Added Room: Name=Ethernet_0
+Added Room: Name=FPGA_0
+Added Room: Name=FPGA_1
+Added Room: Name=Supply_0
+Added Room: Name=UserInterface_0
