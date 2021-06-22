@@ -3995,7 +3995,7 @@ hdsWorkspaceLocation ""
 relativeLibraryRootDir ""
 vmLabelLatestDontAskAgain 0
 vmLabelWorkspaceDontAskAgain 0
-logWindowGeometry "661x770+1106+35"
+logWindowGeometry "752x770+409+111"
 diagramBrowserTabNo 0
 showInsertPortHint 0
 showContentFirstTime 0
@@ -6118,6 +6118,46 @@ declHierarchy [
 ]
 activeViewpointIdx 0
 )
+(WorkTab
+name "SPI"
+showingHierarchy 0
+openLibs [
+"SPI"
+]
+declHierarchy [
+]
+activeViewpointIdx 0
+)
+(WorkTab
+name "SPI_test"
+showingHierarchy 0
+openLibs [
+"SPI_test"
+]
+declHierarchy [
+]
+activeViewpointIdx 0
+)
+(WorkTab
+name "std"
+showingHierarchy 0
+openLibs [
+"std"
+]
+declHierarchy [
+]
+activeViewpointIdx 0
+)
+(WorkTab
+name "ieee"
+showingHierarchy 0
+openLibs [
+"ieee"
+]
+declHierarchy [
+]
+activeViewpointIdx 0
+)
 ]
 ViewpointsOnOutlookBar [
 "Requirements"
@@ -6142,10 +6182,10 @@ size 180
 displayHierarchy 0
 xPos 108
 yPos 61
-width 1068
-height 838
+width 1936
+height 1056
 activeSidePanelTab 2
-activeLibraryTab 8
+activeLibraryTab 4
 sidePanelSize 278
 showUnixHiddenFiles 0
 componentBrowserXpos 569
@@ -6155,6 +6195,10 @@ componentBrowserHeight 532
 componentBrowserLibraryNames [
 "Poetic"
 "Cordic"
+"RS232"
+"SPI"
+"Modulation"
+"Common"
 ]
 )
 (SmPreferences
