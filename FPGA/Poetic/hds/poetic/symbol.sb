@@ -29,9 +29,10 @@ uid 163,0
 optionalChildren [
 *2 (LogPort
 port (LogicalPort
+lang 11
 decl (Decl
 n "clock"
-t "std_ulogic"
+t "unsigned"
 o 23
 suid 1,0
 )
@@ -73,9 +74,10 @@ tm "EolColHdrMgr"
 )
 *15 (LogPort
 port (LogicalPort
+lang 11
 decl (Decl
 n "reset"
-t "std_ulogic"
+t "unsigned"
 o 24
 suid 2006,0
 )
@@ -2523,19 +2525,19 @@ value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\.
 )
 (vvPair
 variable "date"
-value "22.06.2021"
+value "30.06.2021"
 )
 (vvPair
 variable "day"
-value "mar."
+value "mer."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "mercredi"
 )
 (vvPair
 variable "dd"
-value "22"
+value "30"
 )
 (vvPair
 variable "designName"
@@ -2567,7 +2569,7 @@ value "jeann"
 )
 (vvPair
 variable "graphical_source_date"
-value "22.06.2021"
+value "30.06.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -2579,7 +2581,7 @@ value "DESKTOP-V46KISN"
 )
 (vvPair
 variable "graphical_source_time"
-value "17:28:42"
+value "12:08:33"
 )
 (vvPair
 variable "group"
@@ -2715,7 +2717,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "17:28:42"
+value "12:08:33"
 )
 (vvPair
 variable "unit"
@@ -2780,13 +2782,14 @@ uid 432,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,34000,16300,35000"
-st "reset         : IN     std_ulogic  ;"
+xt "2000,34000,15900,35000"
+st "reset         : IN     unsigned  ;"
 )
 thePort (LogicalPort
+lang 11
 decl (Decl
 n "reset"
-t "std_ulogic"
+t "unsigned"
 o 24
 suid 2006,0
 )
@@ -2823,13 +2826,14 @@ uid 56,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,33000,16300,34000"
-st "clock         : IN     std_ulogic  ;"
+xt "2000,33000,15900,34000"
+st "clock         : IN     unsigned  ;"
 )
 thePort (LogicalPort
+lang 11
 decl (Decl
 n "clock"
-t "std_ulogic"
+t "unsigned"
 o 23
 suid 1,0
 )
@@ -8604,7 +8608,7 @@ xt "0,9000,0,9000"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 2107,0
+lastUid 2452,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol:CDM"

@@ -35,7 +35,7 @@ BEGIN
     rs232SendOutString <= '0';
     wait for 4*rs232Period;
 
-    rs232OutString <= "test 1                          ";
+    rs232OutString <= "S349e                           ";
     rs232SendOutString <= '1', '0' after 1 ns;
     wait until rs232SendOutDone = '1';
     wait for rs232WriteInterval;
@@ -60,9 +60,9 @@ BEGIN
 
   readRxFifo: process
   begin
-    rxRd <= '0';
+    --rxRd <= '0';
     wait until falling_edge(rxEmpty);
-    rxRd <= '1';
+    --rxRd <= '1';
     wait for clockPeriod;
     rs232OutByteReturned <= rxData;
   end process readRxFifo;
@@ -75,7 +75,7 @@ BEGIN
     rs232SendInString <= '0';
     wait for 4*rs232Period;
 
-    rs232InString <= "hello 1                         ";
+    rs232InString <= "S12345e                         ";
     rs232SendInString <= '1', '0' after 1 ns;
     wait until rs232SendInDone = '1';
     wait for rs232WriteInterval;

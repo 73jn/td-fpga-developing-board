@@ -29,7 +29,7 @@ BEGIN
     elsif rising_edge(clock) then
       case mainState is 
         when ready =>
-          if trigger = '1' AND risingSCLK = '1' then
+          if enable = '1' AND risingSCLK = '1' then
             mainState <= sendLowCS;
           end if;
         when sendLowCS =>

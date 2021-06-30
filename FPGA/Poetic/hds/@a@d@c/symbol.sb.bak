@@ -123,7 +123,7 @@ uid 84,0
 port (LogicalPort
 lang 11
 decl (Decl
-n "trigger"
+n "enable"
 t "std_ulogic"
 o 6
 suid 6,0
@@ -137,7 +137,7 @@ lang 11
 m 1
 decl (Decl
 n "Data"
-t "unsigned"
+t "std_ulogic_vector"
 b "(adcBitNb-1 DOWNTO 0)"
 o 7
 suid 7,0
@@ -524,19 +524,19 @@ value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\.
 )
 (vvPair
 variable "date"
-value "17.06.2021"
+value "30.06.2021"
 )
 (vvPair
 variable "day"
-value "jeu."
+value "mer."
 )
 (vvPair
 variable "day_long"
-value "jeudi"
+value "mercredi"
 )
 (vvPair
 variable "dd"
-value "17"
+value "30"
 )
 (vvPair
 variable "entity_name"
@@ -564,7 +564,7 @@ value "jeann"
 )
 (vvPair
 variable "graphical_source_date"
-value "17.06.2021"
+value "30.06.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -576,7 +576,7 @@ value "DESKTOP-V46KISN"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:02:41"
+value "09:12:08"
 )
 (vvPair
 variable "group"
@@ -648,7 +648,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "15:02:41"
+value "09:12:08"
 )
 (vvPair
 variable "unit"
@@ -692,7 +692,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,14625,15000,15375"
+xt "14250,23625,15000,24375"
 )
 tg (CPTG
 uid 53,0
@@ -703,9 +703,9 @@ uid 54,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "16000,14300,19800,15700"
+xt "16000,23300,19800,24700"
 st "clock"
-blo "16000,15500"
+blo "16000,24500"
 tm "CptPortNameMgr"
 )
 )
@@ -714,8 +714,8 @@ uid 55,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,4000,60500,4800"
-st "clock   : IN     std_ulogic  ;"
+xt "44000,4000,60000,4800"
+st "clock  : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -731,26 +731,25 @@ uid 56,0
 ps "OnEdgeStrategy"
 shape (Triangle
 uid 57,0
-ro 90
+ro 270
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "27000,9625,27750,10375"
+xt "14250,15625,15000,16375"
 )
 tg (CPTG
 uid 58,0
 ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
+stg "VerticalLayoutStrategy"
 f (Text
 uid 59,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "21900,9300,26000,10700"
+xt "16000,15300,20100,16700"
 st "CS_n"
-ju 2
-blo "26000,10500"
+blo "16000,16500"
 tm "CptPortNameMgr"
 )
 )
@@ -759,8 +758,8 @@ uid 60,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,6400,60500,7200"
-st "CS_n    : OUT    std_ulogic  ;"
+xt "44000,6400,60000,7200"
+st "CS_n   : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -783,7 +782,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,15625,15000,16375"
+xt "14250,24625,15000,25375"
 )
 tg (CPTG
 uid 63,0
@@ -794,9 +793,9 @@ uid 64,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "16000,15300,20100,16700"
+xt "16000,24300,20100,25700"
 st "reset"
-blo "16000,16500"
+blo "16000,25500"
 tm "CptPortNameMgr"
 )
 )
@@ -805,8 +804,8 @@ uid 65,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,4800,60500,5600"
-st "reset   : IN     std_ulogic  ;"
+xt "44000,5600,60000,6400"
+st "reset  : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -827,7 +826,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,8625,15000,9375"
+xt "14250,11625,15000,12375"
 )
 tg (CPTG
 uid 68,0
@@ -838,9 +837,9 @@ uid 69,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "16000,8300,20000,9700"
+xt "16000,11300,20000,12700"
 st "SCLK"
-blo "16000,9500"
+blo "16000,12500"
 tm "CptPortNameMgr"
 )
 )
@@ -849,8 +848,8 @@ uid 70,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,2400,60500,3200"
-st "SCLK    : IN     std_ulogic  ;"
+xt "44000,2400,60000,3200"
+st "SCLK   : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -867,26 +866,25 @@ uid 71,0
 ps "OnEdgeStrategy"
 shape (Triangle
 uid 72,0
-ro 270
+ro 90
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "27000,12625,27750,13375"
+xt "14250,13625,15000,14375"
 )
 tg (CPTG
 uid 73,0
 ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
+stg "VerticalLayoutStrategy"
 f (Text
 uid 74,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "22500,12300,26000,13700"
+xt "16000,13300,19500,14700"
 st "SDO"
-ju 2
-blo "26000,13500"
+blo "16000,14500"
 tm "CptPortNameMgr"
 )
 )
@@ -895,8 +893,8 @@ uid 75,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,3200,60500,4000"
-st "SDO     : IN     std_ulogic  ;"
+xt "44000,3200,60000,4000"
+st "SDO    : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -913,27 +911,25 @@ uid 168,0
 ps "OnEdgeStrategy"
 shape (Triangle
 uid 169,0
-ro 180
+ro 90
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "20625,5250,21375,6000"
+xt "14250,6625,15000,7375"
 )
 tg (CPTG
 uid 170,0
 ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
+stg "VerticalLayoutStrategy"
 f (Text
 uid 171,0
-ro 270
 va (VaSet
 font "Verdana,12,0"
 )
-xt "20300,7000,21700,12000"
-st "trigger"
-ju 2
-blo "21500,7000"
+xt "16000,6300,21100,7700"
+st "enable"
+blo "16000,7500"
 tm "CptPortNameMgr"
 )
 )
@@ -942,13 +938,13 @@ uid 172,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,5600,60500,6400"
-st "trigger : IN     std_ulogic  ;"
+xt "44000,4800,60000,5600"
+st "enable : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
 decl (Decl
-n "trigger"
+n "enable"
 t "std_ulogic"
 o 6
 suid 6,0
@@ -965,7 +961,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "27000,15625,27750,16375"
+xt "27000,12625,27750,13375"
 )
 tg (CPTG
 uid 198,0
@@ -976,10 +972,10 @@ uid 199,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "22200,15300,26000,16700"
+xt "22200,12300,26000,13700"
 st "Data"
 ju 2
-blo "26000,16500"
+blo "26000,13500"
 tm "CptPortNameMgr"
 )
 )
@@ -988,15 +984,15 @@ uid 200,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,7200,69500,8000"
-st "Data    : OUT    unsigned (adcBitNb-1 DOWNTO 0)"
+xt "44000,7200,73500,8000"
+st "Data   : OUT    std_ulogic_vector (adcBitNb-1 DOWNTO 0)"
 )
 thePort (LogicalPort
 lang 11
 m 1
 decl (Decl
 n "Data"
-t "unsigned"
+t "std_ulogic_vector"
 b "(adcBitNb-1 DOWNTO 0)"
 o 7
 suid 7,0
@@ -1012,7 +1008,7 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "15000,6000,27000,18000"
+xt "15000,6000,27000,26000"
 )
 oxt "15000,6000,26000,17000"
 biTextGroup (BiTextGroup
@@ -1024,18 +1020,18 @@ uid 11,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "18600,10300,22400,11500"
+xt "22600,7300,26400,8500"
 st "Poetic"
-blo "18600,11300"
+blo "22600,8300"
 )
 second (Text
 uid 12,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "18600,11500,21300,12700"
+xt "22600,8500,25300,9700"
 st "ADC"
-blo "18600,12500"
+blo "22600,9500"
 )
 )
 gi *75 (GenericInterface
@@ -1051,8 +1047,7 @@ font "Courier New,8,0"
 xt "-9000,7500,3000,9900"
 st "Generic Declarations
 
-adcBitNb integer 12  
-"
+adcBitNb integer 12  "
 )
 header "Generic Declarations"
 showHdrWhenContentsEmpty 1
@@ -1446,9 +1441,9 @@ tm "PackageList"
 )
 ]
 )
-windowSize "96,54,1120,744"
-viewArea "-500,-1500,71140,46560"
-cachedDiagramExtent "-9000,0,73000,49000"
+windowSize "96,54,1123,744"
+viewArea "-500,-1500,71410,49080"
+cachedDiagramExtent "-9000,0,73500,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-10000,0"
 defaultCommentText (CommentText
@@ -1720,6 +1715,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 365,0
-activeModelName "Symbol:GEN"
+lastUid 434,0
+activeModelName "Symbol"
 )
