@@ -9,42 +9,50 @@
 --
 ARCHITECTURE ADS7886 OF AD IS
   type decodeState is (
-    waitHighCS, sendData, sendZeros, waitLowCS
+    waitHighCS, sendData, sendZeros, waitLowCS, incrementCounterSendData
   );
   signal mainState : decodeState;
   signal memCS, fallingCS : std_ulogic;
   signal memSCLK, fallingSCLK : std_ulogic;
-  signal counterWaitData : unsigned(1 DOWNTO 0);
-  signal counterSendData : unsigned(10 DOWNTO 0);
 
 BEGIN
   decode : process(reset, clock)
+    variable counterWaitData : integer;
+    variable counterSendData : integer;
   begin
     if reset = '1' then
       mainState <= waitLowCS;
-      counterWaitData <= (others => '0');
-      counterSendData <= (others => '0');
+      counterWaitData := 0;
+      counterSendData := 0;
     elsif rising_edge(clock) then
       case mainState is 
         when waitLowCS =>
-          mainState <= sendZeros;
+          if fallingCS = '1' then
+            mainState <= sendZeros;
+          end if;
         when sendZeros =>
           if fallingSCLK = '1' then
-            counterWaitData <= counterWaitData + 1;
+            counterWaitData := counterWaitData + 1;
             SDO <= '0';
-            if counterWaitData = 2 then
+            if counterWaitData = 3 then
               mainState <= sendData;
-              counterWaitData <= (others => '0');
+              counterWaitData := 0;
             end if;
           end if;
         when sendData =>
           if fallingSCLK = '1' then
-            counterSendData <= counterSendData + 1;
-            SDO <= DataToSend(to_integer(counterSendData));
-            if counterSendData = adcBitNb then
+            if counterSendData >= adcBitNb then
               mainState <= waitHighCS;
+              SDO <= '0';
+              counterSendData := 0;
+            else
+              SDO <= DataToSend(adcBitNb-1 - counterSendData);
+              mainState <= incrementCounterSendData;
             end if;
           end if;
+        when incrementCounterSendData =>
+          counterSendData := counterSendData + 1;
+          mainState <= sendData;
         when waitHighCS =>
           if CS_n = '1' then
             mainState <= waitLowCS;
@@ -71,7 +79,7 @@ BEGIN
   detectFallingSCLK : process (reset, clock)
   begin
     if reset = '1' then
-      memSCLK <= '1';
+      memSCLK <= '0';
       fallingSCLK <= '0';
     elsif rising_edge(clock) then
       fallingSCLK <= '0';

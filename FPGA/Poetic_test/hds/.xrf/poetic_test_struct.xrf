@@ -30,202 +30,244 @@ VIEW struct.bd
 GRAPHIC 6895,0 29 0 
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 6543,0 30 0 
+GRAPHIC 7115,0 30 0 
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 6856,0 31 0 
+GRAPHIC 6543,0 31 0 
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 6551,0 32 0 
+GRAPHIC 6856,0 32 0 
 DESIGN poetic_test
 VIEW struct.bd
-NO_GRAPHIC 33
+GRAPHIC 6551,0 33 0 
 DESIGN poetic_test
 VIEW struct.bd
-NO_GRAPHIC 34
+GRAPHIC 7050,0 34 0 
+DESIGN poetic_test
+VIEW struct.bd
+NO_GRAPHIC 35
+DESIGN poetic_test
+VIEW struct.bd
+NO_GRAPHIC 36
 LIBRARY Poetic
 DESIGN @a@d@c
 VIEW ads7886_decoder
-GRAPHIC 6747,0 36 0 
+GRAPHIC 6747,0 38 0 
 DESIGN @a@d@c
 VIEW symbol.sb
-GRAPHIC 14,0 37 1 
+GRAPHIC 14,0 39 1 
 DESIGN @a@d@c
 VIEW symbol.sb
-GRAPHIC 66,0 41 0 
+GRAPHIC 66,0 43 0 
 DESIGN @a@d@c
 VIEW symbol.sb
-GRAPHIC 71,0 42 0 
+GRAPHIC 71,0 44 0 
 DESIGN @a@d@c
 VIEW symbol.sb
-GRAPHIC 51,0 43 0 
+GRAPHIC 51,0 45 0 
 DESIGN @a@d@c
 VIEW symbol.sb
-GRAPHIC 168,0 44 0 
+GRAPHIC 168,0 46 0 
 DESIGN @a@d@c
 VIEW symbol.sb
-GRAPHIC 61,0 45 0 
+GRAPHIC 61,0 47 0 
 DESIGN @a@d@c
 VIEW symbol.sb
-GRAPHIC 56,0 46 0 
+GRAPHIC 56,0 48 0 
 DESIGN @a@d@c
 VIEW symbol.sb
-GRAPHIC 196,0 47 0 
+GRAPHIC 196,0 49 0 
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 6710,0 50 0 
+GRAPHIC 6710,0 52 0 
 DESIGN clock@generator
 VIEW symbol.sb
-GRAPHIC 14,0 51 1 
+GRAPHIC 14,0 53 1 
 DESIGN clock@generator
 VIEW symbol.sb
-GRAPHIC 51,0 56 0 
+GRAPHIC 51,0 58 0 
 DESIGN clock@generator
 VIEW symbol.sb
-GRAPHIC 61,0 57 0 
+GRAPHIC 61,0 59 0 
 DESIGN clock@generator
 VIEW symbol.sb
-GRAPHIC 154,0 58 0 
+GRAPHIC 154,0 60 0 
 DESIGN clock@generator
 VIEW symbol.sb
-GRAPHIC 56,0 59 0 
+GRAPHIC 56,0 61 0 
 LIBRARY Poetic_test
 DESIGN @a@d
 VIEW @a@d@s7886
-GRAPHIC 6979,0 62 0 
+GRAPHIC 6979,0 64 0 
 DESIGN @a@d
 VIEW symbol.sb
-GRAPHIC 14,0 63 1 
+GRAPHIC 14,0 65 1 
 DESIGN @a@d
 VIEW symbol.sb
-GRAPHIC 131,0 67 0 
+GRAPHIC 131,0 69 0 
 DESIGN @a@d
 VIEW symbol.sb
-GRAPHIC 177,0 68 0 
+GRAPHIC 177,0 70 0 
 DESIGN @a@d
 VIEW symbol.sb
-GRAPHIC 136,0 69 0 
+GRAPHIC 136,0 71 0 
 DESIGN @a@d
 VIEW symbol.sb
-GRAPHIC 188,0 70 0 
+GRAPHIC 188,0 72 0 
 DESIGN @a@d
 VIEW symbol.sb
-GRAPHIC 193,0 71 0 
+GRAPHIC 193,0 73 0 
 DESIGN @a@d
 VIEW symbol.sb
-GRAPHIC 141,0 72 0 
+GRAPHIC 141,0 74 0 
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 421,0 75 0 
+GRAPHIC 7106,0 77 0 
+DESIGN motor
+VIEW symbol.sb
+GRAPHIC 146,0 79 0 
+DESIGN motor
+VIEW symbol.sb
+GRAPHIC 131,0 80 0 
+DESIGN motor
+VIEW symbol.sb
+GRAPHIC 136,0 81 0 
+DESIGN motor
+VIEW symbol.sb
+GRAPHIC 141,0 82 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 421,0 85 0 
 DESIGN poetic_tester
 VIEW interface
-GRAPHIC 14,0 76 1 
+GRAPHIC 14,0 86 1 
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 6919,0 82 0 
+GRAPHIC 6919,0 92 0 
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 6903,0 83 0 
+GRAPHIC 7117,0 93 0 
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 6949,0 84 0 
+GRAPHIC 6903,0 94 0 
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 6911,0 85 0 
+GRAPHIC 6949,0 95 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 6911,0 96 0 
 LIBRARY Poetic_test
-DESIGN poetic_test
-VIEW struct.bd
-NO_GRAPHIC 88
-DESIGN poetic_test
-VIEW struct.bd
-GRAPHIC 6979,0 91 0 
-DESIGN poetic_test
-VIEW struct.bd
-GRAPHIC 6747,0 92 0 
-DESIGN poetic_test
-VIEW struct.bd
-GRAPHIC 6710,0 93 0 
-DESIGN poetic_test
-VIEW struct.bd
-GRAPHIC 421,0 94 0 
-DESIGN poetic_test
-VIEW struct.bd
-NO_GRAPHIC 97
 DESIGN poetic_test
 VIEW struct.bd
 NO_GRAPHIC 99
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 6747,0 101 0 
+GRAPHIC 6979,0 102 0 
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 6754,0 102 1 
+GRAPHIC 6747,0 103 0 
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 6794,0 106 0 
+GRAPHIC 6710,0 104 0 
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 6897,0 107 0 
+GRAPHIC 7106,0 105 0 
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 6832,0 108 0 
+GRAPHIC 421,0 106 0 
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 6949,0 109 0 
+NO_GRAPHIC 109
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 6826,0 110 0 
+NO_GRAPHIC 111
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 6933,0 111 0 
+GRAPHIC 6747,0 113 0 
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 6710,0 114 0 
+GRAPHIC 6754,0 114 1 
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 6717,0 115 1 
+GRAPHIC 6794,0 118 0 
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 6820,0 120 0 
+GRAPHIC 6897,0 119 0 
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 6808,0 121 0 
+GRAPHIC 6832,0 120 0 
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 6814,0 122 0 
+GRAPHIC 6949,0 121 0 
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 6784,0 123 0 
+GRAPHIC 6826,0 122 0 
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 6979,0 125 0 
+GRAPHIC 6933,0 123 0 
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 6986,0 126 1 
+GRAPHIC 6710,0 126 0 
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 6933,0 130 0 
+GRAPHIC 6717,0 127 1 
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 6919,0 131 0 
+GRAPHIC 6820,0 132 0 
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 6925,0 132 0 
+GRAPHIC 6808,0 133 0 
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 6903,0 133 0 
+GRAPHIC 6814,0 134 0 
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 6911,0 134 0 
+GRAPHIC 6784,0 135 0 
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 6897,0 135 0 
+GRAPHIC 6979,0 137 0 
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 421,0 137 0 
+GRAPHIC 6986,0 138 1 
 DESIGN poetic_test
 VIEW struct.bd
-GRAPHIC 428,0 138 1 
+GRAPHIC 6933,0 142 0 
 DESIGN poetic_test
 VIEW struct.bd
-NO_GRAPHIC 150
+GRAPHIC 6919,0 143 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 6925,0 144 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 6903,0 145 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 6911,0 146 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 6897,0 147 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 7106,0 149 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 7117,0 151 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 7054,0 152 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 7064,0 153 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 7042,0 154 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 421,0 156 0 
+DESIGN poetic_test
+VIEW struct.bd
+GRAPHIC 428,0 157 1 
+DESIGN poetic_test
+VIEW struct.bd
+NO_GRAPHIC 170

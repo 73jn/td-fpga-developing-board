@@ -21,7 +21,7 @@ BEGIN
   ------------------------------------------------------------------------------
                                                                        -- enable
   enable <= '0', '1' after 10 us;
-
-  DataToSend <= "101010101010" after 11 us;
+  Vapp <= "000000000000", "111111111111" after 10 us;
+  DataToSend <= "101111110101" after 11 us;
 END ARCHITECTURE test;
 

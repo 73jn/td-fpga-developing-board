@@ -9,7 +9,7 @@
 --
 ARCHITECTURE ads7886_decoder OF ADC IS
   type decodeState is (
-    sendLowCS, waitForData, readData, sendHighCS, ready
+    sendLowCS, waitForData, readData, sendHighCS, ready, print
   );
   signal mainState : decodeState;
   signal memSCLK, risingSCLK : std_ulogic;
@@ -48,10 +48,14 @@ BEGIN
             counterReadData <= counterReadData + 1;
             dataReg <= shift_left(dataReg, 1);
             dataReg(dataReg'low) <= SDO;
-            if (counterReadData = adcBitNb) then
-              mainState <= sendHighCS;
+            if (counterReadData = adcBitNb-1) then
+              counterReadData <= (others => '0');
+              mainState <= print;
             end if;
           end if;
+        when print =>
+          Data <= std_ulogic_vector(dataReg);
+          mainState <= sendHighCS;
         when sendHighCS =>
             if risingSCLK = '1' then
               CS_n <= '1';
