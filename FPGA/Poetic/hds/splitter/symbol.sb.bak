@@ -544,7 +544,7 @@ value "DESKTOP-V46KISN"
 )
 (vvPair
 variable "graphical_source_time"
-value "10:24:53"
+value "10:25:06"
 )
 (vvPair
 variable "group"
@@ -616,7 +616,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "10:24:53"
+value "10:25:06"
 )
 (vvPair
 variable "unit"
@@ -683,8 +683,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4000,73000,4800"
-st "signedIn    : IN     signed (signalBitNb-1 DOWNTO 0) ;
-"
+st "signedIn    : IN     signed (signalBitNb-1 DOWNTO 0) ;"
 )
 thePort (LogicalPort
 lang 11
@@ -731,8 +730,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,5600,73000,6400"
-st "unsignedPos : OUT    unsigned (signalBitNb-1 DOWNTO 0)
-"
+st "unsignedPos : OUT    unsigned (signalBitNb-1 DOWNTO 0)"
 )
 thePort (LogicalPort
 lang 11
@@ -780,8 +778,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4800,74000,5600"
-st "unsignedNeg : OUT    unsigned (signalBitNb-1 DOWNTO 0) ;
-"
+st "unsignedNeg : OUT    unsigned (signalBitNb-1 DOWNTO 0) ;"
 )
 thePort (LogicalPort
 lang 11
@@ -805,7 +802,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,10625,15000,11375"
+xt "14250,12625,15000,13375"
 )
 tg (CPTG
 uid 252,0
@@ -816,9 +813,9 @@ uid 253,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "16000,10300,19800,11700"
+xt "16000,12300,19800,13700"
 st "clock"
-blo "16000,11500"
+blo "16000,13500"
 tm "CptPortNameMgr"
 )
 )
@@ -828,8 +825,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2400,62500,3200"
-st "clock       : IN     std_ulogic  ;
-"
+st "clock       : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -851,7 +847,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,11625,15000,12375"
+xt "14250,13625,15000,14375"
 )
 tg (CPTG
 uid 257,0
@@ -862,9 +858,9 @@ uid 258,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "16000,11300,20100,12700"
+xt "16000,13300,20100,14700"
 st "reset"
-blo "16000,12500"
+blo "16000,14500"
 tm "CptPortNameMgr"
 )
 )
@@ -874,8 +870,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,3200,62500,4000"
-st "reset       : IN     std_ulogic  ;
-"
+st "reset       : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -896,7 +891,7 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "15000,6000,34000,16000"
+xt "15000,6000,34000,20000"
 )
 oxt "15000,6000,23000,15000"
 biTextGroup (BiTextGroup
@@ -908,18 +903,18 @@ uid 11,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "16850,13300,20650,14500"
+xt "16850,16300,20650,17500"
 st "Poetic"
-blo "16850,14300"
+blo "16850,17300"
 )
 second (Text
 uid 12,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "16850,14500,21150,15700"
+xt "16850,17500,21150,18700"
 st "splitter"
-blo "16850,15500"
+blo "16850,18500"
 )
 )
 gi *69 (GenericInterface
@@ -1330,7 +1325,7 @@ tm "PackageList"
 ]
 )
 windowSize "96,54,1116,744"
-viewArea "-500,-500,70780,47560"
+viewArea "-500,-500,70780,50080"
 cachedDiagramExtent "-10500,0,74000,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-11000,0"
@@ -1604,5 +1599,5 @@ tm "SyDeclarativeTextMgr"
 )
 )
 lastUid 259,0
-activeModelName "Symbol:CDM"
+activeModelName "Symbol"
 )

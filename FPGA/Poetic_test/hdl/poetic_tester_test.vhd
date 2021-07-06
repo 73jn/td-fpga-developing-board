@@ -20,8 +20,9 @@ BEGIN
 
   ------------------------------------------------------------------------------
                                                                        -- enable
+                                                                       
   enable <= '0', '1' after 10 us;
-  Vapp <= "000000000000", "111111111111" after 10 us;
-  DataToSend <= "101111110101" after 11 us;
+  notenable <= '0';
+  SetVal <= "000000000000", "011111111111" after 15 us;
 END ARCHITECTURE test;
 

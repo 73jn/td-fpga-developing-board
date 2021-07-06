@@ -29,7 +29,7 @@ BEGIN
       w := 0.0;
       speed <= (others => '0');
     elsif rising_edge(clock) then
-      di_dt := (real(to_integer(unsigned(Vapp)))/L) - ((R/L) * i) - ((Kphi/L)*w);
+      di_dt := (real(to_integer(Vapp))/L) - ((R/L) * i) - ((Kphi/L)*w);
       dw_dt := ((Kphi/J) * i) - ((B/J) * w);
       w := w + dw_dt * clockPeriod;
       i := i + di_dt * clockPeriod;

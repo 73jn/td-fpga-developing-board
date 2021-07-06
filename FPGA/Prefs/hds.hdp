@@ -16,6 +16,8 @@ Memory = $SCRATCH_DIR/Memory
 Memory_test = $SCRATCH_DIR/Memory_test
 Common = $SCRATCH_DIR/Common
 Common_test = $SCRATCH_DIR/Common_test
+WaveformGenerator = $SCRATCH_DIR/WaveformGenerator
+WaveformGenerator_test = $SCRATCH_DIR/WaveformGenerator_test
 SPI = $SCRATCH_DIR/SPI
 SPI_test = $SCRATCH_DIR/SPI_test
 [hdl]
@@ -37,6 +39,8 @@ Common = $HDS_PROJECT_DIR/../Libs/Common/hdl
 Common_test = $HDS_PROJECT_DIR/../Libs/Common_test/hdl
 SPI = $HDS_PROJECT_DIR/../Libs/SPI/hdl
 SPI_test = $HDS_PROJECT_DIR/../Libs/SPI_test/hdl
+WaveformGenerator = $HDS_PROJECT_DIR/../Libs/WaveformGenerator/hdl
+WaveformGenerator_test = $HDS_PROJECT_DIR/../Libs/WaveformGenerator_test/hdl
 std = $HDS_HOME/hdl_libs/std/hdl
 [hds]
 Board = $HDS_PROJECT_DIR/../Board/hds
@@ -57,6 +61,8 @@ Common = $HDS_PROJECT_DIR/../Libs/Common/hds
 Common_test = $HDS_PROJECT_DIR/../Libs/Common_test/hds
 SPI = $HDS_PROJECT_DIR/../Libs/SPI/hds
 SPI_test = $HDS_PROJECT_DIR/../Libs/SPI_test/hds
+WaveformGenerator = $HDS_PROJECT_DIR/../Libs/WaveformGenerator/hds
+WaveformGenerator_test = $HDS_PROJECT_DIR/../Libs/WaveformGenerator_test/hds
 std = $HDS_HOME/hdl_libs/std/hds
 [library_type]
 ieee = standard

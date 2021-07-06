@@ -104,7 +104,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "Vapp"
-t "std_ulogic_vector"
+t "unsigned"
 b "(11 DOWNTO 0)"
 o 9
 suid 4,0
@@ -138,7 +138,7 @@ font "Tahoma,10,0"
 )
 emptyMRCItem *19 (MRCItem
 litem &1
-pos 3
+pos 4
 dimension 20
 )
 uid 68,0
@@ -320,7 +320,7 @@ font "Tahoma,10,0"
 )
 emptyMRCItem *48 (MRCItem
 litem &35
-pos 3
+pos 0
 dimension 20
 )
 uid 96,0
@@ -423,11 +423,11 @@ value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\.
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\motor\\interface.info"
+value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\motor\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\motor\\interface.user"
+value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\motor\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
@@ -439,7 +439,7 @@ value "HDL Designer"
 )
 (vvPair
 variable "arch_name"
-value "interface"
+value "symbol"
 )
 (vvPair
 variable "concat_file"
@@ -459,19 +459,19 @@ value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\.
 )
 (vvPair
 variable "date"
-value "01.07.2021"
+value "02.07.2021"
 )
 (vvPair
 variable "day"
-value "jeu."
+value "ven."
 )
 (vvPair
 variable "day_long"
-value "jeudi"
+value "vendredi"
 )
 (vvPair
 variable "dd"
-value "01"
+value "02"
 )
 (vvPair
 variable "entity_name"
@@ -483,15 +483,15 @@ value "<TBD>"
 )
 (vvPair
 variable "f"
-value "interface"
+value "symbol.sb"
 )
 (vvPair
 variable "f_logical"
-value "interface"
+value "symbol.sb"
 )
 (vvPair
 variable "f_noext"
-value "interface"
+value "symbol"
 )
 (vvPair
 variable "graphical_source_author"
@@ -499,7 +499,7 @@ value "jeann"
 )
 (vvPair
 variable "graphical_source_date"
-value "01.07.2021"
+value "02.07.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -511,7 +511,7 @@ value "DESKTOP-V46KISN"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:27:55"
+value "14:40:28"
 )
 (vvPair
 variable "group"
@@ -551,11 +551,11 @@ value "juillet"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\motor\\interface"
+value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\motor\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\motor\\interface"
+value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\motor\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -571,19 +571,19 @@ value "HDL Designer Series"
 )
 (vvPair
 variable "this_ext"
-value "<TBD>"
+value "sb"
 )
 (vvPair
 variable "this_file"
-value "interface"
+value "symbol"
 )
 (vvPair
 variable "this_file_logical"
-value "interface"
+value "symbol"
 )
 (vvPair
 variable "time"
-value "15:27:55"
+value "14:40:28"
 )
 (vvPair
 variable "unit"
@@ -599,7 +599,7 @@ value "2019.2 (Build 5)"
 )
 (vvPair
 variable "view"
-value "interface"
+value "symbol"
 )
 (vvPair
 variable "year"
@@ -790,15 +790,15 @@ uid 150,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,2400,70000,3200"
-st "Vapp  : IN     std_ulogic_vector (11 DOWNTO 0) ;
+xt "44000,2400,65000,3200"
+st "Vapp  : IN     unsigned (11 DOWNTO 0) ;
 "
 )
 thePort (LogicalPort
 lang 11
 decl (Decl
 n "Vapp"
-t "std_ulogic_vector"
+t "unsigned"
 b "(11 DOWNTO 0)"
 o 9
 suid 4,0
@@ -1176,7 +1176,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "36200,47000,46400,48000"
+xt "36200,47000,46000,48000"
 st "
 %library/%unit/%view
 "
@@ -1239,9 +1239,9 @@ tm "PackageList"
 )
 ]
 )
-windowSize "0,0,1015,690"
-viewArea "0,0,0,0"
-cachedDiagramExtent "0,0,0,0"
+windowSize "288,162,1305,852"
+viewArea "-500,-500,70510,47560"
+cachedDiagramExtent "-6000,0,73000,49000"
 pageBreakOrigin "0,0"
 defaultCommentText (CommentText
 shape (Rectangle
@@ -1512,6 +1512,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 158,0
+lastUid 204,0
 activeModelName "Symbol:CDM"
 )

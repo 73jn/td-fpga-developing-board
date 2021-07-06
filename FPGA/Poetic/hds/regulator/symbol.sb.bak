@@ -138,7 +138,7 @@ lang 11
 m 1
 decl (Decl
 n "output"
-t "std_ulogic_vector"
+t "unsigned"
 b "(pidBitNb-1 DOWNTO 0)"
 o 129
 suid 7,0
@@ -561,7 +561,7 @@ value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\.
 )
 (vvPair
 variable "date"
-value "25.06.2021"
+value "02.07.2021"
 )
 (vvPair
 variable "day"
@@ -573,7 +573,7 @@ value "vendredi"
 )
 (vvPair
 variable "dd"
-value "25"
+value "02"
 )
 (vvPair
 variable "entity_name"
@@ -601,7 +601,7 @@ value "jeann"
 )
 (vvPair
 variable "graphical_source_date"
-value "25.06.2021"
+value "02.07.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -613,7 +613,7 @@ value "DESKTOP-V46KISN"
 )
 (vvPair
 variable "graphical_source_time"
-value "09:40:04"
+value "13:39:41"
 )
 (vvPair
 variable "group"
@@ -637,7 +637,7 @@ value "$SCRATCH_DIR/Poetic"
 )
 (vvPair
 variable "mm"
-value "06"
+value "07"
 )
 (vvPair
 variable "module_name"
@@ -645,11 +645,11 @@ value "regulator"
 )
 (vvPair
 variable "month"
-value "juin"
+value "juil."
 )
 (vvPair
 variable "month_long"
-value "juin"
+value "juillet"
 )
 (vvPair
 variable "p"
@@ -685,7 +685,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "09:40:04"
+value "13:39:41"
 )
 (vvPair
 variable "unit"
@@ -1028,8 +1028,8 @@ uid 85,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,8800,77000,9600"
-st "output        : OUT    std_ulogic_vector (pidBitNb-1 DOWNTO 0)
+xt "44000,8800,72500,9600"
+st "output        : OUT    unsigned (pidBitNb-1 DOWNTO 0)
 "
 )
 thePort (LogicalPort
@@ -1037,7 +1037,7 @@ lang 11
 m 1
 decl (Decl
 n "output"
-t "std_ulogic_vector"
+t "unsigned"
 b "(pidBitNb-1 DOWNTO 0)"
 o 129
 suid 7,0
@@ -1183,8 +1183,7 @@ font "Courier New,8,0"
 xt "-4500,13500,8000,15900"
 st "Generic Declarations
 
-pidBitNb positive 12  
-"
+pidBitNb positive 12  "
 )
 header "Generic Declarations"
 showHdrWhenContentsEmpty 1
@@ -1578,8 +1577,8 @@ tm "PackageList"
 )
 ]
 )
-windowSize "0,0,1016,690"
-viewArea "-500,-500,70420,47560"
+windowSize "192,108,1211,798"
+viewArea "-500,-500,70690,47560"
 cachedDiagramExtent "-4500,0,78000,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-5000,0"
@@ -1852,6 +1851,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 195,0
-activeModelName "Symbol:GEN"
+lastUid 264,0
+activeModelName "Symbol:CDM"
 )

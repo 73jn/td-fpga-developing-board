@@ -317,7 +317,7 @@ tm "GenericEolColHdrMgr"
 generic (GiElement
 name "signalBitNb"
 type "positive"
-value "10"
+value "12"
 )
 uid 198,0
 )
@@ -492,19 +492,19 @@ value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\.
 )
 (vvPair
 variable "date"
-value "22.06.2021"
+value "02.07.2021"
 )
 (vvPair
 variable "day"
-value "mar."
+value "ven."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "vendredi"
 )
 (vvPair
 variable "dd"
-value "22"
+value "02"
 )
 (vvPair
 variable "entity_name"
@@ -532,7 +532,7 @@ value "jeann"
 )
 (vvPair
 variable "graphical_source_date"
-value "22.06.2021"
+value "02.07.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -544,7 +544,7 @@ value "DESKTOP-V46KISN"
 )
 (vvPair
 variable "graphical_source_time"
-value "10:25:06"
+value "14:42:11"
 )
 (vvPair
 variable "group"
@@ -568,7 +568,7 @@ value "$SCRATCH_DIR/Poetic"
 )
 (vvPair
 variable "mm"
-value "06"
+value "07"
 )
 (vvPair
 variable "module_name"
@@ -576,11 +576,11 @@ value "splitter"
 )
 (vvPair
 variable "month"
-value "juin"
+value "juil."
 )
 (vvPair
 variable "month_long"
-value "juin"
+value "juillet"
 )
 (vvPair
 variable "p"
@@ -616,7 +616,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "10:25:06"
+value "14:42:11"
 )
 (vvPair
 variable "unit"
@@ -930,7 +930,8 @@ font "Courier New,8,0"
 xt "-10500,6500,3500,8900"
 st "Generic Declarations
 
-signalBitNb positive 10  "
+signalBitNb positive 12  
+"
 )
 header "Generic Declarations"
 showHdrWhenContentsEmpty 1
@@ -939,7 +940,7 @@ elements [
 (GiElement
 name "signalBitNb"
 type "positive"
-value "10"
+value "12"
 )
 ]
 )
@@ -1324,8 +1325,8 @@ tm "PackageList"
 )
 ]
 )
-windowSize "96,54,1116,744"
-viewArea "-500,-500,70780,50080"
+windowSize "96,54,1117,744"
+viewArea "-500,-500,70870,47560"
 cachedDiagramExtent "-10500,0,74000,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-11000,0"
@@ -1598,6 +1599,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 259,0
-activeModelName "Symbol"
+lastUid 282,0
+activeModelName "Symbol:GEN"
 )
