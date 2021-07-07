@@ -1597,9 +1597,17 @@ second "concatenated"
 defaultCategoryTemplates [
 1
 "architecture.vhd"
+4
+"package_header.vhd"
+5
+"package_body.vhd"
 ]
 defaultCategoryTemplatesPrefs [
 1
+0
+4
+0
+5
 0
 ]
 tasksOrder [
@@ -6302,6 +6310,16 @@ declHierarchy [
 ]
 activeViewpointIdx 0
 )
+(WorkTab
+name "Board"
+showingHierarchy 0
+openLibs [
+"Board"
+]
+declHierarchy [
+]
+activeViewpointIdx 0
+)
 ]
 ViewpointsOnOutlookBar [
 "Requirements"
@@ -6329,7 +6347,7 @@ yPos 0
 width 1932
 height 1045
 activeSidePanelTab 2
-activeLibraryTab 2
+activeLibraryTab 13
 sidePanelSize 278
 showUnixHiddenFiles 0
 componentBrowserXpos 569
@@ -6345,6 +6363,7 @@ componentBrowserLibraryNames [
 "Common"
 "Memory"
 "Filter"
+"std"
 ]
 )
 (SmPreferences

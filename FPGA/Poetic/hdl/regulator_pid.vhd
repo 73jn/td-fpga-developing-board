@@ -17,7 +17,7 @@ ARCHITECTURE pid OF regulator IS
 	SIGNAL Error, Error_difference, error_sum, old_error, old_old_error : INTEGER := 0; --store values for controller
 	SIGNAL p, i, d : INTEGER := 0; --Contain the proportional, derivative and integral errors respectively
 	SIGNAL output_loaded, output_saturation_buffer : INTEGER := 0; --allows to check if output is within range
-	SIGNAL old_adc : std_logic_vector(11 DOWNTO 0); --stores old adc value
+	SIGNAL old_adc : std_ulogic_vector(11 DOWNTO 0); --stores old adc value
   SIGNAL old_SetVal : std_ulogic_vector(11 DOWNTO 0);
   signal memUpdate, risingUpdate : std_ulogic;
   signal newError : std_ulogic;

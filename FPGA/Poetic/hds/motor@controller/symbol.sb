@@ -586,23 +586,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hdl"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board-main\\td-fpga-developing-board-main\\FPGA\\Prefs\\..\\Poetic\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board-main\\td-fpga-developing-board-main\\FPGA\\Prefs\\..\\Poetic\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\motor@controller\\symbol.sb.info"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board-main\\td-fpga-developing-board-main\\FPGA\\Prefs\\..\\Poetic\\hds\\motor@controller\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\motor@controller\\symbol.sb.user"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board-main\\td-fpga-developing-board-main\\FPGA\\Prefs\\..\\Poetic\\hds\\motor@controller\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board-main\\td-fpga-developing-board-main\\FPGA\\Prefs\\..\\Poetic\\hds"
 )
 (vvPair
 variable "appl"
@@ -622,11 +622,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\motor@controller"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board-main\\td-fpga-developing-board-main\\FPGA\\Prefs\\..\\Poetic\\hds\\motor@controller"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\motorController"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board-main\\td-fpga-developing-board-main\\FPGA\\Prefs\\..\\Poetic\\hds\\motorController"
 )
 (vvPair
 variable "date"
@@ -666,7 +666,7 @@ value "symbol"
 )
 (vvPair
 variable "graphical_source_author"
-value "jeann"
+value "jean.nanchen"
 )
 (vvPair
 variable "graphical_source_date"
@@ -678,11 +678,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "DESKTOP-V46KISN"
+value "WEA30407"
 )
 (vvPair
 variable "graphical_source_time"
-value "10:22:37"
+value "11:04:38"
 )
 (vvPair
 variable "group"
@@ -690,7 +690,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "DESKTOP-V46KISN"
+value "WEA30407"
 )
 (vvPair
 variable "language"
@@ -722,11 +722,11 @@ value "juillet"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\motor@controller\\symbol.sb"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board-main\\td-fpga-developing-board-main\\FPGA\\Prefs\\..\\Poetic\\hds\\motor@controller\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\motorController\\symbol.sb"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board-main\\td-fpga-developing-board-main\\FPGA\\Prefs\\..\\Poetic\\hds\\motorController\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -754,7 +754,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "10:22:37"
+value "11:04:38"
 )
 (vvPair
 variable "unit"
@@ -762,7 +762,7 @@ value "motorController"
 )
 (vvPair
 variable "user"
-value "jeann"
+value "jean.nanchen"
 )
 (vvPair
 variable "version"
@@ -821,8 +821,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,6400,63000,7200"
-st "clock        : IN     std_ulogic  ;
-"
+st "clock        : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -867,8 +866,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,7200,77500,8000"
-st "consigne     : IN     std_ulogic_vector (pidBitNb-1 DOWNTO 0) ;
-"
+st "consigne     : IN     std_ulogic_vector (pidBitNb-1 DOWNTO 0) ;"
 )
 thePort (LogicalPort
 lang 11
@@ -914,8 +912,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,10400,63000,11200"
-st "CS_n         : OUT    std_ulogic  ;
-"
+st "CS_n         : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -961,8 +958,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,8000,63000,8800"
-st "en_ADC       : IN     std_ulogic  ;
-"
+st "en_ADC       : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -1008,8 +1004,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,11200,62000,12000"
-st "PWM_Out      : OUT    std_ulogic 
-"
+st "PWM_Out      : OUT    std_ulogic "
 )
 thePort (LogicalPort
 lang 11
@@ -1055,8 +1050,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,9600,63000,10400"
-st "reset        : IN     std_ulogic  ;
-"
+st "reset        : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -1101,8 +1095,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4800,63000,5600"
-st "SCLK         : IN     std_ulogic  ;
-"
+st "SCLK         : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -1118,6 +1111,7 @@ suid 15,0
 uid 243,0
 ps "OnEdgeStrategy"
 shape (Triangle
+uid 505,0
 ro 90
 va (VaSet
 vasetType 1
@@ -1146,8 +1140,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,5600,63000,6400"
-st "SDO          : IN     std_ulogic  ;
-"
+st "SDO          : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -1192,8 +1185,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,8800,63000,9600"
-st "en_Regulator : IN     std_ulogic  ;
-"
+st "en_Regulator : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -1238,8 +1230,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4000,63000,4800"
-st "P            : IN     std_ulogic  ;
-"
+st "P            : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -1284,8 +1275,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,3200,63000,4000"
-st "I            : IN     std_ulogic  ;
-"
+st "I            : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -1330,8 +1320,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2400,63000,3200"
-st "D            : IN     std_ulogic  ;
-"
+st "D            : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -1442,7 +1431,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "36200,48000,45400,49000"
+xt "36200,48000,48000,49000"
 st "
 by %user on %dd %month %year
 "
@@ -2065,7 +2054,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 481,0
+lastUid 528,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"

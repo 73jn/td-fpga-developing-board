@@ -12,26 +12,27 @@ ARCHITECTURE serialAsciiDecoder OF serialAsciiDecoder IS
     isReceiving, endOfReceive, ready, print, increment, incrementAdder
   );
   signal mainState : decodeState;
-  type t_Memory is array (0 to 255) of std_logic_vector(7 downto 0);
+  type t_Memory is array (0 to 11) of std_ulogic_vector(7 downto 0);
   signal r_Mem : t_Memory;
-  signal uOutput : unsigned(11 DOWNTO 0);
 BEGIN
   decode : process(reset, clock)
     variable counterCharacter : integer;
     variable counterAdder : integer;
+	variable uOutput : integer;
   begin
     if reset = '1' then
-      uOutput <= (others => '0');
+      uOutput := 0;
       output <= (others => '0');
       mainState <= ready;
       counterCharacter := 0;
       counterAdder := 0;
-      for i in 0 to 255 loop
+      for i in 0 to 11 loop
         r_Mem(i) <= (others => '0');
       end loop;
     elsif rising_edge(clock) then
       case mainState is 
         when ready =>
+		  uOutput := 0;
           if newCharacter = '1' then
             mainState <= isReceiving;
           end if;
@@ -50,27 +51,43 @@ BEGIN
           if counterAdder = counterCharacter then
             mainState <= print;
           else
-            r_Mem(counterAdder) <= (others => '0');
+            r_Mem(counterCharacter-counterAdder-1) <= (others => '0');
             mainState <= incrementAdder;
-            case r_Mem(counterAdder) is
-              when X"30" => uOutput <= uOutput;
-              when X"31" => uOutput <= uOutput + (1 * (10**(counterCharacter-counterAdder-1)));
-              when X"32" => uOutput <= uOutput + (2 * (10**(counterCharacter-counterAdder-1)));
-              when X"33" => uOutput <= uOutput + (3 * (10**(counterCharacter-counterAdder-1)));
-              when X"34" => uOutput <= uOutput + (4 * (10**(counterCharacter-counterAdder-1)));
-              when X"35" => uOutput <= uOutput + (5 * (10**(counterCharacter-counterAdder-1)));
-              when X"36" => uOutput <= uOutput + (6 * (10**(counterCharacter-counterAdder-1)));
-              when X"37" => uOutput <= uOutput + (7 * (10**(counterCharacter-counterAdder-1)));
-              when X"38" => uOutput <= uOutput + (8 * (10**(counterCharacter-counterAdder-1)));
-              when X"39" => uOutput <= uOutput + (9 * (10**(counterCharacter-counterAdder-1)));
-              when others =>
-            end case;
+			if counterAdder = counterCharacter - 1 then
+				case r_Mem(counterCharacter-counterAdder-1) is
+				  when X"30" => uOutput := uOutput;
+				  when X"31" => uOutput := (uOutput + 1) * 10;
+				  when X"32" => uOutput := (uOutput + 2) * 10;
+				  when X"33" => uOutput := (uOutput + 3) * 10;
+				  when X"34" => uOutput := (uOutput + 4) * 10;
+				  when X"35" => uOutput := (uOutput + 5) * 10;
+				  when X"36" => uOutput := (uOutput + 6) * 10;
+				  when X"37" => uOutput := (uOutput + 7) * 10;
+				  when X"38" => uOutput := (uOutput + 8) * 10;
+				  when X"39" => uOutput := (uOutput + 9) * 10;
+				  when others =>
+				end case;
+			else
+				case r_Mem(counterCharacter-counterAdder-1) is
+				  when X"30" => uOutput := uOutput;
+				  when X"31" => uOutput := (uOutput + 1);
+				  when X"32" => uOutput := (uOutput + 2);
+				  when X"33" => uOutput := (uOutput + 3);
+				  when X"34" => uOutput := (uOutput + 4);
+				  when X"35" => uOutput := (uOutput + 5);
+				  when X"36" => uOutput := (uOutput + 6);
+				  when X"37" => uOutput := (uOutput + 7);
+				  when X"38" => uOutput := (uOutput + 8);
+				  when X"39" => uOutput := (uOutput + 9);
+				  when others =>
+				end case;
+			end if;
           end if;
         when incrementAdder =>
           counterAdder := counterAdder + 1;
           mainState <= endOfReceive;
         when print =>
-          output <= std_ulogic_vector(uOutput);
+          output <= std_ulogic_vector(to_unsigned(uOutput, output'length));
           counterCharacter := 0;
           counterAdder := 0;
           mainState <= ready;
