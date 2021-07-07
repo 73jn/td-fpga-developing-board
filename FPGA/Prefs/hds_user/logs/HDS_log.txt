@@ -1,0 +1,43 @@
+Application HDL Designer version 2019.2 (Build 5)
+Created on 06.07.2021 17:00:23
+HDL Designer Series
+HDL Designer
+Version 2019.2 (Build 5) 
+Built on Sat Apr 20 2019 at 23:05
+Verilog parser dynamic library version 5.1.42.f ( 2019/04/20 21:28:10 )
+Running on Personal  (Build 9200)
+
+Loading HDS Project file via Environment variable $HDS_LIBS C:\Users\jeann\Documents\TD\td-fpga-developing-board\FPGA\Prefs\hds.hdp
+Loading prefs env variable USER_HOME C:\Users\jeann\Documents\TD\td-fpga-developing-board\FPGA\Prefs\hds_user
+Loading teamprefs env variable TEAM_HOME C:\Users\jeann\Documents\TD\td-fpga-developing-board\FPGA\Prefs\hds_team
+Loading user Task files from 'C:\Users\jeann\Documents\TD\td-fpga-developing-board\FPGA\Prefs\hds_user\v2019.2\tasks'.
+Loading team Task files from 'C:\Users\jeann\Documents\TD\td-fpga-developing-board\FPGA\Prefs\hds_team\v2019.2\tasks'.
+The timezone environment variable is set : TZ=GMT-2:0DST
+
+HDS_HOME is set to : C:\eda\MentorGraphics\HDS
+
+Environment variables:
+HDS_HOME set to C:\eda\MentorGraphics\HDS
+HDS_USER_HOME set to C:\Users\jeann\Documents\TD\td-fpga-developing-board\FPGA\Prefs\hds_user
+HDS_TEAM_HOME set to C:\Users\jeann\Documents\TD\td-fpga-developing-board\FPGA\Prefs\hds_team
+HDS_LIBS set to C:\Users\jeann\Documents\TD\td-fpga-developing-board\FPGA\Prefs\hds.hdp
+HDS_PORT set to DESKTOP-V46KISN:51843
+10 events recorded:
+Undo
+UpdateFromSymbol
+Delete
+RunTool
+"USER:ModelSim Compile"
+RunFlow
+"USER:Prepare for Synthesis"
+ExecuteAction
+RunFlow
+"USER:Prepare for Synthesis"
+
+Traceback:
+Pure virtual function called
+Program : C:\eda\MentorGraphics\HDS\bin\hdldesigner.exe
+Last Error (0x00000000) : L’opération a réussi.
+
+
+Failed to write traceback during first attempt - attempting triggering access violation to force output

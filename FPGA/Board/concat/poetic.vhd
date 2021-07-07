@@ -329,8 +329,8 @@ END CommonLib;
 
 
 
-library Common;
-  use Common.CommonLib.all;
+-- library Common;
+  use work.CommonLib.all;
 
 architecture RTL of serialPortReceiver is
 
@@ -593,8 +593,8 @@ END FIFO_bram ;
 
 
 
-library Common;
-  use Common.CommonLib.all;
+-- library Common;
+  use work.CommonLib.all;
 
 architecture RTL of FIFO_bram is
 
@@ -775,7 +775,7 @@ LIBRARY ieee;
   USE ieee.std_logic_1164.all;
   USE ieee.numeric_std.all;
 
-LIBRARY Memory;
+-- LIBRARY Memory;
 
 ARCHITECTURE struct OF FIFO IS
 
@@ -825,7 +825,7 @@ BEGIN
     g0: IF depth <= 1 GENERATE
     -- Optional embedded configurations
     -- pragma synthesis_off
-    FOR ALL : FIFO_oneRegister USE ENTITY Memory.FIFO_oneRegister;
+--     FOR ALL : FIFO_oneRegister USE ENTITY Memory.FIFO_oneRegister;
     -- pragma synthesis_on
 
     BEGIN
@@ -848,7 +848,7 @@ BEGIN
     g1: IF depth > 1 GENERATE
     -- Optional embedded configurations
     -- pragma synthesis_off
-    FOR ALL : FIFO_bram USE ENTITY Memory.FIFO_bram;
+--     FOR ALL : FIFO_bram USE ENTITY Memory.FIFO_bram;
     -- pragma synthesis_on
 
     BEGIN
@@ -908,8 +908,8 @@ END serialPortTransmitter ;
 
 
 
-library Common;
-  use Common.CommonLib.all;
+-- library Common;
+  use work.CommonLib.all;
 
 architecture RTL of serialPortTransmitter is
 
@@ -1014,8 +1014,8 @@ LIBRARY ieee;
   USE ieee.std_logic_1164.all;
   USE ieee.numeric_std.ALL;
 
-LIBRARY Memory;
-LIBRARY RS232;
+-- LIBRARY Memory;
+-- LIBRARY RS232;
 
 ARCHITECTURE struct OF serialPortFIFO IS
 
@@ -1077,9 +1077,9 @@ ARCHITECTURE struct OF serialPortFIFO IS
 
     -- Optional embedded configurations
     -- pragma synthesis_off
-    FOR ALL : FIFO USE ENTITY Memory.FIFO;
-    FOR ALL : serialPortReceiver USE ENTITY RS232.serialPortReceiver;
-    FOR ALL : serialPortTransmitter USE ENTITY RS232.serialPortTransmitter;
+--     FOR ALL : FIFO USE ENTITY Memory.FIFO;
+--     FOR ALL : serialPortReceiver USE ENTITY RS232.serialPortReceiver;
+--     FOR ALL : serialPortTransmitter USE ENTITY RS232.serialPortTransmitter;
     -- pragma synthesis_on
 
 
@@ -1843,8 +1843,8 @@ LIBRARY ieee;
   USE ieee.std_logic_1164.all;
   USE ieee.numeric_std.all;
 
-LIBRARY Modulation;
-LIBRARY Poetic;
+-- LIBRARY Modulation;
+-- LIBRARY Poetic;
 
 ARCHITECTURE struct OF motorController IS
 
@@ -1904,9 +1904,9 @@ ARCHITECTURE struct OF motorController IS
 
     -- Optional embedded configurations
     -- pragma synthesis_off
-    FOR ALL : ADC USE ENTITY Poetic.ADC;
-    FOR ALL : pwmModulator USE ENTITY Modulation.pwmModulator;
-    FOR ALL : regulator USE ENTITY Poetic.regulator;
+--     FOR ALL : ADC USE ENTITY Poetic.ADC;
+--     FOR ALL : pwmModulator USE ENTITY Modulation.pwmModulator;
+--     FOR ALL : regulator USE ENTITY Poetic.regulator;
     -- pragma synthesis_on
 
 
@@ -1974,8 +1974,8 @@ LIBRARY ieee;
   USE ieee.std_logic_1164.all;
   USE ieee.numeric_std.all;
 
-LIBRARY Poetic;
-LIBRARY RS232;
+-- LIBRARY Poetic;
+-- LIBRARY RS232;
 
 ARCHITECTURE struct OF SimplePoeticDcMotor IS
 
@@ -2069,10 +2069,10 @@ ARCHITECTURE struct OF SimplePoeticDcMotor IS
 
     -- Optional embedded configurations
     -- pragma synthesis_off
-    FOR ALL : motorController USE ENTITY Poetic.motorController;
-    FOR ALL : serialAsciiDecoder USE ENTITY Poetic.serialAsciiDecoder;
-    FOR ALL : serialPortFIFO USE ENTITY RS232.serialPortFIFO;
-    FOR ALL : uartController USE ENTITY Poetic.uartController;
+--     FOR ALL : motorController USE ENTITY Poetic.motorController;
+--     FOR ALL : serialAsciiDecoder USE ENTITY Poetic.serialAsciiDecoder;
+--     FOR ALL : serialPortFIFO USE ENTITY RS232.serialPortFIFO;
+--     FOR ALL : uartController USE ENTITY Poetic.uartController;
     -- pragma synthesis_on
 
 
@@ -2246,8 +2246,8 @@ LIBRARY ieee;
   USE ieee.std_logic_1164.all;
   USE ieee.numeric_std.all;
 
-LIBRARY Board;
-LIBRARY Poetic;
+-- LIBRARY Board;
+-- LIBRARY Poetic;
 
 ARCHITECTURE studentVersion OF poetic_circuit IS
 
@@ -2303,9 +2303,9 @@ ARCHITECTURE studentVersion OF poetic_circuit IS
 
     -- Optional embedded configurations
     -- pragma synthesis_off
-    FOR ALL : DFF USE ENTITY Board.DFF;
-    FOR ALL : SimplePoeticDcMotor USE ENTITY Poetic.SimplePoeticDcMotor;
-    FOR ALL : inverterIn USE ENTITY Board.inverterIn;
+--     FOR ALL : DFF USE ENTITY Board.DFF;
+--     FOR ALL : SimplePoeticDcMotor USE ENTITY Poetic.SimplePoeticDcMotor;
+--     FOR ALL : inverterIn USE ENTITY Board.inverterIn;
     -- pragma synthesis_on
 
 
