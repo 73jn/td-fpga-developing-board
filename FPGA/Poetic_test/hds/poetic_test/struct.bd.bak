@@ -268,7 +268,7 @@ value "DESKTOP-V46KISN"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:48:30"
+value "14:51:10"
 )
 (vvPair
 variable "group"
@@ -396,7 +396,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "14:48:30"
+value "14:51:10"
 )
 (vvPair
 variable "unit"
@@ -522,7 +522,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,21400,14700,22400"
-st "SIGNAL clock      : std_logic"
+st "SIGNAL clock      : std_logic
+"
 )
 )
 *6 (Net
@@ -540,7 +541,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,27400,14700,28400"
-st "SIGNAL reset      : std_logic"
+st "SIGNAL reset      : std_logic
+"
 )
 )
 *7 (SaComponent
@@ -1115,7 +1117,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,16400,16600,17400"
-st "SIGNAL ADC_SCLK   : std_ulogic"
+st "SIGNAL ADC_SCLK   : std_ulogic
+"
 )
 )
 *27 (Net
@@ -1133,7 +1136,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,22400,15600,23400"
-st "SIGNAL enable     : std_ulogic"
+st "SIGNAL enable     : std_ulogic
+"
 )
 )
 *28 (Net
@@ -1151,7 +1155,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,19400,15500,20400"
-st "SIGNAL SDO        : std_ulogic"
+st "SIGNAL SDO        : std_ulogic
+"
 )
 )
 *29 (Net
@@ -1169,7 +1174,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,17400,15600,18400"
-st "SIGNAL CS_n       : std_ulogic"
+st "SIGNAL CS_n       : std_ulogic
+"
 )
 )
 *30 (SaComponent
@@ -1704,7 +1710,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,18400,28900,19400"
-st "SIGNAL Data       : std_ulogic_vector(adcBitNb-1 DOWNTO 0)"
+st "SIGNAL Data       : std_ulogic_vector(adcBitNb-1 DOWNTO 0)
+"
 )
 )
 *49 (Net
@@ -1723,7 +1730,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,29400,25700,30400"
-st "SIGNAL speed      : std_ulogic_vector(11 DOWNTO 0)"
+st "SIGNAL speed      : std_ulogic_vector(11 DOWNTO 0)
+"
 )
 )
 *50 (Net
@@ -1742,7 +1750,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,20400,28700,21400"
-st "SIGNAL Setval     : std_ulogic_vector(pidBitNb-1 DOWNTO 0)"
+st "SIGNAL Setval     : std_ulogic_vector(pidBitNb-1 DOWNTO 0)
+"
 )
 )
 *51 (Net
@@ -1761,7 +1770,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,26400,25400,27400"
-st "SIGNAL output     : unsigned(pidBitNb-1 DOWNTO 0)"
+st "SIGNAL output     : unsigned(pidBitNb-1 DOWNTO 0)
+"
 )
 )
 *52 (Net
@@ -1779,7 +1789,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,25400,16000,26400"
-st "SIGNAL notenable  : std_ulogic"
+st "SIGNAL notenable  : std_ulogic
+"
 )
 )
 *53 (SaComponent
@@ -2089,7 +2100,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,28400,15500,29400"
-st "SIGNAL serialOut  : std_ulogic"
+st "SIGNAL serialOut  : std_ulogic
+"
 )
 )
 *66 (SaComponent
@@ -2335,7 +2347,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,24400,27300,25400"
-st "SIGNAL lowpassOut : unsigned(signalBitNb-1 DOWNTO 0)"
+st "SIGNAL lowpassOut : unsigned(signalBitNb-1 DOWNTO 0)
+"
 )
 )
 *75 (Net
@@ -2353,7 +2366,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,23400,27000,24400"
-st "SIGNAL lowpassIn  : unsigned(signalBitNb-1 DOWNTO 0)"
+st "SIGNAL lowpassIn  : unsigned(signalBitNb-1 DOWNTO 0)
+"
 )
 )
 *76 (SaComponent
@@ -2827,18 +2841,6 @@ xt "173600,-4399,174400,-3599"
 radius 400
 )
 )
-*93 (BdJunction
-uid 8543,0
-ps "OnConnectorStrategy"
-shape (Circle
-uid 8544,0
-va (VaSet
-vasetType 1
-)
-xt "173600,-4400,174400,-3600"
-radius 400
-)
-)
 ]
 shape (OrthoPolyLine
 uid 6785,0
@@ -2876,7 +2878,7 @@ tm "WireNameMgr"
 )
 on &26
 )
-*94 (Wire
+*93 (Wire
 uid 6794,0
 shape (OrthoPolyLine
 uid 6795,0
@@ -2915,7 +2917,7 @@ tm "WireNameMgr"
 )
 on &26
 )
-*95 (Wire
+*94 (Wire
 uid 6808,0
 shape (OrthoPolyLine
 uid 6809,0
@@ -2952,7 +2954,7 @@ tm "WireNameMgr"
 )
 on &27
 )
-*96 (Wire
+*95 (Wire
 uid 6814,0
 shape (OrthoPolyLine
 uid 6815,0
@@ -2989,7 +2991,7 @@ tm "WireNameMgr"
 )
 on &6
 )
-*97 (Wire
+*96 (Wire
 uid 6820,0
 shape (OrthoPolyLine
 uid 6821,0
@@ -3026,7 +3028,7 @@ tm "WireNameMgr"
 )
 on &5
 )
-*98 (Wire
+*97 (Wire
 uid 6826,0
 shape (OrthoPolyLine
 uid 6827,0
@@ -3063,7 +3065,7 @@ tm "WireNameMgr"
 )
 on &6
 )
-*99 (Wire
+*98 (Wire
 uid 6832,0
 shape (OrthoPolyLine
 uid 6833,0
@@ -3100,7 +3102,7 @@ tm "WireNameMgr"
 )
 on &5
 )
-*100 (Wire
+*99 (Wire
 uid 6897,0
 shape (OrthoPolyLine
 uid 6898,0
@@ -3139,7 +3141,7 @@ tm "WireNameMgr"
 )
 on &28
 )
-*101 (Wire
+*100 (Wire
 uid 6903,0
 shape (OrthoPolyLine
 uid 6904,0
@@ -3177,7 +3179,7 @@ tm "WireNameMgr"
 )
 on &5
 )
-*102 (Wire
+*101 (Wire
 uid 6911,0
 shape (OrthoPolyLine
 uid 6912,0
@@ -3215,7 +3217,7 @@ tm "WireNameMgr"
 )
 on &6
 )
-*103 (Wire
+*102 (Wire
 uid 6925,0
 shape (OrthoPolyLine
 uid 6926,0
@@ -3254,8 +3256,22 @@ tm "WireNameMgr"
 )
 on &26
 )
-*104 (Wire
+*103 (Wire
 uid 6933,0
+optionalChildren [
+*104 (BdJunction
+uid 8549,0
+ps "OnConnectorStrategy"
+shape (Circle
+uid 8550,0
+va (VaSet
+vasetType 1
+)
+xt "153600,24600,154400,25400"
+radius 400
+)
+)
+]
 shape (OrthoPolyLine
 uid 6934,0
 va (VaSet
@@ -4133,20 +4149,21 @@ tm "WireNameMgr"
 on &75
 )
 *127 (Wire
-uid 8539,0
+uid 8545,0
 shape (OrthoPolyLine
-uid 8540,0
+uid 8546,0
 va (VaSet
 vasetType 3
 )
-xt "174000,-17000,237250,-4000"
+xt "154000,-17000,237250,25000"
 pts [
-"174000,-4000"
-"174000,-17000"
+"154000,25000"
+"227000,25000"
+"227000,-17000"
 "237250,-17000"
 ]
 )
-start &93
+start &104
 end &86
 sat 32
 eat 32
@@ -4155,21 +4172,21 @@ st 0
 sf 1
 si 0
 tg (WTG
-uid 8541,0
+uid 8547,0
 ps "ConnStartEndStrategy"
 stg "STSignalDisplayStrategy"
 f (Text
-uid 8542,0
+uid 8548,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "229250,-18400,236650,-17000"
-st "ADC_SCLK"
-blo "229250,-17200"
+xt "232250,-18400,236350,-17000"
+st "CS_n"
+blo "232250,-17200"
 tm "WireNameMgr"
 )
 )
-on &26
+on &29
 )
 ]
 bg "65535,65535,65535"
@@ -4307,7 +4324,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-132000"
-lastUid 8544,0
+lastUid 8550,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

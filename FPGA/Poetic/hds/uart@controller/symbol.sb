@@ -80,7 +80,7 @@ decl (Decl
 n "consigne"
 t "std_ulogic_vector"
 b "(dataBitNb-1 DOWNTO 0)"
-o 5
+o 6
 suid 16,0
 )
 )
@@ -93,7 +93,7 @@ m 1
 decl (Decl
 n "newCharacter"
 t "std_ulogic"
-o 7
+o 8
 suid 17,0
 )
 )
@@ -143,7 +143,7 @@ m 1
 decl (Decl
 n "rxRd"
 t "std_ulogic"
-o 8
+o 9
 suid 21,0
 )
 )
@@ -156,7 +156,7 @@ m 1
 decl (Decl
 n "endOfMsg"
 t "std_ulogic"
-o 6
+o 7
 suid 22,0
 )
 )
@@ -170,7 +170,7 @@ decl (Decl
 n "txData"
 t "std_ulogic_vector"
 b "(dataBitNb-1 DOWNTO 0)"
-o 9
+o 10
 suid 23,0
 )
 )
@@ -182,7 +182,7 @@ lang 11
 decl (Decl
 n "txFull"
 t "std_ulogic"
-o 10
+o 5
 suid 25,0
 )
 )
@@ -560,23 +560,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hdl"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board-main\\td-fpga-developing-board-main\\FPGA\\Prefs\\..\\Poetic\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board-main\\td-fpga-developing-board-main\\FPGA\\Prefs\\..\\Poetic\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\uart@controller\\symbol.sb.info"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board-main\\td-fpga-developing-board-main\\FPGA\\Prefs\\..\\Poetic\\hds\\uart@controller\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\uart@controller\\symbol.sb.user"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board-main\\td-fpga-developing-board-main\\FPGA\\Prefs\\..\\Poetic\\hds\\uart@controller\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board-main\\td-fpga-developing-board-main\\FPGA\\Prefs\\..\\Poetic\\hds"
 )
 (vvPair
 variable "appl"
@@ -596,27 +596,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\uart@controller"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board-main\\td-fpga-developing-board-main\\FPGA\\Prefs\\..\\Poetic\\hds\\uart@controller"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\uartController"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board-main\\td-fpga-developing-board-main\\FPGA\\Prefs\\..\\Poetic\\hds\\uartController"
 )
 (vvPair
 variable "date"
-value "07.07.2021"
+value "08.07.2021"
 )
 (vvPair
 variable "day"
-value "mer."
+value "jeu."
 )
 (vvPair
 variable "day_long"
-value "mercredi"
+value "jeudi"
 )
 (vvPair
 variable "dd"
-value "07"
+value "08"
 )
 (vvPair
 variable "entity_name"
@@ -640,11 +640,11 @@ value "symbol"
 )
 (vvPair
 variable "graphical_source_author"
-value "jeann"
+value "jean.nanchen"
 )
 (vvPair
 variable "graphical_source_date"
-value "07.07.2021"
+value "08.07.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -652,11 +652,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "DESKTOP-V46KISN"
+value "WEA30407"
 )
 (vvPair
 variable "graphical_source_time"
-value "10:19:46"
+value "16:12:08"
 )
 (vvPair
 variable "group"
@@ -664,7 +664,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "DESKTOP-V46KISN"
+value "WEA30407"
 )
 (vvPair
 variable "language"
@@ -696,11 +696,11 @@ value "juillet"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\uart@controller\\symbol.sb"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board-main\\td-fpga-developing-board-main\\FPGA\\Prefs\\..\\Poetic\\hds\\uart@controller\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\uartController\\symbol.sb"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board-main\\td-fpga-developing-board-main\\FPGA\\Prefs\\..\\Poetic\\hds\\uartController\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -728,7 +728,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "10:19:46"
+value "16:12:08"
 )
 (vvPair
 variable "unit"
@@ -736,7 +736,7 @@ value "uartController"
 )
 (vvPair
 variable "user"
-value "jeann"
+value "jean.nanchen"
 )
 (vvPair
 variable "version"
@@ -852,7 +852,7 @@ decl (Decl
 n "consigne"
 t "std_ulogic_vector"
 b "(dataBitNb-1 DOWNTO 0)"
-o 5
+o 6
 suid 16,0
 )
 )
@@ -900,7 +900,7 @@ m 1
 decl (Decl
 n "newCharacter"
 t "std_ulogic"
-o 7
+o 8
 suid 17,0
 )
 )
@@ -1086,7 +1086,7 @@ m 1
 decl (Decl
 n "rxRd"
 t "std_ulogic"
-o 8
+o 9
 suid 21,0
 )
 )
@@ -1134,7 +1134,7 @@ m 1
 decl (Decl
 n "endOfMsg"
 t "std_ulogic"
-o 6
+o 7
 suid 22,0
 )
 )
@@ -1182,7 +1182,7 @@ decl (Decl
 n "txData"
 t "std_ulogic_vector"
 b "(dataBitNb-1 DOWNTO 0)"
-o 9
+o 10
 suid 23,0
 )
 )
@@ -1228,7 +1228,7 @@ lang 11
 decl (Decl
 n "txFull"
 t "std_ulogic"
-o 10
+o 5
 suid 25,0
 )
 )
@@ -1328,8 +1328,7 @@ font "Courier New,8,0"
 xt "96000,38200,108500,40600"
 st "Generic Declarations
 
-dataBitNb positive 8  
-"
+dataBitNb positive 8  "
 )
 header "Generic Declarations"
 showHdrWhenContentsEmpty 1
@@ -1997,7 +1996,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 537,0
+lastUid 560,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol:CDM"

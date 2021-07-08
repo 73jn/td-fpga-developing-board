@@ -9,23 +9,25 @@
 --
 ARCHITECTURE clockDivider OF clockGenerator IS
   signal counter : unsigned(counterBitNb-1 DOWNTO 0);
+  signal clockOut_int : std_ulogic;
 BEGIN
+  clockOut <= clockOut_int;
   increment : process(reset, clock)
   begin
     if reset = '1' then
-      clockOut <= '0';
+	  clockOut_int <= '0';
       counter <= (others => '0');
       counter(counter'low) <= '1';
     elsif rising_edge(clock) then
       if enable = '1' then
         counter <= counter + 1;
           if (counter >= countValue) then
-            clockOut <= not clockOut;
+            clockOut_int <= not clockOut_int;
             counter <= (others => '0');
             counter(counter'low) <= '1';
           end if;
       else
-        clockOut <= '0';
+        clockOut_int <= '0';
       end if;
     end if;
   end process increment;
