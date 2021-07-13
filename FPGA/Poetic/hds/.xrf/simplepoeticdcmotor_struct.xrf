@@ -1,0 +1,470 @@
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+NO_GRAPHIC 0
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 185,0 9 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+NO_GRAPHIC 14
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 0,0 19 2 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1968,0 24 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1046,0 25 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 722,0 26 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 714,0 27 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1753,0 28 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 740,0 29 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 716,0 30 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 720,0 31 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 718,0 32 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 876,0 33 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+NO_GRAPHIC 34
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1747,0 36 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1322,0 37 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+NO_GRAPHIC 39
+LIBRARY Board
+DESIGN @d@f@f
+VIEW sim
+GRAPHIC 1296,0 41 0 
+DESIGN @d@f@f
+VIEW sim
+GRAPHIC 57,0 43 0 
+DESIGN @d@f@f
+VIEW sim
+GRAPHIC 63,0 44 0 
+DESIGN @d@f@f
+VIEW sim
+GRAPHIC 51,0 45 0 
+DESIGN @d@f@f
+VIEW sim
+GRAPHIC 69,0 46 0 
+LIBRARY Gates
+DESIGN and2inv1
+VIEW sim
+GRAPHIC 1772,0 49 0 
+DESIGN and2inv1
+VIEW symbol.sb
+GRAPHIC 17,0 50 1 
+DESIGN and2inv1
+VIEW symbol.sb
+GRAPHIC 51,0 54 0 
+DESIGN and2inv1
+VIEW symbol.sb
+GRAPHIC 63,0 55 0 
+DESIGN and2inv1
+VIEW symbol.sb
+GRAPHIC 69,0 56 0 
+LIBRARY Poetic
+DESIGN clock@generator
+VIEW clock@divider
+GRAPHIC 1160,0 59 0 
+DESIGN clock@generator
+VIEW symbol.sb
+GRAPHIC 14,0 60 1 
+DESIGN clock@generator
+VIEW clock@divider
+GRAPHIC 51,0 65 0 
+DESIGN clock@generator
+VIEW clock@divider
+GRAPHIC 61,0 66 0 
+DESIGN clock@generator
+VIEW clock@divider
+GRAPHIC 154,0 67 0 
+DESIGN clock@generator
+VIEW clock@divider
+GRAPHIC 56,0 68 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 2034,0 71 0 
+DESIGN motor@controller
+VIEW symbol.sb
+GRAPHIC 14,0 72 1 
+DESIGN motor@controller
+VIEW struct
+GRAPHIC 408,0 77 0 
+DESIGN motor@controller
+VIEW struct
+GRAPHIC 403,0 78 0 
+DESIGN motor@controller
+VIEW struct
+GRAPHIC 398,0 79 0 
+DESIGN motor@controller
+VIEW struct
+GRAPHIC 238,0 80 0 
+DESIGN motor@controller
+VIEW struct
+GRAPHIC 243,0 81 0 
+DESIGN motor@controller
+VIEW struct
+GRAPHIC 203,0 82 0 
+DESIGN motor@controller
+VIEW struct
+GRAPHIC 208,0 83 0 
+DESIGN motor@controller
+VIEW struct
+GRAPHIC 218,0 84 0 
+DESIGN motor@controller
+VIEW struct
+GRAPHIC 393,0 85 0 
+DESIGN motor@controller
+VIEW struct
+GRAPHIC 233,0 86 0 
+DESIGN motor@controller
+VIEW struct
+GRAPHIC 213,0 87 0 
+DESIGN motor@controller
+VIEW struct
+GRAPHIC 656,0 88 0 
+DESIGN motor@controller
+VIEW struct
+GRAPHIC 228,0 89 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 643,0 92 0 
+DESIGN serial@ascii@decoder
+VIEW serial@ascii@decoder
+GRAPHIC 186,0 94 0 
+DESIGN serial@ascii@decoder
+VIEW serial@ascii@decoder
+GRAPHIC 131,0 95 0 
+DESIGN serial@ascii@decoder
+VIEW serial@ascii@decoder
+GRAPHIC 136,0 96 0 
+DESIGN serial@ascii@decoder
+VIEW serial@ascii@decoder
+GRAPHIC 141,0 97 0 
+DESIGN serial@ascii@decoder
+VIEW serial@ascii@decoder
+GRAPHIC 191,0 98 0 
+DESIGN serial@ascii@decoder
+VIEW serial@ascii@decoder
+GRAPHIC 146,0 99 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1439,0 102 0 
+DESIGN uart@controller
+VIEW symbol.sb
+GRAPHIC 14,0 103 1 
+DESIGN uart@controller
+VIEW fsm
+GRAPHIC 344,0 107 0 
+DESIGN uart@controller
+VIEW fsm
+GRAPHIC 359,0 108 0 
+DESIGN uart@controller
+VIEW fsm
+GRAPHIC 364,0 109 0 
+DESIGN uart@controller
+VIEW fsm
+GRAPHIC 369,0 110 0 
+DESIGN uart@controller
+VIEW fsm
+GRAPHIC 520,0 111 0 
+DESIGN uart@controller
+VIEW fsm
+GRAPHIC 349,0 112 0 
+DESIGN uart@controller
+VIEW fsm
+GRAPHIC 441,0 113 0 
+DESIGN uart@controller
+VIEW fsm
+GRAPHIC 354,0 114 0 
+DESIGN uart@controller
+VIEW fsm
+GRAPHIC 374,0 115 0 
+DESIGN uart@controller
+VIEW fsm
+GRAPHIC 515,0 116 0 
+DESIGN uart@controller
+VIEW fsm
+GRAPHIC 525,0 117 0 
+LIBRARY RS232
+DESIGN serial@port@f@i@f@o
+VIEW struct
+GRAPHIC 553,0 120 0 
+DESIGN serial@port@f@i@f@o
+VIEW symbol.sb
+GRAPHIC 14,0 121 1 
+DESIGN serial@port@f@i@f@o
+VIEW struct
+GRAPHIC 168,0 128 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct
+GRAPHIC 183,0 129 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct
+GRAPHIC 173,0 130 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct
+GRAPHIC 178,0 131 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct
+GRAPHIC 193,0 132 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct
+GRAPHIC 203,0 133 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct
+GRAPHIC 368,0 134 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct
+GRAPHIC 375,0 135 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct
+GRAPHIC 198,0 136 0 
+DESIGN serial@port@f@i@f@o
+VIEW struct
+GRAPHIC 208,0 137 0 
+LIBRARY Poetic
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+NO_GRAPHIC 140
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1296,0 143 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1772,0 144 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1160,0 145 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 2034,0 146 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 643,0 147 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 553,0 148 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1439,0 149 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+NO_GRAPHIC 152
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+NO_GRAPHIC 154
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1296,0 156 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1328,0 158 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1336,0 159 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1322,0 160 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 71,0 161 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1772,0 163 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1779,0 164 1 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1747,0 168 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1782,0 169 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1755,0 170 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1160,0 172 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1167,0 173 1 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1178,0 178 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1186,0 179 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1170,0 180 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1192,0 181 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 2034,0 183 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 2041,0 184 1 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 381,0 189 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 367,0 190 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 353,0 191 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 29,0 192 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 43,0 193 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 778,0 194 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 742,0 195 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 547,0 196 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 395,0 197 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 786,0 198 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 15,0 199 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1970,0 200 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 57,0 201 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 643,0 203 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 746,0 205 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1048,0 206 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 692,0 207 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 708,0 208 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 754,0 209 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 742,0 210 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1439,0 212 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1446,0 213 1 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 676,0 217 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 682,0 218 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 700,0 219 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 696,0 220 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 878,0 221 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1048,0 222 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 692,0 223 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 708,0 224 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 704,0 225 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 553,0 229 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 560,0 230 1 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 127,0 237 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 113,0 238 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 762,0 239 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 770,0 240 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 696,0 241 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 704,0 242 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 700,0 243 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1976,0 244 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 878,0 245 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1755,0 246 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1747,0 250 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+GRAPHIC 1322,0 251 0 
+DESIGN @simple@poetic@dc@motor
+VIEW struct.bd
+NO_GRAPHIC 253

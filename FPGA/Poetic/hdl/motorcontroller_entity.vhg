@@ -27,6 +27,7 @@ ENTITY motorController IS
         en_Regulator : IN     std_ulogic;
         reset        : IN     std_ulogic;
         CS_n         : OUT    std_ulogic;
+        OutADC       : OUT    std_ulogic_vector (adcBitNb-1 DOWNTO 0);
         PWM_Out      : OUT    std_ulogic
     );
 

@@ -47,7 +47,8 @@ ARCHITECTURE studentVersion OF poetic_circuit IS
     COMPONENT SimplePoeticDcMotor
     GENERIC (
         dataBitNb : positive := 8;
-        pidBitNb  : positive := 12
+        pidBitNb  : positive := 12;
+        adcBitNb  : positive := 12
     );
     PORT (
         ADC_SDO  : IN     std_ulogic ;
