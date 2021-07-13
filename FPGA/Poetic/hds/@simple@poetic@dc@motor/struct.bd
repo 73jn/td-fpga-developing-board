@@ -25,7 +25,7 @@ elements [
 (GiElement
 name "baudRateDivide"
 type "positive"
-value "2083"
+value "11067"
 )
 (GiElement
 name "dataBitNb"
@@ -63,12 +63,12 @@ elements [
 (GiElement
 name "counterBitNb"
 type "integer"
-value "12"
+value "20"
 )
 (GiElement
 name "countValue"
 type "integer"
-value "250"
+value "100000"
 )
 ]
 mwi 0
@@ -144,23 +144,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hdl"
+value "C:\\Users\\jean.nanchen\\Downloads\\FPGA\\Prefs\\..\\Poetic\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds"
+value "C:\\Users\\jean.nanchen\\Downloads\\FPGA\\Prefs\\..\\Poetic\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\@simple@poetic@dc@motor\\struct.bd.info"
+value "C:\\Users\\jean.nanchen\\Downloads\\FPGA\\Prefs\\..\\Poetic\\hds\\@simple@poetic@dc@motor\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\@simple@poetic@dc@motor\\struct.bd.user"
+value "C:\\Users\\jean.nanchen\\Downloads\\FPGA\\Prefs\\..\\Poetic\\hds\\@simple@poetic@dc@motor\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds"
+value "C:\\Users\\jean.nanchen\\Downloads\\FPGA\\Prefs\\..\\Poetic\\hds"
 )
 (vvPair
 variable "appl"
@@ -180,11 +180,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\@simple@poetic@dc@motor"
+value "C:\\Users\\jean.nanchen\\Downloads\\FPGA\\Prefs\\..\\Poetic\\hds\\@simple@poetic@dc@motor"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\SimplePoeticDcMotor"
+value "C:\\Users\\jean.nanchen\\Downloads\\FPGA\\Prefs\\..\\Poetic\\hds\\SimplePoeticDcMotor"
 )
 (vvPair
 variable "date"
@@ -224,7 +224,7 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "jeann"
+value "jean.nanchen"
 )
 (vvPair
 variable "graphical_source_date"
@@ -236,11 +236,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "DESKTOP-V46KISN"
+value "WEA30407"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:48:39"
+value "16:56:00"
 )
 (vvPair
 variable "group"
@@ -248,7 +248,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "DESKTOP-V46KISN"
+value "WEA30407"
 )
 (vvPair
 variable "language"
@@ -280,11 +280,11 @@ value "juillet"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\@simple@poetic@dc@motor\\struct.bd"
+value "C:\\Users\\jean.nanchen\\Downloads\\FPGA\\Prefs\\..\\Poetic\\hds\\@simple@poetic@dc@motor\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\SimplePoeticDcMotor\\struct.bd"
+value "C:\\Users\\jean.nanchen\\Downloads\\FPGA\\Prefs\\..\\Poetic\\hds\\SimplePoeticDcMotor\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -312,7 +312,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "15:48:39"
+value "16:56:00"
 )
 (vvPair
 variable "unit"
@@ -320,7 +320,7 @@ value "SimplePoeticDcMotor"
 )
 (vvPair
 variable "user"
-value "jeann"
+value "jean.nanchen"
 )
 (vvPair
 variable "version"
@@ -403,8 +403,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,8800,-64000,9600"
-st "ADC_CS       : std_ulogic
-"
+st "ADC_CS       : std_ulogic"
 )
 )
 *3 (PortIoOut
@@ -467,8 +466,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,9600,-64000,10400"
-st "ADC_SCLK     : std_ulogic
-"
+st "ADC_SCLK     : std_ulogic"
 )
 )
 *5 (PortIoIn
@@ -531,8 +529,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,2400,-64000,3200"
-st "ADC_SDO      : std_ulogic
-"
+st "ADC_SDO      : std_ulogic"
 )
 )
 *7 (PortIoOut
@@ -594,8 +591,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,10400,-64000,11200"
-st "BP_PWMA      : std_ulogic
-"
+st "BP_PWMA      : std_ulogic"
 )
 )
 *9 (PortIoOut
@@ -657,8 +653,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,11200,-64000,12000"
-st "BP_PWMB      : std_ulogic
-"
+st "BP_PWMB      : std_ulogic"
 )
 )
 *11 (PortIoIn
@@ -721,8 +716,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,6400,-64000,7200"
-st "clock        : std_ulogic
-"
+st "clock        : std_ulogic"
 )
 )
 *13 (PortIoIn
@@ -785,8 +779,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,8000,-64000,8800"
-st "reset        : std_ulogic
-"
+st "reset        : std_ulogic"
 )
 )
 *15 (PortIoOut
@@ -849,8 +842,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,12000,-64000,12800"
-st "USB_RX       : std_ulogic
-"
+st "USB_RX       : std_ulogic"
 )
 )
 *17 (PortIoIn
@@ -913,8 +905,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,5600,-64000,6400"
-st "USB_TX       : std_ulogic
-"
+st "USB_TX       : std_ulogic"
 )
 )
 *19 (Grouping
@@ -939,7 +930,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "26200,48000,35400,49000"
+xt "26200,48000,38000,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1311,8 +1302,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,4800,-64000,5600"
-st "P            : std_ulogic
-"
+st "P            : std_ulogic"
 )
 )
 *32 (PortIoIn
@@ -1375,8 +1365,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,4000,-64000,4800"
-st "I            : std_ulogic
-"
+st "I            : std_ulogic"
 )
 )
 *34 (PortIoIn
@@ -1439,8 +1428,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,3200,-64000,4000"
-st "D            : std_ulogic
-"
+st "D            : std_ulogic"
 )
 )
 *36 (PortIoIn
@@ -1503,8 +1491,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,7200,-64000,8000"
-st "enable       : std_ulogic
-"
+st "enable       : std_ulogic"
 )
 )
 *38 (SaComponent
@@ -1908,11 +1895,11 @@ uid 561,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "-45000,-22000,-27500,-18000"
-st "baudRateDivide = 2083    ( positive )  
-dataBitNb      = 8       ( positive )  
-txFifoDepth    = 8       ( positive )  
-rxFifoDepth    = 1       ( positive )  "
+xt "-45000,-22000,-26500,-18000"
+st "baudRateDivide = 11067    ( positive )  
+dataBitNb      = 8        ( positive )  
+txFifoDepth    = 8        ( positive )  
+rxFifoDepth    = 1        ( positive )  "
 )
 header ""
 )
@@ -1920,7 +1907,7 @@ elements [
 (GiElement
 name "baudRateDivide"
 type "positive"
-value "2083"
+value "11067"
 )
 (GiElement
 name "dataBitNb"
@@ -2249,8 +2236,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-78000,16600,-62700,17600"
-st "SIGNAL newCharacter : std_ulogic
-"
+st "SIGNAL newCharacter : std_ulogic"
 )
 )
 *63 (Net
@@ -2268,8 +2254,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-78000,19200,-49900,20200"
-st "SIGNAL rxData       : std_ulogic_vector(dataBitNb-1 DOWNTO 0)
-"
+st "SIGNAL rxData       : std_ulogic_vector(dataBitNb-1 DOWNTO 0)"
 )
 )
 *64 (Net
@@ -2287,8 +2272,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-78000,21200,-64000,22200"
-st "SIGNAL rxRd         : std_ulogic
-"
+st "SIGNAL rxRd         : std_ulogic"
 )
 )
 *65 (Net
@@ -2305,8 +2289,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-78000,20200,-63400,21200"
-st "SIGNAL rxEmpty      : std_ulogic
-"
+st "SIGNAL rxEmpty      : std_ulogic"
 )
 )
 *66 (Net
@@ -2324,8 +2307,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-78000,15600,-63100,16600"
-st "SIGNAL endOfMsg     : std_ulogic
-"
+st "SIGNAL endOfMsg     : std_ulogic"
 )
 )
 *67 (Net
@@ -2344,8 +2326,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,18400,-50000,19200"
-st "SIGNAL output       : std_ulogic_vector(11 DOWNTO 0)
-"
+st "SIGNAL output       : std_ulogic_vector(11 DOWNTO 0)"
 )
 )
 *68 (Net
@@ -2362,8 +2343,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,22200,-60500,23000"
-st "SIGNAL txFull       : std_ulogic
-"
+st "SIGNAL txFull       : std_ulogic"
 )
 )
 *69 (Net
@@ -2382,8 +2362,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,14800,-45500,15600"
-st "SIGNAL consigne     : std_ulogic_vector(dataBitNb-1 DOWNTO 0)
-"
+st "SIGNAL consigne     : std_ulogic_vector(dataBitNb-1 DOWNTO 0)"
 )
 )
 *70 (SaComponent
@@ -2594,9 +2573,10 @@ uid 1168,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "18000,9400,37000,11000"
-st "counterBitNb = 12     ( integer )  
-countValue   = 250    ( integer )  "
+xt "18000,9400,38500,11000"
+st "counterBitNb = 20        ( integer )  
+countValue   = 100000    ( integer )  
+"
 )
 header ""
 )
@@ -2604,12 +2584,12 @@ elements [
 (GiElement
 name "counterBitNb"
 type "integer"
-value "12"
+value "20"
 )
 (GiElement
 name "countValue"
 type "integer"
-value "250"
+value "100000"
 )
 ]
 )
@@ -3377,8 +3357,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,17600,-60500,18400"
-st "SIGNAL out1         : std_uLogic
-"
+st "SIGNAL out1         : std_uLogic"
 )
 )
 *103 (SaComponent
@@ -3616,8 +3595,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,14000,-46000,14800"
-st "SIGNAL OutADC       : std_ulogic_vector(adcBitNb-1 DOWNTO 0)
-"
+st "SIGNAL OutADC       : std_ulogic_vector(adcBitNb-1 DOWNTO 0)"
 )
 )
 *112 (SaComponent
@@ -4158,8 +4136,7 @@ font "Courier New,8,0"
 )
 xt "39500,-33500,56500,-31900"
 st "pidBitNb = 12    ( positive )  
-adcBitNb = 12    ( positive )  
-"
+adcBitNb = 12    ( positive )  "
 )
 header ""
 )
@@ -5994,11 +5971,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,24,1921,1080"
-viewArea "-57509,-46626,67096,21674"
+viewArea "-73100,-47000,82656,38376"
 cachedDiagramExtent "-100000,-44000,129900,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-156000,-49000"
-lastUid 2045,0
+lastUid 2363,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
