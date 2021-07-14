@@ -12,7 +12,7 @@ ARCHITECTURE DAC124S085 OF DAC IS
   signal masterWr : std_ulogic;
   signal masterData : std_ulogic_vector(dacBitNb+dacChBitNb+dacOpBitNb-1 DOWNTO 0);
   type transmitState is(
-    waitForATransmission, sendData, sendLowSync, sendHighSync
+    waitForATransmission, sendData, sendLowSync, sendHighSync, sendFourZero
   );
   signal mainState : transmitState;
 BEGIN
@@ -32,12 +32,14 @@ BEGIN
   
   transmit : process (reset, clock)
   variable decounter : integer;
+  variable counter : integer;
   begin
     if reset = '1' then
       mainState <= waitForATransmission;
       decounter := masterData'length-1;
       Sync_n <= '1';
       Dout <= '0';
+	  counter := 0;
     elsif rising_edge(clock) then
       case mainState is
         when waitForATransmission =>
@@ -49,7 +51,7 @@ BEGIN
             decounter := decounter - 1;
             Dout <= masterData(decounter);
             if decounter = 0 then
-              mainState <= sendHighSync;
+              mainState <= sendFourZero;
             end if;
           end if;
         when sendLowSync =>
@@ -60,10 +62,19 @@ BEGIN
           end if;
         when sendHighSync =>
           decounter := masterData'length-1;
+		  counter := 0;
           if risingSCLK = '1' then
             Sync_n <= '1';
             mainState <= waitForATransmission;
           end if;
+		when sendFourZero =>
+		  if risingSCLK = '1' then
+		    Dout <= '0';
+			counter := counter + 1;
+			if counter = 4 then
+			  mainState <= sendHighSync;
+			end if;
+		  end if;
       end case;
     end if;
   end process transmit;

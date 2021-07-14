@@ -87,16 +87,16 @@ DESIGN pwm@modulator
 VIEW symbol.sb
 GRAPHIC 14,0 56 1 
 DESIGN pwm@modulator
-VIEW @r@t@l
+VIEW symbol.sb
 GRAPHIC 62,0 60 0 
 DESIGN pwm@modulator
-VIEW @r@t@l
+VIEW symbol.sb
 GRAPHIC 77,0 61 0 
 DESIGN pwm@modulator
-VIEW @r@t@l
+VIEW symbol.sb
 GRAPHIC 72,0 62 0 
 DESIGN pwm@modulator
-VIEW @r@t@l
+VIEW symbol.sb
 GRAPHIC 87,0 63 0 
 LIBRARY Poetic
 DESIGN @a@d@c
@@ -106,25 +106,25 @@ DESIGN @a@d@c
 VIEW symbol.sb
 GRAPHIC 14,0 67 1 
 DESIGN @a@d@c
-VIEW ads7886_decoder
+VIEW symbol.sb
 GRAPHIC 66,0 71 0 
 DESIGN @a@d@c
-VIEW ads7886_decoder
+VIEW symbol.sb
 GRAPHIC 71,0 72 0 
 DESIGN @a@d@c
-VIEW ads7886_decoder
+VIEW symbol.sb
 GRAPHIC 51,0 73 0 
 DESIGN @a@d@c
-VIEW ads7886_decoder
+VIEW symbol.sb
 GRAPHIC 168,0 74 0 
 DESIGN @a@d@c
-VIEW ads7886_decoder
+VIEW symbol.sb
 GRAPHIC 61,0 75 0 
 DESIGN @a@d@c
-VIEW ads7886_decoder
+VIEW symbol.sb
 GRAPHIC 56,0 76 0 
 DESIGN @a@d@c
-VIEW ads7886_decoder
+VIEW symbol.sb
 GRAPHIC 196,0 77 0 
 DESIGN poetic_test
 VIEW struct.bd
@@ -133,31 +133,31 @@ DESIGN @d@a@c
 VIEW symbol.sb
 GRAPHIC 14,0 81 1 
 DESIGN @d@a@c
-VIEW @d@a@c124@s085
+VIEW symbol.sb
 GRAPHIC 358,0 87 0 
 DESIGN @d@a@c
-VIEW @d@a@c124@s085
+VIEW symbol.sb
 GRAPHIC 208,0 88 0 
 DESIGN @d@a@c
-VIEW @d@a@c124@s085
+VIEW symbol.sb
 GRAPHIC 131,0 89 0 
 DESIGN @d@a@c
-VIEW @d@a@c124@s085
+VIEW symbol.sb
 GRAPHIC 136,0 90 0 
 DESIGN @d@a@c
-VIEW @d@a@c124@s085
+VIEW symbol.sb
 GRAPHIC 201,0 91 0 
 DESIGN @d@a@c
-VIEW @d@a@c124@s085
+VIEW symbol.sb
 GRAPHIC 213,0 92 0 
 DESIGN @d@a@c
-VIEW @d@a@c124@s085
+VIEW symbol.sb
 GRAPHIC 141,0 93 0 
 DESIGN @d@a@c
-VIEW @d@a@c124@s085
+VIEW symbol.sb
 GRAPHIC 343,0 94 0 
 DESIGN @d@a@c
-VIEW @d@a@c124@s085
+VIEW symbol.sb
 GRAPHIC 348,0 95 0 
 DESIGN poetic_test
 VIEW struct.bd
@@ -166,16 +166,16 @@ DESIGN clock@generator
 VIEW symbol.sb
 GRAPHIC 14,0 99 1 
 DESIGN clock@generator
-VIEW clock@divider
+VIEW symbol.sb
 GRAPHIC 51,0 104 0 
 DESIGN clock@generator
-VIEW clock@divider
+VIEW symbol.sb
 GRAPHIC 61,0 105 0 
 DESIGN clock@generator
-VIEW clock@divider
+VIEW symbol.sb
 GRAPHIC 154,0 106 0 
 DESIGN clock@generator
-VIEW clock@divider
+VIEW symbol.sb
 GRAPHIC 56,0 107 0 
 DESIGN poetic_test
 VIEW struct.bd
@@ -184,34 +184,34 @@ DESIGN regulator
 VIEW symbol.sb
 GRAPHIC 14,0 111 1 
 DESIGN regulator
-VIEW pid
+VIEW symbol.sb
 GRAPHIC 91,0 115 0 
 DESIGN regulator
-VIEW pid
+VIEW symbol.sb
 GRAPHIC 51,0 116 0 
 DESIGN regulator
-VIEW pid
+VIEW symbol.sb
 GRAPHIC 56,0 117 0 
 DESIGN regulator
-VIEW pid
+VIEW symbol.sb
 GRAPHIC 61,0 118 0 
 DESIGN regulator
-VIEW pid
+VIEW symbol.sb
 GRAPHIC 66,0 119 0 
 DESIGN regulator
-VIEW pid
+VIEW symbol.sb
 GRAPHIC 71,0 120 0 
 DESIGN regulator
-VIEW pid
+VIEW symbol.sb
 GRAPHIC 76,0 121 0 
 DESIGN regulator
-VIEW pid
+VIEW symbol.sb
 GRAPHIC 86,0 122 0 
 DESIGN regulator
-VIEW pid
+VIEW symbol.sb
 GRAPHIC 288,0 123 0 
 DESIGN regulator
-VIEW pid
+VIEW symbol.sb
 GRAPHIC 81,0 124 0 
 LIBRARY Poetic_test
 DESIGN @a@d
@@ -221,37 +221,37 @@ DESIGN @a@d
 VIEW symbol.sb
 GRAPHIC 14,0 128 1 
 DESIGN @a@d
-VIEW @a@d@s7886
+VIEW symbol.sb
 GRAPHIC 131,0 132 0 
 DESIGN @a@d
-VIEW @a@d@s7886
+VIEW symbol.sb
 GRAPHIC 177,0 133 0 
 DESIGN @a@d
-VIEW @a@d@s7886
+VIEW symbol.sb
 GRAPHIC 136,0 134 0 
 DESIGN @a@d
-VIEW @a@d@s7886
+VIEW symbol.sb
 GRAPHIC 188,0 135 0 
 DESIGN @a@d
-VIEW @a@d@s7886
+VIEW symbol.sb
 GRAPHIC 193,0 136 0 
 DESIGN @a@d
-VIEW @a@d@s7886
+VIEW symbol.sb
 GRAPHIC 141,0 137 0 
 DESIGN poetic_test
 VIEW struct.bd
 GRAPHIC 7952,0 140 0 
 DESIGN motor
-VIEW dc
+VIEW symbol.sb
 GRAPHIC 146,0 142 0 
 DESIGN motor
-VIEW dc
+VIEW symbol.sb
 GRAPHIC 131,0 143 0 
 DESIGN motor
-VIEW dc
+VIEW symbol.sb
 GRAPHIC 136,0 144 0 
 DESIGN motor
-VIEW dc
+VIEW symbol.sb
 GRAPHIC 141,0 145 0 
 DESIGN poetic_test
 VIEW struct.bd
@@ -294,16 +294,16 @@ DESIGN lowpass
 VIEW symbol.sb
 GRAPHIC 14,0 170 1 
 DESIGN lowpass
-VIEW student@version
+VIEW symbol.sb
 GRAPHIC 57,0 175 0 
 DESIGN lowpass
-VIEW student@version
+VIEW symbol.sb
 GRAPHIC 52,0 176 0 
 DESIGN lowpass
-VIEW student@version
+VIEW symbol.sb
 GRAPHIC 76,0 177 0 
 DESIGN lowpass
-VIEW student@version
+VIEW symbol.sb
 GRAPHIC 83,0 178 0 
 LIBRARY Poetic_test
 DESIGN poetic_test

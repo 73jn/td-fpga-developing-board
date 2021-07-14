@@ -1,0 +1,261 @@
+DESIGN poetic_circuit
+VIEW student@version.bd
+NO_GRAPHIC 0
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 84,0 9 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+NO_GRAPHIC 12
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 0,0 16 2 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 1,0 19 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+NO_GRAPHIC 19
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 895,0 25 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 49,0 26 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 893,0 27 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 897,0 28 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+NO_GRAPHIC 29
+DESIGN poetic_circuit
+VIEW student@version.bd
+NO_GRAPHIC 30
+LIBRARY Board
+DESIGN @d@f@f
+VIEW sim
+GRAPHIC 1071,0 32 0 
+DESIGN @d@f@f
+VIEW symbol.sb
+GRAPHIC 57,0 34 0 
+DESIGN @d@f@f
+VIEW symbol.sb
+GRAPHIC 63,0 35 0 
+DESIGN @d@f@f
+VIEW symbol.sb
+GRAPHIC 51,0 36 0 
+DESIGN @d@f@f
+VIEW symbol.sb
+GRAPHIC 69,0 37 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 1817,0 40 0 
+DESIGN inverter@in
+VIEW symbol.sb
+GRAPHIC 16,0 42 0 
+DESIGN inverter@in
+VIEW symbol.sb
+GRAPHIC 22,0 43 0 
+LIBRARY Poetic
+DESIGN @simple@poetic@dc@motor
+VIEW struct
+GRAPHIC 3150,0 46 0 
+DESIGN @simple@poetic@dc@motor
+VIEW symbol.sb
+GRAPHIC 14,0 47 1 
+DESIGN @simple@poetic@dc@motor
+VIEW symbol.sb
+GRAPHIC 61,0 56 0 
+DESIGN @simple@poetic@dc@motor
+VIEW symbol.sb
+GRAPHIC 235,0 57 0 
+DESIGN @simple@poetic@dc@motor
+VIEW symbol.sb
+GRAPHIC 230,0 58 0 
+DESIGN @simple@poetic@dc@motor
+VIEW symbol.sb
+GRAPHIC 225,0 59 0 
+DESIGN @simple@poetic@dc@motor
+VIEW symbol.sb
+GRAPHIC 91,0 60 0 
+DESIGN @simple@poetic@dc@motor
+VIEW symbol.sb
+GRAPHIC 76,0 61 0 
+DESIGN @simple@poetic@dc@motor
+VIEW symbol.sb
+GRAPHIC 240,0 62 0 
+DESIGN @simple@poetic@dc@motor
+VIEW symbol.sb
+GRAPHIC 81,0 63 0 
+DESIGN @simple@poetic@dc@motor
+VIEW symbol.sb
+GRAPHIC 51,0 64 0 
+DESIGN @simple@poetic@dc@motor
+VIEW symbol.sb
+GRAPHIC 56,0 65 0 
+DESIGN @simple@poetic@dc@motor
+VIEW symbol.sb
+GRAPHIC 66,0 66 0 
+DESIGN @simple@poetic@dc@motor
+VIEW symbol.sb
+GRAPHIC 71,0 67 0 
+DESIGN @simple@poetic@dc@motor
+VIEW symbol.sb
+GRAPHIC 377,0 68 0 
+DESIGN @simple@poetic@dc@motor
+VIEW symbol.sb
+GRAPHIC 388,0 69 0 
+DESIGN @simple@poetic@dc@motor
+VIEW symbol.sb
+GRAPHIC 372,0 70 0 
+DESIGN @simple@poetic@dc@motor
+VIEW symbol.sb
+GRAPHIC 86,0 71 0 
+LIBRARY Board
+DESIGN poetic_circuit
+VIEW student@version.bd
+NO_GRAPHIC 74
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 1071,0 77 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 3150,0 78 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 1817,0 79 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+NO_GRAPHIC 82
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 818,0 85 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+NO_GRAPHIC 87
+DESIGN poetic_circuit
+VIEW student@version.bd
+NO_GRAPHIC 88
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 1071,0 90 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 873,0 92 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 879,0 93 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 887,0 94 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 883,0 95 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 2914,0 97 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 2958,0 99 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 2964,0 100 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 2942,0 101 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 2948,0 102 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 3001,0 104 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 3033,0 106 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 3027,0 107 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 3051,0 108 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 3047,0 109 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 1817,0 111 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 43,0 113 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 879,0 114 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 1806,0 116 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 883,0 118 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 245,0 119 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 3150,0 121 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 3157,0 122 1 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 2639,0 131 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 3167,0 132 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 2583,0 133 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 2571,0 134 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 2663,0 135 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 15,0 136 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 3159,0 137 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 245,0 138 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 2651,0 139 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 2627,0 140 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 2603,0 141 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 2615,0 142 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 3195,0 143 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 3207,0 144 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 3201,0 145 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 2675,0 146 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+NO_GRAPHIC 149
