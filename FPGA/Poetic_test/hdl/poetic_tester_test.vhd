@@ -21,8 +21,12 @@ BEGIN
   ------------------------------------------------------------------------------
                                                                        -- enable
                                                                        
-  enable <= '0', '1' after 10 us;
+  enable <= '0', '1' after 1 us;
   notenable <= '0';
   SetVal <= "000000000000", "011111111111" after 15 us;
+  dacData <= "00000000", "01010010" after 10 us;
+  dacSel <= "11";
+  dacMode <= "01";
+  send <= '0', '1' after 11 us;
 END ARCHITECTURE test;
 

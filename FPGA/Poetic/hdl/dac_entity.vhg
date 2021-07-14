@@ -12,19 +12,20 @@ LIBRARY ieee;
 
 ENTITY DAC IS
     GENERIC( 
-        adcBitNb  : positive := 12;
-        dataBitNb : positive := 12
+        dacBitNb   : positive := 8;
+        dacChBitNb : positive := 2;
+        dacOpBitNb : positive := 2
     );
     PORT( 
-        clock      : IN     std_ulogic;
-        dacSel     : IN     std_ulogic_vector (1 DOWNTO 0);
-        data       : IN     std_ulogic_vector (adcBitNb-1 DOWNTO 0);
-        masterFull : IN     std_ulogic;
-        mode       : IN     std_ulogic_vector (1 DOWNTO 0);
-        reset      : IN     std_ulogic;
-        send       : IN     std_ulogic;
-        masterData : OUT    std_ulogic_vector (dataBitNb-1 DOWNTO 0);
-        masterWr   : OUT    std_ulogic
+        SCLK   : IN     std_ulogic;
+        clock  : IN     std_ulogic;
+        dacSel : IN     std_ulogic_vector (dacChBitNb-1 DOWNTO 0);
+        data   : IN     std_ulogic_vector (dacBitNb-1 DOWNTO 0);
+        mode   : IN     std_ulogic_vector (dacOpBitNb-1 DOWNTO 0);
+        reset  : IN     std_ulogic;
+        send   : IN     std_ulogic;
+        Dout   : OUT    std_ulogic;
+        Sync_n : OUT    std_ulogic
     );
 
 -- Declarations

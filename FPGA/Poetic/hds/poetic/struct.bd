@@ -612,19 +612,19 @@ value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\.
 )
 (vvPair
 variable "date"
-value "13.07.2021"
+value "14.07.2021"
 )
 (vvPair
 variable "day"
-value "mar."
+value "mer."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "mercredi"
 )
 (vvPair
 variable "dd"
-value "13"
+value "14"
 )
 (vvPair
 variable "designName"
@@ -656,7 +656,7 @@ value "jeann"
 )
 (vvPair
 variable "graphical_source_date"
-value "13.07.2021"
+value "14.07.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -668,7 +668,7 @@ value "DESKTOP-V46KISN"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:39:29"
+value "15:06:13"
 )
 (vvPair
 variable "group"
@@ -812,7 +812,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "15:39:29"
+value "15:06:13"
 )
 (vvPair
 variable "unit"
@@ -903,8 +903,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,30000,9900,31000"
-st "clock         : std_ulogic
-"
+st "clock         : std_ulogic"
 )
 )
 *3 (Grouping
@@ -1237,8 +1236,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,31000,9900,32000"
-st "reset         : std_ulogic
-"
+st "reset         : std_ulogic"
 )
 )
 *15 (PortIoIn
@@ -1345,8 +1343,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,21000,12200,22000"
-st "ADC_CH3_SDO   : std_ulogic
-"
+st "ADC_CH3_SDO   : std_ulogic"
 )
 )
 *18 (PortIoIn
@@ -1408,8 +1405,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,22000,12200,23000"
-st "ADC_CH4_SDO   : std_ulogic
-"
+st "ADC_CH4_SDO   : std_ulogic"
 )
 )
 *20 (PortIoIn
@@ -1471,8 +1467,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,23000,12200,24000"
-st "ADC_CH5_SDO   : std_ulogic
-"
+st "ADC_CH5_SDO   : std_ulogic"
 )
 )
 *22 (PortIoIn
@@ -1534,8 +1529,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,24000,12200,25000"
-st "ADC_CH6_SDO   : std_ulogic
-"
+st "ADC_CH6_SDO   : std_ulogic"
 )
 )
 *24 (PortIoIn
@@ -1597,8 +1591,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,25000,12200,26000"
-st "ADC_CH7_SDO   : std_ulogic
-"
+st "ADC_CH7_SDO   : std_ulogic"
 )
 )
 *26 (PortIoIn
@@ -1660,8 +1653,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,26000,12200,27000"
-st "ADC_CH8_SDO   : std_ulogic
-"
+st "ADC_CH8_SDO   : std_ulogic"
 )
 )
 *28 (PortIoIn
@@ -1723,8 +1715,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,27000,12200,28000"
-st "ADC_CH9_SDO   : std_ulogic
-"
+st "ADC_CH9_SDO   : std_ulogic"
 )
 )
 *30 (PortIoIn
@@ -1786,8 +1777,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,9000,12400,10000"
-st "ADC_CH10_SDO  : std_ulogic
-"
+st "ADC_CH10_SDO  : std_ulogic"
 )
 )
 *32 (PortIoIn
@@ -1849,8 +1839,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,10000,12400,11000"
-st "ADC_CH11_SDO  : std_ulogic
-"
+st "ADC_CH11_SDO  : std_ulogic"
 )
 )
 *34 (PortIoIn
@@ -1912,8 +1901,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,11000,12400,12000"
-st "ADC_CH12_SDO  : std_ulogic
-"
+st "ADC_CH12_SDO  : std_ulogic"
 )
 )
 *36 (PortIoIn
@@ -1975,8 +1963,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,12000,12400,13000"
-st "ADC_CH13_SDO  : std_ulogic
-"
+st "ADC_CH13_SDO  : std_ulogic"
 )
 )
 *38 (PortIoIn
@@ -2038,8 +2025,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,13000,12400,14000"
-st "ADC_CH14_SDO  : std_ulogic
-"
+st "ADC_CH14_SDO  : std_ulogic"
 )
 )
 *40 (PortIoIn
@@ -2101,8 +2087,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,14000,12400,15000"
-st "ADC_CH15_SDO  : std_ulogic
-"
+st "ADC_CH15_SDO  : std_ulogic"
 )
 )
 *42 (PortIoIn
@@ -2164,8 +2149,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,15000,12400,16000"
-st "ADC_CH16_SDO  : std_ulogic
-"
+st "ADC_CH16_SDO  : std_ulogic"
 )
 )
 *44 (PortIoIn
@@ -2227,8 +2211,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,16000,12400,17000"
-st "ADC_CH17_SDO  : std_ulogic
-"
+st "ADC_CH17_SDO  : std_ulogic"
 )
 )
 *46 (PortIoIn
@@ -2290,8 +2273,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,17000,12400,18000"
-st "ADC_CH18_SDO  : std_ulogic
-"
+st "ADC_CH18_SDO  : std_ulogic"
 )
 )
 *48 (PortIoIn
@@ -2353,8 +2335,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,18000,12400,19000"
-st "ADC_CH19_SDO  : std_ulogic
-"
+st "ADC_CH19_SDO  : std_ulogic"
 )
 )
 *50 (Net
@@ -2372,8 +2353,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,45000,11900,46000"
-st "ADC_CH3_CS    : std_ulogic
-"
+st "ADC_CH3_CS    : std_ulogic"
 )
 )
 *51 (Net
@@ -2391,8 +2371,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,46000,11900,47000"
-st "ADC_CH4_CS    : std_ulogic
-"
+st "ADC_CH4_CS    : std_ulogic"
 )
 )
 *52 (Net
@@ -2410,8 +2389,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,47000,11900,48000"
-st "ADC_CH5_CS    : std_ulogic
-"
+st "ADC_CH5_CS    : std_ulogic"
 )
 )
 *53 (Net
@@ -2429,8 +2407,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,48000,11900,49000"
-st "ADC_CH6_CS    : std_ulogic
-"
+st "ADC_CH6_CS    : std_ulogic"
 )
 )
 *54 (Net
@@ -2448,8 +2425,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,49000,11900,50000"
-st "ADC_CH7_CS    : std_ulogic
-"
+st "ADC_CH7_CS    : std_ulogic"
 )
 )
 *55 (Net
@@ -2467,8 +2443,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,50000,11900,51000"
-st "ADC_CH8_CS    : std_ulogic
-"
+st "ADC_CH8_CS    : std_ulogic"
 )
 )
 *56 (Net
@@ -2486,8 +2461,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,51000,11900,52000"
-st "ADC_CH9_CS    : std_ulogic
-"
+st "ADC_CH9_CS    : std_ulogic"
 )
 )
 *57 (Net
@@ -2505,8 +2479,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,33000,12100,34000"
-st "ADC_CH10_CS   : std_ulogic
-"
+st "ADC_CH10_CS   : std_ulogic"
 )
 )
 *58 (Net
@@ -2524,8 +2497,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,34000,12100,35000"
-st "ADC_CH11_CS   : std_ulogic
-"
+st "ADC_CH11_CS   : std_ulogic"
 )
 )
 *59 (Net
@@ -2543,8 +2515,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,35000,12100,36000"
-st "ADC_CH12_CS   : std_ulogic
-"
+st "ADC_CH12_CS   : std_ulogic"
 )
 )
 *60 (Net
@@ -2562,8 +2533,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,36000,12100,37000"
-st "ADC_CH13_CS   : std_ulogic
-"
+st "ADC_CH13_CS   : std_ulogic"
 )
 )
 *61 (Net
@@ -2581,8 +2551,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,37000,12100,38000"
-st "ADC_CH14_CS   : std_ulogic
-"
+st "ADC_CH14_CS   : std_ulogic"
 )
 )
 *62 (Net
@@ -2600,8 +2569,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,38000,12100,39000"
-st "ADC_CH15_CS   : std_ulogic
-"
+st "ADC_CH15_CS   : std_ulogic"
 )
 )
 *63 (Net
@@ -2619,8 +2587,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,39000,12100,40000"
-st "ADC_CH16_CS   : std_ulogic
-"
+st "ADC_CH16_CS   : std_ulogic"
 )
 )
 *64 (Net
@@ -2638,8 +2605,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,40000,12100,41000"
-st "ADC_CH17_CS   : std_ulogic
-"
+st "ADC_CH17_CS   : std_ulogic"
 )
 )
 *65 (Net
@@ -2657,8 +2623,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,41000,12100,42000"
-st "ADC_CH18_CS   : std_ulogic
-"
+st "ADC_CH18_CS   : std_ulogic"
 )
 )
 *66 (Net
@@ -2676,8 +2641,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,42000,12100,43000"
-st "ADC_CH19_CS   : std_ulogic
-"
+st "ADC_CH19_CS   : std_ulogic"
 )
 )
 *67 (PortIoOut
@@ -3486,8 +3450,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,52000,11300,53000"
-st "ADC_SCLK      : std_ulogic
-"
+st "ADC_SCLK      : std_ulogic"
 )
 )
 *86 (PortIoOut
@@ -3548,8 +3511,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,59000,11500,60000"
-st "BP_PWM1A      : std_ulogic
-"
+st "BP_PWM1A      : std_ulogic"
 )
 )
 *88 (PortIoOut
@@ -3610,8 +3572,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,60000,11500,61000"
-st "BP_PWM1B      : std_ulogic
-"
+st "BP_PWM1B      : std_ulogic"
 )
 )
 *90 (PortIoOut
@@ -3672,8 +3633,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,61000,11500,62000"
-st "BP_PWM2A      : std_ulogic
-"
+st "BP_PWM2A      : std_ulogic"
 )
 )
 *92 (PortIoOut
@@ -3734,8 +3694,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,62000,11500,63000"
-st "BP_PWM2B      : std_ulogic
-"
+st "BP_PWM2B      : std_ulogic"
 )
 )
 *94 (PortIoOut
@@ -3796,8 +3755,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,63000,11500,64000"
-st "BP_PWM3A      : std_ulogic
-"
+st "BP_PWM3A      : std_ulogic"
 )
 )
 *96 (PortIoOut
@@ -3858,8 +3816,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,64000,11500,65000"
-st "BP_PWM3B      : std_ulogic
-"
+st "BP_PWM3B      : std_ulogic"
 )
 )
 *98 (PortIoOut
@@ -3920,8 +3877,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,65000,11500,66000"
-st "BP_PWM4A      : std_ulogic
-"
+st "BP_PWM4A      : std_ulogic"
 )
 )
 *100 (PortIoOut
@@ -3982,8 +3938,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,66000,11500,67000"
-st "BP_PWM4B      : std_ulogic
-"
+st "BP_PWM4B      : std_ulogic"
 )
 )
 *102 (PortIoOut
@@ -4044,8 +3999,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,67000,11500,68000"
-st "BP_PWM5A      : std_ulogic
-"
+st "BP_PWM5A      : std_ulogic"
 )
 )
 *104 (PortIoOut
@@ -4106,8 +4060,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,68000,11500,69000"
-st "BP_PWM5B      : std_ulogic
-"
+st "BP_PWM5B      : std_ulogic"
 )
 )
 *106 (PortIoOut
@@ -4168,8 +4121,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,69000,11500,70000"
-st "BP_PWM6A      : std_ulogic
-"
+st "BP_PWM6A      : std_ulogic"
 )
 )
 *108 (PortIoOut
@@ -4230,8 +4182,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,70000,11500,71000"
-st "BP_PWM6B      : std_ulogic
-"
+st "BP_PWM6B      : std_ulogic"
 )
 )
 *110 (PortIoOut
@@ -4292,8 +4243,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,71000,11500,72000"
-st "BP_PWM7A      : std_ulogic
-"
+st "BP_PWM7A      : std_ulogic"
 )
 )
 *112 (PortIoOut
@@ -4354,8 +4304,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,72000,11500,73000"
-st "BP_PWM7B      : std_ulogic
-"
+st "BP_PWM7B      : std_ulogic"
 )
 )
 *114 (PortIoOut
@@ -4416,8 +4365,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,73000,11500,74000"
-st "BP_PWM8A      : std_ulogic
-"
+st "BP_PWM8A      : std_ulogic"
 )
 )
 *116 (PortIoOut
@@ -4478,8 +4426,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,74000,11500,75000"
-st "BP_PWM8B      : std_ulogic
-"
+st "BP_PWM8B      : std_ulogic"
 )
 )
 *118 (PortIoOut
@@ -4540,8 +4487,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,75000,11500,76000"
-st "BP_PWM9A      : std_ulogic
-"
+st "BP_PWM9A      : std_ulogic"
 )
 )
 *120 (PortIoOut
@@ -4602,8 +4548,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,76000,11500,77000"
-st "BP_PWM9B      : std_ulogic
-"
+st "BP_PWM9B      : std_ulogic"
 )
 )
 *122 (PortIoOut
@@ -4664,8 +4609,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,53000,11700,54000"
-st "BP_PWM10A     : std_ulogic
-"
+st "BP_PWM10A     : std_ulogic"
 )
 )
 *124 (PortIoOut
@@ -4726,8 +4670,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,54000,11700,55000"
-st "BP_PWM10B     : std_ulogic
-"
+st "BP_PWM10B     : std_ulogic"
 )
 )
 *126 (PortIoOut
@@ -4788,8 +4731,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,55000,11700,56000"
-st "BP_PWM11A     : std_ulogic
-"
+st "BP_PWM11A     : std_ulogic"
 )
 )
 *128 (PortIoOut
@@ -4850,8 +4792,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,56000,11700,57000"
-st "BP_PWM11B     : std_ulogic
-"
+st "BP_PWM11B     : std_ulogic"
 )
 )
 *130 (PortIoOut
@@ -4912,8 +4853,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,57000,11700,58000"
-st "BP_PWM12A     : std_ulogic
-"
+st "BP_PWM12A     : std_ulogic"
 )
 )
 *132 (PortIoOut
@@ -4974,8 +4914,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,58000,11700,59000"
-st "BP_PWM12B     : std_ulogic
-"
+st "BP_PWM12B     : std_ulogic"
 )
 )
 *134 (PortIoInOut
@@ -5034,8 +4973,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,83000,11200,84000"
-st "BP_GPIO_0     : std_ulogic
-"
+st "BP_GPIO_0     : std_ulogic"
 )
 )
 *136 (PortIoInOut
@@ -5094,8 +5032,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,84000,11200,85000"
-st "BP_GPIO_1     : std_ulogic
-"
+st "BP_GPIO_1     : std_ulogic"
 )
 )
 *138 (PortIoInOut
@@ -5154,8 +5091,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,94000,11200,95000"
-st "BP_GPIO_2     : std_ulogic
-"
+st "BP_GPIO_2     : std_ulogic"
 )
 )
 *140 (PortIoInOut
@@ -5214,8 +5150,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,104000,11200,105000"
-st "BP_GPIO_3     : std_ulogic
-"
+st "BP_GPIO_3     : std_ulogic"
 )
 )
 *142 (PortIoInOut
@@ -5274,8 +5209,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,112000,11200,113000"
-st "BP_GPIO_4     : std_ulogic
-"
+st "BP_GPIO_4     : std_ulogic"
 )
 )
 *144 (PortIoInOut
@@ -5334,8 +5268,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,113000,11200,114000"
-st "BP_GPIO_5     : std_ulogic
-"
+st "BP_GPIO_5     : std_ulogic"
 )
 )
 *146 (PortIoInOut
@@ -5394,8 +5327,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,114000,11200,115000"
-st "BP_GPIO_6     : std_ulogic
-"
+st "BP_GPIO_6     : std_ulogic"
 )
 )
 *148 (PortIoInOut
@@ -5454,8 +5386,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,115000,11200,116000"
-st "BP_GPIO_7     : std_ulogic
-"
+st "BP_GPIO_7     : std_ulogic"
 )
 )
 *150 (PortIoInOut
@@ -5514,8 +5445,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,116000,11200,117000"
-st "BP_GPIO_8     : std_ulogic
-"
+st "BP_GPIO_8     : std_ulogic"
 )
 )
 *152 (PortIoInOut
@@ -5574,8 +5504,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,117000,11200,118000"
-st "BP_GPIO_9     : std_ulogic
-"
+st "BP_GPIO_9     : std_ulogic"
 )
 )
 *154 (PortIoInOut
@@ -5634,8 +5563,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,85000,11400,86000"
-st "BP_GPIO_10    : std_ulogic
-"
+st "BP_GPIO_10    : std_ulogic"
 )
 )
 *156 (PortIoInOut
@@ -5694,8 +5622,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,86000,11400,87000"
-st "BP_GPIO_11    : std_ulogic
-"
+st "BP_GPIO_11    : std_ulogic"
 )
 )
 *158 (PortIoInOut
@@ -5754,8 +5681,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,87000,11400,88000"
-st "BP_GPIO_13    : std_ulogic
-"
+st "BP_GPIO_13    : std_ulogic"
 )
 )
 *160 (PortIoInOut
@@ -5814,8 +5740,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,88000,11400,89000"
-st "BP_GPIO_14    : std_ulogic
-"
+st "BP_GPIO_14    : std_ulogic"
 )
 )
 *162 (PortIoInOut
@@ -5874,8 +5799,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,89000,11400,90000"
-st "BP_GPIO_15    : std_ulogic
-"
+st "BP_GPIO_15    : std_ulogic"
 )
 )
 *164 (PortIoInOut
@@ -5934,8 +5858,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,90000,11400,91000"
-st "BP_GPIO_16    : std_ulogic
-"
+st "BP_GPIO_16    : std_ulogic"
 )
 )
 *166 (PortIoInOut
@@ -5994,8 +5917,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,91000,11400,92000"
-st "BP_GPIO_17    : std_ulogic
-"
+st "BP_GPIO_17    : std_ulogic"
 )
 )
 *168 (PortIoInOut
@@ -6054,8 +5976,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,92000,11400,93000"
-st "BP_GPIO_18    : std_ulogic
-"
+st "BP_GPIO_18    : std_ulogic"
 )
 )
 *170 (PortIoInOut
@@ -6114,8 +6035,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,93000,11400,94000"
-st "BP_GPIO_19    : std_ulogic
-"
+st "BP_GPIO_19    : std_ulogic"
 )
 )
 *172 (PortIoInOut
@@ -6174,8 +6094,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,95000,11400,96000"
-st "BP_GPIO_20    : std_ulogic
-"
+st "BP_GPIO_20    : std_ulogic"
 )
 )
 *174 (PortIoInOut
@@ -6234,8 +6153,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,96000,11400,97000"
-st "BP_GPIO_21    : std_ulogic
-"
+st "BP_GPIO_21    : std_ulogic"
 )
 )
 *176 (PortIoInOut
@@ -6294,8 +6212,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,97000,11400,98000"
-st "BP_GPIO_22    : std_ulogic
-"
+st "BP_GPIO_22    : std_ulogic"
 )
 )
 *178 (PortIoInOut
@@ -6354,8 +6271,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,98000,11400,99000"
-st "BP_GPIO_23    : std_ulogic
-"
+st "BP_GPIO_23    : std_ulogic"
 )
 )
 *180 (PortIoInOut
@@ -6414,8 +6330,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,99000,11400,100000"
-st "BP_GPIO_24    : std_ulogic
-"
+st "BP_GPIO_24    : std_ulogic"
 )
 )
 *182 (PortIoInOut
@@ -6474,8 +6389,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,100000,11400,101000"
-st "BP_GPIO_26    : std_ulogic
-"
+st "BP_GPIO_26    : std_ulogic"
 )
 )
 *184 (PortIoInOut
@@ -6534,8 +6448,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,101000,11400,102000"
-st "BP_GPIO_27    : std_ulogic
-"
+st "BP_GPIO_27    : std_ulogic"
 )
 )
 *186 (PortIoInOut
@@ -6594,8 +6507,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,102000,11400,103000"
-st "BP_GPIO_28    : std_ulogic
-"
+st "BP_GPIO_28    : std_ulogic"
 )
 )
 *188 (PortIoInOut
@@ -6654,8 +6566,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,103000,11400,104000"
-st "BP_GPIO_29    : std_ulogic
-"
+st "BP_GPIO_29    : std_ulogic"
 )
 )
 *190 (PortIoInOut
@@ -6714,8 +6625,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,105000,11400,106000"
-st "BP_GPIO_30    : std_ulogic
-"
+st "BP_GPIO_30    : std_ulogic"
 )
 )
 *192 (PortIoInOut
@@ -6774,8 +6684,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,106000,11400,107000"
-st "BP_GPIO_31    : std_ulogic
-"
+st "BP_GPIO_31    : std_ulogic"
 )
 )
 *194 (PortIoInOut
@@ -6834,8 +6743,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,107000,11400,108000"
-st "BP_GPIO_32    : std_ulogic
-"
+st "BP_GPIO_32    : std_ulogic"
 )
 )
 *196 (PortIoInOut
@@ -6894,8 +6802,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,108000,11400,109000"
-st "BP_GPIO_33    : std_ulogic
-"
+st "BP_GPIO_33    : std_ulogic"
 )
 )
 *198 (PortIoInOut
@@ -6954,8 +6861,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,109000,11400,110000"
-st "BP_GPIO_34    : std_ulogic
-"
+st "BP_GPIO_34    : std_ulogic"
 )
 )
 *200 (PortIoInOut
@@ -7014,8 +6920,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,110000,11400,111000"
-st "BP_GPIO_35    : std_ulogic
-"
+st "BP_GPIO_35    : std_ulogic"
 )
 )
 *202 (PortIoInOut
@@ -7074,8 +6979,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,111000,11400,112000"
-st "BP_GPIO_36    : std_ulogic
-"
+st "BP_GPIO_36    : std_ulogic"
 )
 )
 *204 (PortIoInOut
@@ -7134,8 +7038,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,82000,12500,83000"
-st "BN_MASTER_RST : std_ulogic
-"
+st "BN_MASTER_RST : std_ulogic"
 )
 )
 *206 (PortIoInOut
@@ -7194,8 +7097,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,79000,10600,80000"
-st "BN_EN         : std_ulogic
-"
+st "BN_EN         : std_ulogic"
 )
 )
 *208 (PortIoInOut
@@ -7254,8 +7156,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,81000,12200,82000"
-st "BN_ERROR_W    : std_ulogic
-"
+st "BN_ERROR_W    : std_ulogic"
 )
 )
 *210 (PortIoInOut
@@ -7314,8 +7215,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,80000,12000,81000"
-st "BN_ERROR_R    : std_ulogic
-"
+st "BN_ERROR_R    : std_ulogic"
 )
 )
 *212 (SaComponent
@@ -7826,8 +7726,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,29000,10700,30000"
-st "USB_TX        : std_ulogic
-"
+st "USB_TX        : std_ulogic"
 )
 )
 *228 (PortIoOut
@@ -7890,8 +7789,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,78000,10800,79000"
-st "USB_RX        : std_ulogic
-"
+st "USB_RX        : std_ulogic"
 )
 )
 *230 (PortIoOut
@@ -7953,8 +7851,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,77000,11000,78000"
-st "USB_CTS       : std_ulogic
-"
+st "USB_CTS       : std_ulogic"
 )
 )
 *232 (PortIoIn
@@ -8017,8 +7914,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,28000,11000,29000"
-st "USB_RTS       : std_ulogic
-"
+st "USB_RTS       : std_ulogic"
 )
 )
 *234 (Net
@@ -8036,8 +7932,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,127000,13500,128000"
-st "SIGNAL enable        : std_ulogic
-"
+st "SIGNAL enable        : std_ulogic"
 )
 )
 *235 (SaComponent
@@ -8819,8 +8714,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,132000,14100,133000"
-st "SIGNAL masterWr      : std_ulogic
-"
+st "SIGNAL masterWr      : std_ulogic"
 )
 )
 *260 (Net
@@ -8837,8 +8731,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,131000,13800,132000"
-st "SIGNAL masterFull    : std_ulogic
-"
+st "SIGNAL masterFull    : std_ulogic"
 )
 )
 *261 (Net
@@ -8856,8 +8749,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,130000,28200,131000"
-st "SIGNAL masterData    : std_ulogic_vector(dataBitNb-1 DOWNTO 0)
-"
+st "SIGNAL masterData    : std_ulogic_vector(dataBitNb-1 DOWNTO 0)"
 )
 )
 *262 (SaComponent
@@ -9689,8 +9581,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,126000,27000,127000"
-st "SIGNAL consigne      : std_ulogic_vector(pidBitNb-1 DOWNTO 0)
-"
+st "SIGNAL consigne      : std_ulogic_vector(pidBitNb-1 DOWNTO 0)"
 )
 )
 *289 (Net
@@ -9708,8 +9599,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,133000,14600,134000"
-st "SIGNAL newCharacter  : std_ulogic
-"
+st "SIGNAL newCharacter  : std_ulogic"
 )
 )
 *290 (Net
@@ -9727,8 +9617,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,128000,14200,129000"
-st "SIGNAL endOfMsg      : std_ulogic
-"
+st "SIGNAL endOfMsg      : std_ulogic"
 )
 )
 *291 (SaComponent
@@ -10118,8 +10007,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,135000,27400,136000"
-st "SIGNAL rxData        : std_ulogic_vector(dataBitNb-1 DOWNTO 0)
-"
+st "SIGNAL rxData        : std_ulogic_vector(dataBitNb-1 DOWNTO 0)"
 )
 )
 *304 (Net
@@ -10136,8 +10024,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,136000,13900,137000"
-st "SIGNAL rxEmpty       : std_ulogic
-"
+st "SIGNAL rxEmpty       : std_ulogic"
 )
 )
 *305 (Net
@@ -10155,8 +10042,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,137000,13300,138000"
-st "SIGNAL rxRd          : std_ulogic
-"
+st "SIGNAL rxRd          : std_ulogic"
 )
 )
 *306 (SaComponent
@@ -10470,8 +10356,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,124000,26600,125000"
-st "SIGNAL Setval        : std_ulogic_vector(pidBitNb-1 DOWNTO 0)
-"
+st "SIGNAL Setval        : std_ulogic_vector(pidBitNb-1 DOWNTO 0)"
 )
 )
 *317 (SaComponent
@@ -16729,8 +16614,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,120000,26800,121000"
-st "SIGNAL Data          : std_ulogic_vector(adcBitNb-1 DOWNTO 0)
-"
+st "SIGNAL Data          : std_ulogic_vector(adcBitNb-1 DOWNTO 0)"
 )
 )
 *527 (SaComponent
@@ -16964,8 +16848,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,134000,26700,135000"
-st "SIGNAL output        : std_ulogic_vector(pidBitNb-1 DOWNTO 0)
-"
+st "SIGNAL output        : std_ulogic_vector(pidBitNb-1 DOWNTO 0)"
 )
 )
 *536 (SaComponent
@@ -17390,8 +17273,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,138000,13400,139000"
-st "SIGNAL serialOut     : std_ulogic
-"
+st "SIGNAL serialOut     : std_ulogic"
 )
 )
 *552 (SaComponent
@@ -17902,8 +17784,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,8000,12200,9000"
-st "ADC_CH0_SDO   : std_ulogic
-"
+st "ADC_CH0_SDO   : std_ulogic"
 )
 )
 *568 (Net
@@ -17921,8 +17802,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,32000,11900,33000"
-st "ADC_CH0_CS    : std_ulogic
-"
+st "ADC_CH0_CS    : std_ulogic"
 )
 )
 *569 (PortIoIn
@@ -18028,8 +17908,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,19000,12200,20000"
-st "ADC_CH1_SDO   : std_ulogic
-"
+st "ADC_CH1_SDO   : std_ulogic"
 )
 )
 *572 (Net
@@ -18047,8 +17926,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,43000,11900,44000"
-st "ADC_CH1_CS    : std_ulogic
-"
+st "ADC_CH1_CS    : std_ulogic"
 )
 )
 *573 (SaComponent
@@ -18947,8 +18825,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,20000,12200,21000"
-st "ADC_CH2_SDO   : std_ulogic
-"
+st "ADC_CH2_SDO   : std_ulogic"
 )
 )
 *602 (Net
@@ -18966,8 +18843,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,44000,11900,45000"
-st "ADC_CH2_CS    : std_ulogic
-"
+st "ADC_CH2_CS    : std_ulogic"
 )
 )
 *603 (SaComponent
@@ -18983,7 +18859,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "267250,-375,268000,375"
+xt "255250,1625,256000,2375"
 )
 tg (CPTG
 uid 14964,0
@@ -18994,9 +18870,9 @@ uid 14965,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "269000,-700,273900,700"
+xt "257000,1300,261900,2700"
 st "dacSel"
-blo "269000,500"
+blo "257000,2500"
 )
 )
 thePort (LogicalPort
@@ -19020,7 +18896,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "267250,-2375,268000,-1625"
+xt "255250,-375,256000,375"
 )
 tg (CPTG
 uid 14968,0
@@ -19031,9 +18907,9 @@ uid 14969,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "269000,-2700,272700,-1300"
+xt "257000,-700,260700,700"
 st "data"
-blo "269000,-1500"
+blo "257000,500"
 )
 )
 thePort (LogicalPort
@@ -19057,7 +18933,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "267250,-13375,268000,-12625"
+xt "255250,-11375,256000,-10625"
 )
 tg (CPTG
 uid 14972,0
@@ -19068,9 +18944,9 @@ uid 14973,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "269000,-13700,272900,-12300"
+xt "257000,-11700,260900,-10300"
 st "send"
-blo "269000,-12500"
+blo "257000,-10500"
 )
 )
 thePort (LogicalPort
@@ -19093,7 +18969,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "281000,-13375,281750,-12625"
+xt "269000,-11375,269750,-10625"
 )
 tg (CPTG
 uid 14976,0
@@ -19104,10 +18980,10 @@ uid 14977,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "271000,-13700,280000,-12300"
+xt "259000,-11700,268000,-10300"
 st "masterData"
 ju 2
-blo "280000,-12500"
+blo "268000,-10500"
 )
 )
 thePort (LogicalPort
@@ -19131,7 +19007,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "281000,-11375,281750,-10625"
+xt "269000,-9375,269750,-8625"
 )
 tg (CPTG
 uid 14980,0
@@ -19142,10 +19018,10 @@ uid 14981,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "271900,-11700,280000,-10300"
+xt "259900,-9700,268000,-8300"
 st "masterFull"
 ju 2
-blo "280000,-10500"
+blo "268000,-8500"
 )
 )
 thePort (LogicalPort
@@ -19167,7 +19043,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "281000,-9375,281750,-8625"
+xt "269000,-7375,269750,-6625"
 )
 tg (CPTG
 uid 14984,0
@@ -19178,10 +19054,10 @@ uid 14985,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "273000,-9700,280000,-8300"
+xt "261000,-7700,268000,-6300"
 st "masterWr"
 ju 2
-blo "280000,-8500"
+blo "268000,-6500"
 )
 )
 thePort (LogicalPort
@@ -19204,7 +19080,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "267250,1625,268000,2375"
+xt "255250,3625,256000,4375"
 )
 tg (CPTG
 uid 14988,0
@@ -19215,9 +19091,9 @@ uid 14989,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "269000,1300,273300,2700"
+xt "257000,3300,261300,4700"
 st "mode"
-blo "269000,2500"
+blo "257000,4500"
 )
 )
 thePort (LogicalPort
@@ -19241,7 +19117,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "267250,7625,268000,8375"
+xt "255250,9625,256000,10375"
 )
 tg (CPTG
 uid 14992,0
@@ -19252,9 +19128,9 @@ uid 14993,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "269000,7300,272800,8700"
+xt "257000,9300,260800,10700"
 st "clock"
-blo "269000,8500"
+blo "257000,10500"
 )
 )
 thePort (LogicalPort
@@ -19277,7 +19153,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "267250,8625,268000,9375"
+xt "255250,10625,256000,11375"
 )
 tg (CPTG
 uid 14996,0
@@ -19288,9 +19164,9 @@ uid 14997,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "269000,8300,273100,9700"
+xt "257000,10300,261100,11700"
 st "reset"
-blo "269000,9500"
+blo "257000,11500"
 )
 )
 thePort (LogicalPort
@@ -19312,7 +19188,7 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "268000,-17000,281000,11000"
+xt "256000,-15000,269000,13000"
 )
 oxt "15000,6000,28000,34000"
 ttg (MlTextGroup
@@ -19325,9 +19201,9 @@ uid 15001,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "272600,-7200,276400,-6000"
+xt "260600,-5200,264400,-4000"
 st "Poetic"
-blo "272600,-6200"
+blo "260600,-4200"
 tm "BdLibraryNameMgr"
 )
 *614 (Text
@@ -19335,9 +19211,9 @@ uid 15002,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "272600,-6000,275300,-4800"
+xt "260600,-4000,263300,-2800"
 st "DAC"
-blo "272600,-5000"
+blo "260600,-3000"
 tm "CptNameMgr"
 )
 *615 (Text
@@ -19345,9 +19221,9 @@ uid 15003,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "272600,-4800,274900,-3600"
+xt "260600,-2800,262900,-1600"
 st "I11"
-blo "272600,-3800"
+blo "260600,-1800"
 tm "InstanceNameMgr"
 )
 ]
@@ -19362,7 +19238,7 @@ uid 15006,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "240500,-10000,258000,-8400"
+xt "228500,-8000,246000,-6400"
 st "adcBitNb  = 12    ( positive )  
 dataBitNb = 12    ( positive )  "
 )
@@ -20548,8 +20424,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,122000,26800,123000"
-st "SIGNAL OutAscii      : std_ulogic_vector(adcBitNb-1 DOWNTO 0)
-"
+st "SIGNAL OutAscii      : std_ulogic_vector(adcBitNb-1 DOWNTO 0)"
 )
 )
 *654 (Net
@@ -20567,8 +20442,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,129000,13400,130000"
-st "SIGNAL inTrigger     : std_ulogic
-"
+st "SIGNAL inTrigger     : std_ulogic"
 )
 )
 *655 (Net
@@ -20587,8 +20461,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,121000,27000,122000"
-st "SIGNAL InBinary      : std_ulogic_vector(adcBitNb-1 DOWNTO 0)
-"
+st "SIGNAL InBinary      : std_ulogic_vector(adcBitNb-1 DOWNTO 0)"
 )
 )
 *656 (Net
@@ -20606,8 +20479,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,123000,13800,124000"
-st "SIGNAL OutTrigger    : std_ulogic
-"
+st "SIGNAL OutTrigger    : std_ulogic"
 )
 )
 *657 (Net
@@ -20625,8 +20497,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,125000,13300,126000"
-st "SIGNAL busy          : std_ulogic
-"
+st "SIGNAL busy          : std_ulogic"
 )
 )
 *658 (Wire
@@ -28911,8 +28782,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,1928,1048"
-viewArea "90244,-8429,285444,97628"
+windowSize "0,0,1921,1056"
+viewArea "167901,-40124,362499,63324"
 cachedDiagramExtent "-3000,-86000,362050,351400"
 pageSetupInfo (PageSetupInfo
 ptrCmd "Microsoft Print to PDF,winspool,"
@@ -28939,7 +28810,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-3000,-148000"
-lastUid 15647,0
+lastUid 15948,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
