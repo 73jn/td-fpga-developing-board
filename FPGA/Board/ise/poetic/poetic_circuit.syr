@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.24 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.24 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
  
 --> Reading design: poetic_circuit.prj
 
@@ -183,15 +183,13 @@ Elaborating entity <pwmModulator> (architecture <RTL>) with generics from librar
 Elaborating entity <ADC> (architecture <ads7886_decoder>) with generics from library <work>.
 
 Elaborating entity <regulator> (architecture <pid>) with generics from library <work>.
-WARNING:HDLCompiler:1127 - "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd" Line 1780: Assignment to old_adc ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd" Line 1797: Assignment to old_adc ignored, since the identifier is never used
 
 Elaborating entity <serialAsciiDecoder> (architecture <serialAsciiDecoder>) from library <work>.
 
 Elaborating entity <uartController> (architecture <fsm>) with generics from library <work>.
-INFO:HDLCompiler:679 - "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd" Line 1293. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd" Line 1340. Case statement is complete. others clause is never selected
-WARNING:HDLCompiler:634 - "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd" Line 1249: Net <txData_cld[7]> does not have a driver.
-WARNING:HDLCompiler:634 - "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd" Line 1250: Net <txWr_cld> does not have a driver.
+INFO:HDLCompiler:679 - "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd" Line 1323. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd" Line 1365. Case statement is complete. others clause is never selected
 
 Elaborating entity <serialPortFIFO> (architecture <struct>) with generics from library <work>.
 
@@ -240,8 +238,8 @@ Synthesizing Unit <SimplePoeticDcMotor>.
         dacBitNb = 8
         dacChBitNb = 2
         dacOpBitNb = 2
-INFO:Xst:3210 - "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd" line 2687: Output port <txData> of the instance <I22> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd" line 2687: Output port <txWr> of the instance <I22> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd" line 2704: Output port <txData> of the instance <I22> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd" line 2704: Output port <txWr> of the instance <I22> is unconnected or connected to loadless signal.
     Summary:
 	no macro.
 Unit <SimplePoeticDcMotor> synthesized.
@@ -292,10 +290,10 @@ Synthesizing Unit <DAC>.
     | Encoding           | auto                                           |
     | Implementation     | LUT                                            |
     -----------------------------------------------------------------------
-    Found 32-bit adder for signal <transmit.counter[31]_GND_12_o_add_12_OUT> created at line 2229.
-    Found 32-bit subtractor for signal <transmit.decounter[31]_GND_12_o_sub_4_OUT<31:0>> created at line 2207.
-    Found 1-bit 12-to-1 multiplexer for signal <transmit.decounter[31]_X_12_o_Mux_4_o> created at line 2208.
-    Found 1-bit 12-to-1 multiplexer for signal <transmit.decounter[3]_X_12_o_Mux_9_o> created at line 2216.
+    Found 32-bit adder for signal <transmit.counter[31]_GND_12_o_add_12_OUT> created at line 2246.
+    Found 32-bit subtractor for signal <transmit.decounter[31]_GND_12_o_sub_4_OUT<31:0>> created at line 2224.
+    Found 1-bit 12-to-1 multiplexer for signal <transmit.decounter[31]_X_12_o_Mux_4_o> created at line 2225.
+    Found 1-bit 12-to-1 multiplexer for signal <transmit.decounter[3]_X_12_o_Mux_9_o> created at line 2233.
     Summary:
 	inferred   2 Adder/Subtractor(s).
 	inferred  81 D-type flip-flop(s).
@@ -310,7 +308,7 @@ Synthesizing Unit <clockGenerator_1>.
     Found 25-bit register for signal <counter>.
     Found 1-bit register for signal <clockOut_int>.
     Found 25-bit adder for signal <counter[24]_GND_14_o_add_0_OUT> created at line 1241.
-    Found 25-bit comparator greater for signal <n0002> created at line 2103
+    Found 25-bit comparator greater for signal <n0002> created at line 2120
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred  26 D-type flip-flop(s).
@@ -325,7 +323,7 @@ Synthesizing Unit <clockGenerator_2>.
     Found 10-bit register for signal <counter>.
     Found 1-bit register for signal <clockOut_int>.
     Found 10-bit adder for signal <counter[9]_GND_16_o_add_0_OUT> created at line 1241.
-    Found 10-bit comparator greater for signal <n0002> created at line 2103
+    Found 10-bit comparator greater for signal <n0002> created at line 2120
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred  11 D-type flip-flop(s).
@@ -346,7 +344,7 @@ Synthesizing Unit <pwmModulator>.
         signalBitNb = 12
     Found 12-bit register for signal <sawtooth>.
     Found 12-bit adder for signal <sawtooth[11]_GND_19_o_add_0_OUT> created at line 1241.
-    Found 12-bit comparator greater for signal <serialOut> created at line 1582
+    Found 12-bit comparator greater for signal <serialOut> created at line 1599
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred  12 D-type flip-flop(s).
@@ -404,17 +402,17 @@ WARNING:Xst:647 - Input <on_off_switch> is never used. This port will be preserv
     Found 12-bit register for signal <output>.
     Found 1-bit register for signal <memUpdate>.
     Found 1-bit register for signal <risingUpdate>.
-    Found 13-bit subtractor for signal <GND_22_o_GND_22_o_sub_1_OUT> created at line 1798.
-    Found 32-bit adder for signal <error_sum[31]_Error[31]_add_1_OUT> created at line 1801.
-    Found 32-bit adder for signal <n0092> created at line 1824.
-    Found 32-bit adder for signal <p[31]_d[31]_add_13_OUT> created at line 1824.
-    Found 32-bit subtractor for signal <Error[31]_old_error[31]_sub_3_OUT<31:0>> created at line 1802.
-    Found 5x32-bit multiplier for signal <n0054> created at line 1810.
-    Found 6x32-bit multiplier for signal <n0056> created at line 1815.
-    Found 32x8-bit multiplier for signal <n0059> created at line 1820.
-    Found 32-bit comparator greater for signal <GND_22_o_output_saturation_buffer[31]_LessThan_15_o> created at line 1825
-    Found 32-bit comparator greater for signal <output_saturation_buffer[31]_GND_22_o_LessThan_16_o> created at line 1827
-    Found 32-bit comparator equal for signal <n0017> created at line 1841
+    Found 13-bit subtractor for signal <GND_22_o_GND_22_o_sub_1_OUT> created at line 1815.
+    Found 32-bit adder for signal <error_sum[31]_Error[31]_add_1_OUT> created at line 1818.
+    Found 32-bit adder for signal <n0092> created at line 1841.
+    Found 32-bit adder for signal <p[31]_d[31]_add_13_OUT> created at line 1841.
+    Found 32-bit subtractor for signal <Error[31]_old_error[31]_sub_3_OUT<31:0>> created at line 1819.
+    Found 5x32-bit multiplier for signal <n0054> created at line 1827.
+    Found 6x32-bit multiplier for signal <n0056> created at line 1832.
+    Found 32x8-bit multiplier for signal <n0059> created at line 1837.
+    Found 32-bit comparator greater for signal <GND_22_o_output_saturation_buffer[31]_LessThan_15_o> created at line 1842
+    Found 32-bit comparator greater for signal <output_saturation_buffer[31]_GND_22_o_LessThan_16_o> created at line 1844
+    Found 32-bit comparator equal for signal <n0017> created at line 1858
     Summary:
 	inferred   3 Multiplier(s).
 	inferred   5 Adder/Subtractor(s).
@@ -531,35 +529,33 @@ Synthesizing Unit <serialAsciiDecoder>.
     | Encoding           | auto                                           |
     | Implementation     | LUT                                            |
     -----------------------------------------------------------------------
-    Found 32-bit adder for signal <decode.counterCharacter[31]_GND_29_o_add_28_OUT> created at line 1435.
-    Found 32-bit adder for signal <decode.uOutput[31]_GND_29_o_add_83_OUT> created at line 1460.
-    Found 32-bit adder for signal <decode.uOutput[31]_GND_29_o_add_84_OUT> created at line 1461.
-    Found 32-bit adder for signal <decode.uOutput[31]_GND_29_o_add_85_OUT> created at line 1462.
-    Found 32-bit adder for signal <decode.uOutput[31]_GND_29_o_add_86_OUT> created at line 1463.
-    Found 32-bit adder for signal <decode.uOutput[31]_GND_29_o_add_87_OUT> created at line 1464.
-    Found 32-bit adder for signal <decode.uOutput[31]_GND_29_o_add_88_OUT> created at line 1465.
-    Found 32-bit adder for signal <decode.uOutput[31]_GND_29_o_add_89_OUT> created at line 1466.
-    Found 32-bit adder for signal <decode.uOutput[31]_GND_29_o_add_90_OUT> created at line 1467.
-    Found 32-bit adder for signal <decode.uOutput[31]_GND_29_o_add_91_OUT> created at line 1468.
-    Found 32-bit adder for signal <decode.counterAdder[31]_GND_29_o_add_119_OUT> created at line 1474.
-    Found 32-bit subtractor for signal <decode.counterCharacter[31]_decode.counterAdder[31]_sub_31_OUT<31:0>> created at line 1441.
-    Found 4-bit subtractor for signal <decode.counterCharacter[31]_GND_29_o_sub_32_OUT<3:0>> created at line 1441.
-    Found 32-bit subtractor for signal <decode.counterCharacter[31]_GND_29_o_sub_46_OUT<31:0>> created at line 1443.
-    Found 32x5-bit multiplier for signal <n0193> created at line 1446.
-    Found 32x5-bit multiplier for signal <n0194> created at line 1447.
-    Found 32x5-bit multiplier for signal <n0195> created at line 1448.
-    Found 32x5-bit multiplier for signal <n0196> created at line 1449.
-    Found 32x5-bit multiplier for signal <n0197> created at line 1450.
-    Found 32x5-bit multiplier for signal <n0198> created at line 1451.
-    Found 32x5-bit multiplier for signal <n0199> created at line 1452.
-    Found 32x5-bit multiplier for signal <n0200> created at line 1453.
-    Found 32x5-bit multiplier for signal <n0201> created at line 1454.
-    Found 8-bit 12-to-1 multiplexer for signal <decode.counterCharacter[31]_X_19_o_wide_mux_82_OUT> created at line 1458.
-    Found 32-bit comparator equal for signal <decode.counterCharacter[31]_decode.counterAdder[31]_equal_30_o> created at line 1438
-    Found 32-bit comparator equal for signal <decode.counterCharacter[31]_decode.counterAdder[31]_equal_47_o> created at line 1443
+    Found 32-bit adder for signal <decode.counterCharacter[31]_GND_29_o_add_28_OUT> created at line 1452.
+    Found 32-bit adder for signal <decode.uOutput[31]_GND_29_o_add_77_OUT> created at line 1477.
+    Found 32-bit adder for signal <decode.uOutput[31]_GND_29_o_add_78_OUT> created at line 1478.
+    Found 32-bit adder for signal <decode.uOutput[31]_GND_29_o_add_79_OUT> created at line 1479.
+    Found 32-bit adder for signal <decode.uOutput[31]_GND_29_o_add_80_OUT> created at line 1480.
+    Found 32-bit adder for signal <decode.uOutput[31]_GND_29_o_add_81_OUT> created at line 1481.
+    Found 32-bit adder for signal <decode.uOutput[31]_GND_29_o_add_82_OUT> created at line 1482.
+    Found 32-bit adder for signal <decode.uOutput[31]_GND_29_o_add_83_OUT> created at line 1483.
+    Found 32-bit adder for signal <decode.uOutput[31]_GND_29_o_add_84_OUT> created at line 1484.
+    Found 32-bit adder for signal <decode.uOutput[31]_GND_29_o_add_85_OUT> created at line 1485.
+    Found 32-bit adder for signal <decode.counterAdder[31]_GND_29_o_add_113_OUT> created at line 1491.
+    Found 32-bit subtractor for signal <decode.counterCharacter[31]_GND_29_o_sub_44_OUT<31:0>> created at line 1460.
+    Found 32x5-bit multiplier for signal <n0190> created at line 1463.
+    Found 32x5-bit multiplier for signal <n0191> created at line 1464.
+    Found 32x5-bit multiplier for signal <n0192> created at line 1465.
+    Found 32x5-bit multiplier for signal <n0193> created at line 1466.
+    Found 32x5-bit multiplier for signal <n0194> created at line 1467.
+    Found 32x5-bit multiplier for signal <n0195> created at line 1468.
+    Found 32x5-bit multiplier for signal <n0196> created at line 1469.
+    Found 32x5-bit multiplier for signal <n0197> created at line 1470.
+    Found 32x5-bit multiplier for signal <n0198> created at line 1471.
+    Found 8-bit 12-to-1 multiplexer for signal <decode.counterAdder[3]_X_19_o_wide_mux_76_OUT> created at line 1475.
+    Found 32-bit comparator equal for signal <decode.counterCharacter[31]_decode.counterAdder[31]_equal_30_o> created at line 1455
+    Found 32-bit comparator equal for signal <n0044> created at line 1460
     Summary:
 	inferred   9 Multiplier(s).
-	inferred  14 Adder/Subtractor(s).
+	inferred  12 Adder/Subtractor(s).
 	inferred 204 D-type flip-flop(s).
 	inferred   2 Comparator(s).
 	inferred  33 Multiplexer(s).
@@ -570,19 +566,19 @@ Synthesizing Unit <uartController>.
     Related source file is "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd".
         dataBitNb = 8
 WARNING:Xst:647 - Input <txFull> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:653 - Signal <txData_cld> is used but never assigned. This sourceless signal will be automatically connected to value GND.
-WARNING:Xst:653 - Signal <txWr_cld> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 8-bit register for signal <consigne>.
+    Found 8-bit register for signal <txData>.
     Found 3-bit register for signal <current_state>.
-    Found 1-bit register for signal <newCharacter_cld>.
-    Found 1-bit register for signal <rxRd_cld>.
-    Found 8-bit register for signal <consigne_cld>.
-    Found 1-bit register for signal <endOfMsg_cld>.
+    Found 1-bit register for signal <endOfMsg>.
+    Found 1-bit register for signal <newCharacter>.
+    Found 1-bit register for signal <rxRd>.
+    Found 1-bit register for signal <txWr>.
     Found finite state machine <FSM_3> for signal <current_state>.
     -----------------------------------------------------------------------
     | States             | 5                                              |
     | Transitions        | 10                                             |
     | Inputs             | 3                                              |
-    | Outputs            | 5                                              |
+    | Outputs            | 10                                             |
     | Clock              | clock (rising_edge)                            |
     | Reset              | reset (positive)                               |
     | Reset type         | asynchronous                                   |
@@ -591,9 +587,22 @@ WARNING:Xst:653 - Signal <txWr_cld> is used but never assigned. This sourceless 
     | Encoding           | auto                                           |
     | Implementation     | LUT                                            |
     -----------------------------------------------------------------------
+WARNING:Xst:737 - Found 1-bit latch for signal <newCharacter_int>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <rxRd_int>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <consigne_int<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <consigne_int<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <consigne_int<5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <consigne_int<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <consigne_int<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <consigne_int<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <consigne_int<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <consigne_int<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <endOfMsg_int>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <txData_int<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
     Summary:
-	inferred  11 D-type flip-flop(s).
-	inferred   2 Multiplexer(s).
+	inferred  20 D-type flip-flop(s).
+	inferred  12 Latch(s).
+	inferred  12 Multiplexer(s).
 	inferred   1 Finite State Machine(s).
 Unit <uartController> synthesized.
 
@@ -658,8 +667,8 @@ Synthesizing Unit <FIFO_bram>.
     | Encoding           | auto                                           |
     | Implementation     | LUT                                            |
     -----------------------------------------------------------------------
-    Found 3-bit adder for signal <writeCounter[2]_GND_38_o_add_0_OUT> created at line 1241.
-    Found 3-bit adder for signal <readCounter[2]_GND_38_o_add_8_OUT> created at line 1241.
+    Found 3-bit adder for signal <writeCounter[2]_GND_58_o_add_0_OUT> created at line 1241.
+    Found 3-bit adder for signal <readCounter[2]_GND_58_o_add_8_OUT> created at line 1241.
     Found 3-bit comparator equal for signal <writeCounter[2]_readCounter[2]_equal_17_o> created at line 686
     Summary:
 	inferred   1 RAM(s).
@@ -680,8 +689,8 @@ Synthesizing Unit <serialPortReceiver>.
     Found 1-bit register for signal <rxDelayed>.
     Found 1-bit register for signal <rxReceiving>.
     Found 1-bit register for signal <rxDataValid>.
-    Found 14-bit adder for signal <dividerCounter[13]_GND_40_o_add_0_OUT> created at line 1241.
-    Found 4-bit adder for signal <rxCounter[3]_GND_40_o_add_8_OUT> created at line 1241.
+    Found 14-bit adder for signal <dividerCounter[13]_GND_60_o_add_0_OUT> created at line 1241.
+    Found 4-bit adder for signal <rxCounter[3]_GND_60_o_add_8_OUT> created at line 1241.
     Summary:
 	inferred   2 Adder/Subtractor(s).
 	inferred  29 D-type flip-flop(s).
@@ -696,7 +705,7 @@ Synthesizing Unit <serialPortTransmitter>.
     Found 8-bit register for signal <txData>.
     Found 14-bit register for signal <dividerCounter>.
     Found 1-bit register for signal <send1>.
-    Found 14-bit adder for signal <dividerCounter[13]_GND_41_o_add_0_OUT> created at line 1241.
+    Found 14-bit adder for signal <dividerCounter[13]_GND_61_o_add_0_OUT> created at line 1241.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred  33 D-type flip-flop(s).
@@ -713,7 +722,7 @@ Macro Statistics
  32x5-bit multiplier                                   : 10
  32x6-bit multiplier                                   : 1
  32x8-bit multiplier                                   : 1
-# Adders/Subtractors                                   : 65
+# Adders/Subtractors                                   : 63
  10-bit adder                                          : 1
  11-bit adder                                          : 1
  12-bit adder                                          : 1
@@ -723,7 +732,7 @@ Macro Statistics
  25-bit adder                                          : 1
  3-bit adder                                           : 2
  32-bit adder                                          : 39
- 32-bit subtractor                                     : 5
+ 32-bit subtractor                                     : 4
  33-bit adder                                          : 2
  34-bit adder                                          : 1
  35-bit adder                                          : 1
@@ -732,10 +741,9 @@ Macro Statistics
  38-bit adder                                          : 1
  39-bit adder                                          : 1
  4-bit adder                                           : 1
- 4-bit subtractor                                      : 1
  40-bit adder                                          : 1
-# Registers                                            : 75
- 1-bit register                                        : 27
+# Registers                                            : 77
+ 1-bit register                                        : 28
  10-bit register                                       : 2
  11-bit register                                       : 1
  12-bit register                                       : 7
@@ -745,7 +753,9 @@ Macro Statistics
  3-bit register                                        : 2
  32-bit register                                       : 14
  4-bit register                                        : 1
- 8-bit register                                        : 17
+ 8-bit register                                        : 18
+# Latches                                              : 12
+ 1-bit latch                                           : 12
 # Comparators                                          : 42
  10-bit comparator greater                             : 1
  12-bit comparator greater                             : 1
@@ -761,9 +771,9 @@ Macro Statistics
  38-bit comparator greater                             : 1
  39-bit comparator greater                             : 1
  40-bit comparator greater                             : 1
-# Multiplexers                                         : 991
+# Multiplexers                                         : 1001
  1-bit 12-to-1 multiplexer                             : 2
- 1-bit 2-to-1 multiplexer                              : 936
+ 1-bit 2-to-1 multiplexer                              : 947
  10-bit 2-to-1 multiplexer                             : 2
  11-bit 2-to-1 multiplexer                             : 1
  14-bit 2-to-1 multiplexer                             : 3
@@ -774,7 +784,7 @@ Macro Statistics
  33-bit 2-to-1 multiplexer                             : 1
  4-bit 2-to-1 multiplexer                              : 1
  8-bit 12-to-1 multiplexer                             : 1
- 8-bit 2-to-1 multiplexer                              : 13
+ 8-bit 2-to-1 multiplexer                              : 12
 # FSMs                                                 : 5
 # Xors                                                 : 2
  1-bit xor2                                            : 2
@@ -858,14 +868,13 @@ Macro Statistics
  32x5-bit multiplier                                   : 10
  32x6-bit multiplier                                   : 1
  32x8-bit multiplier                                   : 1
-# Adders/Subtractors                                   : 55
+# Adders/Subtractors                                   : 54
  13-bit subtractor                                     : 1
  14-bit adder                                          : 1
  3-bit adder                                           : 1
  32-bit adder                                          : 46
  32-bit subtractor                                     : 4
  33-bit adder                                          : 1
- 4-bit subtractor borrow in                            : 1
 # Counters                                             : 9
  10-bit up counter                                     : 1
  11-bit up counter                                     : 1
@@ -877,8 +886,8 @@ Macro Statistics
  4-bit up counter                                      : 1
 # Accumulators                                         : 1
  32-bit up accumulator                                 : 1
-# Registers                                            : 675
- Flip-Flops                                            : 675
+# Registers                                            : 684
+ Flip-Flops                                            : 684
 # Comparators                                          : 42
  10-bit comparator greater                             : 1
  12-bit comparator greater                             : 1
@@ -894,16 +903,16 @@ Macro Statistics
  38-bit comparator greater                             : 1
  39-bit comparator greater                             : 1
  40-bit comparator greater                             : 1
-# Multiplexers                                         : 983
+# Multiplexers                                         : 993
  1-bit 12-to-1 multiplexer                             : 2
- 1-bit 2-to-1 multiplexer                              : 934
+ 1-bit 2-to-1 multiplexer                              : 945
  10-bit 2-to-1 multiplexer                             : 1
  14-bit 2-to-1 multiplexer                             : 2
  3-bit 2-to-1 multiplexer                              : 1
  32-bit 2-to-1 multiplexer                             : 28
  33-bit 2-to-1 multiplexer                             : 1
  8-bit 12-to-1 multiplexer                             : 1
- 8-bit 2-to-1 multiplexer                              : 13
+ 8-bit 2-to-1 multiplexer                              : 12
 # FSMs                                                 : 5
 # Xors                                                 : 2
  1-bit xor2                                            : 2
@@ -915,6 +924,16 @@ Macro Statistics
 =========================================================================
 WARNING:Xst:1989 - Unit <SimplePoeticDcMotor>: instances <U_4>, <U_6> of unit <logic0> are equivalent, second instance is removed
 WARNING:Xst:1989 - Unit <SimplePoeticDcMotor>: instances <U_4>, <U_7> of unit <logic0> are equivalent, second instance is removed
+WARNING:Xst:1710 - FF/Latch <txData_int_7> (without init value) has a constant value of 0 in block <uartController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <txData_0> (without init value) has a constant value of 0 in block <uartController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <txData_1> (without init value) has a constant value of 0 in block <uartController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <txData_2> (without init value) has a constant value of 0 in block <uartController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <txData_3> (without init value) has a constant value of 0 in block <uartController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <txData_4> (without init value) has a constant value of 0 in block <uartController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <txData_5> (without init value) has a constant value of 0 in block <uartController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <txData_6> (without init value) has a constant value of 0 in block <uartController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <txData_7> (without init value) has a constant value of 0 in block <uartController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <txWr> (without init value) has a constant value of 0 in block <uartController>. This FF/Latch will be trimmed during the optimization process.
 INFO:Xst:2261 - The FF/Latch <Error_12> in Unit <regulator> is equivalent to the following 19 FFs/Latches, which will be removed : <Error_13> <Error_14> <Error_15> <Error_16> <Error_17> <Error_18> <Error_19> <Error_20> <Error_21> <Error_22> <Error_23> <Error_24> <Error_25> <Error_26> <Error_27> <Error_28> <Error_29> <Error_30> <Error_31> 
 INFO:Xst:2261 - The FF/Latch <old_old_error_12> in Unit <regulator> is equivalent to the following 19 FFs/Latches, which will be removed : <old_old_error_13> <old_old_error_14> <old_old_error_15> <old_old_error_16> <old_old_error_17> <old_old_error_18> <old_old_error_19> <old_old_error_20> <old_old_error_21> <old_old_error_22> <old_old_error_23> <old_old_error_24> <old_old_error_25> <old_old_error_26> <old_old_error_27> <old_old_error_28> <old_old_error_29> <old_old_error_30> <old_old_error_31> 
 INFO:Xst:2261 - The FF/Latch <old_error_12> in Unit <regulator> is equivalent to the following 19 FFs/Latches, which will be removed : <old_error_13> <old_error_14> <old_error_15> <old_error_16> <old_error_17> <old_error_18> <old_error_19> <old_error_20> <old_error_21> <old_error_22> <old_error_23> <old_error_24> <old_error_25> <old_error_26> <old_error_27> <old_error_28> <old_error_29> <old_error_30> <old_error_31> 
@@ -995,15 +1014,15 @@ WARNING:Xst:2677 - Node <decode.uOutput_28> of sequential type is unconnected in
 WARNING:Xst:2677 - Node <decode.uOutput_29> of sequential type is unconnected in block <serialAsciiDecoder>.
 WARNING:Xst:2677 - Node <decode.uOutput_30> of sequential type is unconnected in block <serialAsciiDecoder>.
 WARNING:Xst:2677 - Node <decode.uOutput_31> of sequential type is unconnected in block <serialAsciiDecoder>.
+WARNING:Xst:2677 - Node <Mmult_n01901> of sequential type is unconnected in block <serialAsciiDecoder>.
+WARNING:Xst:2677 - Node <Mmult_n01911> of sequential type is unconnected in block <serialAsciiDecoder>.
+WARNING:Xst:2677 - Node <Mmult_n01921> of sequential type is unconnected in block <serialAsciiDecoder>.
 WARNING:Xst:2677 - Node <Mmult_n01931> of sequential type is unconnected in block <serialAsciiDecoder>.
 WARNING:Xst:2677 - Node <Mmult_n01941> of sequential type is unconnected in block <serialAsciiDecoder>.
-WARNING:Xst:2677 - Node <Mmult_n01951> of sequential type is unconnected in block <serialAsciiDecoder>.
 WARNING:Xst:2677 - Node <Mmult_n01961> of sequential type is unconnected in block <serialAsciiDecoder>.
+WARNING:Xst:2677 - Node <Mmult_n01951> of sequential type is unconnected in block <serialAsciiDecoder>.
 WARNING:Xst:2677 - Node <Mmult_n01971> of sequential type is unconnected in block <serialAsciiDecoder>.
 WARNING:Xst:2677 - Node <Mmult_n01981> of sequential type is unconnected in block <serialAsciiDecoder>.
-WARNING:Xst:2677 - Node <Mmult_n02001> of sequential type is unconnected in block <serialAsciiDecoder>.
-WARNING:Xst:2677 - Node <Mmult_n01991> of sequential type is unconnected in block <serialAsciiDecoder>.
-WARNING:Xst:2677 - Node <Mmult_n02011> of sequential type is unconnected in block <serialAsciiDecoder>.
 INFO:Xst:2261 - The FF/Latch <Error_difference_13> in Unit <regulator> is equivalent to the following 18 FFs/Latches, which will be removed : <Error_difference_14> <Error_difference_15> <Error_difference_16> <Error_difference_17> <Error_difference_18> <Error_difference_19> <Error_difference_20> <Error_difference_21> <Error_difference_22> <Error_difference_23> <Error_difference_24> <Error_difference_25> <Error_difference_26> <Error_difference_27> <Error_difference_28> <Error_difference_29> <Error_difference_30> <Error_difference_31> 
 INFO:Xst:2261 - The FF/Latch <old_old_error_0> in Unit <regulator> is equivalent to the following FF/Latch, which will be removed : <p_1> 
 INFO:Xst:2261 - The FF/Latch <old_old_error_1> in Unit <regulator> is equivalent to the following FF/Latch, which will be removed : <p_2> 
@@ -1076,7 +1095,6 @@ INFO:Xst:2261 - The FF/Latch <I0/I6/U_0/risingSCLK> in Unit <poetic_circuit> is 
 INFO:Xst:2261 - The FF/Latch <I0/I6/U_1/p_16> in Unit <poetic_circuit> is equivalent to the following FF/Latch, which will be removed : <I0/I6/U_1/old_old_error_12> 
 INFO:Xst:2261 - The FF/Latch <I0/I_dff2/Q> in Unit <poetic_circuit> is equivalent to the following FF/Latch, which will be removed : <I0/I6/U_0/memSCLK> 
 INFO:Xst:2261 - The FF/Latch <I0/I6/U_1/i_25> in Unit <poetic_circuit> is equivalent to the following FF/Latch, which will be removed : <I0/I6/U_1/i_29> 
-INFO:Xst:3203 - The FF/Latch <I0/I6/I43/sawtooth_0> in Unit <poetic_circuit> is the opposite to the following FF/Latch, which will be removed : <I0/U_3/counter_0> 
 INFO:Xst:2261 - The FF/Latch <I0/I6/U_1/i_31> in Unit <poetic_circuit> is equivalent to the following 3 FFs/Latches, which will be removed : <I0/I6/U_1/i_30> <I0/I6/U_1/i_28> <I0/I6/U_1/i_27> 
 
 Mapping all equations...
@@ -1093,8 +1111,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 687
- Flip-Flops                                            : 687
+# Registers                                            : 688
+ Flip-Flops                                            : 688
 
 =========================================================================
 
@@ -1117,27 +1135,27 @@ Top Level Output File Name         : poetic_circuit.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 4464
+# BELS                             : 4457
 #      GND                         : 1
 #      INV                         : 130
 #      LUT1                        : 252
 #      LUT2                        : 273
-#      LUT3                        : 277
-#      LUT4                        : 129
-#      LUT5                        : 665
-#      LUT6                        : 832
+#      LUT3                        : 283
+#      LUT4                        : 125
+#      LUT5                        : 664
+#      LUT6                        : 824
 #      MUXCY                       : 960
-#      MUXF7                       : 30
+#      MUXF7                       : 29
 #      VCC                         : 1
-#      XORCY                       : 914
-# FlipFlops/Latches                : 689
+#      XORCY                       : 915
+# FlipFlops/Latches                : 701
 #      FD                          : 2
-#      FDC                         : 255
+#      FDC                         : 266
 #      FDCE                        : 386
-#      FDE                         : 17
-#      FDP                         : 3
+#      FDE                         : 6
+#      FDP                         : 4
 #      FDPE                        : 24
-#      LD                          : 2
+#      LD                          : 13
 # RAMS                             : 3
 #      RAM16X1D                    : 2
 #      RAM32M                      : 1
@@ -1156,17 +1174,17 @@ Selected Device : 6slx100fgg484-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             689  out of  126576     0%  
- Number of Slice LUTs:                 2566  out of  63288     4%  
-    Number used as Logic:              2558  out of  63288     4%  
+ Number of Slice Registers:             701  out of  126576     0%  
+ Number of Slice LUTs:                 2559  out of  63288     4%  
+    Number used as Logic:              2551  out of  63288     4%  
     Number used as Memory:                8  out of  15616     0%  
        Number used as RAM:                8
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   2822
-   Number with an unused Flip Flop:    2133  out of   2822    75%  
-   Number with an unused LUT:           256  out of   2822     9%  
-   Number of fully used LUT-FF pairs:   433  out of   2822    15%  
+ Number of LUT Flip Flop pairs used:   2817
+   Number with an unused Flip Flop:    2116  out of   2817    75%  
+   Number with an unused LUT:           258  out of   2817     9%  
+   Number of fully used LUT-FF pairs:   443  out of   2817    15%  
    Number of unique control sets:        50
 
 IO Utilization: 
@@ -1195,12 +1213,19 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
------------------------------------+--------------------------------------+-------+
-Clock Signal                       | Clock buffer(FF name)                | Load  |
------------------------------------+--------------------------------------+-------+
-clock                              | BUFGP                                | 690   |
-I_dff/Q                            | NONE(I0/I6/U_0/mainState_FSM_FFd1_LD)| 2     |
------------------------------------+--------------------------------------+-------+
+---------------------------------------------------------------------------------------------+--------------------------------------+-------+
+Clock Signal                                                                                 | Clock buffer(FF name)                | Load  |
+---------------------------------------------------------------------------------------------+--------------------------------------+-------+
+clock                                                                                        | BUFGP                                | 691   |
+I0/I22/current_state[2]_PWR_42_o_Mux_44_o(I0/I22/Mmux_current_state[2]_PWR_42_o_Mux_44_o11:O)| NONE(*)(I0/I22/endOfMsg_int)         | 1     |
+I0/I22/current_state[2]_PWR_34_o_Mux_28_o(I0/I22/current_state__n0086<0>1:O)                 | NONE(*)(I0/I22/consigne_int_0)       | 8     |
+I0/I22/current_state[1]_GND_32_o_Mux_24_o(I0/I22/current_state[1]_GND_32_o_Mux_24_o1:O)      | NONE(*)(I0/I22/newCharacter_int)     | 1     |
+I0/I22/current_state[1]_PWR_33_o_Mux_26_o(I0/I22/Mmux_current_state[1]_PWR_33_o_Mux_26_o11:O)| NONE(*)(I0/I22/rxRd_int)             | 1     |
+I_dff/Q                                                                                      | NONE(I0/I6/U_0/mainState_FSM_FFd1_LD)| 2     |
+---------------------------------------------------------------------------------------------+--------------------------------------+-------+
+(*) These 4 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
 INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 
 Asynchronous Control Signals Information:
@@ -1213,7 +1238,7 @@ Speed Grade: -3
 
    Minimum period: 84.085ns (Maximum Frequency: 11.893MHz)
    Minimum input arrival time before clock: 3.698ns
-   Maximum output required time after clock: 5.978ns
+   Maximum output required time after clock: 5.945ns
    Maximum combinational path delay: No path found
 
 Timing Details:
@@ -1223,7 +1248,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clock'
   Clock period: 84.085ns (frequency: 11.893MHz)
-  Total number of paths / destination ports: 89649058470717142000000000000000000000000 / 1800
+  Total number of paths / destination ports: 89649058470717142000000000000000000000000 / 1791
 -------------------------------------------------------------------------
 Delay:               84.085ns (Levels of Logic = 129)
   Source:            I0/I6/U_1/error_sum_16 (FF)
@@ -1240,7 +1265,7 @@ Delay:               84.085ns (Levels of Logic = 129)
      DSP48A1:C30->P14    180   2.687   2.035  I0/I6/U_1/Mmult_n00561 (I0/I6/U_1/n0056<31>)
      INV:I->O              0   0.206   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Msub_a[31]_unary_minus_1_OUT_lut<31>_INV_0 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Msub_a[31]_unary_minus_1_OUT_lut<31>)
      XORCY:LI->O          25   0.136   1.297  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Msub_a[31]_unary_minus_1_OUT_xor<31> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_unary_minus_1_OUT<31>)
-     LUT6:I4->O            1   0.203   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0009_INV_1391_o111_G (N1591)
+     LUT6:I4->O            1   0.203   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0009_INV_1391_o111_G (N1587)
      MUXF7:I1->O          13   0.140   1.037  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0009_INV_1391_o111 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0009_INV_1391_o11)
      LUT6:I4->O           16   0.203   1.005  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0009_INV_1391_o1 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0009_INV_1391_o)
      LUT6:I5->O            6   0.205   0.849  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0010_INV_1390_o21_1 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0010_INV_1390_o21)
@@ -1394,7 +1419,7 @@ Offset:              3.698ns (Levels of Logic = 2)
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
   Total number of paths / destination ports: 62 / 10
 -------------------------------------------------------------------------
-Offset:              5.978ns (Levels of Logic = 8)
+Offset:              5.945ns (Levels of Logic = 8)
   Source:            I0/I6/I43/sawtooth_0 (FF)
   Destination:       BP_PWMA (PAD)
   Source Clock:      clock rising
@@ -1403,7 +1428,7 @@ Offset:              5.978ns (Levels of Logic = 8)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q              4   0.447   0.912  I0/I6/I43/sawtooth_0 (I0/I6/I43/sawtooth_0)
+     FDC:C->Q              3   0.447   0.879  I0/I6/I43/sawtooth_0 (I0/I6/I43/sawtooth_0)
      LUT4:I1->O            1   0.205   0.000  I0/I6/I43/Mcompar_serialOut_lut<0> (I0/I6/I43/Mcompar_serialOut_lut<0>)
      MUXCY:S->O            1   0.172   0.000  I0/I6/I43/Mcompar_serialOut_cy<0> (I0/I6/I43/Mcompar_serialOut_cy<0>)
      MUXCY:CI->O           1   0.019   0.000  I0/I6/I43/Mcompar_serialOut_cy<1> (I0/I6/I43/Mcompar_serialOut_cy<1>)
@@ -1413,34 +1438,70 @@ Offset:              5.978ns (Levels of Logic = 8)
      LUT5:I4->O            2   0.205   0.616  I0/I6/I43/Mcompar_serialOut_cy<5>_inv1 (BP_PWMA_OBUF)
      OBUF:I->O                 2.571          BP_PWMA_OBUF (BP_PWMA)
     ----------------------------------------
-    Total                      5.978ns (3.870ns logic, 2.108ns route)
-                                       (64.7% logic, 35.3% route)
+    Total                      5.945ns (3.870ns logic, 2.075ns route)
+                                       (65.1% logic, 34.9% route)
 
 =========================================================================
 
 Cross Clock Domains Report:
 --------------------------
 
-Clock to Setup on destination clock clock
+Clock to Setup on destination clock I0/I22/current_state[1]_GND_32_o_Mux_24_o
 ---------------+---------+---------+---------+---------+
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-I_dff/Q        |    7.584|         |         |         |
-clock          |   84.085|         |         |         |
+clock          |         |         |    1.694|         |
 ---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock I0/I22/current_state[1]_PWR_33_o_Mux_26_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |         |         |    1.796|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock I0/I22/current_state[2]_PWR_34_o_Mux_28_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |         |         |    1.796|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock I0/I22/current_state[2]_PWR_42_o_Mux_44_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |         |         |    1.694|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clock
+-----------------------------------------+---------+---------+---------+---------+
+                                         | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                             |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-----------------------------------------+---------+---------+---------+---------+
+I0/I22/current_state[1]_GND_32_o_Mux_24_o|         |    1.179|         |         |
+I0/I22/current_state[1]_PWR_33_o_Mux_26_o|         |    1.179|         |         |
+I0/I22/current_state[2]_PWR_34_o_Mux_28_o|         |    1.179|         |         |
+I0/I22/current_state[2]_PWR_42_o_Mux_44_o|         |    1.179|         |         |
+I_dff/Q                                  |    7.382|         |         |         |
+clock                                    |   84.085|         |         |         |
+-----------------------------------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 30.00 secs
-Total CPU time to Xst completion: 29.88 secs
+Total REAL time to Xst completion: 28.00 secs
+Total CPU time to Xst completion: 27.89 secs
  
 --> 
 
-Total memory usage is 4612988 kilobytes
+Total memory usage is 4582512 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   52 (   0 filtered)
-Number of infos    :   22 (   0 filtered)
+Number of warnings :   70 (   0 filtered)
+Number of infos    :   21 (   0 filtered)
 

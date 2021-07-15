@@ -6,7 +6,7 @@ C:\eda\Xilinx\14.7\ISE_DS\ISE\.
 speed -3
 Opened constraints file poetic_circuit.pcf.
 
-Thu Jul 15 10:30:57 2021
+Thu Jul 15 11:27:34 2021
 
 C:\eda\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\bitgen.exe -intstyle ise -w -g DebugBitstream:No -g Binary:no -g CRC:Enable -g Reset_on_err:No -g ConfigRate:2 -g ProgPin:PullUp -g TckPin:PullUp -g TdiPin:PullUp -g TdoPin:PullUp -g TmsPin:PullUp -g UnusedPin:PullDown -g UserID:0xFFFFFFFF -g ExtMasterCclk_en:No -g SPI_buswidth:1 -g TIMER_CFG:0xFFFF -g multipin_wakeup:No -g StartUpClk:CClk -g DONE_cycle:4 -g GTS_cycle:5 -g GWE_cycle:6 -g LCK_cycle:NoWait -g Security:None -g DonePipe:No -g DriveDone:No -g Encrypt:No -g en_sw_gsr:No -g drive_awake:No -g sw_clk:Startupclk -g sw_gwe_cycle:5 -g sw_gts_cycle:4 poetic_circuit.ncd 
 
@@ -133,10 +133,26 @@ Running DRC.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net resetSynch is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   I0/I22/current_state[2]_PWR_42_o_Mux_44_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   I0/I22/current_state[1]_GND_32_o_Mux_24_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   I0/I22/current_state[2]_PWR_34_o_Mux_28_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   I0/I22/current_state[1]_PWR_33_o_Mux_26_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
 WARNING:PhysDesignRules:367 - The signal
    <I0/I0/I_txFifo/g1.I0/Mram_memoryArray1_RAMD_D1_O> is incomplete. The signal
    does not drive any load pins in the design.
-DRC detected 0 errors and 2 warnings.  Please see the previously displayed
+DRC detected 0 errors and 6 warnings.  Please see the previously displayed
 individual error or warning messages for more details.
 INFO:Security:51 - The XILINXD_LICENSE_FILE environment variable is not set.
 INFO:Security:52 - The LM_LICENSE_FILE environment variable is set to

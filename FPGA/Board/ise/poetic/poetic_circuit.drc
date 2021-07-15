@@ -1,15 +1,31 @@
 Release 14.7 Drc P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Thu Jul 15 10:30:57 2021
+Thu Jul 15 11:27:34 2021
 
 drc -z poetic_circuit.ncd poetic_circuit.pcf
 
 WARNING:PhysDesignRules:372 - Gated clock. Clock net resetSynch is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   I0/I22/current_state[2]_PWR_42_o_Mux_44_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   I0/I22/current_state[1]_GND_32_o_Mux_24_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   I0/I22/current_state[2]_PWR_34_o_Mux_28_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   I0/I22/current_state[1]_PWR_33_o_Mux_26_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
 WARNING:PhysDesignRules:367 - The signal
    <I0/I0/I_txFifo/g1.I0/Mram_memoryArray1_RAMD_D1_O> is incomplete. The signal
    does not drive any load pins in the design.
-DRC detected 0 errors and 2 warnings.  Please see the previously displayed
+DRC detected 0 errors and 6 warnings.  Please see the previously displayed
 individual error or warning messages for more details.

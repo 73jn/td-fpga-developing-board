@@ -206,7 +206,7 @@ value "WEA30407"
 )
 (vvPair
 variable "graphical_source_time"
-value "10:48:07"
+value "10:57:42"
 )
 (vvPair
 variable "group"
@@ -330,7 +330,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "10:48:07"
+value "10:57:42"
 )
 (vvPair
 variable "unit"
@@ -2216,8 +2216,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "88000,58200,105000,59000"
-st "dataBitNb = 8    ( positive )  
-"
+st "dataBitNb = 8    ( positive )  "
 )
 header ""
 )
@@ -3167,7 +3166,7 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,0,1921,1056"
-viewArea "16100,20700,154926,94500"
+viewArea "16100,20700,154926,96796"
 cachedDiagramExtent "-7000,0,142750,93000"
 pageSetupInfo (PageSetupInfo
 ptrCmd "\\\\SUN\\PREA309_HPLJ3005DN.PRINTERS.SYSTEM.SION.HEVs,winspool,"

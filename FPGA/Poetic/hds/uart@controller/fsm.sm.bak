@@ -34,23 +34,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board-main\\td-fpga-developing-board-main\\FPGA\\Prefs\\..\\Poetic\\hdl"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board-main\\td-fpga-developing-board-main\\FPGA\\Prefs\\..\\Poetic\\hds"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board-main\\td-fpga-developing-board-main\\FPGA\\Prefs\\..\\Poetic\\hds\\uart@controller\\fsm.sm.info"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\uart@controller\\fsm.sm.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board-main\\td-fpga-developing-board-main\\FPGA\\Prefs\\..\\Poetic\\hds\\uart@controller\\fsm.sm.user"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\uart@controller\\fsm.sm.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board-main\\td-fpga-developing-board-main\\FPGA\\Prefs\\..\\Poetic\\hds"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds"
 )
 (vvPair
 variable "appl"
@@ -70,15 +70,15 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board-main\\td-fpga-developing-board-main\\FPGA\\Prefs\\..\\Poetic\\hds\\uart@controller"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\uart@controller"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board-main\\td-fpga-developing-board-main\\FPGA\\Prefs\\..\\Poetic\\hds\\uartController"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\uartController"
 )
 (vvPair
 variable "date"
-value "08.07.2021"
+value "15.07.2021"
 )
 (vvPair
 variable "day"
@@ -90,7 +90,7 @@ value "jeudi"
 )
 (vvPair
 variable "dd"
-value "08"
+value "15"
 )
 (vvPair
 variable "entity_name"
@@ -118,7 +118,7 @@ value "jean.nanchen"
 )
 (vvPair
 variable "graphical_source_date"
-value "08.07.2021"
+value "15.07.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -130,7 +130,7 @@ value "WEA30407"
 )
 (vvPair
 variable "graphical_source_time"
-value "16:12:08"
+value "11:48:11"
 )
 (vvPair
 variable "group"
@@ -170,11 +170,11 @@ value "juillet"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board-main\\td-fpga-developing-board-main\\FPGA\\Prefs\\..\\Poetic\\hds\\uart@controller\\fsm.sm"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\uart@controller\\fsm.sm"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board-main\\td-fpga-developing-board-main\\FPGA\\Prefs\\..\\Poetic\\hds\\uartController\\fsm.sm"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\uartController\\fsm.sm"
 )
 (vvPair
 variable "package_name"
@@ -202,7 +202,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "16:12:08"
+value "11:48:11"
 )
 (vvPair
 variable "unit"
@@ -302,7 +302,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "85615,19953,104215,24953"
+xt "85615,18753,104215,26153"
 )
 autoResize 1
 tline (Line
@@ -313,10 +313,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "85715,19853,104115,19853"
+xt "85715,18653,104115,18653"
 pts [
-"85715,19853"
-"104115,19853"
+"85715,18653"
+"104115,18653"
 ]
 )
 bline (Line
@@ -327,10 +327,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "85715,21953,104115,21953"
+xt "85715,22553,104115,22553"
 pts [
-"85715,21953"
-"104115,21953"
+"85715,22553"
+"104115,22553"
 ]
 )
 ttri (Triangle
@@ -344,7 +344,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "85265,19478,85615,19828"
+xt "85265,18278,85615,18628"
 )
 btri (Triangle
 uid 56,0
@@ -363,18 +363,20 @@ entryActions (MLText
 uid 57,0
 va (VaSet
 )
-xt "85715,19653,85715,19653"
+xt "85715,18453,85715,18453"
 tm "Actions"
 )
 inActions (MLText
 uid 58,0
 va (VaSet
 )
-xt "85715,20053,104115,24853"
+xt "85715,18853,104115,26053"
 st "newCharacter_cld <= '0';
 rxRd_cld <= '0';
 consigne_cld <= (others => '0');
-endOfMsg_cld <= '0';"
+endOfMsg_cld <= '0';
+txData_cld <= (others => '0');
+txWr_cld <= '0';"
 tm "Actions"
 )
 exitActions (MLText
@@ -783,7 +785,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "36200,46000,45400,47000"
+xt "36200,46000,48000,47000"
 st "
 by %user on %dd %month %year
 "
@@ -1764,7 +1766,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "8150,18900,15750,21100"
+xt "7150,18400,16750,22600"
 )
 autoResize 1
 lineShape (Line
@@ -1772,10 +1774,10 @@ uid 108,0
 va (VaSet
 vasetType 3
 )
-xt "8650,20500,15250,20500"
+xt "7650,20500,16250,20500"
 pts [
-"8650,20500"
-"15250,20500"
+"7650,20500"
+"16250,20500"
 ]
 )
 condition (MLText
@@ -1789,7 +1791,6 @@ tm "Condition"
 actions (MLText
 uid 110,0
 va (VaSet
-isHidden 1
 )
 xt "7650,20900,16250,22100"
 st "< Automatic >"
@@ -2180,10 +2181,10 @@ uid 338,0
 va (VaSet
 vasetType 3
 )
-xt "165807,56386,177750,65879"
+xt "165807,61256,178596,65879"
 pts [
 "165807,65879"
-"177750,56386"
+"178596,61256"
 ]
 arrow 1
 )
@@ -2202,7 +2203,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "171279,60632,181879,62832"
+xt "171702,63067,182302,65267"
 )
 autoResize 1
 lineShape (Line
@@ -2211,17 +2212,17 @@ va (VaSet
 vasetType 3
 isHidden 1
 )
-xt "174429,62732,174429,62732"
+xt "174852,65167,174852,65167"
 pts [
-"174429,62732"
-"174429,62732"
+"174852,65167"
+"174852,65167"
 ]
 )
 condition (MLText
 uid 342,0
 va (VaSet
 )
-xt "171779,61132,181379,62332"
+xt "172202,63567,181802,64767"
 st "rxData /= X\"65\""
 tm "Condition"
 )
@@ -2229,7 +2230,7 @@ actions (MLText
 uid 343,0
 va (VaSet
 )
-xt "176579,62732,176579,62732"
+xt "177002,65167,177002,65167"
 tm "Actions"
 )
 )
@@ -2243,17 +2244,17 @@ vasetType 1
 fg "65535,65535,65535"
 bg "0,0,0"
 )
-xt "165937,63867,168063,65993"
+xt "166022,64353,168148,66479"
 radius 1063
 )
 pr (Text
 uid 346,0
 va (VaSet
 )
-xt "166300,64330,167700,65530"
+xt "166385,64816,167785,66016"
 st "1"
 ju 0
-blo "167000,65330"
+blo "167085,65816"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -2628,7 +2629,7 @@ tm "SmCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,24,1921,1080"
-viewArea "-19055,-13358,79446,39005"
+viewArea "-21800,-7100,132263,74800"
 cachedDiagramExtent "-650,-1000,206160,94591"
 hasePageBreakOrigin 1
 pageBreakOrigin "-73000,-2000"
@@ -2901,14 +2902,14 @@ uid 30,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "45400,200,74400,5800"
-st "SIGNAL        MODE    DEFAULT  RESET  SCHEME COMMENT  
-consigne      OUT                     CLKD            
-newCharacter  OUT                     CLKD            
-rxRd          OUT                     CLKD            
-endOfMsg      OUT                     CLKD            
-txData        OUT                     CLKD            
-txWr          OUT                     CLKD            
+xt "45400,200,79400,5800"
+st "SIGNAL        MODE    DEFAULT  RESET            SCHEME COMMENT  
+consigne      OUT              (others => '0')  CLKD            
+newCharacter  OUT              '0'              CLKD            
+rxRd          OUT              '0'              CLKD            
+endOfMsg      OUT              '0'              CLKD            
+txData        OUT              (others => '0')  CLKD            
+txWr          OUT              '0'              CLKD            
 "
 tm "SmSignalsGenStatusTextMgr"
 )
@@ -2997,7 +2998,7 @@ attribute 0
 synSafe 0
 outputEncodedLocals 0
 useVerilogParameterRange 0
-radix 2
+radix 0
 )
 stateOrder [
 &2
@@ -3009,7 +3010,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 664,0
+lastUid 838,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *64 (LEmptyRow
@@ -3106,6 +3107,7 @@ o 6
 )
 uid 376,0
 scheme 1
+rstVal "(others => '0')"
 )
 *86 (LeafLogPort
 port (LogicalPort
@@ -3119,6 +3121,7 @@ o 8
 )
 uid 378,0
 scheme 1
+rstVal "'0'"
 )
 *87 (LeafLogPort
 port (LogicalPort
@@ -3155,6 +3158,7 @@ o 9
 )
 uid 384,0
 scheme 1
+rstVal "'0'"
 )
 *90 (LeafLogPort
 port (LogicalPort
@@ -3168,6 +3172,7 @@ o 7
 )
 uid 569,0
 scheme 1
+rstVal "'0'"
 )
 *91 (LeafLogPort
 port (LogicalPort
@@ -3182,6 +3187,7 @@ o 10
 )
 uid 629,0
 scheme 1
+rstVal "(others => '0')"
 )
 *92 (LeafLogPort
 port (LogicalPort
@@ -3207,6 +3213,7 @@ o 11
 )
 uid 633,0
 scheme 1
+rstVal "'0'"
 )
 ]
 )
@@ -4462,6 +4469,6 @@ pts [
 ]
 )
 )
-activeModelName "StateMachine:CDM"
+activeModelName "StateMachine"
 LanguageMgr "Vhdl2008LangMgr"
 )
