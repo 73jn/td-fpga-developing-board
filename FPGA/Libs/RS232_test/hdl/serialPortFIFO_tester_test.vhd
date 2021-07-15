@@ -35,7 +35,7 @@ BEGIN
     rs232SendOutString <= '0';
     wait for 4*rs232Period;
 
-    rs232OutString <= "S3232e                          ";
+    rs232OutString <= "S4095e                          ";
     rs232SendOutString <= '1', '0' after 1 ns;
     wait until rs232SendOutDone = '1';
     wait for rs232WriteInterval;

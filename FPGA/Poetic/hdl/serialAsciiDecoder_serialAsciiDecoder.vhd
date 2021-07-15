@@ -55,7 +55,7 @@ BEGIN
             mainState <= incrementAdder;
 			if counterAdder /= counterCharacter - 1 then
 				case r_Mem(counterAdder) is
-				  when X"30" => uOutput := uOutput;
+				  when X"30" => uOutput := uOutput * 10;
 				  when X"31" => uOutput := (uOutput + 1) * 10;
 				  when X"32" => uOutput := (uOutput + 2) * 10;
 				  when X"33" => uOutput := (uOutput + 3) * 10;

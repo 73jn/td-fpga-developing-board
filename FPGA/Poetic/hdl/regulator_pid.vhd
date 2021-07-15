@@ -8,11 +8,11 @@
 -- using Mentor Graphics HDL Designer(TM) 2019.2 (Build 5)
 --
 ARCHITECTURE pid OF regulator IS
-	CONSTANT con_Kp : INTEGER := 10; --proportional constant
+	CONSTANT con_Kp : INTEGER := 1; --proportional constant
 	CONSTANT con_kp_den : INTEGER := 1;
 	CONSTANT con_Kd : INTEGER := 1; --differential constant
-	CONSTANT con_kd_den : INTEGER := 1;
-	CONSTANT con_Ki : INTEGER := 20; --integral constant
+	CONSTANT con_kd_den : INTEGER := 128;
+	CONSTANT con_Ki : INTEGER := 8; --integral constant
 	CONSTANT con_ki_den : INTEGER := 1;
 	SIGNAL Error, Error_difference, error_sum, old_error, old_old_error : INTEGER := 0; --store values for controller
 	SIGNAL p, i, d : INTEGER := 0; --Contain the proportional, derivative and integral errors respectively
@@ -47,11 +47,11 @@ BEGIN
                       error_sum <= error_sum + error;
                       error_difference <= error - old_error;
                     END IF;
-                    --IF SetVal /= old_SetVal THEN
-                      --old_SetVal <= SetVal;
-                      --error_difference <= 0;
-                      --error_sum <= 0;
-                    --END IF;
+                    IF SetVal /= old_SetVal THEN
+                      old_SetVal <= SetVal;
+                      error_difference <= 0;
+                      error_sum <= 0;
+                    END IF;
           WHEN 2 => IF kp_sw = '1' THEN   --calculate p term if desired
                           p <= (con_Kp * error)/con_kp_den;
                         ELSE
