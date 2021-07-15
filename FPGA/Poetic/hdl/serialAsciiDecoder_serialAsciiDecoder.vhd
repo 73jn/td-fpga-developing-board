@@ -51,10 +51,10 @@ BEGIN
           if counterAdder = counterCharacter then
             mainState <= print;
           else
-            r_Mem(counterCharacter-counterAdder-1) <= (others => '0');
+            r_Mem(counterAdder) <= (others => '0');
             mainState <= incrementAdder;
-			if counterAdder = counterCharacter - 1 then
-				case r_Mem(counterCharacter-counterAdder-1) is
+			if counterAdder /= counterCharacter - 1 then
+				case r_Mem(counterAdder) is
 				  when X"30" => uOutput := uOutput;
 				  when X"31" => uOutput := (uOutput + 1) * 10;
 				  when X"32" => uOutput := (uOutput + 2) * 10;
@@ -68,7 +68,7 @@ BEGIN
 				  when others =>
 				end case;
 			else
-				case r_Mem(counterCharacter-counterAdder-1) is
+				case r_Mem(counterAdder) is
 				  when X"30" => uOutput := uOutput;
 				  when X"31" => uOutput := (uOutput + 1);
 				  when X"32" => uOutput := (uOutput + 2);

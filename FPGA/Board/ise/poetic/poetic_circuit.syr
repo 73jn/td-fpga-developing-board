@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.24 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.24 secs
  
 --> Reading design: poetic_circuit.prj
 
@@ -305,15 +305,15 @@ Unit <DAC> synthesized.
 
 Synthesizing Unit <clockGenerator_1>.
     Related source file is "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd".
-        counterBitNb = 20
-        countValue = 100000
-    Found 20-bit register for signal <counter>.
+        counterBitNb = 25
+        countValue = 1000000
+    Found 25-bit register for signal <counter>.
     Found 1-bit register for signal <clockOut_int>.
-    Found 20-bit adder for signal <counter[19]_GND_14_o_add_0_OUT> created at line 1241.
-    Found 20-bit comparator greater for signal <n0002> created at line 2103
+    Found 25-bit adder for signal <counter[24]_GND_14_o_add_0_OUT> created at line 1241.
+    Found 25-bit comparator greater for signal <n0002> created at line 2103
     Summary:
 	inferred   1 Adder/Subtractor(s).
-	inferred  21 D-type flip-flop(s).
+	inferred  26 D-type flip-flop(s).
 	inferred   1 Comparator(s).
 	inferred   1 Multiplexer(s).
 Unit <clockGenerator_1> synthesized.
@@ -720,7 +720,7 @@ Macro Statistics
  13-bit subtractor                                     : 1
  14-bit adder                                          : 2
  2-bit adder                                           : 1
- 20-bit adder                                          : 1
+ 25-bit adder                                          : 1
  3-bit adder                                           : 2
  32-bit adder                                          : 39
  32-bit subtractor                                     : 5
@@ -741,7 +741,7 @@ Macro Statistics
  12-bit register                                       : 7
  14-bit register                                       : 2
  2-bit register                                        : 1
- 20-bit register                                       : 1
+ 25-bit register                                       : 1
  3-bit register                                        : 2
  32-bit register                                       : 14
  4-bit register                                        : 1
@@ -749,7 +749,7 @@ Macro Statistics
 # Comparators                                          : 42
  10-bit comparator greater                             : 1
  12-bit comparator greater                             : 1
- 20-bit comparator greater                             : 1
+ 25-bit comparator greater                             : 1
  3-bit comparator equal                                : 1
  32-bit comparator equal                               : 3
  32-bit comparator greater                             : 27
@@ -768,7 +768,7 @@ Macro Statistics
  11-bit 2-to-1 multiplexer                             : 1
  14-bit 2-to-1 multiplexer                             : 3
  2-bit 2-to-1 multiplexer                              : 1
- 20-bit 2-to-1 multiplexer                             : 1
+ 25-bit 2-to-1 multiplexer                             : 1
  3-bit 2-to-1 multiplexer                              : 1
  32-bit 2-to-1 multiplexer                             : 28
  33-bit 2-to-1 multiplexer                             : 1
@@ -872,7 +872,7 @@ Macro Statistics
  12-bit up counter                                     : 1
  14-bit up counter                                     : 1
  2-bit up counter                                      : 1
- 20-bit up counter                                     : 1
+ 25-bit up counter                                     : 1
  3-bit up counter                                      : 2
  4-bit up counter                                      : 1
 # Accumulators                                         : 1
@@ -882,7 +882,7 @@ Macro Statistics
 # Comparators                                          : 42
  10-bit comparator greater                             : 1
  12-bit comparator greater                             : 1
- 20-bit comparator greater                             : 1
+ 25-bit comparator greater                             : 1
  3-bit comparator equal                                : 1
  32-bit comparator equal                               : 3
  32-bit comparator greater                             : 27
@@ -1065,11 +1065,13 @@ Optimizing unit <serialAsciiDecoder> ...
 
 Optimizing unit <uartController> ...
 WARNING:Xst:2677 - Node <I0/I0/I_rxFifo/g0.I1/full> of sequential type is unconnected in block <poetic_circuit>.
-WARNING:Xst:1710 - FF/Latch <I0/U_3/counter_9> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_3/counter_8> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_19> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_18> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_17> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <I0/U_3/counter_8> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_3/counter_9> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_24> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_23> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_21> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_20> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_22> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
 INFO:Xst:2261 - The FF/Latch <I0/I6/U_0/risingSCLK> in Unit <poetic_circuit> is equivalent to the following FF/Latch, which will be removed : <I0/U_1/masterWr> 
 INFO:Xst:2261 - The FF/Latch <I0/I6/U_1/p_16> in Unit <poetic_circuit> is equivalent to the following FF/Latch, which will be removed : <I0/I6/U_1/old_old_error_12> 
 INFO:Xst:2261 - The FF/Latch <I0/I_dff2/Q> in Unit <poetic_circuit> is equivalent to the following FF/Latch, which will be removed : <I0/I6/U_0/memSCLK> 
@@ -1091,8 +1093,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 684
- Flip-Flops                                            : 684
+# Registers                                            : 687
+ Flip-Flops                                            : 687
 
 =========================================================================
 
@@ -1115,22 +1117,22 @@ Top Level Output File Name         : poetic_circuit.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 4582
+# BELS                             : 4464
 #      GND                         : 1
-#      INV                         : 129
+#      INV                         : 130
 #      LUT1                        : 252
-#      LUT2                        : 262
-#      LUT3                        : 287
-#      LUT4                        : 130
-#      LUT5                        : 642
-#      LUT6                        : 979
-#      MUXCY                       : 957
-#      MUXF7                       : 31
+#      LUT2                        : 273
+#      LUT3                        : 277
+#      LUT4                        : 129
+#      LUT5                        : 665
+#      LUT6                        : 832
+#      MUXCY                       : 960
+#      MUXF7                       : 30
 #      VCC                         : 1
-#      XORCY                       : 911
-# FlipFlops/Latches                : 686
+#      XORCY                       : 914
+# FlipFlops/Latches                : 689
 #      FD                          : 2
-#      FDC                         : 252
+#      FDC                         : 255
 #      FDCE                        : 386
 #      FDE                         : 17
 #      FDP                         : 3
@@ -1154,17 +1156,17 @@ Selected Device : 6slx100fgg484-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             686  out of  126576     0%  
- Number of Slice LUTs:                 2689  out of  63288     4%  
-    Number used as Logic:              2681  out of  63288     4%  
+ Number of Slice Registers:             689  out of  126576     0%  
+ Number of Slice LUTs:                 2566  out of  63288     4%  
+    Number used as Logic:              2558  out of  63288     4%  
     Number used as Memory:                8  out of  15616     0%  
        Number used as RAM:                8
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   2945
-   Number with an unused Flip Flop:    2259  out of   2945    76%  
-   Number with an unused LUT:           256  out of   2945     8%  
-   Number of fully used LUT-FF pairs:   430  out of   2945    14%  
+ Number of LUT Flip Flop pairs used:   2822
+   Number with an unused Flip Flop:    2133  out of   2822    75%  
+   Number with an unused LUT:           256  out of   2822     9%  
+   Number of fully used LUT-FF pairs:   433  out of   2822    15%  
    Number of unique control sets:        50
 
 IO Utilization: 
@@ -1196,7 +1198,7 @@ Clock Information:
 -----------------------------------+--------------------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)                | Load  |
 -----------------------------------+--------------------------------------+-------+
-clock                              | BUFGP                                | 687   |
+clock                              | BUFGP                                | 690   |
 I_dff/Q                            | NONE(I0/I6/U_0/mainState_FSM_FFd1_LD)| 2     |
 -----------------------------------+--------------------------------------+-------+
 INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
@@ -1209,7 +1211,7 @@ Timing Summary:
 ---------------
 Speed Grade: -3
 
-   Minimum period: 82.594ns (Maximum Frequency: 12.107MHz)
+   Minimum period: 84.085ns (Maximum Frequency: 11.893MHz)
    Minimum input arrival time before clock: 3.698ns
    Maximum output required time after clock: 5.978ns
    Maximum combinational path delay: No path found
@@ -1220,10 +1222,10 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clock'
-  Clock period: 82.594ns (frequency: 12.107MHz)
-  Total number of paths / destination ports: 76016092038432474000000000000000000000000 / 1794
+  Clock period: 84.085ns (frequency: 11.893MHz)
+  Total number of paths / destination ports: 89649058470717142000000000000000000000000 / 1800
 -------------------------------------------------------------------------
-Delay:               82.594ns (Levels of Logic = 133)
+Delay:               84.085ns (Levels of Logic = 129)
   Source:            I0/I6/U_1/error_sum_16 (FF)
   Destination:       I0/I6/U_1/i_31 (FF)
   Source Clock:      clock rising
@@ -1235,81 +1237,77 @@ Delay:               82.594ns (Levels of Logic = 133)
     ----------------------------------------  ------------
      FDCE:C->Q             2   0.447   0.616  I0/I6/U_1/error_sum_16 (I0/I6/U_1/error_sum_16)
      DSP48A1:A16->P47     18   4.560   1.049  I0/I6/U_1/Mmult_n0056 (I0/I6/U_1/Mmult_n0056_P47_to_Mmult_n00561)
-     DSP48A1:C30->P8      28   2.687   1.234  I0/I6/U_1/Mmult_n00561 (I0/I6/U_1/n0056<25>)
-     INV:I->O              1   0.206   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Msub_a[31]_unary_minus_1_OUT_lut<25>_INV_0 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Msub_a[31]_unary_minus_1_OUT_lut<25>)
-     MUXCY:S->O            1   0.172   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Msub_a[31]_unary_minus_1_OUT_cy<25> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Msub_a[31]_unary_minus_1_OUT_cy<25>)
-     MUXCY:CI->O           1   0.019   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Msub_a[31]_unary_minus_1_OUT_cy<26> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Msub_a[31]_unary_minus_1_OUT_cy<26>)
-     MUXCY:CI->O           1   0.019   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Msub_a[31]_unary_minus_1_OUT_cy<27> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Msub_a[31]_unary_minus_1_OUT_cy<27>)
-     XORCY:CI->O          24   0.180   1.277  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Msub_a[31]_unary_minus_1_OUT_xor<28> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_unary_minus_1_OUT<28>)
-     LUT2:I0->O            5   0.203   0.715  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_GND_25_o_MUX_730_o121_SW1 (N446)
-     LUT6:I5->O            5   0.205   0.715  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_GND_25_o_MUX_730_o121_1 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_GND_25_o_MUX_730_o121)
-     LUT6:I5->O            1   0.205   0.579  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Madd_a[31]_b[7]_add_21_OUT_cy<29>11 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Madd_a[31]_b[7]_add_21_OUT_cy<29>)
-     MUXF7:S->O           36   0.148   1.453  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_794_o111 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_a[31]_MUX_795_o)
-     LUT5:I3->O            9   0.203   0.830  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_826_o141 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Madd_a[31]_GND_25_o_add_25_OUT_lut<27>)
-     LUT6:I5->O           16   0.205   1.005  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Madd_a[31]_GND_25_o_add_25_OUT_cy<28>11 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Madd_a[31]_GND_25_o_add_25_OUT_cy<28>)
-     LUT5:I4->O           10   0.205   0.857  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0012_INV_1388_o12 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0012_INV_1388_o11)
-     LUT6:I5->O            2   0.205   0.617  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0012_INV_1388_o14_SW0 (N112)
-     LUT6:I5->O           18   0.205   1.050  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_890_o141 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_a[31]_MUX_894_o)
-     LUT6:I5->O            1   0.205   0.580  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0013_INV_1387_o11_1 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0013_INV_1387_o111)
-     LUT6:I5->O           11   0.205   0.883  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0013_INV_1387_o13_SW16 (N659)
-     LUT6:I5->O           14   0.205   0.958  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Madd_a[31]_GND_25_o_add_31_OUT_cy<24>11 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Madd_a[31]_GND_25_o_add_31_OUT_cy<24>)
-     LUT6:I5->O            1   0.205   0.684  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_954_o111_SW0 (N194)
-     LUT6:I4->O           12   0.203   0.909  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_954_o111 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_a[31]_MUX_955_o)
-     LUT6:I5->O            1   0.205   0.580  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0015_INV_1385_o11_1 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0015_INV_1385_o111)
-     LUT6:I5->O           13   0.205   0.933  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0015_INV_1385_o14 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0015_INV_1385_o)
-     LUT6:I5->O           10   0.205   0.857  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0016_INV_1384_o11_1 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0016_INV_1384_o111)
-     LUT5:I4->O            9   0.205   1.174  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_1018_o1111 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_a[31]_MUX_1029_o)
-     LUT6:I1->O           15   0.203   0.982  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0017_INV_1383_o21_SW8 (N1034)
-     LUT6:I5->O            4   0.205   0.912  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0018_INV_1382_o23_SW13 (N1212)
-     LUT6:I3->O            2   0.205   0.616  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0018_INV_1382_o23_1 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0018_INV_1382_o231)
-     MUXF7:S->O           41   0.148   1.420  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0019_INV_1381_o21 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0019_INV_1381_o2)
-     LUT6:I5->O            4   0.205   0.788  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_1114_o141_SW0 (N1786)
-     LUT6:I4->O            6   0.203   0.745  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_1114_o141_1 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_1114_o141)
-     LUT6:I5->O           10   0.205   0.857  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0020_INV_1380_o23 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0020_INV_1380_o22)
-     LUT5:I4->O           16   0.205   1.005  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_1146_o112 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_a[31]_MUX_1147_o)
-     LUT6:I5->O            5   0.205   0.715  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0021_INV_1379_o23 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0021_INV_1379_o22)
-     LUT6:I5->O            4   0.205   0.912  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0022_INV_1378_o21 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0022_INV_1378_o2)
-     LUT6:I3->O            7   0.205   0.774  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0022_INV_1378_o24_2 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0022_INV_1378_o241)
-     LUT6:I5->O            4   0.205   1.028  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_1210_o1181 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_a[31]_MUX_1228_o)
+     DSP48A1:C30->P14    180   2.687   2.035  I0/I6/U_1/Mmult_n00561 (I0/I6/U_1/n0056<31>)
+     INV:I->O              0   0.206   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Msub_a[31]_unary_minus_1_OUT_lut<31>_INV_0 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Msub_a[31]_unary_minus_1_OUT_lut<31>)
+     XORCY:LI->O          25   0.136   1.297  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Msub_a[31]_unary_minus_1_OUT_xor<31> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_unary_minus_1_OUT<31>)
+     LUT6:I4->O            1   0.203   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0009_INV_1391_o111_G (N1591)
+     MUXF7:I1->O          13   0.140   1.037  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0009_INV_1391_o111 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0009_INV_1391_o11)
+     LUT6:I4->O           16   0.203   1.005  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0009_INV_1391_o1 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0009_INV_1391_o)
+     LUT6:I5->O            6   0.205   0.849  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0010_INV_1390_o21_1 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0010_INV_1390_o21)
+     LUT5:I3->O           16   0.203   1.005  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_836_o151 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_a[31]_MUX_841_o)
+     LUT6:I5->O           11   0.205   0.883  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Madd_a[31]_GND_25_o_add_25_OUT_cy<28>11 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Madd_a[31]_GND_25_o_add_25_OUT_cy<28>)
+     LUT6:I5->O           19   0.205   1.072  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_868_o1 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_a[31]_MUX_868_o)
+     LUT5:I4->O            2   0.205   0.617  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0012_INV_1388_o14_SW2 (N817)
+     LUT6:I5->O           19   0.205   1.300  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_900_o111 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_a[31]_MUX_901_o)
+     LUT5:I2->O            2   0.205   0.845  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0015_INV_1385_o14_SW2_SW1_SW0 (N532)
+     LUT6:I3->O           17   0.205   1.028  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0014_INV_1386_o11 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0014_INV_1386_o1)
+     LUT5:I4->O           19   0.205   1.072  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0014_INV_1386_o13 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0014_INV_1386_o)
+     LUT6:I5->O            9   0.205   0.830  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_964_o111 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_a[31]_MUX_965_o)
+     LUT6:I5->O           19   0.205   1.072  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0015_INV_1385_o11 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0015_INV_1385_o1)
+     LUT6:I5->O           15   0.205   0.982  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0015_INV_1385_o14_2 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0015_INV_1385_o142)
+     LUT6:I5->O           12   0.205   0.909  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0016_INV_1384_o12_1 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0016_INV_1384_o12)
+     LUT5:I4->O           11   0.205   1.111  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_1028_o1101 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_a[31]_MUX_1038_o)
+     LUT6:I3->O           18   0.205   1.050  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0017_INV_1383_o21_SW5 (N715)
+     LUT6:I5->O           10   0.205   1.221  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_1060_o131 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_a[31]_MUX_1063_o)
+     LUT6:I0->O           12   0.203   0.909  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0018_INV_1382_o22_SW18 (N1448)
+     LUT6:I5->O            1   0.205   0.827  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_1092_o112_2 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_1092_o1122)
+     LUT6:I2->O            2   0.203   0.864  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_1124_o141_SW0 (N150)
+     LUT6:I2->O           13   0.203   0.933  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_1124_o141 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_a[31]_MUX_1128_o)
+     LUT6:I5->O           17   0.205   1.028  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0020_INV_1380_o23 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0020_INV_1380_o22)
+     LUT5:I4->O            8   0.205   1.147  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_1156_o11411 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_1156_o1141)
+     LUT6:I1->O            4   0.203   0.788  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0021_INV_1379_o21_1 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0021_INV_1379_o211)
+     LUT6:I4->O            4   0.203   1.048  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_1188_o161 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_a[31]_MUX_1194_o)
+     LUT6:I0->O            7   0.203   0.774  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0022_INV_1378_o24_2 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0022_INV_1378_o241)
+     LUT6:I5->O            4   0.205   1.028  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_1220_o1181 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_a[31]_MUX_1238_o)
      LUT6:I1->O            9   0.203   1.058  I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0023_INV_1377_o31_2 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/BUS_0023_INV_1377_o312)
-     LUT6:I3->O            3   0.205   0.995  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_1242_o1151 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_a[31]_MUX_1257_o)
+     LUT6:I3->O            3   0.205   0.995  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_1252_o1151 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_a[31]_MUX_1267_o)
      LUT5:I0->O            1   0.203   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0024_INV_1376_o_lut<1> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0024_INV_1376_o_lut<1>)
      MUXCY:S->O            1   0.172   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0024_INV_1376_o_cy<1> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0024_INV_1376_o_cy<1>)
      MUXCY:CI->O           1   0.019   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0024_INV_1376_o_cy<2> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0024_INV_1376_o_cy<2>)
      MUXCY:CI->O           1   0.019   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0024_INV_1376_o_cy<3> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0024_INV_1376_o_cy<3>)
-     MUXCY:CI->O          69   0.213   1.673  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0024_INV_1376_o_cy<4> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0024_INV_1376_o_cy<4>)
-     LUT5:I4->O            5   0.205   1.059  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_1274_o1161 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_a[31]_MUX_1290_o)
+     MUXCY:CI->O          67   0.213   1.660  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0024_INV_1376_o_cy<4> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0024_INV_1376_o_cy<4>)
+     LUT5:I4->O            5   0.205   1.059  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_1284_o1161 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_a[31]_MUX_1300_o)
      LUT5:I0->O            1   0.203   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0025_INV_1375_o_lut<1> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0025_INV_1375_o_lut<1>)
      MUXCY:S->O            1   0.172   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0025_INV_1375_o_cy<1> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0025_INV_1375_o_cy<1>)
      MUXCY:CI->O           1   0.019   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0025_INV_1375_o_cy<2> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0025_INV_1375_o_cy<2>)
      MUXCY:CI->O           1   0.019   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0025_INV_1375_o_cy<3> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0025_INV_1375_o_cy<3>)
      MUXCY:CI->O          86   0.213   1.785  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0025_INV_1375_o_cy<4> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0025_INV_1375_o_cy<4>)
-     LUT5:I4->O            6   0.205   0.992  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_1306_o1181 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_a[31]_MUX_1324_o)
+     LUT5:I4->O            6   0.205   0.992  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_1316_o1181 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_a[31]_MUX_1334_o)
      LUT5:I1->O            1   0.203   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0026_INV_1374_o_lut<0> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0026_INV_1374_o_lut<0>)
      MUXCY:S->O            1   0.172   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0026_INV_1374_o_cy<0> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0026_INV_1374_o_cy<0>)
      MUXCY:CI->O           1   0.019   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0026_INV_1374_o_cy<1> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0026_INV_1374_o_cy<1>)
      MUXCY:CI->O           1   0.019   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0026_INV_1374_o_cy<2> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0026_INV_1374_o_cy<2>)
      MUXCY:CI->O           1   0.019   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0026_INV_1374_o_cy<3> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0026_INV_1374_o_cy<3>)
      MUXCY:CI->O          70   0.213   1.680  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0026_INV_1374_o_cy<4> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0026_INV_1374_o_cy<4>)
-     LUT5:I4->O            5   0.205   1.059  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_1338_o1131 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_a[31]_MUX_1351_o)
+     LUT5:I4->O            5   0.205   1.059  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_1348_o1131 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_a[31]_MUX_1361_o)
      LUT5:I0->O            1   0.203   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0027_INV_1373_o_lut<2> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0027_INV_1373_o_lut<2>)
      MUXCY:S->O            1   0.172   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0027_INV_1373_o_cy<2> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0027_INV_1373_o_cy<2>)
      MUXCY:CI->O           1   0.019   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0027_INV_1373_o_cy<3> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0027_INV_1373_o_cy<3>)
      MUXCY:CI->O          95   0.213   1.845  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0027_INV_1373_o_cy<4> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0027_INV_1373_o_cy<4>)
-     LUT3:I2->O            3   0.205   0.995  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_1370_o1191 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_a[31]_MUX_1389_o)
+     LUT3:I2->O            3   0.205   0.995  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mmux_a[31]_a[31]_MUX_1380_o1191 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_a[31]_MUX_1399_o)
      LUT5:I0->O            1   0.203   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0028_INV_1372_o_lut<1> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0028_INV_1372_o_lut<1>)
      MUXCY:S->O            1   0.172   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0028_INV_1372_o_cy<1> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0028_INV_1372_o_cy<1>)
      MUXCY:CI->O           1   0.019   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0028_INV_1372_o_cy<2> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0028_INV_1372_o_cy<2>)
      MUXCY:CI->O           1   0.019   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0028_INV_1372_o_cy<3> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0028_INV_1372_o_cy<3>)
      MUXCY:CI->O          77   0.213   1.726  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0028_INV_1372_o_cy<4> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0028_INV_1372_o_cy<4>)
-     LUT5:I4->O            6   0.205   1.089  I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_a[31]_MUX_1422_o1 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_a[31]_MUX_1454_o_bdd0)
+     LUT5:I4->O            6   0.205   1.089  I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_a[31]_MUX_1432_o1 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_a[31]_MUX_1464_o_bdd0)
      LUT5:I0->O            1   0.203   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0029_INV_1371_o_lut<1> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0029_INV_1371_o_lut<1>)
      MUXCY:S->O            1   0.172   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0029_INV_1371_o_cy<1> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0029_INV_1371_o_cy<1>)
      MUXCY:CI->O           1   0.019   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0029_INV_1371_o_cy<2> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0029_INV_1371_o_cy<2>)
      MUXCY:CI->O           1   0.019   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0029_INV_1371_o_cy<3> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0029_INV_1371_o_cy<3>)
      MUXCY:CI->O           1   0.019   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0029_INV_1371_o_cy<4> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0029_INV_1371_o_cy<4>)
      MUXCY:CI->O         100   0.213   1.878  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0029_INV_1371_o_cy<5> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0029_INV_1371_o_cy<5>)
-     LUT5:I4->O            6   0.205   1.089  I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_a[31]_MUX_1455_o1 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/n2523<10>_bdd4)
+     LUT5:I4->O            6   0.205   1.089  I0/I6/U_1/GND_22_o_GND_22_o_div_8/a[31]_a[31]_MUX_1465_o1 (I0/I6/U_1/GND_22_o_GND_22_o_div_8/n2523<10>_bdd4)
      LUT5:I0->O            1   0.203   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0030_INV_1370_o_lut<1> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0030_INV_1370_o_lut<1>)
      MUXCY:S->O            1   0.172   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0030_INV_1370_o_cy<1> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0030_INV_1370_o_cy<1>)
      MUXCY:CI->O           1   0.019   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0030_INV_1370_o_cy<2> (I0/I6/U_1/GND_22_o_GND_22_o_div_8/Mcompar_BUS_0030_INV_1370_o_cy<2>)
@@ -1369,8 +1367,8 @@ Delay:               82.594ns (Levels of Logic = 133)
      LUT2:I1->O            1   0.205   0.000  I0/I6/U_1/GND_22_o_GND_22_o_div_8/o<28>1 (I0/I6/U_1/n0057<27>)
      FDC:D                     0.102          I0/I6/U_1/i_31
     ----------------------------------------
-    Total                     82.594ns (24.282ns logic, 58.312ns route)
-                                       (29.4% logic, 70.6% route)
+    Total                     84.085ns (23.864ns logic, 60.221ns route)
+                                       (28.4% logic, 71.6% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clock'
@@ -1429,20 +1427,20 @@ Clock to Setup on destination clock clock
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 I_dff/Q        |    7.584|         |         |         |
-clock          |   82.594|         |         |         |
+clock          |   84.085|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
 Total REAL time to Xst completion: 30.00 secs
-Total CPU time to Xst completion: 30.21 secs
+Total CPU time to Xst completion: 29.88 secs
  
 --> 
 
-Total memory usage is 4615716 kilobytes
+Total memory usage is 4612988 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   50 (   0 filtered)
+Number of warnings :   52 (   0 filtered)
 Number of infos    :   22 (   0 filtered)
 

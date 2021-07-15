@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-WEA30407::  Wed Jul 14 16:52:27 2021
+WEA30407::  Thu Jul 15 10:30:01 2021
 
 par -w -intstyle ise -ol high -mt off poetic_circuit_map.ncd poetic_circuit.ncd
 poetic_circuit.pcf 
@@ -41,16 +41,16 @@ Device speed data version:  "PRODUCTION 1.23 2013-10-13".
 Device Utilization Summary:
 
 Slice Logic Utilization:
-  Number of Slice Registers:                   689 out of 126,576    1%
-    Number used as Flip Flops:                 684
+  Number of Slice Registers:                   692 out of 126,576    1%
+    Number used as Flip Flops:                 687
     Number used as Latches:                      2
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                3
-  Number of Slice LUTs:                      2,487 out of  63,288    3%
-    Number used as logic:                    2,452 out of  63,288    3%
-      Number using O6 output only:           1,602
+  Number of Slice LUTs:                      2,350 out of  63,288    3%
+    Number used as logic:                    2,327 out of  63,288    3%
+      Number using O6 output only:           1,457
       Number using O5 output only:             239
-      Number using O5 and O6:                  611
+      Number using O5 and O6:                  631
       Number used as ROM:                        0
     Number used as Memory:                       8 out of  15,616    1%
       Number used as Dual Port RAM:              8
@@ -59,18 +59,18 @@ Slice Logic Utilization:
         Number using O5 and O6:                  4
       Number used as Single Port RAM:            0
       Number used as Shift Register:             0
-    Number used exclusively as route-thrus:     27
-      Number with same-slice register load:     15
+    Number used exclusively as route-thrus:     15
+      Number with same-slice register load:      3
       Number with same-slice carry load:        12
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                   833 out of  15,822    5%
+  Number of occupied Slices:                   794 out of  15,822    5%
   Number of MUXCYs used:                     1,092 out of  31,644    3%
-  Number of LUT Flip Flop pairs used:        2,677
-    Number with an unused Flip Flop:         2,098 out of   2,677   78%
-    Number with an unused LUT:                 190 out of   2,677    7%
-    Number of fully used LUT-FF pairs:         389 out of   2,677   14%
+  Number of LUT Flip Flop pairs used:        2,563
+    Number with an unused Flip Flop:         1,969 out of   2,563   76%
+    Number with an unused LUT:                 213 out of   2,563    8%
+    Number of fully used LUT-FF pairs:         381 out of   2,563   14%
     Number of slice register sites lost
       to control set restrictions:               0 out of 126,576    0%
 
@@ -120,13 +120,13 @@ WARNING:Par:288 - The signal I0/I0/I_txFifo/g1.I0/Mram_memoryArray1_RAMD_D1_O ha
 Starting Router
 
 
-Phase  1  : 14546 unrouted;      REAL time: 7 secs 
+Phase  1  : 13779 unrouted;      REAL time: 8 secs 
 
-Phase  2  : 12086 unrouted;      REAL time: 9 secs 
+Phase  2  : 11296 unrouted;      REAL time: 9 secs 
 
-Phase  3  : 5815 unrouted;      REAL time: 14 secs 
+Phase  3  : 5345 unrouted;      REAL time: 14 secs 
 
-Phase  4  : 5815 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
+Phase  4  : 5368 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
 
 Updating file: poetic_circuit.ncd with current fully routed design.
 
@@ -162,8 +162,8 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net clo | SETUP       |         N/A|    88.081ns|     N/A|           0
-  ck_BUFGP                                  | HOLD        |     0.410ns|            |       0|           0
+  Autotimespec constraint for clock net clo | SETUP       |         N/A|    82.743ns|     N/A|           0
+  ck_BUFGP                                  | HOLD        |     0.254ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
 
 

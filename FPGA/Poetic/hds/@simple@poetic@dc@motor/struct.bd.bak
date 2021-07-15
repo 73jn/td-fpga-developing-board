@@ -342,7 +342,7 @@ value "WEA30407"
 )
 (vvPair
 variable "graphical_source_time"
-value "16:23:06"
+value "16:23:50"
 )
 (vvPair
 variable "group"
@@ -414,7 +414,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "16:23:06"
+value "16:23:50"
 )
 (vvPair
 variable "unit"
@@ -505,8 +505,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,8800,-64000,9600"
-st "ADC_CS       : std_ulogic
-"
+st "ADC_CS       : std_ulogic"
 )
 )
 *3 (PortIoOut
@@ -569,8 +568,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,9600,-64000,10400"
-st "ADC_SCLK     : std_ulogic
-"
+st "ADC_SCLK     : std_ulogic"
 )
 )
 *5 (PortIoIn
@@ -633,8 +631,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,2400,-64000,3200"
-st "ADC_SDO      : std_ulogic
-"
+st "ADC_SDO      : std_ulogic"
 )
 )
 *7 (PortIoOut
@@ -696,8 +693,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,10400,-64000,11200"
-st "BP_PWMA      : std_ulogic
-"
+st "BP_PWMA      : std_ulogic"
 )
 )
 *9 (PortIoOut
@@ -759,8 +755,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,11200,-64000,12000"
-st "BP_PWMB      : std_ulogic
-"
+st "BP_PWMB      : std_ulogic"
 )
 )
 *11 (PortIoIn
@@ -823,8 +818,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,6400,-64000,7200"
-st "clock        : std_ulogic
-"
+st "clock        : std_ulogic"
 )
 )
 *13 (PortIoIn
@@ -887,8 +881,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,8000,-64000,8800"
-st "reset        : std_ulogic
-"
+st "reset        : std_ulogic"
 )
 )
 *15 (PortIoOut
@@ -951,8 +944,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,14400,-64000,15200"
-st "USB_RX       : std_ulogic
-"
+st "USB_RX       : std_ulogic"
 )
 )
 *17 (PortIoIn
@@ -1015,8 +1007,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,5600,-64000,6400"
-st "USB_TX       : std_ulogic
-"
+st "USB_TX       : std_ulogic"
 )
 )
 *19 (Grouping
@@ -1413,8 +1404,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,4800,-64000,5600"
-st "P            : std_ulogic
-"
+st "P            : std_ulogic"
 )
 )
 *32 (PortIoIn
@@ -1477,8 +1467,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,4000,-64000,4800"
-st "I            : std_ulogic
-"
+st "I            : std_ulogic"
 )
 )
 *34 (PortIoIn
@@ -1541,8 +1530,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,3200,-64000,4000"
-st "D            : std_ulogic
-"
+st "D            : std_ulogic"
 )
 )
 *36 (PortIoIn
@@ -1605,8 +1593,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,7200,-64000,8000"
-st "enable       : std_ulogic
-"
+st "enable       : std_ulogic"
 )
 )
 *38 (SaComponent
@@ -2351,8 +2338,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-78000,21400,-62700,22400"
-st "SIGNAL newCharacter : std_ulogic
-"
+st "SIGNAL newCharacter : std_ulogic"
 )
 )
 *63 (Net
@@ -2370,8 +2356,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-78000,24000,-49900,25000"
-st "SIGNAL rxData       : std_ulogic_vector(dataBitNb-1 DOWNTO 0)
-"
+st "SIGNAL rxData       : std_ulogic_vector(dataBitNb-1 DOWNTO 0)"
 )
 )
 *64 (Net
@@ -2389,8 +2374,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-78000,26000,-64000,27000"
-st "SIGNAL rxRd         : std_ulogic
-"
+st "SIGNAL rxRd         : std_ulogic"
 )
 )
 *65 (Net
@@ -2407,8 +2391,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-78000,25000,-63400,26000"
-st "SIGNAL rxEmpty      : std_ulogic
-"
+st "SIGNAL rxEmpty      : std_ulogic"
 )
 )
 *66 (Net
@@ -2426,8 +2409,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-78000,19600,-63100,20600"
-st "SIGNAL endOfMsg     : std_ulogic
-"
+st "SIGNAL endOfMsg     : std_ulogic"
 )
 )
 *67 (Net
@@ -2446,8 +2428,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,23200,-50000,24000"
-st "SIGNAL output       : std_ulogic_vector(11 DOWNTO 0)
-"
+st "SIGNAL output       : std_ulogic_vector(11 DOWNTO 0)"
 )
 )
 *68 (Net
@@ -2464,8 +2445,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,27800,-60500,28600"
-st "SIGNAL txFull       : std_ulogic
-"
+st "SIGNAL txFull       : std_ulogic"
 )
 )
 *69 (Net
@@ -2484,8 +2464,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,18000,-45500,18800"
-st "SIGNAL consigne     : std_ulogic_vector(dataBitNb-1 DOWNTO 0)
-"
+st "SIGNAL consigne     : std_ulogic_vector(dataBitNb-1 DOWNTO 0)"
 )
 )
 *70 (SaComponent
@@ -3479,8 +3458,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,22400,-60500,23200"
-st "SIGNAL out1         : std_uLogic
-"
+st "SIGNAL out1         : std_uLogic"
 )
 )
 *103 (SaComponent
@@ -3718,8 +3696,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,16400,-46000,17200"
-st "SIGNAL OutADC       : std_ulogic_vector(adcBitNb-1 DOWNTO 0)
-"
+st "SIGNAL OutADC       : std_ulogic_vector(adcBitNb-1 DOWNTO 0)"
 )
 )
 *112 (SaComponent
@@ -5264,8 +5241,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,20600,-45000,21400"
-st "SIGNAL mode         : std_ulogic_vector(dacOpBitNb-1 DOWNTO 0)
-"
+st "SIGNAL mode         : std_ulogic_vector(dacOpBitNb-1 DOWNTO 0)"
 )
 )
 *161 (SaComponent
@@ -5556,8 +5532,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,18800,-45000,19600"
-st "SIGNAL dacSel       : std_ulogic_vector(dacChBitNb-1 DOWNTO 0)
-"
+st "SIGNAL dacSel       : std_ulogic_vector(dacChBitNb-1 DOWNTO 0)"
 )
 )
 *172 (PortIoOut
@@ -5619,8 +5594,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,13600,-64000,14400"
-st "DAC_SYNC     : std_ulogic
-"
+st "DAC_SYNC     : std_ulogic"
 )
 )
 *174 (PortIoOut
@@ -5682,8 +5656,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,12000,-64000,12800"
-st "DAC_SCLK     : std_ulogic
-"
+st "DAC_SCLK     : std_ulogic"
 )
 )
 *176 (PortIoOut
@@ -5745,8 +5718,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,12800,-64000,13600"
-st "DAC_SDO      : std_ulogic
-"
+st "DAC_SDO      : std_ulogic"
 )
 )
 *178 (SaComponent
@@ -6165,8 +6137,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "43000,63600,57100,64600"
-st "delay = gateDelay    ( time )  
-"
+st "delay = gateDelay    ( time )  "
 )
 header ""
 )
@@ -6211,8 +6182,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,17200,-60500,18000"
-st "SIGNAL Q            : std_uLogic
-"
+st "SIGNAL Q            : std_uLogic"
 )
 )
 *196 (Net
@@ -6229,8 +6199,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,27000,-60500,27800"
-st "SIGNAL sendDataDac  : std_uLogic
-"
+st "SIGNAL sendDataDac  : std_uLogic"
 )
 )
 *197 (Wire
@@ -8993,7 +8962,7 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,24,1921,1080"
-viewArea "-45181,44074,78408,111818"
+viewArea "-69855,3778,53734,71522"
 cachedDiagramExtent "-100000,-44000,129900,81400"
 hasePageBreakOrigin 1
 pageBreakOrigin "-156000,-49000"
