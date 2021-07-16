@@ -68,7 +68,7 @@ value "25"
 (GiElement
 name "countValue"
 type "integer"
-value "1000000"
+value "6"
 )
 ]
 mwi 0
@@ -153,7 +153,7 @@ value "10"
 (GiElement
 name "countValue"
 type "integer"
-value "200"
+value "3"
 )
 ]
 mwi 0
@@ -290,19 +290,19 @@ value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs
 )
 (vvPair
 variable "date"
-value "15.07.2021"
+value "16.07.2021"
 )
 (vvPair
 variable "day"
-value "jeu."
+value "ven."
 )
 (vvPair
 variable "day_long"
-value "jeudi"
+value "vendredi"
 )
 (vvPair
 variable "dd"
-value "15"
+value "16"
 )
 (vvPair
 variable "entity_name"
@@ -330,7 +330,7 @@ value "jean.nanchen"
 )
 (vvPair
 variable "graphical_source_date"
-value "15.07.2021"
+value "16.07.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -342,7 +342,7 @@ value "WEA30407"
 )
 (vvPair
 variable "graphical_source_time"
-value "11:13:25"
+value "13:44:15"
 )
 (vvPair
 variable "group"
@@ -414,7 +414,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "11:13:25"
+value "13:44:15"
 )
 (vvPair
 variable "unit"
@@ -2675,9 +2675,10 @@ uid 1168,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "18000,9400,39000,11000"
-st "counterBitNb = 25         ( integer )  
-countValue   = 1000000    ( integer )  "
+xt "18000,9400,36500,11000"
+st "counterBitNb = 25    ( integer )  
+countValue   = 6     ( integer )  
+"
 )
 header ""
 )
@@ -2690,7 +2691,7 @@ value "25"
 (GiElement
 name "countValue"
 type "integer"
-value "1000000"
+value "6"
 )
 ]
 )
@@ -4412,9 +4413,10 @@ uid 2471,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "-47000,38400,-28000,40000"
-st "counterBitNb = 10     ( integer )  
-countValue   = 200    ( integer )  "
+xt "-47000,38400,-28500,40000"
+st "counterBitNb = 10    ( integer )  
+countValue   = 3     ( integer )  
+"
 )
 header ""
 )
@@ -4427,7 +4429,7 @@ value "10"
 (GiElement
 name "countValue"
 type "integer"
-value "200"
+value "3"
 )
 ]
 )
@@ -6171,8 +6173,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "3000,-23800,20000,-23000"
-st "dataBitNb = 8    ( positive )  
-"
+st "dataBitNb = 8    ( positive )  "
 )
 header ""
 )
@@ -9074,11 +9075,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,24,1921,1080"
-viewArea "-152564,-104561,149166,60830"
+viewArea "-115372,-4713,39417,80133"
 cachedDiagramExtent "-100000,-51200,129900,81400"
 hasePageBreakOrigin 1
 pageBreakOrigin "-156000,-98000"
-lastUid 3482,0
+lastUid 3565,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

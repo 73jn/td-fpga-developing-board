@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total CPU time to Xst completion: 0.13 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total CPU time to Xst completion: 0.13 secs
  
 --> Reading design: poetic_circuit.prj
 
@@ -304,7 +304,7 @@ Unit <DAC> synthesized.
 Synthesizing Unit <clockGenerator_1>.
     Related source file is "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd".
         counterBitNb = 25
-        countValue = 1000000
+        countValue = 6
     Found 25-bit register for signal <counter>.
     Found 1-bit register for signal <clockOut_int>.
     Found 25-bit adder for signal <counter[24]_GND_14_o_add_0_OUT> created at line 1241.
@@ -319,7 +319,7 @@ Unit <clockGenerator_1> synthesized.
 Synthesizing Unit <clockGenerator_2>.
     Related source file is "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd".
         counterBitNb = 10
-        countValue = 200
+        countValue = 3
     Found 10-bit register for signal <counter>.
     Found 1-bit register for signal <clockOut_int>.
     Found 10-bit adder for signal <counter[9]_GND_16_o_add_0_OUT> created at line 1241.
@@ -1064,13 +1064,36 @@ Optimizing unit <serialAsciiDecoder> ...
 
 Optimizing unit <uartController> ...
 WARNING:Xst:2677 - Node <I0/I0/I_rxFifo/g0.I1/full> of sequential type is unconnected in block <poetic_circuit>.
-WARNING:Xst:1710 - FF/Latch <I0/U_3/counter_8> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_3/counter_9> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_24> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_23> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_21> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_20> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <I0/U_0/counter_4> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_3> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_7> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_5> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_6> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_10> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_8> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_9> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_13> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_11> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_12> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_16> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_14> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_15> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_19> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_17> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_18> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_22> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_20> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_21> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_23> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_0/counter_24> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_3/counter_3> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_3/counter_2> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_3/counter_6> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_3/counter_4> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_3/counter_5> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_3/counter_9> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_3/counter_7> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_3/counter_8> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
 INFO:Xst:2261 - The FF/Latch <I0/I6/U_0/risingSCLK> in Unit <poetic_circuit> is equivalent to the following FF/Latch, which will be removed : <I0/U_1/masterWr> 
 INFO:Xst:2261 - The FF/Latch <I0/I_dff2/Q> in Unit <poetic_circuit> is equivalent to the following FF/Latch, which will be removed : <I0/I6/U_0/memSCLK> 
 INFO:Xst:2261 - The FF/Latch <I0/I6/U_1/i_25> in Unit <poetic_circuit> is equivalent to the following FF/Latch, which will be removed : <I0/I6/U_1/i_29> 
@@ -1095,8 +1118,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 688
- Flip-Flops                                            : 688
+# Registers                                            : 665
+ Flip-Flops                                            : 665
 
 =========================================================================
 
@@ -1119,22 +1142,22 @@ Top Level Output File Name         : poetic_circuit.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 4583
+# BELS                             : 4517
 #      GND                         : 1
-#      INV                         : 126
-#      LUT1                        : 274
-#      LUT2                        : 230
+#      INV                         : 127
+#      LUT1                        : 275
+#      LUT2                        : 214
 #      LUT3                        : 279
-#      LUT4                        : 107
-#      LUT5                        : 731
-#      LUT6                        : 924
-#      MUXCY                       : 966
+#      LUT4                        : 106
+#      LUT5                        : 727
+#      LUT6                        : 918
+#      MUXCY                       : 948
 #      MUXF7                       : 23
 #      VCC                         : 1
-#      XORCY                       : 921
-# FlipFlops/Latches                : 690
+#      XORCY                       : 898
+# FlipFlops/Latches                : 667
 #      FD                          : 2
-#      FDC                         : 232
+#      FDC                         : 209
 #      FDCE                        : 408
 #      FDE                         : 18
 #      FDP                         : 4
@@ -1158,17 +1181,17 @@ Selected Device : 6slx100fgg484-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             690  out of  126576     0%  
- Number of Slice LUTs:                 2679  out of  63288     4%  
-    Number used as Logic:              2671  out of  63288     4%  
+ Number of Slice Registers:             667  out of  126576     0%  
+ Number of Slice LUTs:                 2654  out of  63288     4%  
+    Number used as Logic:              2646  out of  63288     4%  
     Number used as Memory:                8  out of  15616     0%  
        Number used as RAM:                8
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   2931
-   Number with an unused Flip Flop:    2241  out of   2931    76%  
-   Number with an unused LUT:           252  out of   2931     8%  
-   Number of fully used LUT-FF pairs:   438  out of   2931    14%  
+ Number of LUT Flip Flop pairs used:   2906
+   Number with an unused Flip Flop:    2239  out of   2906    77%  
+   Number with an unused LUT:           252  out of   2906     8%  
+   Number of fully used LUT-FF pairs:   415  out of   2906    14%  
    Number of unique control sets:        51
 
 IO Utilization: 
@@ -1200,7 +1223,7 @@ Clock Information:
 -----------------------------------+--------------------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)                | Load  |
 -----------------------------------+--------------------------------------+-------+
-clock                              | BUFGP                                | 691   |
+clock                              | BUFGP                                | 668   |
 I_dff/Q                            | NONE(I0/I6/U_0/mainState_FSM_FFd1_LD)| 2     |
 -----------------------------------+--------------------------------------+-------+
 INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
@@ -1225,7 +1248,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clock'
   Clock period: 74.102ns (frequency: 13.495MHz)
-  Total number of paths / destination ports: 201649224500877610000000000000000000000 / 1824
+  Total number of paths / destination ports: 201649224500877650000000000000000000000 / 1778
 -------------------------------------------------------------------------
 Delay:               74.102ns (Levels of Logic = 151)
   Source:            I0/I6/U_1/error_sum_1 (FF)
@@ -1457,14 +1480,14 @@ clock          |   74.102|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 29.00 secs
-Total CPU time to Xst completion: 29.89 secs
+Total REAL time to Xst completion: 31.00 secs
+Total CPU time to Xst completion: 31.09 secs
  
 --> 
 
-Total memory usage is 4581592 kilobytes
+Total memory usage is 4612916 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   51 (   0 filtered)
+Number of warnings :   74 (   0 filtered)
 Number of infos    :   20 (   0 filtered)
 

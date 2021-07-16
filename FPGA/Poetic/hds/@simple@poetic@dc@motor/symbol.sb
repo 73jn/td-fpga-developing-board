@@ -763,19 +763,19 @@ value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs
 )
 (vvPair
 variable "date"
-value "15.07.2021"
+value "16.07.2021"
 )
 (vvPair
 variable "day"
-value "jeu."
+value "ven."
 )
 (vvPair
 variable "day_long"
-value "jeudi"
+value "vendredi"
 )
 (vvPair
 variable "dd"
-value "15"
+value "16"
 )
 (vvPair
 variable "entity_name"
@@ -803,7 +803,7 @@ value "jean.nanchen"
 )
 (vvPair
 variable "graphical_source_date"
-value "15.07.2021"
+value "16.07.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -815,7 +815,7 @@ value "WEA30407"
 )
 (vvPair
 variable "graphical_source_time"
-value "11:13:25"
+value "13:44:15"
 )
 (vvPair
 variable "group"
@@ -887,7 +887,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "11:13:25"
+value "13:44:15"
 )
 (vvPair
 variable "unit"
@@ -2397,7 +2397,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 507,0
+lastUid 530,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"

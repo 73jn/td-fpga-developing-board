@@ -164,12 +164,12 @@ elements [
 (GiElement
 name "counterBitNb"
 type "integer"
-value "12"
+value "10"
 )
 (GiElement
 name "countValue"
 type "integer"
-value "100"
+value "6"
 )
 ]
 mwi 0
@@ -222,23 +222,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hdl"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\poetic_test\\struct.bd.info"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\poetic_test\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\poetic_test\\struct.bd.user"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\poetic_test\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -262,27 +262,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\poetic_test"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\poetic_test"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\poetic_test"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\poetic_test"
 )
 (vvPair
 variable "date"
-value "14.07.2021"
+value "16.07.2021"
 )
 (vvPair
 variable "day"
-value "mer."
+value "ven."
 )
 (vvPair
 variable "day_long"
-value "mercredi"
+value "vendredi"
 )
 (vvPair
 variable "dd"
-value "14"
+value "16"
 )
 (vvPair
 variable "designName"
@@ -310,11 +310,11 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "jeann"
+value "jean.nanchen"
 )
 (vvPair
 variable "graphical_source_date"
-value "14.07.2021"
+value "16.07.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -322,11 +322,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "DESKTOP-V46KISN"
+value "WEA30407"
 )
 (vvPair
 variable "graphical_source_time"
-value "11:42:35"
+value "13:56:36"
 )
 (vvPair
 variable "group"
@@ -334,7 +334,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "DESKTOP-V46KISN"
+value "WEA30407"
 )
 (vvPair
 variable "language"
@@ -374,11 +374,11 @@ value "juillet"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\poetic_test\\struct.bd"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\poetic_test\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\poetic_test\\struct.bd"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\poetic_test\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -454,7 +454,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "11:42:35"
+value "13:56:36"
 )
 (vvPair
 variable "unit"
@@ -462,7 +462,7 @@ value "poetic_test"
 )
 (vvPair
 variable "user"
-value "jeann"
+value "jean.nanchen"
 )
 (vvPair
 variable "version"
@@ -545,8 +545,7 @@ phaseBitNb = 16    ( positive )
 pidBitNb   = 12    ( positive )  
 dacBitNb   = 8     ( positive )  
 dacChBitNb = 2     ( positive )  
-dacOpBitNb = 2     ( positive )  
-"
+dacOpBitNb = 2     ( positive )  "
 )
 header ""
 )
@@ -3097,9 +3096,10 @@ uid 8803,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "37000,-7600,56000,-6000"
-st "counterBitNb = 12     ( integer )  
-countValue   = 100    ( integer )  "
+xt "37000,-7600,55500,-6000"
+st "counterBitNb = 10    ( integer )  
+countValue   = 6     ( integer )  
+"
 )
 header ""
 )
@@ -3107,12 +3107,12 @@ elements [
 (GiElement
 name "counterBitNb"
 type "integer"
-value "12"
+value "10"
 )
 (GiElement
 name "countValue"
 type "integer"
-value "100"
+value "6"
 )
 ]
 )
@@ -5522,7 +5522,7 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,0,1921,1056"
-viewArea "-27652,1718,127868,86965"
+viewArea "5929,-49286,199414,56771"
 cachedDiagramExtent "0,-78000,311000,71600"
 pageSetupInfo (PageSetupInfo
 ptrCmd "Generic PostScript Printer,winspool,"
@@ -5547,7 +5547,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-132000"
-lastUid 8997,0
+lastUid 9220,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
