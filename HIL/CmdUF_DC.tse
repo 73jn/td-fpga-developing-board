@@ -1,0 +1,546 @@
+version = 4.2
+
+//
+// Saved by sw version: 2021.2
+// Save timestamp: 21-Jul-2021 @ 05:20:04 PM
+//
+
+model "CmdUF_DC" {
+    configuration {
+        hil_device = "HIL402"
+        hil_configuration_id = 6
+        simulation_method = exact
+        simulation_time_step = auto
+        simulation_discret_scaling = 1.0
+        dsp_timer_periods = 100e-6, 50e-3
+        ss_calc_method = "systematic elimination"
+        enb_pole_shift = True
+        enb_gds_oversampling = True
+        show_modes = False
+        device_ao_limit_enable = False
+        reset_analog_outputs_on_sim_stop = True
+        reset_digital_outputs_on_sim_stop = True
+        cpl_stb = True
+        enb_dep_sw_detect = False
+        code_section = "internal memory"
+        data_section = "internal memory"
+        sys_sp_rate_1 = 0.0001
+        sys_sp_rate_2 = 0.05
+        sys_real_type_precision = "default"
+        user_real_type_precision = "default"
+        sys_cpu_optimization = "high"
+        user_cpu_optimization = "high"
+        user_cpu_part_option = "default"
+        matrix_based_reduction = True
+        cpl_dynamics_analysis = False
+        export_ss_to_pickle = False
+        cce_platform = "generic"
+        cce_use_relative_names = False
+        cce_type_mapping_real = "double"
+        cce_type_mapping_uint = "unsigned int"
+        cce_type_mapping_int = "int"
+        cce_directory = ""
+        cce_custom_type_int = ""
+        cce_custom_type_uint = ""
+        cce_custom_type_real = ""
+        tunable_params = "component defined"
+    }
+
+    component Subsystem Root {
+        component pas_capacitor C1 {
+            capacitance = "400e-6"
+        }
+        [
+            position = 6080, 7160
+            rotation = right
+        ]
+
+        component "core/Three Phase Inverter" "Three Phase Inverter1" {
+            fvd_def_method = "LUT"
+            ref_sig_min_max = "[-1, 1]"
+        }
+        [
+            position = 6376, 7168
+            size = 127, 256
+        ]
+
+        component "core/Voltage Measurement" Vdc {
+        }
+        [
+            position = 6216, 7176
+            rotation = right
+            size = 64, 32
+        ]
+
+        component "core/Voltage Measurement" Vond {
+            bw_limit = "True"
+            frequency = "100"
+        }
+        [
+            position = 6496, 7120
+            rotation = right
+            size = 64, 32
+        ]
+
+        component "core/Current Measurement" Ia {
+            frequency = "150"
+        }
+        [
+            position = 6792, 7072
+            size = 64, 32
+        ]
+
+        component "core/Current Measurement" Ib {
+            frequency = "150"
+        }
+        [
+            position = 6792, 7168
+            size = 64, 32
+        ]
+
+        component "core/Current Measurement" Ic {
+            frequency = "150"
+        }
+        [
+            position = 6792, 7264
+            size = 64, 32
+        ]
+
+        component pas_resistor R2 {
+            resistance = "0.01"
+        }
+        [
+            position = 6688, 7072
+        ]
+
+        component pas_resistor R3 {
+            resistance = "0.01"
+        }
+        [
+            position = 6688, 7168
+        ]
+
+        component pas_resistor R4 {
+            resistance = "0.01"
+        }
+        [
+            position = 6688, 7264
+        ]
+
+        component src_voltage Vs1 {
+            init_const_value = "50"
+        }
+        [
+            position = 5784, 7168
+            rotation = right
+        ]
+
+        component "core/Single Pole Single Throw Contactor" S1 {
+        }
+        [
+            position = 5960, 7072
+            size = 64, 32
+        ]
+
+        component "core/Voltage Measurement" Vsource {
+        }
+        [
+            position = 5888, 7168
+            rotation = right
+            size = 64, 32
+        ]
+
+        component src_ground gnd1 {
+        }
+        [
+            position = 5952, 7320
+        ]
+
+        component "core/Brushless DC Machine" "Brushless DC Machine1" {
+            mech_angle_out = "True"
+        }
+        [
+            position = 6976, 7168
+            size = 160, 160
+        ]
+
+        component "core/Hall Effect Sensor" "Hall Effect Sensor1" {
+            pms = "3"
+        }
+        [
+            position = 7200, 7064
+            size = 94, 96
+        ]
+
+        component gen_terminator Termination2 {
+        }
+        [
+            position = 7312, 7064
+            hide_name = True
+        ]
+
+        tag "Electric Tag4" {
+            value = "DC-"
+            scope = local
+            kind = pe
+        }
+        [
+            position = 6072, 7328
+        ]
+
+        tag "Electric Tag5" {
+            value = "DC+"
+            scope = local
+            kind = pe
+        }
+        [
+            position = 6080, 6976
+        ]
+
+        junction Junction402 pe
+        [
+            position = 6496, 7072
+        ]
+
+        junction Junction403 pe
+        [
+            position = 6496, 7168
+        ]
+
+        junction Junction443 pe
+        [
+            position = 6152, 7072
+        ]
+
+        junction Junction444 pe
+        [
+            position = 6152, 7264
+        ]
+
+        junction Junction453 pe
+        [
+            position = 6080, 7072
+        ]
+
+        junction Junction454 pe
+        [
+            position = 6080, 7264
+        ]
+
+        junction Junction455 pe
+        [
+            position = 5888, 7072
+        ]
+
+        junction Junction456 pe
+        [
+            position = 5888, 7264
+        ]
+
+        junction Junction457 pe
+        [
+            position = 5952, 7264
+        ]
+
+        junction Junction459 pe
+        [
+            position = 6216, 7072
+        ]
+
+        junction Junction460 pe
+        [
+            position = 6216, 7264
+        ]
+
+        connect Ia.p_node R2.n_node as Connection1880
+        connect Ib.p_node R3.n_node as Connection1882
+        connect R4.n_node Ic.p_node as Connection1885
+        connect Vond.p_node Junction402 as Connection1929
+        connect Junction402 "Three Phase Inverter1.a_in" as Connection1930
+        [
+            breakpoints = 6496, 7072; 6496, 7072; 6496, 7072
+        ]
+        connect R2.p_node Junction402 as Connection1931
+        connect "Three Phase Inverter1.b_in" Junction403 as Connection1932
+        connect Junction403 Vond.n_node as Connection1933
+        [
+            breakpoints = 6496, 7168; 6496, 7168; 6496, 7168; 6496, 7168; 6496, 7168; 6496, 7168; 6496, 7168
+        ]
+        connect R3.p_node Junction403 as Connection1934
+        connect R4.p_node "Three Phase Inverter1.c_in" as Connection1935
+        connect "Electric Tag5" Junction443 as Connection2216
+        connect "Electric Tag4" Junction444 as Connection2219
+        connect C1.p_node Junction453 as Connection2264
+        connect Junction453 Junction443 as Connection2265
+        [
+            breakpoints = 6080, 7072
+        ]
+        connect C1.n_node Junction454 as Connection2267
+        connect Junction454 Junction444 as Connection2268
+        [
+            breakpoints = 6080, 7264
+        ]
+        connect S1.a_out Junction453 as Connection2271
+        connect Vs1.p_node Junction455 as Connection2272
+        connect Junction455 S1.a_in as Connection2273
+        connect Vsource.p_node Junction455 as Connection2274
+        connect Vs1.n_node Junction456 as Connection2275
+        connect Vsource.n_node Junction456 as Connection2277
+        connect Junction456 Junction457 as Connection2278
+        connect Junction457 Junction454 as Connection2279
+        connect gnd1.node Junction457 as Connection2280
+        connect "Brushless DC Machine1.b_in" Ib.n_node as Connection2290
+        connect Ia.n_node "Brushless DC Machine1.a_in" as Connection2291
+        connect "Brushless DC Machine1.c_in" Ic.n_node as Connection2292
+        connect "Hall Effect Sensor1.θm" "Brushless DC Machine1.out" as Connection2293
+        connect "Hall Effect Sensor1.out" Termination2.in as Connection2294
+        connect Junction443 Junction459 as Connection2297
+        [
+            breakpoints = 6152, 7072
+        ]
+        connect Junction459 Vdc.p_node as Connection2298
+        [
+            breakpoints = 6216, 7072
+        ]
+        connect "Three Phase Inverter1.pos_out" Junction459 as Connection2299
+        connect Vdc.n_node Junction460 as Connection2300
+        connect Junction460 Junction444 as Connection2301
+        [
+            breakpoints = 6216, 7264
+        ]
+        connect "Three Phase Inverter1.neg_out" Junction460 as Connection2302
+    }
+
+    default {
+        gen_terminator {
+            execution_rate = "inherit"
+        }
+
+        pas_capacitor {
+            capacitance = "1e-6"
+            initial_voltage = "0"
+            pole_shift_ignore = "False"
+            visible = "True"
+        }
+
+        pas_resistor {
+            resistance = "1"
+            param_set = ""
+        }
+
+        src_voltage {
+            sig_input = "False"
+            type = "signal generator"
+            param_set = "1phase"
+            parent_label = ""
+            addr = "0"
+            spc_nb = "0"
+            execution_rate = "100e-6"
+            cpd_visible = "True"
+            enable_snb = "False"
+            snb_type = "R2"
+            R2 = "0.0"
+            L1 = "0.1"
+            override_signal_name = "False"
+            signal_name = ""
+            init_source_nature = "Constant"
+            init_const_value = "0.0"
+            init_rms_value = "0.0"
+            init_frequency = "50.0"
+            init_phase = "0.0"
+        }
+
+        "core/Brushless DC Machine" {
+            Rs = "0.64"
+            Ls = "24.4e-3"
+            Vpk_over_krpm = "31.4"
+            pms = "4"
+            Jm = "1e-3"
+            friction_coeff = "0"
+            load_src = "SCADA / external"
+            ext_mdl_load_type = "torque"
+            load_ai_pin_addr = "1"
+            load_ai_offset = "0"
+            load_ai_gain = "1"
+            enc_ppr = "1024"
+            res_pole_pairs = "1"
+            res_carr_source = "internal"
+            res_int_carr_f = "5e+3"
+            res_ai_pin_addr = "1"
+            res_ai_offset = "0"
+            res_ai_gain = "1"
+            absenc_type = "None"
+            endat_clock_di_addr = "1"
+            endat_clock_di_logic = "active high"
+            endat_data_di_addr = "2"
+            endat_data_di_logic = "active high"
+            biss_clock_di_addr = "1"
+            biss_clock_di_logic = "active high"
+            biss_data_di_addr = "2"
+            ssi_clock_di_addr = "1"
+            ssi_clock_di_logic = "active high"
+            ssi_data_di_addr = "2"
+            execution_rate = "100e-6"
+            el_trq_out = "False"
+            mech_speed_out = "False"
+            mech_angle_out = "False"
+            e_a = "False"
+            e_b = "False"
+            e_c = "False"
+            psi_a = "False"
+            psi_b = "False"
+            psi_c = "False"
+            is_a = "False"
+            is_b = "False"
+        }
+
+        "core/Current Measurement" {
+            bw_limit = "False"
+            frequency = "10e3"
+            comparator_enable = "False"
+            operator = "greater"
+            threshold = "0"
+            cmp_abs_value = "False"
+            feed_forward = "false"
+            sig_output = "False"
+            sig_output_filt_and_full_bw = "False"
+            execution_rate = "100e-6"
+            addr = "0"
+            nd_msr_estimation = "false"
+            dev_cpl_msr = "false"
+            host_device = "0"
+            output_to_device = "0"
+            dev_cpl_index = "0"
+            dev_cpl_var_nb = "0"
+            visible = "True"
+            override_signal_name = "False"
+            signal_name = ""
+        }
+
+        "core/Hall Effect Sensor" {
+            pms = "2"
+            execution_rate = "inherit"
+        }
+
+        "core/Single Pole Single Throw Contactor" {
+            ctrl_src = "Digital input"
+            Sa = "1"
+            Sa_logic = "active high"
+            enable_fb_out = "False"
+            fb_out_type = "real"
+            execution_rate = "inherit"
+            initial_state = "off"
+            on_delay = "0"
+            off_delay = "0"
+            switching = "any current"
+        }
+
+        "core/Three Phase Inverter" {
+            ctrl_src = "Digital input per switch"
+            op_mode = "Fixed carrier frequency"
+            carrier_freq = "10000.0"
+            carr_ph_offset = "0.0"
+            d_time = "5e-6"
+            ref_sig_min_max = "[-1.0, 1.0]"
+            load_mode = "on min"
+            execution_rate = "inherit"
+            Sa_top = "1"
+            Sa_top_logic = "active high"
+            Sa_bot = "2"
+            Sa_bot_logic = "active high"
+            Sb_top = "3"
+            Sb_top_logic = "active high"
+            Sb_bot = "4"
+            Sb_bot_logic = "active high"
+            Sc_top = "5"
+            Sc_top_logic = "active high"
+            Sc_bot = "6"
+            Sc_bot_logic = "active high"
+            delay_enabled = "False"
+            fixed_delay = "1e-6"
+            var_delay_lut = "[-10.0, 1e-6, 10.0, 1e-6]"
+            preview_var_delay = "Preview"
+            Sa_top_I = "False"
+            Sa_bot_I = "False"
+            Sb_top_I = "False"
+            Sb_bot_I = "False"
+            Sc_top_I = "False"
+            Sc_bot_I = "False"
+            fvd = "False"
+            losses_estimation = "False"
+            fvd_def_method = "Voltage and Resistance"
+            Import_igbt_xml = "not selected"
+            Import_diode_xml = "not selected"
+            Switch_type = "IGBT"
+            Vce = "1.3"
+            Rce = "0"
+            Vd = "1.2"
+            Rd = "0"
+            i_sw = "[0.0, 6.0, 12.0, 18.0, 24.0]"
+            v_sw = "[0.0, 600.0]"
+            temp_sw = "[25.0, 50.0, 75.0, 100.0, 125.0]"
+            vce_table_out = "[1.3, 1.3, 1.3, 1.3, 1.3]"
+            vd_table_out = "[1.2, 1.2, 1.2, 1.2, 1.2]"
+            et_on_table_out = "[[0.0, 0.0275e-3, 0.15e-3, 0.275e-3, 0.3e-3], [0.35*3.8e-3, 0.4*3.8e-3, 0.8*3.8e-3, 0.68*3.8e-3, 0.9*3.8e-3], [0.65*3.8e-3, 0.9*3.8e-3, 1.2*3.8e-3, 1.5*3.8e-3, 1.7*3.8e-3], [0.9*3.8e-3, 1.3*3.8e-3, 1.7*3.8e-3, 1.9*3.8e-3, 2.25*3.8e-3], [1.1*3.8e-3, 1.7*3.8e-3, 2.1*3.8e-3, 2.3*3.8e-3, 2.5*3.8e-3]]"
+            et_off_table_out = "[[0.0, 0.0275e-3, 0.15e-3, 0.275e-3, 0.3e-3], [0.35*2.1e-3, 0.4*2.1e-3, 0.8*2.1e-3, 0.68*2.1e-3, 0.9*2.1e-3], [0.65*2.1e-3, 0.9*2.1e-3, 1.2*2.1e-3, 1.5*2.1e-3, 1.7*2.1e-3], [0.9*2.1e-3, 1.3*2.1e-3, 1.7*2.1e-3, 1.9*2.1e-3, 2.25*2.1e-3], [1.1*2.1e-3, 1.7*2.1e-3, 2.1*2.1e-3, 2.3*2.1e-3, 2.5*2.1e-3]]"
+            ed_off_table_out = "[[0.0, 0.0275e-3, 0.15e-3, 0.275e-3, 0.3e-3], [0.35*2.2e-3, 0.4*2.2e-3, 0.8*2.2e-3, 0.68*2.2e-3, 0.9*2.2e-3], [0.65*2.2e-3, 0.9*2.2e-3, 1.2*2.2e-3, 1.5*2.2e-3, 1.7*2.2e-3], [0.9*2.2e-3, 1.3*2.2e-3, 1.7*2.2e-3, 1.9*2.2e-3, 2.25*2.2e-3], [1.1*2.2e-3, 1.7*2.2e-3, 2.1*2.2e-3, 2.3*2.2e-3, 2.5*2.2e-3]]"
+            temp_estimation = "False"
+            thermal_networks_type = "Foster"
+            switch_Rth = "[0.159, 0.133, 0.120, 0.038]"
+            switch_Tth = "[1.1e-1, 1.56e-2, 1.35e-3, 1.51e-4]"
+            switch_Cth = "[0.0029, 0.0097, 0.1068, 0.8500]"
+            diode_Rth = "[0.159, 0.133, 0.120, 0.038]"
+            diode_Tth = "[1.1e-1, 1.56e-2, 1.35e-3, 1.51e-4]"
+            diode_Cth = "[0.0029, 0.0097, 0.1068, 0.8500]"
+            loss_exec_rate = "100e-6"
+            vout_cmp_pullup_mode = "False"
+            show_cnt_out = "False"
+            show_monitoring = "False"
+            _control_property = "all high"
+            pwm_enabling = "False"
+            pwm_enable_di = "13"
+            pwm_enable_inv = "active high"
+            dtv_flag_en = "True"
+        }
+
+        "core/Voltage Measurement" {
+            bw_limit = "False"
+            frequency = "10e3"
+            comparator_enable = "False"
+            operator = "greater"
+            threshold = "0"
+            cmp_abs_value = "False"
+            feed_forward = "false"
+            sig_output = "False"
+            sig_output_filt_and_full_bw = "False"
+            execution_rate = "100e-6"
+            addr = "0"
+            nd_msr_estimation = "false"
+            dev_cpl_msr = "false"
+            host_device = "0"
+            output_to_device = "0"
+            dev_cpl_index = "0"
+            dev_cpl_var_nb = "0"
+            visible = "True"
+            override_signal_name = "False"
+            signal_name = ""
+        }
+    }
+
+    CODE model_init
+        # Numpy module is imported as 'np'
+        # Scipy module is imported as 'sp'
+        # The Schematic API is imported as 'mdl'
+        # To get the model file path, use 'mdl.get_model_file_path()'
+        # To print information to the console, use info()
+        
+        Te = 100.0e-6
+        
+        p = 2
+        
+        Kp = 2.3262
+        Ki = 54.470
+        Kd = 9.9e-3
+        Td_lim = 1/Kd
+    ENDCODE
+}
