@@ -1,12 +1,12 @@
 Release 14.7 - Bitgen P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
-Loading device for application Rf_Device from file '6slx100.nph' in environment
+Loading device for application Rf_Device from file '6slx150.nph' in environment
 C:\eda\Xilinx\14.7\ISE_DS\ISE\.
-   "poetic_circuit" is an NCD, version 3.2, device xc6slx100, package fgg484,
+   "poetic_circuit" is an NCD, version 3.2, device xc6slx150, package fgg484,
 speed -3
 Opened constraints file poetic_circuit.pcf.
 
-Fri Jul 16 13:48:47 2021
+Thu Jul 22 18:17:03 2021
 
 C:\eda\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\bitgen.exe -intstyle ise -w -g DebugBitstream:No -g Binary:no -g CRC:Enable -g Reset_on_err:No -g ConfigRate:2 -g ProgPin:PullUp -g TckPin:PullUp -g TdiPin:PullUp -g TdoPin:PullUp -g TmsPin:PullUp -g UnusedPin:PullDown -g UserID:0xFFFFFFFF -g ExtMasterCclk_en:No -g SPI_buswidth:1 -g TIMER_CFG:0xFFFF -g multipin_wakeup:No -g StartUpClk:CClk -g DONE_cycle:4 -g GTS_cycle:5 -g GWE_cycle:6 -g LCK_cycle:NoWait -g Security:None -g DonePipe:No -g DriveDone:No -g Encrypt:No -g en_sw_gsr:No -g drive_awake:No -g sw_clk:Startupclk -g sw_gwe_cycle:5 -g sw_gts_cycle:4 poetic_circuit.ncd 
 
@@ -142,7 +142,7 @@ INFO:Security:51 - The XILINXD_LICENSE_FILE environment variable is not set.
 INFO:Security:52 - The LM_LICENSE_FILE environment variable is set to
 '27020@synplicitylm.hevs.ch;1702@actellm.hevs.ch;27001@mentorlm.hevs.ch;2100@xil
 inxlm.hevs.ch'.
-INFO:Security:56 - Part 'xc6slx100' is not a WebPack part.
+INFO:Security:56 - Part 'xc6slx150' is not a WebPack part.
 WARNING:Security:43 - No license file was found in the standard Xilinx license
 directory.
 WARNING:Security:44 - Since no license file was found,

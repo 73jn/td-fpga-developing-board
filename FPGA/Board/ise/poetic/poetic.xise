@@ -25,7 +25,7 @@
   </files>
 
   <properties>
-    <property xil_pn:name="Device" xil_pn:value="xc6slx100" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Device" xil_pn:value="xc6slx150" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Device Family" xil_pn:value="Spartan6" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Implementation Top" xil_pn:value="Architecture|poetic_circuit|studentVersion" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Implementation Top File" xil_pn:value="../../concat/poetic.vhd" xil_pn:valueState="non-default"/>

@@ -678,19 +678,19 @@ value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs
 )
 (vvPair
 variable "date"
-value "14.07.2021"
+value "22.07.2021"
 )
 (vvPair
 variable "day"
-value "mer."
+value "jeu."
 )
 (vvPair
 variable "day_long"
-value "mercredi"
+value "jeudi"
 )
 (vvPair
 variable "dd"
-value "14"
+value "22"
 )
 (vvPair
 variable "designName"
@@ -722,7 +722,7 @@ value "jean.nanchen"
 )
 (vvPair
 variable "graphical_source_date"
-value "14.07.2021"
+value "22.07.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -734,7 +734,7 @@ value "WEA30407"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:48:14"
+value "16:53:31"
 )
 (vvPair
 variable "group"
@@ -870,7 +870,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "15:48:14"
+value "16:53:31"
 )
 (vvPair
 variable "unit"
@@ -936,8 +936,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,14000,14800,15000"
-st "clock    : IN     std_ulogic  ;
-"
+st "clock    : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -980,8 +979,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,15000,15300,16000"
-st "reset_N  : IN     std_ulogic  ;
-"
+st "reset_N  : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1026,8 +1024,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,18000,16700,19000"
-st "BP_PWMA  : OUT    std_ulogic  ;
-"
+st "BP_PWMA  : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -1074,8 +1071,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,19000,16700,20000"
-st "BP_PWMB  : OUT    std_ulogic  ;
-"
+st "BP_PWMB  : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -1122,8 +1118,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,17000,16700,18000"
-st "ADC_SCLK : OUT    std_ulogic  ;
-"
+st "ADC_SCLK : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -1169,8 +1164,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,11000,16100,12000"
-st "ADC_SDO  : IN     std_ulogic  ;
-"
+st "ADC_SDO  : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -1216,8 +1210,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,16000,16300,17000"
-st "ADC_CS   : OUT    std_ulogic  ;
-"
+st "ADC_CS   : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -1263,8 +1256,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,13000,15600,14000"
-st "USB_TX   : IN     std_ulogic  ;
-"
+st "USB_TX   : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -1310,8 +1302,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,25000,15500,26000"
-st "USB_RX   : OUT    std_ulogic 
-"
+st "USB_RX   : OUT    std_ulogic "
 )
 thePort (LogicalPort
 lang 11
@@ -1357,8 +1348,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,12000,14800,13000"
-st "D        : IN     std_uLogic  ;
-"
+st "D        : IN     std_uLogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1403,8 +1393,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,23000,15300,24000"
-st "Q        : OUT    std_uLogic  ;
-"
+st "Q        : OUT    std_uLogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1450,8 +1439,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,24000,15500,25000"
-st "Q1       : OUT    std_uLogic  ;
-"
+st "Q1       : OUT    std_uLogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1497,8 +1485,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,20000,16700,21000"
-st "DAC_SCLK : OUT    std_ulogic  ;
-"
+st "DAC_SCLK : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -1545,8 +1532,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,22000,16800,23000"
-st "DAC_SYNC : OUT    std_ulogic  ;
-"
+st "DAC_SYNC : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -1593,8 +1579,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,21000,16600,22000"
-st "DAC_SDO  : OUT    std_ulogic  ;
-"
+st "DAC_SDO  : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -2315,7 +2300,7 @@ xt "0,9000,0,9000"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 806,0
+lastUid 875,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 )

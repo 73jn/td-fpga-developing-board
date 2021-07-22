@@ -6,256 +6,275 @@ VIEW student@version.bd
 GRAPHIC 84,0 9 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-NO_GRAPHIC 12
+NO_GRAPHIC 14
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 0,0 16 2 
+GRAPHIC 0,0 18 2 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 1,0 19 0 
+GRAPHIC 1,0 21 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-NO_GRAPHIC 19
+NO_GRAPHIC 21
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 895,0 25 0 
+GRAPHIC 895,0 27 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 49,0 26 0 
+GRAPHIC 3264,0 28 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 893,0 27 0 
+GRAPHIC 49,0 29 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 897,0 28 0 
+GRAPHIC 893,0 30 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-NO_GRAPHIC 29
+GRAPHIC 897,0 31 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-NO_GRAPHIC 30
+NO_GRAPHIC 32
+DESIGN poetic_circuit
+VIEW student@version.bd
+NO_GRAPHIC 33
 LIBRARY Board
 DESIGN @d@f@f
 VIEW sim
-GRAPHIC 1071,0 32 0 
+GRAPHIC 1071,0 35 0 
 DESIGN @d@f@f
 VIEW symbol.sb
-GRAPHIC 57,0 34 0 
+GRAPHIC 57,0 37 0 
 DESIGN @d@f@f
 VIEW symbol.sb
-GRAPHIC 63,0 35 0 
+GRAPHIC 63,0 38 0 
 DESIGN @d@f@f
 VIEW symbol.sb
-GRAPHIC 51,0 36 0 
+GRAPHIC 51,0 39 0 
 DESIGN @d@f@f
 VIEW symbol.sb
-GRAPHIC 69,0 37 0 
+GRAPHIC 69,0 40 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 1817,0 40 0 
+GRAPHIC 1817,0 43 0 
 DESIGN inverter@in
 VIEW symbol.sb
-GRAPHIC 16,0 42 0 
+GRAPHIC 16,0 45 0 
 DESIGN inverter@in
 VIEW symbol.sb
-GRAPHIC 22,0 43 0 
+GRAPHIC 22,0 46 0 
+LIBRARY Gates
+DESIGN logic0
+VIEW sim
+GRAPHIC 3254,0 49 0 
+DESIGN logic0
+VIEW symbol.sb
+GRAPHIC 22,0 51 0 
 LIBRARY Poetic
 DESIGN @simple@poetic@dc@motor
 VIEW struct
-GRAPHIC 3150,0 46 0 
+GRAPHIC 3150,0 54 0 
 DESIGN @simple@poetic@dc@motor
 VIEW symbol.sb
-GRAPHIC 14,0 47 1 
+GRAPHIC 14,0 55 1 
 DESIGN @simple@poetic@dc@motor
 VIEW symbol.sb
-GRAPHIC 61,0 56 0 
+GRAPHIC 61,0 64 0 
 DESIGN @simple@poetic@dc@motor
 VIEW symbol.sb
-GRAPHIC 235,0 57 0 
+GRAPHIC 235,0 65 0 
 DESIGN @simple@poetic@dc@motor
 VIEW symbol.sb
-GRAPHIC 230,0 58 0 
+GRAPHIC 230,0 66 0 
 DESIGN @simple@poetic@dc@motor
 VIEW symbol.sb
-GRAPHIC 225,0 59 0 
+GRAPHIC 225,0 67 0 
 DESIGN @simple@poetic@dc@motor
 VIEW symbol.sb
-GRAPHIC 91,0 60 0 
+GRAPHIC 91,0 68 0 
 DESIGN @simple@poetic@dc@motor
 VIEW symbol.sb
-GRAPHIC 76,0 61 0 
+GRAPHIC 76,0 69 0 
 DESIGN @simple@poetic@dc@motor
 VIEW symbol.sb
-GRAPHIC 240,0 62 0 
+GRAPHIC 240,0 70 0 
 DESIGN @simple@poetic@dc@motor
 VIEW symbol.sb
-GRAPHIC 81,0 63 0 
+GRAPHIC 81,0 71 0 
 DESIGN @simple@poetic@dc@motor
 VIEW symbol.sb
-GRAPHIC 51,0 64 0 
+GRAPHIC 51,0 72 0 
 DESIGN @simple@poetic@dc@motor
 VIEW symbol.sb
-GRAPHIC 56,0 65 0 
+GRAPHIC 56,0 73 0 
 DESIGN @simple@poetic@dc@motor
 VIEW symbol.sb
-GRAPHIC 66,0 66 0 
+GRAPHIC 66,0 74 0 
 DESIGN @simple@poetic@dc@motor
 VIEW symbol.sb
-GRAPHIC 71,0 67 0 
+GRAPHIC 71,0 75 0 
 DESIGN @simple@poetic@dc@motor
 VIEW symbol.sb
-GRAPHIC 377,0 68 0 
+GRAPHIC 377,0 76 0 
 DESIGN @simple@poetic@dc@motor
 VIEW symbol.sb
-GRAPHIC 388,0 69 0 
+GRAPHIC 388,0 77 0 
 DESIGN @simple@poetic@dc@motor
 VIEW symbol.sb
-GRAPHIC 372,0 70 0 
+GRAPHIC 372,0 78 0 
 DESIGN @simple@poetic@dc@motor
 VIEW symbol.sb
-GRAPHIC 86,0 71 0 
+GRAPHIC 86,0 79 0 
 LIBRARY Board
-DESIGN poetic_circuit
-VIEW student@version.bd
-NO_GRAPHIC 74
-DESIGN poetic_circuit
-VIEW student@version.bd
-GRAPHIC 1071,0 77 0 
-DESIGN poetic_circuit
-VIEW student@version.bd
-GRAPHIC 3150,0 78 0 
-DESIGN poetic_circuit
-VIEW student@version.bd
-GRAPHIC 1817,0 79 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
 NO_GRAPHIC 82
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 818,0 85 0 
+GRAPHIC 1071,0 85 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-NO_GRAPHIC 87
+GRAPHIC 3150,0 86 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-NO_GRAPHIC 88
+GRAPHIC 1817,0 87 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 1071,0 90 0 
+GRAPHIC 3254,0 88 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 873,0 92 0 
+NO_GRAPHIC 91
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 879,0 93 0 
+GRAPHIC 818,0 94 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 887,0 94 0 
+NO_GRAPHIC 96
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 883,0 95 0 
+NO_GRAPHIC 97
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 2914,0 97 0 
+GRAPHIC 1071,0 99 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 2958,0 99 0 
+GRAPHIC 873,0 101 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 2964,0 100 0 
+GRAPHIC 879,0 102 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 2942,0 101 0 
+GRAPHIC 887,0 103 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 2948,0 102 0 
+GRAPHIC 883,0 104 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 3001,0 104 0 
+GRAPHIC 2914,0 106 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 3033,0 106 0 
+GRAPHIC 2958,0 108 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 3027,0 107 0 
+GRAPHIC 2964,0 109 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 3051,0 108 0 
+GRAPHIC 2942,0 110 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 3047,0 109 0 
+GRAPHIC 2948,0 111 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 1817,0 111 0 
+GRAPHIC 3001,0 113 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 43,0 113 0 
+GRAPHIC 3033,0 115 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 879,0 114 0 
+GRAPHIC 3027,0 116 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 1806,0 116 0 
+GRAPHIC 3051,0 117 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 883,0 118 0 
+GRAPHIC 3047,0 118 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 245,0 119 0 
+GRAPHIC 1817,0 120 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 3150,0 121 0 
+GRAPHIC 43,0 122 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 3157,0 122 1 
+GRAPHIC 879,0 123 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 2639,0 131 0 
+GRAPHIC 1806,0 125 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 3167,0 132 0 
+GRAPHIC 883,0 127 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 2583,0 133 0 
+GRAPHIC 245,0 128 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 2571,0 134 0 
+GRAPHIC 3254,0 130 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 2663,0 135 0 
+GRAPHIC 3270,0 132 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 15,0 136 0 
+GRAPHIC 3150,0 134 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 3159,0 137 0 
+GRAPHIC 3157,0 135 1 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 245,0 138 0 
+GRAPHIC 2639,0 144 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 2651,0 139 0 
+GRAPHIC 3270,0 145 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 2627,0 140 0 
+GRAPHIC 3308,0 146 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 2603,0 141 0 
+GRAPHIC 2571,0 147 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 2615,0 142 0 
+GRAPHIC 2663,0 148 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 3195,0 143 0 
+GRAPHIC 15,0 149 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 3207,0 144 0 
+GRAPHIC 3159,0 150 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 3201,0 145 0 
+GRAPHIC 245,0 151 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-GRAPHIC 2675,0 146 0 
+GRAPHIC 2651,0 152 0 
 DESIGN poetic_circuit
 VIEW student@version.bd
-NO_GRAPHIC 149
+GRAPHIC 2627,0 153 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 2603,0 154 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 2615,0 155 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 3195,0 156 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 3207,0 157 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 3201,0 158 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+GRAPHIC 2675,0 159 0 
+DESIGN poetic_circuit
+VIEW student@version.bd
+NO_GRAPHIC 162

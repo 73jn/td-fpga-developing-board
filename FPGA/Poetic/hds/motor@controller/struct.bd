@@ -68,23 +68,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hdl"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\motor@controller\\struct.bd.info"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\motor@controller\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\motor@controller\\struct.bd.user"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\motor@controller\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds"
 )
 (vvPair
 variable "appl"
@@ -104,27 +104,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\motor@controller"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\motor@controller"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\motorController"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\motorController"
 )
 (vvPair
 variable "date"
-value "13.07.2021"
+value "22.07.2021"
 )
 (vvPair
 variable "day"
-value "mar."
+value "jeu."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "jeudi"
 )
 (vvPair
 variable "dd"
-value "13"
+value "22"
 )
 (vvPair
 variable "entity_name"
@@ -148,11 +148,11 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "jeann"
+value "jean.nanchen"
 )
 (vvPair
 variable "graphical_source_date"
-value "13.07.2021"
+value "22.07.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -160,11 +160,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "DESKTOP-V46KISN"
+value "WEA30407"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:48:33"
+value "18:15:07"
 )
 (vvPair
 variable "group"
@@ -172,7 +172,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "DESKTOP-V46KISN"
+value "WEA30407"
 )
 (vvPair
 variable "language"
@@ -204,11 +204,11 @@ value "juillet"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\motor@controller\\struct.bd"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\motor@controller\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\motorController\\struct.bd"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\motorController\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -236,7 +236,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "15:48:33"
+value "18:15:07"
 )
 (vvPair
 variable "unit"
@@ -244,7 +244,7 @@ value "motorController"
 )
 (vvPair
 variable "user"
-value "jeann"
+value "jean.nanchen"
 )
 (vvPair
 variable "version"
@@ -327,8 +327,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,6400,36000,7200"
-st "clock        : std_ulogic
-"
+st "clock        : std_ulogic"
 )
 )
 *3 (PortIoIn
@@ -392,8 +391,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,7200,50500,8000"
-st "consigne     : std_ulogic_vector(pidBitNb-1 DOWNTO 0)
-"
+st "consigne     : std_ulogic_vector(pidBitNb-1 DOWNTO 0)"
 )
 )
 *5 (PortIoOut
@@ -456,8 +454,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,10400,36000,11200"
-st "CS_n         : std_ulogic
-"
+st "CS_n         : std_ulogic"
 )
 )
 *7 (PortIoOut
@@ -519,8 +516,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,12000,36000,12800"
-st "PWM_Out      : std_ulogic
-"
+st "PWM_Out      : std_ulogic"
 )
 )
 *9 (PortIoIn
@@ -583,8 +579,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,9600,36000,10400"
-st "reset        : std_ulogic
-"
+st "reset        : std_ulogic"
 )
 )
 *11 (PortIoIn
@@ -647,8 +642,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,4800,36000,5600"
-st "SCLK         : std_ulogic
-"
+st "SCLK         : std_ulogic"
 )
 )
 *13 (Net
@@ -666,8 +660,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,5600,36000,6400"
-st "SDO          : std_ulogic
-"
+st "SDO          : std_ulogic"
 )
 )
 *14 (Grouping
@@ -692,7 +685,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "27200,48000,36400,49000"
+xt "27200,48000,39000,49000"
 st "
 by %user on %dd %month %year
 "
@@ -2040,8 +2033,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,14000,49500,14800"
-st "SIGNAL output       : unsigned(pidBitNb-1 DOWNTO 0)
-"
+st "SIGNAL output       : unsigned(pidBitNb-1 DOWNTO 0)"
 )
 )
 *59 (PortIoIn
@@ -2104,8 +2096,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,8000,36000,8800"
-st "en_ADC       : std_ulogic
-"
+st "en_ADC       : std_ulogic"
 )
 )
 *61 (PortIoIn
@@ -2168,8 +2159,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,8800,36000,9600"
-st "en_Regulator : std_ulogic
-"
+st "en_Regulator : std_ulogic"
 )
 )
 *63 (PortIoIn
@@ -2232,8 +2222,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,4000,36000,4800"
-st "P            : std_ulogic
-"
+st "P            : std_ulogic"
 )
 )
 *65 (PortIoIn
@@ -2296,8 +2285,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,3200,36000,4000"
-st "I            : std_ulogic
-"
+st "I            : std_ulogic"
 )
 )
 *67 (PortIoIn
@@ -2360,8 +2348,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,2400,36000,3200"
-st "D            : std_ulogic
-"
+st "D            : std_ulogic"
 )
 )
 *69 (PortIoIn
@@ -2422,16 +2409,16 @@ optionalChildren [
 uid 797,0
 sl 0
 ro 270
-xt "121500,-3375,123000,-2625"
+xt "178500,-3375,180000,-2625"
 )
 (Line
 uid 798,0
 sl 0
 ro 270
-xt "121000,-3000,121500,-3000"
+xt "178000,-3000,178500,-3000"
 pts [
-"121000,-3000"
-"121500,-3000"
+"178000,-3000"
+"178500,-3000"
 ]
 )
 ]
@@ -2446,9 +2433,9 @@ f (Text
 uid 800,0
 va (VaSet
 )
-xt "124000,-3500,129000,-2300"
+xt "181000,-3500,186000,-2300"
 st "OutADC"
-blo "124000,-2500"
+blo "181000,-2500"
 tm "WireNameMgr"
 )
 )
@@ -2469,8 +2456,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,11200,50500,12000"
-st "OutADC       : std_ulogic_vector(adcBitNb-1 DOWNTO 0)
-"
+st "OutADC       : std_ulogic_vector(adcBitNb-1 DOWNTO 0)"
 )
 )
 *72 (Wire
@@ -2570,14 +2556,14 @@ on &4
 uid 43,0
 optionalChildren [
 *76 (BdJunction
-uid 513,0
+uid 1041,0
 ps "OnConnectorStrategy"
 shape (Circle
-uid 514,0
+uid 1042,0
 va (VaSet
 vasetType 1
 )
-xt "84600,21600,85400,22400"
+xt "83600,21600,84400,22400"
 radius 400
 )
 )
@@ -3045,46 +3031,6 @@ tm "WireNameMgr"
 on &60
 )
 *90 (Wire
-uid 509,0
-shape (OrthoPolyLine
-uid 510,0
-va (VaSet
-vasetType 3
-)
-xt "85000,22000,125250,35000"
-pts [
-"85000,22000"
-"85000,35000"
-"108000,35000"
-"108000,24000"
-"125250,24000"
-]
-)
-start &76
-end &46
-sat 32
-eat 32
-stc 0
-st 0
-sf 1
-si 0
-tg (WTG
-uid 511,0
-ps "ConnStartEndStrategy"
-stg "STSignalDisplayStrategy"
-f (Text
-uid 512,0
-va (VaSet
-)
-xt "121250,22800,124650,24000"
-st "CS_n"
-blo "121250,23800"
-tm "WireNameMgr"
-)
-)
-on &6
-)
-*91 (Wire
 uid 558,0
 shape (OrthoPolyLine
 uid 559,0
@@ -3122,7 +3068,7 @@ tm "WireNameMgr"
 )
 on &62
 )
-*92 (Wire
+*91 (Wire
 uid 572,0
 shape (OrthoPolyLine
 uid 573,0
@@ -3160,7 +3106,7 @@ tm "WireNameMgr"
 )
 on &64
 )
-*93 (Wire
+*92 (Wire
 uid 586,0
 shape (OrthoPolyLine
 uid 587,0
@@ -3197,7 +3143,7 @@ tm "WireNameMgr"
 )
 on &66
 )
-*94 (Wire
+*93 (Wire
 uid 600,0
 shape (OrthoPolyLine
 uid 601,0
@@ -3235,14 +3181,14 @@ tm "WireNameMgr"
 )
 on &68
 )
-*95 (Wire
+*94 (Wire
 uid 801,0
 optionalChildren [
-*96 (BdJunction
-uid 838,0
+*95 (BdJunction
+uid 933,0
 ps "OnConnectorStrategy"
 shape (Circle
-uid 839,0
+uid 934,0
 va (VaSet
 vasetType 1
 )
@@ -3257,10 +3203,10 @@ va (VaSet
 vasetType 3
 lineWidth 2
 )
-xt "102000,-3000,121000,-3000"
+xt "91000,-3000,178000,-3000"
 pts [
-"102000,-3000"
-"121000,-3000"
+"91000,-3000"
+"178000,-3000"
 ]
 )
 end &70
@@ -3279,18 +3225,18 @@ uid 806,0
 va (VaSet
 isHidden 1
 )
-xt "113000,-4200,128100,-3000"
+xt "170000,-4200,185100,-3000"
 st "OutADC : (adcBitNb-1:0)"
-blo "113000,-3200"
+blo "170000,-3200"
 tm "WireNameMgr"
 )
 )
 on &71
 )
-*97 (Wire
+*96 (Wire
 uid 834,0
 optionalChildren [
-*98 (BdJunction
+*97 (BdJunction
 uid 844,0
 ps "OnConnectorStrategy"
 shape (Circle
@@ -3316,7 +3262,7 @@ pts [
 "100750,19000"
 ]
 )
-start &96
+start &95
 end &32
 sat 32
 eat 32
@@ -3341,7 +3287,7 @@ tm "WireNameMgr"
 )
 on &71
 )
-*99 (Wire
+*98 (Wire
 uid 840,0
 shape (OrthoPolyLine
 uid 841,0
@@ -3355,7 +3301,7 @@ pts [
 "125250,19000"
 ]
 )
-start &98
+start &97
 end &37
 sat 32
 eat 32
@@ -3379,6 +3325,46 @@ tm "WireNameMgr"
 )
 )
 on &71
+)
+*99 (Wire
+uid 1037,0
+shape (OrthoPolyLine
+uid 1038,0
+va (VaSet
+vasetType 3
+)
+xt "84000,22000,125250,34000"
+pts [
+"84000,22000"
+"84000,34000"
+"109000,34000"
+"109000,24000"
+"125250,24000"
+]
+)
+start &76
+end &46
+sat 32
+eat 32
+stc 0
+st 0
+sf 1
+si 0
+tg (WTG
+uid 1039,0
+ps "ConnStartEndStrategy"
+stg "STSignalDisplayStrategy"
+f (Text
+uid 1040,0
+va (VaSet
+)
+xt "121250,22800,124650,24000"
+st "CS_n"
+blo "121250,23800"
+tm "WireNameMgr"
+)
+)
+on &6
 )
 ]
 bg "65535,65535,65535"
@@ -3491,11 +3477,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,24,1921,1080"
-viewArea "42800,-15200,166389,52544"
+viewArea "67400,-15400,190989,50300"
 cachedDiagramExtent "0,-4200,201700,49000"
 hasePageBreakOrigin 1
-pageBreakOrigin "-9000,0"
-lastUid 870,0
+pageBreakOrigin "-9000,-49000"
+lastUid 1067,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -4535,7 +4521,7 @@ tm "BdDeclarativeTextMgr"
 )
 commonDM (CommonDM
 ldm (LogicalDM
-suid 19,0
+suid 20,0
 usingSuid 1
 emptyRow *131 (LEmptyRow
 )

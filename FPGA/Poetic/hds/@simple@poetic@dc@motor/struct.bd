@@ -25,7 +25,7 @@ elements [
 (GiElement
 name "baudRateDivide"
 type "positive"
-value "11067"
+value "10417"
 )
 (GiElement
 name "dataBitNb"
@@ -290,19 +290,19 @@ value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs
 )
 (vvPair
 variable "date"
-value "16.07.2021"
+value "22.07.2021"
 )
 (vvPair
 variable "day"
-value "ven."
+value "jeu."
 )
 (vvPair
 variable "day_long"
-value "vendredi"
+value "jeudi"
 )
 (vvPair
 variable "dd"
-value "16"
+value "22"
 )
 (vvPair
 variable "entity_name"
@@ -330,7 +330,7 @@ value "jean.nanchen"
 )
 (vvPair
 variable "graphical_source_date"
-value "16.07.2021"
+value "22.07.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -342,7 +342,7 @@ value "WEA30407"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:44:15"
+value "16:16:43"
 )
 (vvPair
 variable "group"
@@ -414,7 +414,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "13:44:15"
+value "16:16:43"
 )
 (vvPair
 variable "unit"
@@ -1998,10 +1998,11 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-45000,-22000,-26500,-18000"
-st "baudRateDivide = 11067    ( positive )  
+st "baudRateDivide = 10417    ( positive )  
 dataBitNb      = 8        ( positive )  
 txFifoDepth    = 8        ( positive )  
-rxFifoDepth    = 1        ( positive )  "
+rxFifoDepth    = 1        ( positive )  
+"
 )
 header ""
 )
@@ -2009,7 +2010,7 @@ elements [
 (GiElement
 name "baudRateDivide"
 type "positive"
-value "11067"
+value "10417"
 )
 (GiElement
 name "dataBitNb"
@@ -2677,8 +2678,7 @@ font "Courier New,8,0"
 )
 xt "18000,9400,36500,11000"
 st "counterBitNb = 25    ( integer )  
-countValue   = 6     ( integer )  
-"
+countValue   = 6     ( integer )  "
 )
 header ""
 )
@@ -4415,8 +4415,7 @@ font "Courier New,8,0"
 )
 xt "-47000,38400,-28500,40000"
 st "counterBitNb = 10    ( integer )  
-countValue   = 3     ( integer )  
-"
+countValue   = 3     ( integer )  "
 )
 header ""
 )
@@ -9075,11 +9074,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,24,1921,1080"
-viewArea "-115372,-4713,39417,80133"
+viewArea "-115400,-46560,38663,37888"
 cachedDiagramExtent "-100000,-51200,129900,81400"
 hasePageBreakOrigin 1
 pageBreakOrigin "-156000,-98000"
-lastUid 3565,0
+lastUid 3648,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

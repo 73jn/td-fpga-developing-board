@@ -1,20 +1,20 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-WEA30407::  Fri Jul 16 13:47:04 2021
+WEA30407::  Thu Jul 22 18:16:09 2021
 
 par -w -intstyle ise -ol high -mt off poetic_circuit_map.ncd poetic_circuit.ncd
 poetic_circuit.pcf 
 
 
 Constraints file: poetic_circuit.pcf.
-Loading device for application Rf_Device from file '6slx100.nph' in environment C:\eda\Xilinx\14.7\ISE_DS\ISE\.
-   "poetic_circuit" is an NCD, version 3.2, device xc6slx100, package fgg484, speed -3
+Loading device for application Rf_Device from file '6slx150.nph' in environment C:\eda\Xilinx\14.7\ISE_DS\ISE\.
+   "poetic_circuit" is an NCD, version 3.2, device xc6slx150, package fgg484, speed -3
 vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
 INFO:Security:51 - The XILINXD_LICENSE_FILE environment variable is not set.
 INFO:Security:52 - The LM_LICENSE_FILE environment variable is set to
 '27020@synplicitylm.hevs.ch;1702@actellm.hevs.ch;27001@mentorlm.hevs.ch;2100@xilinxlm.hevs.ch'.
-INFO:Security:56 - Part 'xc6slx100' is not a WebPack part.
+INFO:Security:56 - Part 'xc6slx150' is not a WebPack part.
 WARNING:Security:43 - No license file was found in the standard Xilinx license directory.
 WARNING:Security:44 - Since no license file was found,
        please run the Xilinx License Configuration Manager
@@ -41,38 +41,41 @@ Device speed data version:  "PRODUCTION 1.23 2013-10-13".
 Device Utilization Summary:
 
 Slice Logic Utilization:
-  Number of Slice Registers:                   669 out of 126,576    1%
-    Number used as Flip Flops:                 665
+  Number of Slice Registers:                   476 out of 184,304    1%
+    Number used as Flip Flops:                 473
     Number used as Latches:                      2
     Number used as Latch-thrus:                  0
-    Number used as AND/OR logics:                2
-  Number of Slice LUTs:                      2,449 out of  63,288    3%
-    Number used as logic:                    2,424 out of  63,288    3%
-      Number using O6 output only:           1,563
-      Number using O5 output only:             262
-      Number using O5 and O6:                  599
+    Number used as AND/OR logics:                1
+  Number of Slice LUTs:                        881 out of  92,152    1%
+    Number used as logic:                      847 out of  92,152    1%
+      Number using O6 output only:             415
+      Number using O5 output only:             239
+      Number using O5 and O6:                  193
       Number used as ROM:                        0
-    Number used as Memory:                       8 out of  15,616    1%
+    Number used as Memory:                      15 out of  21,680    1%
       Number used as Dual Port RAM:              8
         Number using O6 output only:             4
         Number using O5 output only:             0
         Number using O5 and O6:                  4
       Number used as Single Port RAM:            0
-      Number used as Shift Register:             0
-    Number used exclusively as route-thrus:     17
-      Number with same-slice register load:      4
-      Number with same-slice carry load:        13
+      Number used as Shift Register:             7
+        Number using O6 output only:             3
+        Number using O5 output only:             0
+        Number using O5 and O6:                  4
+    Number used exclusively as route-thrus:     19
+      Number with same-slice register load:      8
+      Number with same-slice carry load:        11
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                   874 out of  15,822    5%
-  Number of MUXCYs used:                     1,096 out of  31,644    3%
-  Number of LUT Flip Flop pairs used:        2,636
-    Number with an unused Flip Flop:         2,055 out of   2,636   77%
-    Number with an unused LUT:                 187 out of   2,636    7%
-    Number of fully used LUT-FF pairs:         394 out of   2,636   14%
+  Number of occupied Slices:                   344 out of  23,038    1%
+  Number of MUXCYs used:                       432 out of  46,076    1%
+  Number of LUT Flip Flop pairs used:        1,016
+    Number with an unused Flip Flop:           635 out of   1,016   62%
+    Number with an unused LUT:                 135 out of   1,016   13%
+    Number of fully used LUT-FF pairs:         246 out of   1,016   24%
     Number of slice register sites lost
-      to control set restrictions:               0 out of 126,576    0%
+      to control set restrictions:               0 out of 184,304    0%
 
   A LUT Flip Flop pair for this architecture represents one LUT paired with
   one Flip Flop within a slice.  A control set is a unique combination of
@@ -81,7 +84,7 @@ Slice Logic Distribution:
   over-mapped for a non-slice resource or if Placement fails.
 
 IO Utilization:
-  Number of bonded IOBs:                        15 out of     326    4%
+  Number of bonded IOBs:                        15 out of     338    4%
     Number of LOCed IOBs:                       15 out of      15  100%
 
 Specific Feature Utilization:
@@ -93,14 +96,14 @@ Specific Feature Utilization:
     Number used as BUFGs:                        1
     Number used as BUFGMUX:                      0
   Number of DCM/DCM_CLKGENs:                     0 out of      12    0%
-  Number of ILOGIC2/ISERDES2s:                   0 out of     506    0%
-  Number of IODELAY2/IODRP2/IODRP2_MCBs:         0 out of     506    0%
-  Number of OLOGIC2/OSERDES2s:                   0 out of     506    0%
+  Number of ILOGIC2/ISERDES2s:                   0 out of     586    0%
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:         0 out of     586    0%
+  Number of OLOGIC2/OSERDES2s:                   0 out of     586    0%
   Number of BSCANs:                              0 out of       4    0%
   Number of BUFHs:                               0 out of     384    0%
   Number of BUFPLLs:                             0 out of       8    0%
   Number of BUFPLL_MCBs:                         0 out of       4    0%
-  Number of DSP48A1s:                           12 out of     180    6%
+  Number of DSP48A1s:                           10 out of     180    5%
   Number of ICAPs:                               0 out of       1    0%
   Number of MCBs:                                0 out of       4    0%
   Number of PCILOGICSEs:                         0 out of       2    0%
@@ -120,29 +123,29 @@ WARNING:Par:288 - The signal I0/I0/I_txFifo/g1.I0/Mram_memoryArray1_RAMD_D1_O ha
 Starting Router
 
 
-Phase  1  : 14315 unrouted;      REAL time: 7 secs 
+Phase  1  : 5440 unrouted;      REAL time: 7 secs 
 
-Phase  2  : 11894 unrouted;      REAL time: 9 secs 
+Phase  2  : 3664 unrouted;      REAL time: 9 secs 
 
-Phase  3  : 5678 unrouted;      REAL time: 13 secs 
+Phase  3  : 1396 unrouted;      REAL time: 11 secs 
 
-Phase  4  : 5681 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
+Phase  4  : 1396 unrouted; (Par is working to improve performance)     REAL time: 15 secs 
 
 Updating file: poetic_circuit.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 23 secs 
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
 
-Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 23 secs 
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
 
-Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 23 secs 
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
 
-Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 23 secs 
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
 
-Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 24 secs 
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
 
-Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 24 secs 
-Total REAL time to Router completion: 24 secs 
-Total CPU time to Router completion: 25 secs 
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
+Total REAL time to Router completion: 17 secs 
+Total CPU time to Router completion: 17 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -162,8 +165,8 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net clo | SETUP       |         N/A|    72.511ns|     N/A|           0
-  ck_BUFGP                                  | HOLD        |     0.292ns|            |       0|           0
+  Autotimespec constraint for clock net clo | SETUP       |         N/A|    13.939ns|     N/A|           0
+  ck_BUFGP                                  | HOLD        |     0.344ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
 
 
@@ -181,10 +184,10 @@ All signals are completely routed.
 
 WARNING:Par:283 - There are 1 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
 
-Total REAL time to PAR completion: 25 secs 
-Total CPU time to PAR completion: 26 secs 
+Total REAL time to PAR completion: 18 secs 
+Total CPU time to PAR completion: 18 secs 
 
-Peak Memory Usage:  4732 MB
+Peak Memory Usage:  4747 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.

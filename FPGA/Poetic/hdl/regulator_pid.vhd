@@ -11,9 +11,9 @@ ARCHITECTURE pid OF regulator IS
 	CONSTANT con_Kp : INTEGER := 1; --proportional constant
 	CONSTANT con_kp_den : INTEGER := 1;
 	CONSTANT con_Kd : INTEGER := 1; --differential constant
-	CONSTANT con_kd_den : INTEGER := 128;
-	CONSTANT con_Ki : INTEGER := 8; --integral constant
-	CONSTANT con_ki_den : INTEGER := 1;
+	CONSTANT con_kd_den : INTEGER := 1;
+	CONSTANT con_Ki : INTEGER := 1; --integral constant
+	CONSTANT con_ki_den : INTEGER := 32;
 	SIGNAL Error, Error_difference, error_sum, old_error, old_old_error : INTEGER := 0; --store values for controller
 	SIGNAL p, i, d : INTEGER := 0; --Contain the proportional, derivative and integral errors respectively
 	SIGNAL output_loaded, output_saturation_buffer : INTEGER := 0; --allows to check if output is within range
@@ -21,7 +21,7 @@ ARCHITECTURE pid OF regulator IS
   SIGNAL old_SetVal : std_ulogic_vector(11 DOWNTO 0);
   signal memUpdate, risingUpdate : std_ulogic;
   signal newError : std_ulogic;
-	CONSTANT divider_for_time : INTEGER := 100; --stores the time in which the controller acts over example a value of 100 would be equalt to 10ms so 1/divider_for_time = sampling_period
+	CONSTANT divider_for_time : INTEGER := 1; --stores the time in which the controller acts over example a value of 100 would be equalt to 10ms so 1/divider_for_time = sampling_period
 BEGIN
   process (clock, reset)
   begin
@@ -57,12 +57,12 @@ BEGIN
                         ELSE
                           p <= 0;
                         END IF;
-          WHEN 3 => IF ki_sw = '1' THEN --calculate i term if desired
+          WHEN 3 => IF ki_sw = '1' and risingUpdate = '1' THEN --calculate i term if desired
                             i <= (con_Ki * error_sum)/(divider_for_time * con_ki_den);
                           ELSE 
                             i <= 0;
                           END IF;
-          WHEN 4 => IF kd_sw = '1' THEN  --calculate d term if desired
+          WHEN 4 => IF kd_sw = '1' and risingUpdate = '1' THEN  --calculate d term if desired
                               d <= ((con_Kd * error_difference) * divider_for_time)/con_kd_den;
                             ELSE 
                               d <= 0;

@@ -4,7 +4,7 @@ run
 -ifn poetic_circuit.prj
 -ofn poetic_circuit
 -ofmt NGC
--p xc6slx100-3-fgg484
+-p xc6slx150-3-fgg484
 -top poetic_circuit
 -opt_mode Speed
 -opt_level 1
