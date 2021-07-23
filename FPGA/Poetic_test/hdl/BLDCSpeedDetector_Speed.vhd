@@ -1,13 +1,13 @@
 --
--- VHDL Architecture Poetic.BLDCController.BLDC
+-- VHDL Architecture Poetic_test.BLDCSpeedDetector.Speed
 --
 -- Created:
 --          by - jean.nanchen.UNKNOWN (WEA30407)
---          at - 11:42:58 22.07.2021
+--          at - 16:19:26 23.07.2021
 --
 -- using Mentor Graphics HDL Designer(TM) 2019.2 (Build 5)
 --
-ARCHITECTURE BLDC OF BLDCController IS
+ARCHITECTURE Speed OF BLDCSpeedDetector IS
   type State is (
     count, print, setToZero
   );
@@ -19,20 +19,20 @@ ARCHITECTURE BLDC OF BLDCController IS
   signal old_hallReg : std_ulogic_vector(2 DOWNTO 0);
 BEGIN
   process (clock, reset)
-  variable bigCounter : integer;
+    variable bigCounter : integer;
   begin
     if reset = '1' then
       bigCounter := 0;
       oneSecondPassed <= '0';
     elsif rising_edge(clock) then
 	    bigCounter := bigCounter + 1;
-      if (bigCounter > 10000) then
+      if (bigCounter > 10000000) then
         bigCounter := 0;
         oneSecondPassed <= '1';
       else
         oneSecondPassed <= '0';
       end if;
-	end if;
+    end if;
   end process;
   countNumberOfRotationPerSecond : process (clock, reset)
     variable rotationCounter : integer;
@@ -51,7 +51,7 @@ BEGIN
             rotationCounter := rotationCounter + 1;
           end if;
         when print =>
-          speed <= std_logic_vector(to_unsigned(rotationCounter, speed'length));
+          speed <= std_logic_vector(10*to_unsigned(rotationCounter, speed'length)); -- * 10 pour tr/secondes
           mainState <= setToZero;
         when setToZero =>
           rotationCounter := 0;
@@ -83,4 +83,5 @@ BEGIN
   begin
     hallReg <= Hall_A & Hall_B & Hall_C;
   end process updateHallReg;
-END ARCHITECTURE BLDC;
+END ARCHITECTURE Speed;
+
