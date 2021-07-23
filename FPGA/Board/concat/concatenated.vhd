@@ -1769,114 +1769,82 @@ END regulator ;
 
 
 --
--- VHDL Architecture Poetic.regulator.PID2
+-- VHDL Architecture Poetic.regulator.PDI3
 --
 -- Created:
 --          by - jean.nanchen.UNKNOWN (WEA30407)
---          at - 17:33:17 22.07.2021
+--          at - 20:04:32 22.07.2021
 --
 -- using Mentor Graphics HDL Designer(TM) 2019.2 (Build 5)
 --
-ARCHITECTURE PID2 OF regulator IS
-	CONSTANT con_Kp : INTEGER := 1; --proportional constant
-	CONSTANT con_kp_shift_right : INTEGER := 1;
-	CONSTANT con_Kd : INTEGER := 1; --differential constant
-	CONSTANT con_kd_shift_right : INTEGER := 32;
-	CONSTANT con_Ki : INTEGER := 1; --integral constant
-	CONSTANT con_ki_shift_right : INTEGER := 32;
-	SIGNAL Error, Error_difference, error_sum, old_error : unsigned(11 DOWNTO 0); --store values for controller
-	SIGNAL p, i, d : unsigned(11 DOWNTO 0); --Contain the proportional, derivative and integral errors respectively
-	SIGNAL output_loaded : unsigned(11 DOWNTO 0); --allows to check if output is within range
-  SIGNAL output_saturation_buffer : unsigned (12 DOWNTO 0);
-	SIGNAL old_adc : std_ulogic_vector(11 DOWNTO 0); --stores old adc value
-  SIGNAL old_SetVal : std_ulogic_vector(11 DOWNTO 0);
-  signal memUpdate, risingUpdate : std_ulogic;
-  SIGNAL newError : std_ulogic;
+ARCHITECTURE PDI3 OF regulator IS
+  type State is (
+    ready, calculateNewError,calculatePID, checkOverFlow, print
+  );
+  constant Kp : integer := 3;
+  signal mainState : State;
+  signal updatePID : std_ulogic;
+  signal error : signed(pidBitNb DOWNTO 0);
+  signal pidValue : signed(pidBitNb+5+1 DOWNTO 0);
+  signal p : signed(pidBitNb+5 DOWNTO 0);
+  signal i : signed(pidBitNb+5 DOWNTO 0);
+  signal d : signed(pidBitNb+5 DOWNTO 0);
+  signal sOutput : unsigned(pidBitNb-1 DOWNTO 0);
 BEGIN
   process (clock, reset)
   begin
     if reset = '1' then
       output <= (others => '0');
-      Error <= (others => '0');
-      Error_difference <= (others => '0');
-      error_sum <= (others => '0');
-      old_error <= (others => '0');
+      mainState <= ready;
+      error <= (others => '0');
       p <= (others => '0');
       i <= (others => '0');
       d <= (others => '0');
-      output_loaded <= (others => '0');
-      output_saturation_buffer <= (others => '0');
-      old_adc <= (others => '0');
-      old_SetVal <= (others => '0');
-      newError <= '0';
+      pidValue <= (others => '0');
+      sOutput <= (others => '0');
     elsif rising_edge(clock) then
-      if risingUpdate = '1' then
-        FOR k IN 0 TO 9 LOOP --for loop to run through case statement
-          CASE k IS
-            WHEN 0 => Error <= unsigned(SetVal) - unsigned(ADC_data); --calculates error between sensor and reference
-            WHEN 1 => --IF adc_data /= old_adc THEN --calculate integral and derivative term
-                      IF risingUpdate = '1' then
-                        error_sum <= error_sum + error;
-                        error_difference <= error - old_error;
-                      END IF;
-                      IF SetVal /= old_SetVal THEN
-                        old_SetVal <= SetVal;
-                        error_difference <= (others => '0');
-                        error_sum <= (others => '0');
-                      END IF;
-            WHEN 2 => IF kp_sw = '1' THEN   --calculate p term if desired
-                            p <= resize(shift_right(con_Kp * error, con_kp_shift_right), error'length);
-                          ELSE
-                            p <= (others => '0');
-                          END IF;
-            WHEN 3 => IF ki_sw = '1' and risingUpdate = '1' THEN --calculate i term if desired
-                              i <= resize(shift_right(con_Ki * error_sum, con_ki_shift_right), error_sum'length);
-                            ELSE 
-                              i <= (others => '0');
-                            END IF;
-            WHEN 4 => IF kd_sw = '1' and risingUpdate = '1' THEN  --calculate d term if desired
-                                d <= resize(shift_right(con_Kd * error_difference, con_kd_shift_right),error_difference'length);
-                              ELSE 
-                                d <= (others => '0');
-                              END IF;
-            WHEN 5 => output_saturation_buffer <= (resize(p, output_saturation_buffer'length) + i + d); --calculate output of controller
-            WHEN 6 => IF output_saturation_buffer < 0 THEN --checks if output within certain range
-                                output_loaded <= (others => '0');
-                                ELSIF output_saturation_buffer > 4095 THEN
-                                    output_loaded <= to_unsigned(4095, output_loaded'length);
-                                ELSE
-                                  output_loaded <= resize(output_saturation_buffer, output_loaded'length);
-                                END IF;
-            WHEN 7 => output <= output_loaded; --converts to std_logic_vector which can be output to DAC or input to PWM code
-            WHEN 8 => old_adc <= adc_data; --storing old adc
-            WHEN 9 => newError <= '0';
-                      if error /= old_error  then
-                        newError <= '1';
-                      end if;
-            WHEN OTHERS => NULL;
-          END CASE;
-        END LOOP;
-      end if;
+      case mainState is 
+        when ready =>
+          mainState <= calculateNewError;
+        when calculateNewError =>
+          error <= signed(resize(unsigned(Setval), error'length)) - signed(resize(unsigned(adc_data), error'length));
+          mainState <= calculatePID;
+        when calculatePID =>
+          p <= resize(Kp * error, p'length);
+          pidValue <= resize(p, pidValue'length) + resize(i, pidValue'length) + resize(d, pidValue'length);
+          mainState <= checkOverFlow;
+        when checkOverFlow =>
+          if pidValue > 4095 then
+            sOutput <= (others => '1');
+          elsif pidValue < 0 then
+            sOutput <= (others => '0');
+          else
+            sOutput <= resize(unsigned(pidValue), sOutput'length);
+          end if;
+          mainState <= print;
+        when print => 
+          mainState <= ready;
+          output <= sOutput;
+      end case;
     end if;
   end process;
   
-  
-  detectRisingUpdate : process (reset, clock)
+  process (clock, reset)
+    variable counter : integer := 0;   
   begin
     if reset = '1' then
-      memUpdate <= '0';
-      risingUpdate <= '0';
+      counter := 0;
+      updatePID <= '0';
     elsif rising_edge(clock) then
-      risingUpdate <= '0';
-      if memUpdate = '0' AND update = '1' then
-        risingUpdate <= '1';
-        memUpdate <= update;
-      else
-        memUpdate <= update;
+      counter := counter + 1;
+      updatePID <= '0';
+      if counter > 10000 then
+        updatePID <= '1';
+        counter := 0;
       end if;
     end if;
-  end process detectRisingUpdate;
-END ARCHITECTURE PID2;
+  end process;
+END ARCHITECTURE PDI3;
 
 
 
@@ -1887,7 +1855,7 @@ END ARCHITECTURE PID2;
 --
 -- Created:
 --          by - jean.nanchen.UNKNOWN (WEA30407)
---          at - 18:15:07 22.07.2021
+--          at - 09:34:42 23.07.2021
 --
 -- Generated by Mentor Graphics' HDL Designer(TM) 2019.2 (Build 5)
 --

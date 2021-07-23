@@ -164,7 +164,7 @@ value "WEA30407"
 )
 (vvPair
 variable "graphical_source_time"
-value "17:08:06"
+value "18:15:07"
 )
 (vvPair
 variable "group"
@@ -236,7 +236,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "17:08:06"
+value "18:15:07"
 )
 (vvPair
 variable "unit"
@@ -327,8 +327,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,6400,36000,7200"
-st "clock        : std_ulogic
-"
+st "clock        : std_ulogic"
 )
 )
 *3 (PortIoIn
@@ -392,8 +391,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,7200,50500,8000"
-st "consigne     : std_ulogic_vector(pidBitNb-1 DOWNTO 0)
-"
+st "consigne     : std_ulogic_vector(pidBitNb-1 DOWNTO 0)"
 )
 )
 *5 (PortIoOut
@@ -456,8 +454,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,10400,36000,11200"
-st "CS_n         : std_ulogic
-"
+st "CS_n         : std_ulogic"
 )
 )
 *7 (PortIoOut
@@ -519,8 +516,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,12000,36000,12800"
-st "PWM_Out      : std_ulogic
-"
+st "PWM_Out      : std_ulogic"
 )
 )
 *9 (PortIoIn
@@ -583,8 +579,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,9600,36000,10400"
-st "reset        : std_ulogic
-"
+st "reset        : std_ulogic"
 )
 )
 *11 (PortIoIn
@@ -647,8 +642,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,4800,36000,5600"
-st "SCLK         : std_ulogic
-"
+st "SCLK         : std_ulogic"
 )
 )
 *13 (Net
@@ -666,8 +660,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,5600,36000,6400"
-st "SDO          : std_ulogic
-"
+st "SDO          : std_ulogic"
 )
 )
 *14 (Grouping
@@ -2040,8 +2033,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,14000,49500,14800"
-st "SIGNAL output       : unsigned(pidBitNb-1 DOWNTO 0)
-"
+st "SIGNAL output       : unsigned(pidBitNb-1 DOWNTO 0)"
 )
 )
 *59 (PortIoIn
@@ -2104,8 +2096,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,8000,36000,8800"
-st "en_ADC       : std_ulogic
-"
+st "en_ADC       : std_ulogic"
 )
 )
 *61 (PortIoIn
@@ -2168,8 +2159,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,8800,36000,9600"
-st "en_Regulator : std_ulogic
-"
+st "en_Regulator : std_ulogic"
 )
 )
 *63 (PortIoIn
@@ -2232,8 +2222,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,4000,36000,4800"
-st "P            : std_ulogic
-"
+st "P            : std_ulogic"
 )
 )
 *65 (PortIoIn
@@ -2296,8 +2285,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,3200,36000,4000"
-st "I            : std_ulogic
-"
+st "I            : std_ulogic"
 )
 )
 *67 (PortIoIn
@@ -2360,8 +2348,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,2400,36000,3200"
-st "D            : std_ulogic
-"
+st "D            : std_ulogic"
 )
 )
 *69 (PortIoIn
@@ -2469,8 +2456,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,11200,50500,12000"
-st "OutADC       : std_ulogic_vector(adcBitNb-1 DOWNTO 0)
-"
+st "OutADC       : std_ulogic_vector(adcBitNb-1 DOWNTO 0)"
 )
 )
 *72 (Wire
@@ -3491,11 +3477,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,24,1921,1080"
-viewArea "67363,-15400,190952,50300"
+viewArea "67400,-15400,190989,50300"
 cachedDiagramExtent "0,-4200,201700,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-9000,-49000"
-lastUid 1042,0
+lastUid 1067,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

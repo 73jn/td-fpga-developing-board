@@ -112,19 +112,19 @@ value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs
 )
 (vvPair
 variable "date"
-value "22.07.2021"
+value "23.07.2021"
 )
 (vvPair
 variable "day"
-value "jeu."
+value "ven."
 )
 (vvPair
 variable "day_long"
-value "jeudi"
+value "vendredi"
 )
 (vvPair
 variable "dd"
-value "22"
+value "23"
 )
 (vvPair
 variable "entity_name"
@@ -152,7 +152,7 @@ value "jean.nanchen"
 )
 (vvPair
 variable "graphical_source_date"
-value "22.07.2021"
+value "23.07.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -164,7 +164,7 @@ value "WEA30407"
 )
 (vvPair
 variable "graphical_source_time"
-value "18:15:07"
+value "09:34:42"
 )
 (vvPair
 variable "group"
@@ -236,7 +236,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "18:15:07"
+value "09:34:42"
 )
 (vvPair
 variable "unit"
@@ -3481,7 +3481,7 @@ viewArea "67400,-15400,190989,50300"
 cachedDiagramExtent "0,-4200,201700,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-9000,-49000"
-lastUid 1067,0
+lastUid 1092,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
