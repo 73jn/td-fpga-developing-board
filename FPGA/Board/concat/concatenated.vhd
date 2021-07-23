@@ -1784,7 +1784,9 @@ ARCHITECTURE PDI3 OF regulator IS
   constant Kp : integer := 3;
   signal mainState : State;
   signal updatePID : std_ulogic;
+  signal PIDHasBeenUpdate : std_ulogic;
   signal error : signed(pidBitNb DOWNTO 0);
+  signal error_sum : signed(pidBitNb+20 DOWNTO 0); --BIG NUMBER
   signal pidValue : signed(pidBitNb+5+1 DOWNTO 0);
   signal p : signed(pidBitNb+5 DOWNTO 0);
   signal i : signed(pidBitNb+5 DOWNTO 0);
@@ -1802,15 +1804,26 @@ BEGIN
       d <= (others => '0');
       pidValue <= (others => '0');
       sOutput <= (others => '0');
+      PIDHasBeenUpdate <= '0';
+      error_sum <= (others => '0');
     elsif rising_edge(clock) then
       case mainState is 
         when ready =>
           mainState <= calculateNewError;
         when calculateNewError =>
           error <= signed(resize(unsigned(Setval), error'length)) - signed(resize(unsigned(adc_data), error'length));
+          if updatePID = '1' then
+            error_sum <= error_sum + error;
+            PIDHasBeenUpdate <= '1';
+          else
+            PIDHasBeenUpdate <= '0';
+          end if;
           mainState <= calculatePID;
         when calculatePID =>
-          p <= resize(Kp * error, p'length);
+          if kp_sw = '1' then
+            p <= resize(Kp * error, p'length);
+          end if;
+          i <= resize(shift_right(error_sum,5), i'length);
           pidValue <= resize(p, pidValue'length) + resize(i, pidValue'length) + resize(d, pidValue'length);
           mainState <= checkOverFlow;
         when checkOverFlow =>
@@ -1837,8 +1850,10 @@ BEGIN
       updatePID <= '0';
     elsif rising_edge(clock) then
       counter := counter + 1;
-      updatePID <= '0';
-      if counter > 10000 then
+      if PIDHasBeenUpdate = '1' then
+        updatePID <= '0';
+      end if;
+      if counter > 10000000 then
         updatePID <= '1';
         counter := 0;
       end if;

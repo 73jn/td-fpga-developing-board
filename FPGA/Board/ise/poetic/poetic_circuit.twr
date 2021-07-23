@@ -37,10 +37,10 @@ Setup/Hold to clock clock
             |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
 Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
 ------------+------------+------------+------------+------------+------------------+--------+
-ADC_SDO     |    5.043(R)|      SLOW  |   -2.882(R)|      FAST  |clock_BUFGP       |   0.000|
+ADC_SDO     |    4.628(R)|      SLOW  |   -2.577(R)|      FAST  |clock_BUFGP       |   0.000|
 D           |   -0.010(R)|      FAST  |    1.174(R)|      SLOW  |clock_BUFGP       |   0.000|
-USB_TX      |    5.855(R)|      SLOW  |   -1.495(R)|      FAST  |clock_BUFGP       |   0.000|
-reset_N     |    2.787(R)|      SLOW  |   -1.399(R)|      FAST  |clock_BUFGP       |   0.000|
+USB_TX      |    5.750(R)|      SLOW  |   -1.676(R)|      FAST  |clock_BUFGP       |   0.000|
+reset_N     |    2.726(R)|      SLOW  |   -1.329(R)|      FAST  |clock_BUFGP       |   0.000|
 ------------+------------+------------+------------+------------+------------------+--------+
 
 Clock clock to Pad
@@ -48,16 +48,16 @@ Clock clock to Pad
             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
 Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
-ADC_CS      |        13.189(R)|      SLOW  |         7.683(R)|      FAST  |clock_BUFGP       |   0.000|
-ADC_SCLK    |        14.965(R)|      SLOW  |         8.849(R)|      FAST  |clock_BUFGP       |   0.000|
-BP_PWMA     |        13.130(R)|      SLOW  |         6.701(R)|      FAST  |clock_BUFGP       |   0.000|
-BP_PWMB     |        11.169(R)|      SLOW  |         6.571(R)|      FAST  |clock_BUFGP       |   0.000|
-DAC_SCLK    |        11.773(R)|      SLOW  |         6.813(R)|      FAST  |clock_BUFGP       |   0.000|
-DAC_SDO     |        15.214(R)|      SLOW  |         9.007(R)|      FAST  |clock_BUFGP       |   0.000|
-DAC_SYNC    |        14.991(R)|      SLOW  |         8.847(R)|      FAST  |clock_BUFGP       |   0.000|
+ADC_CS      |        12.882(R)|      SLOW  |         7.481(R)|      FAST  |clock_BUFGP       |   0.000|
+ADC_SCLK    |        13.833(R)|      SLOW  |         8.096(R)|      FAST  |clock_BUFGP       |   0.000|
+BP_PWMA     |        11.537(R)|      SLOW  |         5.626(R)|      FAST  |clock_BUFGP       |   0.000|
+BP_PWMB     |         9.455(R)|      SLOW  |         5.435(R)|      FAST  |clock_BUFGP       |   0.000|
+DAC_SCLK    |        11.465(R)|      SLOW  |         6.591(R)|      FAST  |clock_BUFGP       |   0.000|
+DAC_SDO     |        14.422(R)|      SLOW  |         8.479(R)|      FAST  |clock_BUFGP       |   0.000|
+DAC_SYNC    |        14.467(R)|      SLOW  |         8.512(R)|      FAST  |clock_BUFGP       |   0.000|
 Q           |         8.502(R)|      SLOW  |         4.835(R)|      FAST  |clock_BUFGP       |   0.000|
-Q1          |         8.645(R)|      SLOW  |         4.972(R)|      FAST  |clock_BUFGP       |   0.000|
-USB_RX      |        15.156(R)|      SLOW  |         8.382(R)|      FAST  |clock_BUFGP       |   0.000|
+Q1          |         8.662(R)|      SLOW  |         4.974(R)|      FAST  |clock_BUFGP       |   0.000|
+USB_RX      |        17.920(R)|      SLOW  |        10.186(R)|      FAST  |clock_BUFGP       |   0.000|
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
 
 Clock to Setup on destination clock clock
@@ -65,11 +65,11 @@ Clock to Setup on destination clock clock
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clock          |   10.611|         |         |         |
+clock          |   10.513|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Fri Jul 23 09:36:22 2021 
+Analysis completed Fri Jul 23 10:49:24 2021 
 --------------------------------------------------------------------------------
 
 Trace Settings:

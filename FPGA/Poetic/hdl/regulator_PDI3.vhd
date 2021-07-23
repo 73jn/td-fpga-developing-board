@@ -53,7 +53,7 @@ BEGIN
           if kp_sw = '1' then
             p <= resize(Kp * error, p'length);
           end if;
-          i <= resize(shift_right(error_sum,2), i'length);
+          i <= resize(shift_right(error_sum,5), i'length);
           pidValue <= resize(p, pidValue'length) + resize(i, pidValue'length) + resize(d, pidValue'length);
           mainState <= checkOverFlow;
         when checkOverFlow =>
@@ -83,7 +83,7 @@ BEGIN
       if PIDHasBeenUpdate = '1' then
         updatePID <= '0';
       end if;
-      if counter > 10000 then
+      if counter > 10000000 then
         updatePID <= '1';
         counter := 0;
       end if;
