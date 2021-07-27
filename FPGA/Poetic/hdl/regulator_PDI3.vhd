@@ -53,7 +53,9 @@ BEGIN
           if kp_sw = '1' then
             p <= resize(Kp * error, p'length);
           end if;
-          i <= resize(shift_right(error_sum,5), i'length);
+          if ki_sw = '1' then
+            i <= resize(shift_right(error_sum,5), i'length);
+          end if;
           pidValue <= resize(p, pidValue'length) + resize(i, pidValue'length) + resize(d, pidValue'length);
           mainState <= checkOverFlow;
         when checkOverFlow =>
