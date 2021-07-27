@@ -684,7 +684,7 @@
             <type>1phase</type>
             <address>[0]</address>
             <unit>V</unit>
-            <init_settings>['Constant', 50.0]</init_settings>
+            <init_settings>['Constant', 350.0]</init_settings>
         </cell>
     </sources>
     <machines>
@@ -694,14 +694,14 @@
             <ext_mdl_load_type>torque</ext_mdl_load_type>
             <site>0</site>
             <init>
-                <friction_coef>10.0</friction_coef>
-                <mew_ratio>0.25</mew_ratio>
+                <friction_coef>0.0</friction_coef>
+                <mew_ratio>0.3333333333333333</mew_ratio>
                 <enc_ppr>1024</enc_ppr>
                 <res_pole_pairs>1</res_pole_pairs>
                 <constants>
                 </constants>
-                <lut_angle1_max>1.5707963267948966</lut_angle1_max>
-                <lut_angle2_max>1.5707963267948966</lut_angle2_max>
+                <lut_angle1_max>2.0943951023931953</lut_angle1_max>
+                <lut_angle2_max>2.0943951023931953</lut_angle2_max>
                 <gp_regs_reset>[]</gp_regs_reset>
             </init>
             <mch_speed>machine mechanical speed</mch_speed>

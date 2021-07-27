@@ -16,7 +16,7 @@
             	<input_type>OnePhaseInput</input_type>
                 <waveform_type>Constant</waveform_type>
                 <waveform></waveform>
-                <constant_value>50.0</constant_value>
+                <constant_value>250.0</constant_value>
                 <rms>0.0</rms>
                 <frequency>50.0</frequency>
                 <phase>0.0</phase>
@@ -47,7 +47,7 @@
                 <ext_model_load_type>0</ext_model_load_type>
                 <site>0</site>
                 <init_values>[]</init_values>
-                <constant_torque>0.0</constant_torque>
+                <constant_torque>0.0001</constant_torque>
                 <linear_torque>0.0</linear_torque>
                 <square_torque>0.0</square_torque>
                 <constant_torque_type>0</constant_torque_type>
@@ -309,11 +309,11 @@
                 <number>1</number>
                 <device>0</device>
                 <is_inverted>False</is_inverted>
-                <software_control>True</software_control>
+                <software_control>False</software_control>
                 <software_value>0</software_value>
                 <locked>False</locked>
                 <digital_signal>
-                	<name>machine encoder A</name>
+                	<name>Hall Effect Sensor1.Hall.h_A</name>
                 	<device>0</device>
                 </digital_signal>
             </digital_channel>
@@ -321,11 +321,11 @@
                 <number>2</number>
                 <device>0</device>
                 <is_inverted>False</is_inverted>
-                <software_control>True</software_control>
+                <software_control>False</software_control>
                 <software_value>0</software_value>
                 <locked>False</locked>
                 <digital_signal>
-                	<name>machine encoder B</name>
+                	<name>Hall Effect Sensor1.Hall.h_B</name>
                 	<device>0</device>
                 </digital_signal>
             </digital_channel>
@@ -333,11 +333,11 @@
                 <number>3</number>
                 <device>0</device>
                 <is_inverted>False</is_inverted>
-                <software_control>True</software_control>
+                <software_control>False</software_control>
                 <software_value>0</software_value>
                 <locked>False</locked>
                 <digital_signal>
-                	<name>machine encoder Z</name>
+                	<name>Hall Effect Sensor1.Hall.h_C</name>
                 	<device>0</device>
                 </digital_signal>
             </digital_channel>
@@ -349,7 +349,7 @@
                 <software_value>0</software_value>
                 <locked>False</locked>
                 <digital_signal>
-                	<name>HIL0 AO flag</name>
+                	<name>Hall Effect Sensor1.Hall.h_B</name>
                 	<device>0</device>
                 </digital_signal>
             </digital_channel>
@@ -385,7 +385,7 @@
                 <software_value>0</software_value>
                 <locked>False</locked>
                 <digital_signal>
-                	<name>HIL0 digital input 10</name>
+                	<name>Hall Effect Sensor1.Hall.h_A</name>
                 	<device>0</device>
                 </digital_signal>
             </digital_channel>

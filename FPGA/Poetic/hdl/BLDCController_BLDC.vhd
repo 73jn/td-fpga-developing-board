@@ -9,14 +9,7 @@
 --
 ARCHITECTURE BLDC OF BLDCController IS
 BEGIN
-  process (clock, reset)
-  begin
-    if reset = '1' then
-    elsif rising_edge(clock) then
-    end if;
-  end process;
-  
-  logic : process (Hall_A, Hall_B, Hall_C)
+  logic : process (Hall_A, Hall_B, Hall_C, PWM_in)
   variable hallReg : std_ulogic_vector(2 DOWNTO 0);
   begin
     hallReg := Hall_A & Hall_B & Hall_C;

@@ -1,5 +1,5 @@
 <ui_settings>
-    <version>2.5</version>
+    <version>2.6</version>
     <model_locked>False</model_locked>
     <canvas_bg_color>#ffffff</canvas_bg_color>
     <initialization_code><![CDATA[# NOTE: Variables and functions defined here will be
@@ -28,7 +28,7 @@ hil.set_source_sine_waveform('Vs3', rms=230.0, frequency=50.0, phase=0.0, harmon
     <components>
         <component_data>
                 <id>46f8ed98ab1111eaba6964006a4d49fc</id>
-                <name><![CDATA[Vitesse]]></name>
+                <name><![CDATA[Vitesse1]]></name>
                 <type>TraceDisplay</type>
                 <description><![CDATA[]]></description>
                 <data_type>Signals</data_type>
@@ -60,13 +60,16 @@ displayValue = data
                 <update_rate>250</update_rate>
                 <execution_rate>None</execution_rate>
                 <background_color>white</background_color>
-                <hierarchy_position>1</hierarchy_position>
                 <widget_settings>
                     <x>448.0</x>
                     <y>96.0</y>
                     <width>400</width>
                     <height>192</height>
                     <appearance><![CDATA[Flat]]></appearance>
+                    <hierarchy_position><![CDATA[1]]></hierarchy_position>
+                    <is_background><![CDATA[False]]></is_background>
+                    <label><![CDATA[Vitesse]]></label>
+                    <use_label>True</use_label>
                 </widget_settings>
                 <advance_widget_settings>
                     <x_title><![CDATA[x axes]]></x_title>
@@ -115,7 +118,7 @@ referenceCurves = [refCurveData1]
             </component_data>
         <component_data>
                 <id>e9f4ab4aab1211eaa74c64006a4d49fc</id>
-                <name><![CDATA[Vitesse]]></name>
+                <name><![CDATA[Vitesse2]]></name>
                 <type>DigitalDisplay</type>
                 <description><![CDATA[]]></description>
                 <data_type>Analog signal</data_type>
@@ -132,13 +135,16 @@ displayValue = 0.0
                 <automatic_unit>True</automatic_unit>
                 <decimals><![CDATA[2]]></decimals>
                 <updateRate>1000</updateRate>
-                <hierarchy_position>1</hierarchy_position>
                 <widget_settings>
                     <x>240</x>
-                    <y>24</y>
+                    <y>40</y>
                     <width>168</width>
                     <height>56</height>
                     <appearance><![CDATA[Flat]]></appearance>
+                    <hierarchy_position><![CDATA[1]]></hierarchy_position>
+                    <is_background><![CDATA[False]]></is_background>
+                    <label><![CDATA[Vitesse]]></label>
+                    <use_label>True</use_label>
                 </widget_settings>
                 <advance_widget_settings>
                     <color_range>False</color_range>
@@ -149,7 +155,7 @@ displayValue = 0.0
             </component_data>
         <component_data>
                 <id>94c8e908b07311eabf9464006a4d49fc</id>
-                <name><![CDATA[Couple]]></name>
+                <name><![CDATA[Couple1]]></name>
                 <type>DigitalDisplay</type>
                 <description><![CDATA[]]></description>
                 <data_type>Analog signal</data_type>
@@ -166,13 +172,16 @@ displayValue = 0.0
                 <automatic_unit>True</automatic_unit>
                 <decimals><![CDATA[2]]></decimals>
                 <updateRate>1000</updateRate>
-                <hierarchy_position>1</hierarchy_position>
                 <widget_settings>
-                    <x>48</x>
-                    <y>24</y>
+                    <x>48.0</x>
+                    <y>24.0</y>
                     <width>144</width>
                     <height>56</height>
                     <appearance><![CDATA[Flat]]></appearance>
+                    <hierarchy_position><![CDATA[1]]></hierarchy_position>
+                    <is_background><![CDATA[False]]></is_background>
+                    <label><![CDATA[Couple]]></label>
+                    <use_label>True</use_label>
                 </widget_settings>
                 <advance_widget_settings>
                     <color_range>False</color_range>
@@ -215,13 +224,16 @@ displayValue = data
                 <update_rate>1000</update_rate>
                 <execution_rate>None</execution_rate>
                 <background_color>white</background_color>
-                <hierarchy_position>1</hierarchy_position>
                 <widget_settings>
-                    <x>32.0</x>
-                    <y>96.0</y>
+                    <x>32</x>
+                    <y>96</y>
                     <width>400</width>
                     <height>200</height>
                     <appearance><![CDATA[Flat]]></appearance>
+                    <hierarchy_position><![CDATA[1]]></hierarchy_position>
+                    <is_background><![CDATA[False]]></is_background>
+                    <label><![CDATA[]]></label>
+                    <use_label>False</use_label>
                 </widget_settings>
                 <advance_widget_settings>
                     <x_title><![CDATA[x axes]]></x_title>
@@ -287,13 +299,16 @@ displayValue = 0.0
                 <automatic_unit>False</automatic_unit>
                 <decimals><![CDATA[2]]></decimals>
                 <updateRate>1000</updateRate>
-                <hierarchy_position>1</hierarchy_position>
                 <widget_settings>
-                    <x>432</x>
-                    <y>24</y>
+                    <x>432.0</x>
+                    <y>24.0</y>
                     <width>136</width>
                     <height>56</height>
                     <appearance><![CDATA[Flat]]></appearance>
+                    <hierarchy_position><![CDATA[1]]></hierarchy_position>
+                    <is_background><![CDATA[False]]></is_background>
+                    <label><![CDATA[]]></label>
+                    <use_label>False</use_label>
                 </widget_settings>
                 <advance_widget_settings>
                     <color_range>False</color_range>
@@ -304,7 +319,7 @@ displayValue = 0.0
             </component_data>
         <component_data>
                 <id>cca1af855f2111eba7be2816adb1a15b</id>
-                <name><![CDATA[Vitesse]]></name>
+                <name><![CDATA[Vitesse3]]></name>
                 <type>DigitalDisplay</type>
                 <description><![CDATA[]]></description>
                 <data_type>Analog signal</data_type>
@@ -321,13 +336,16 @@ displayValue = 0.0
                 <automatic_unit>False</automatic_unit>
                 <decimals><![CDATA[2]]></decimals>
                 <updateRate>1000</updateRate>
-                <hierarchy_position>1</hierarchy_position>
                 <widget_settings>
                     <x>592</x>
                     <y>24</y>
                     <width>136</width>
                     <height>56</height>
                     <appearance><![CDATA[Flat]]></appearance>
+                    <hierarchy_position><![CDATA[1]]></hierarchy_position>
+                    <is_background><![CDATA[False]]></is_background>
+                    <label><![CDATA[Vitesse]]></label>
+                    <use_label>True</use_label>
                 </widget_settings>
                 <advance_widget_settings>
                     <color_range>False</color_range>
@@ -355,13 +373,16 @@ displayValue = 0.0
                 <automatic_unit>False</automatic_unit>
                 <decimals><![CDATA[2]]></decimals>
                 <updateRate>1000</updateRate>
-                <hierarchy_position>1</hierarchy_position>
                 <widget_settings>
-                    <x>752</x>
-                    <y>24</y>
+                    <x>752.0</x>
+                    <y>24.0</y>
                     <width>176</width>
                     <height>56</height>
                     <appearance><![CDATA[Flat]]></appearance>
+                    <hierarchy_position><![CDATA[1]]></hierarchy_position>
+                    <is_background><![CDATA[False]]></is_background>
+                    <label><![CDATA[]]></label>
+                    <use_label>False</use_label>
                 </widget_settings>
                 <advance_widget_settings>
                     <color_range>False</color_range>
@@ -389,13 +410,16 @@ displayValue = 0.0
                 <automatic_unit>True</automatic_unit>
                 <decimals><![CDATA[2]]></decimals>
                 <updateRate>1000</updateRate>
-                <hierarchy_position>1</hierarchy_position>
                 <widget_settings>
-                    <x>960</x>
-                    <y>24</y>
+                    <x>960.0</x>
+                    <y>24.0</y>
                     <width>136</width>
                     <height>56</height>
                     <appearance><![CDATA[Flat]]></appearance>
+                    <hierarchy_position><![CDATA[1]]></hierarchy_position>
+                    <is_background><![CDATA[False]]></is_background>
+                    <label><![CDATA[]]></label>
+                    <use_label>False</use_label>
                 </widget_settings>
                 <advance_widget_settings>
                     <color_range>False</color_range>
@@ -406,16 +430,18 @@ displayValue = 0.0
             </component_data>
         <component_data>
                 <id>8eb1660ab06d11eab2ca64006a4d49fc</id>
-                <name><![CDATA[Capture/Scope]]></name>
+                <name><![CDATA[Capture_Scope]]></name>
                 <type>Capture/Scope</type>
                 <description><![CDATA[]]></description>
-                <hierarchy_position>1</hierarchy_position>
-                <working_mode>embedded</working_mode>
+                <working_mode>windowed</working_mode>
                 <widget_settings>
-                    <x>48.0</x>
-                    <y>304.0</y>
-                    <width>848</width>
-                    <height>560</height>
+                    <x>48</x>
+                    <y>304</y>
+                    <width>120</width>
+                    <height>120</height>
+                    <hierarchy_position>1</hierarchy_position>
+                    <label><![CDATA[]]></label>
+                    <use_label>False</use_label>
                     <appearance><![CDATA[Flat]]></appearance>
                     <state>Scope</state>
                     <layout>None</layout>
@@ -472,69 +498,17 @@ displayValue = 0.0
                             </plotting_options>
                         </capture>
                         <scope name="Default">
-                            <background_color>white</background_color>
+                            <background_color>black</background_color>
                             <layout>Grid</layout>
                             <legend>True</legend>
                             <show_viewports>4</show_viewports>
                             <decimation>11</decimation>
-                            <time_base>0.005</time_base>
+                            <time_base>0.01</time_base>
                             <analog_signals>
                             <analog>
                             <channel>0</channel>
-                            <name><![CDATA[Vdc]]></name>
-                            <is_locked>True</is_locked>
-                            <vertical_scale>200</vertical_scale>
-                            <vertical_offset>0.0</vertical_offset>
-                            <coupling>False</coupling>
-                            <viewports>
-                                
-                                <num_viewport>1</num_viewport>
-                                
-                           </viewports>
-                        </analog>
-                            <analog>
-                            <channel>1</channel>
-                            <name><![CDATA[Ia]]></name>
-                            <is_locked>True</is_locked>
-                            <vertical_scale>2</vertical_scale>
-                            <vertical_offset>0.0</vertical_offset>
-                            <coupling>False</coupling>
-                            <viewports>
-                                
-                                <num_viewport>3</num_viewport>
-                                
-                           </viewports>
-                        </analog>
-                            <analog>
-                            <channel>2</channel>
-                            <name><![CDATA[Ib]]></name>
-                            <is_locked>True</is_locked>
-                            <vertical_scale>2</vertical_scale>
-                            <vertical_offset>0.0</vertical_offset>
-                            <coupling>False</coupling>
-                            <viewports>
-                                
-                                <num_viewport>3</num_viewport>
-                                
-                           </viewports>
-                        </analog>
-                            <analog>
-                            <channel>3</channel>
-                            <name><![CDATA[Ic]]></name>
-                            <is_locked>True</is_locked>
-                            <vertical_scale>2</vertical_scale>
-                            <vertical_offset>0.0</vertical_offset>
-                            <coupling>False</coupling>
-                            <viewports>
-                                
-                                <num_viewport>3</num_viewport>
-                                
-                           </viewports>
-                        </analog>
-                            <analog>
-                            <channel>4</channel>
-                            <name><![CDATA[Vond]]></name>
-                            <is_locked>True</is_locked>
+                            <name><![CDATA[machine mechanical speed]]></name>
+                            <is_locked>False</is_locked>
                             <vertical_scale>Auto</vertical_scale>
                             <vertical_offset>0.0</vertical_offset>
                             <coupling>False</coupling>
@@ -545,11 +519,22 @@ displayValue = 0.0
                            </viewports>
                         </analog>
                             <analog>
-                            <channel>5</channel>
-                            <name><![CDATA[C1]]></name>
+                            <channel>1</channel>
+                            <name><![CDATA[machine mechanical angle]]></name>
                             <is_locked>False</is_locked>
                             <vertical_scale>Auto</vertical_scale>
                             <vertical_offset>0.0</vertical_offset>
+                            <coupling>False</coupling>
+                            <viewports>
+                                
+                           </viewports>
+                        </analog>
+                            <analog>
+                            <channel>2</channel>
+                            <name><![CDATA[Vond]]></name>
+                            <is_locked>False</is_locked>
+                            <vertical_scale>Auto</vertical_scale>
+                            <vertical_offset>0</vertical_offset>
                             <coupling>False</coupling>
                             <viewports>
                                 
@@ -559,67 +544,108 @@ displayValue = 0.0
                             <digital_signals>
                             <digital>
                             <channel>0</channel>
-                            <name><![CDATA[HIL0 digital input 1]]></name>
-                            <is_locked>True</is_locked>
-                            <vertical_offset>2.0</vertical_offset>
+                            <name><![CDATA[Hall Effect Sensor1.Hall.h_A]]></name>
+                            <is_locked>False</is_locked>
+                            <vertical_offset>-4.0</vertical_offset>
                             <viewports>
                                 
                                 <num_viewport>2</num_viewport>
+                                
+                                <num_viewport>3</num_viewport>
+                                
+                                <num_viewport>1</num_viewport>
                                 
                            </viewports>
                         </digital>
                             <digital>
                             <channel>1</channel>
-                            <name><![CDATA[HIL0 digital input 2]]></name>
-                            <is_locked>True</is_locked>
-                            <vertical_offset>2.0</vertical_offset>
+                            <name><![CDATA[Hall Effect Sensor1.Hall.h_B]]></name>
+                            <is_locked>False</is_locked>
+                            <vertical_offset>3.0</vertical_offset>
                             <viewports>
                                 
                                 <num_viewport>2</num_viewport>
+                                
+                                <num_viewport>3</num_viewport>
                                 
                            </viewports>
                         </digital>
                             <digital>
                             <channel>2</channel>
-                            <name><![CDATA[HIL0 digital input 3]]></name>
-                            <is_locked>True</is_locked>
-                            <vertical_offset>0.0</vertical_offset>
+                            <name><![CDATA[Hall Effect Sensor1.Hall.h_C]]></name>
+                            <is_locked>False</is_locked>
+                            <vertical_offset>2.0</vertical_offset>
                             <viewports>
                                 
                                 <num_viewport>2</num_viewport>
+                                
+                                <num_viewport>3</num_viewport>
                                 
                            </viewports>
                         </digital>
                             <digital>
                             <channel>3</channel>
-                            <name><![CDATA[HIL0 digital input 4]]></name>
-                            <is_locked>True</is_locked>
-                            <vertical_offset>0.0</vertical_offset>
+                            <name><![CDATA[HIL0 digital input 1]]></name>
+                            <is_locked>False</is_locked>
+                            <vertical_offset>4.0</vertical_offset>
                             <viewports>
                                 
-                                <num_viewport>2</num_viewport>
+                                <num_viewport>1</num_viewport>
                                 
                            </viewports>
                         </digital>
                             <digital>
                             <channel>4</channel>
-                            <name><![CDATA[HIL0 digital input 5]]></name>
-                            <is_locked>True</is_locked>
-                            <vertical_offset>-2.0</vertical_offset>
+                            <name><![CDATA[HIL0 digital input 2]]></name>
+                            <is_locked>False</is_locked>
+                            <vertical_offset>3.0</vertical_offset>
                             <viewports>
                                 
-                                <num_viewport>2</num_viewport>
+                                <num_viewport>1</num_viewport>
                                 
                            </viewports>
                         </digital>
                             <digital>
                             <channel>5</channel>
-                            <name><![CDATA[HIL0 digital input 6]]></name>
-                            <is_locked>True</is_locked>
+                            <name><![CDATA[HIL0 digital input 3]]></name>
+                            <is_locked>False</is_locked>
+                            <vertical_offset>1.0</vertical_offset>
+                            <viewports>
+                                
+                                <num_viewport>1</num_viewport>
+                                
+                           </viewports>
+                        </digital>
+                            <digital>
+                            <channel>6</channel>
+                            <name><![CDATA[HIL0 digital input 4]]></name>
+                            <is_locked>False</is_locked>
+                            <vertical_offset>0.0</vertical_offset>
+                            <viewports>
+                                
+                                <num_viewport>1</num_viewport>
+                                
+                           </viewports>
+                        </digital>
+                            <digital>
+                            <channel>7</channel>
+                            <name><![CDATA[HIL0 digital input 5]]></name>
+                            <is_locked>False</is_locked>
                             <vertical_offset>-2.0</vertical_offset>
                             <viewports>
                                 
-                                <num_viewport>2</num_viewport>
+                                <num_viewport>1</num_viewport>
+                                
+                           </viewports>
+                        </digital>
+                            <digital>
+                            <channel>8</channel>
+                            <name><![CDATA[HIL0 digital input 6]]></name>
+                            <is_locked>False</is_locked>
+                            <vertical_offset>-3.0</vertical_offset>
+                            <viewports>
+                                
+                                <num_viewport>1</num_viewport>
                                 
                            </viewports>
                         </digital>
@@ -628,7 +654,7 @@ displayValue = 0.0
                                 <device>0</device>
                                 <is_force>False</is_force>
                                 <type>Digital</type>
-                                <source>HIL0 digital input 1</source>
+                                <source>HIL0 digital input 2</source>
                                 <edge>Rising edge</edge>
                                 <treshold>0.0</treshold>
                                 <offset>50.0</offset>
@@ -684,14 +710,14 @@ displayValue = 0.0
                     </capture>
 
                     <scope>
-                        <time_base>0.005 </time_base>
-                        <background_color>white</background_color>
+                        <time_base>0.01 </time_base>
+                        <background_color>black</background_color>
                         <layout>Grid</layout>
                         <legend>True</legend>
                         <trigger>
                             <mode>Auto</mode>
                             <type>Digital</type>
-                            <source>HIL0 digital input 1</source>
+                            <source>HIL0 digital input 2</source>
                             <edge>Rising edge</edge>
                             <treshold>0.0</treshold>
                             <offset>50.0</offset>
@@ -700,60 +726,8 @@ displayValue = 0.0
                          <analog_signals>
                             <analog>
                             <channel>0</channel>
-                            <name><![CDATA[Vdc]]></name>
-                            <is_locked>True</is_locked>
-                            <vertical_scale>200</vertical_scale>
-                            <vertical_offset>0.0</vertical_offset>
-                            <coupling>False</coupling>
-                            <viewports>
-                                
-                                <num_viewport>1</num_viewport>
-                                
-                           </viewports>
-                        </analog>
-                            <analog>
-                            <channel>1</channel>
-                            <name><![CDATA[Ia]]></name>
-                            <is_locked>True</is_locked>
-                            <vertical_scale>2</vertical_scale>
-                            <vertical_offset>0.0</vertical_offset>
-                            <coupling>False</coupling>
-                            <viewports>
-                                
-                                <num_viewport>3</num_viewport>
-                                
-                           </viewports>
-                        </analog>
-                            <analog>
-                            <channel>2</channel>
-                            <name><![CDATA[Ib]]></name>
-                            <is_locked>True</is_locked>
-                            <vertical_scale>2</vertical_scale>
-                            <vertical_offset>0.0</vertical_offset>
-                            <coupling>False</coupling>
-                            <viewports>
-                                
-                                <num_viewport>3</num_viewport>
-                                
-                           </viewports>
-                        </analog>
-                            <analog>
-                            <channel>3</channel>
-                            <name><![CDATA[Ic]]></name>
-                            <is_locked>True</is_locked>
-                            <vertical_scale>2</vertical_scale>
-                            <vertical_offset>0.0</vertical_offset>
-                            <coupling>False</coupling>
-                            <viewports>
-                                
-                                <num_viewport>3</num_viewport>
-                                
-                           </viewports>
-                        </analog>
-                            <analog>
-                            <channel>4</channel>
-                            <name><![CDATA[Vond]]></name>
-                            <is_locked>True</is_locked>
+                            <name><![CDATA[machine mechanical speed]]></name>
+                            <is_locked>False</is_locked>
                             <vertical_scale>Auto</vertical_scale>
                             <vertical_offset>0.0</vertical_offset>
                             <coupling>False</coupling>
@@ -764,11 +738,22 @@ displayValue = 0.0
                            </viewports>
                         </analog>
                             <analog>
-                            <channel>5</channel>
-                            <name><![CDATA[C1]]></name>
+                            <channel>1</channel>
+                            <name><![CDATA[machine mechanical angle]]></name>
                             <is_locked>False</is_locked>
                             <vertical_scale>Auto</vertical_scale>
                             <vertical_offset>0.0</vertical_offset>
+                            <coupling>False</coupling>
+                            <viewports>
+                                
+                           </viewports>
+                        </analog>
+                            <analog>
+                            <channel>2</channel>
+                            <name><![CDATA[Vond]]></name>
+                            <is_locked>False</is_locked>
+                            <vertical_scale>Auto</vertical_scale>
+                            <vertical_offset>0</vertical_offset>
                             <coupling>False</coupling>
                             <viewports>
                                 
@@ -779,67 +764,108 @@ displayValue = 0.0
                         <digital_signals>
                             <digital>
                             <channel>0</channel>
-                            <name><![CDATA[HIL0 digital input 1]]></name>
-                            <is_locked>True</is_locked>
-                            <vertical_offset>2.0</vertical_offset>
+                            <name><![CDATA[Hall Effect Sensor1.Hall.h_A]]></name>
+                            <is_locked>False</is_locked>
+                            <vertical_offset>-4.0</vertical_offset>
                             <viewports>
                                 
                                 <num_viewport>2</num_viewport>
+                                
+                                <num_viewport>3</num_viewport>
+                                
+                                <num_viewport>1</num_viewport>
                                 
                            </viewports>
                         </digital>
                             <digital>
                             <channel>1</channel>
-                            <name><![CDATA[HIL0 digital input 2]]></name>
-                            <is_locked>True</is_locked>
-                            <vertical_offset>2.0</vertical_offset>
+                            <name><![CDATA[Hall Effect Sensor1.Hall.h_B]]></name>
+                            <is_locked>False</is_locked>
+                            <vertical_offset>3.0</vertical_offset>
                             <viewports>
                                 
                                 <num_viewport>2</num_viewport>
+                                
+                                <num_viewport>3</num_viewport>
                                 
                            </viewports>
                         </digital>
                             <digital>
                             <channel>2</channel>
-                            <name><![CDATA[HIL0 digital input 3]]></name>
-                            <is_locked>True</is_locked>
-                            <vertical_offset>0.0</vertical_offset>
+                            <name><![CDATA[Hall Effect Sensor1.Hall.h_C]]></name>
+                            <is_locked>False</is_locked>
+                            <vertical_offset>2.0</vertical_offset>
                             <viewports>
                                 
                                 <num_viewport>2</num_viewport>
+                                
+                                <num_viewport>3</num_viewport>
                                 
                            </viewports>
                         </digital>
                             <digital>
                             <channel>3</channel>
-                            <name><![CDATA[HIL0 digital input 4]]></name>
-                            <is_locked>True</is_locked>
-                            <vertical_offset>0.0</vertical_offset>
+                            <name><![CDATA[HIL0 digital input 1]]></name>
+                            <is_locked>False</is_locked>
+                            <vertical_offset>4.0</vertical_offset>
                             <viewports>
                                 
-                                <num_viewport>2</num_viewport>
+                                <num_viewport>1</num_viewport>
                                 
                            </viewports>
                         </digital>
                             <digital>
                             <channel>4</channel>
-                            <name><![CDATA[HIL0 digital input 5]]></name>
-                            <is_locked>True</is_locked>
-                            <vertical_offset>-2.0</vertical_offset>
+                            <name><![CDATA[HIL0 digital input 2]]></name>
+                            <is_locked>False</is_locked>
+                            <vertical_offset>3.0</vertical_offset>
                             <viewports>
                                 
-                                <num_viewport>2</num_viewport>
+                                <num_viewport>1</num_viewport>
                                 
                            </viewports>
                         </digital>
                             <digital>
                             <channel>5</channel>
-                            <name><![CDATA[HIL0 digital input 6]]></name>
-                            <is_locked>True</is_locked>
+                            <name><![CDATA[HIL0 digital input 3]]></name>
+                            <is_locked>False</is_locked>
+                            <vertical_offset>1.0</vertical_offset>
+                            <viewports>
+                                
+                                <num_viewport>1</num_viewport>
+                                
+                           </viewports>
+                        </digital>
+                            <digital>
+                            <channel>6</channel>
+                            <name><![CDATA[HIL0 digital input 4]]></name>
+                            <is_locked>False</is_locked>
+                            <vertical_offset>0.0</vertical_offset>
+                            <viewports>
+                                
+                                <num_viewport>1</num_viewport>
+                                
+                           </viewports>
+                        </digital>
+                            <digital>
+                            <channel>7</channel>
+                            <name><![CDATA[HIL0 digital input 5]]></name>
+                            <is_locked>False</is_locked>
                             <vertical_offset>-2.0</vertical_offset>
                             <viewports>
                                 
-                                <num_viewport>2</num_viewport>
+                                <num_viewport>1</num_viewport>
+                                
+                           </viewports>
+                        </digital>
+                            <digital>
+                            <channel>8</channel>
+                            <name><![CDATA[HIL0 digital input 6]]></name>
+                            <is_locked>False</is_locked>
+                            <vertical_offset>-3.0</vertical_offset>
+                            <viewports>
+                                
+                                <num_viewport>1</num_viewport>
                                 
                            </viewports>
                         </digital>
@@ -892,13 +918,16 @@ widgetValue = None
                 <min>-10.0</min>
                 <max>10.0</max>
                 <step>0.01</step>
-                <hierarchy_position>1</hierarchy_position>
                 <widget_settings>
                     <x>952.0</x>
                     <y>512.0</y>
                     <width>288</width>
                     <height>48</height>
                     <appearance><![CDATA[Raised]]></appearance>
+                    <hierarchy_position><![CDATA[1]]></hierarchy_position>
+                    <is_background><![CDATA[False]]></is_background>
+                    <label><![CDATA[]]></label>
+                    <use_label>False</use_label>
                 </widget_settings>
             </component_data>
         <component_data>
@@ -935,13 +964,16 @@ displayValue = data
                 <update_rate>250</update_rate>
                 <execution_rate>None</execution_rate>
                 <background_color>white</background_color>
-                <hierarchy_position>1</hierarchy_position>
                 <widget_settings>
                     <x>912.0</x>
                     <y>96.0</y>
                     <width>400</width>
                     <height>192</height>
                     <appearance><![CDATA[Flat]]></appearance>
+                    <hierarchy_position><![CDATA[1]]></hierarchy_position>
+                    <is_background><![CDATA[False]]></is_background>
+                    <label><![CDATA[]]></label>
+                    <use_label>False</use_label>
                 </widget_settings>
                 <advance_widget_settings>
                     <x_title><![CDATA[x axes]]></x_title>
@@ -1009,18 +1041,21 @@ state = 0]]></on_start_code>
 
 ]]></on_stop_code>
                 <on_start_code_source><![CDATA[Custom code]]></on_start_code_source>
-                <hierarchy_position>1</hierarchy_position>
                 <widget_settings>
                     <x>952.0</x>
                     <y>424.0</y>
                     <width>176</width>
                     <height>64</height>
                     <appearance><![CDATA[Flat]]></appearance>
+                    <hierarchy_position><![CDATA[1]]></hierarchy_position>
+                    <is_background><![CDATA[False]]></is_background>
+                    <label><![CDATA[]]></label>
+                    <use_label>False</use_label>
                 </widget_settings>
             </component_data>
         <component_data>
                 <id>247d752a7b5e11eb89bdd481d7c5afa3</id>
-                <name><![CDATA[]]></name>
+                <name><![CDATA[LED]]></name>
                 <type>LedDisplay</type>
                 <description><![CDATA[]]></description>
                 <data_type>Digital signal</data_type>
@@ -1035,13 +1070,16 @@ state = 0]]></on_start_code>
 displayValue = False
 ]]></code>
                 <updateRate>500</updateRate>
-                <hierarchy_position>1</hierarchy_position>
                 <widget_settings>
-                    <x>1144</x>
-                    <y>440</y>
+                    <x>1144.0</x>
+                    <y>440.0</y>
                     <width>40</width>
                     <height>32</height>
                     <appearance><![CDATA[Flat]]></appearance>
+                    <hierarchy_position><![CDATA[1]]></hierarchy_position>
+                    <is_background><![CDATA[False]]></is_background>
+                    <label><![CDATA[]]></label>
+                    <use_label>True</use_label>
                 </widget_settings>
             </component_data>
         </components>

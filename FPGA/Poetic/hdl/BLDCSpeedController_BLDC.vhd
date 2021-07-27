@@ -12,7 +12,6 @@ ARCHITECTURE BLDC OF BLDCSpeedController IS
     count, print, setToZero
   );
   signal mainState : State;
-  signal bigCounter : unsigned(26 DOWNTO 0);
   signal hallReg : std_ulogic_vector(2 DOWNTO 0);
   signal oneSecondPassed : std_ulogic;
   signal rotationHappen : std_ulogic;
@@ -51,7 +50,7 @@ BEGIN
             rotationCounter := rotationCounter + 1;
           end if;
         when print =>
-          speed <= std_logic_vector(10*to_unsigned(rotationCounter, speed'length)); -- * 10 pour tr/secondes
+          speed <= std_ulogic_vector(resize(20*5*to_unsigned(rotationCounter, speed'length), speed'length)); -- * 10/2 pour tr/secondes, *20 pour mettre a 2000 100tr/s
           mainState <= setToZero;
         when setToZero =>
           rotationCounter := 0;

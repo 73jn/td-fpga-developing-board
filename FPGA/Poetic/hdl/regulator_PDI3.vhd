@@ -11,7 +11,8 @@ ARCHITECTURE PDI3 OF regulator IS
   type State is (
     ready, calculateNewError,calculatePID, checkOverFlow, print
   );
-  constant Kp : integer := 3;
+  constant Kp : integer := 256;
+  constant Ki : integer := 1;
   signal mainState : State;
   signal updatePID : std_ulogic;
   signal PIDHasBeenUpdate : std_ulogic;
@@ -54,7 +55,7 @@ BEGIN
             p <= resize(Kp * error, p'length);
           end if;
           if ki_sw = '1' then
-            i <= resize(shift_right(error_sum,5), i'length);
+            i <= resize(Ki*shift_right(error_sum,0), i'length);
           end if;
           pidValue <= resize(p, pidValue'length) + resize(i, pidValue'length) + resize(d, pidValue'length);
           mainState <= checkOverFlow;
@@ -85,7 +86,7 @@ BEGIN
       if PIDHasBeenUpdate = '1' then
         updatePID <= '0';
       end if;
-      if counter > 10000000 then
+      if counter > 100 then
         updatePID <= '1';
         counter := 0;
       end if;
