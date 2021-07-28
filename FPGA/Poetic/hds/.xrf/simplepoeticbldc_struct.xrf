@@ -9,777 +9,895 @@ VIEW struct.bd
 NO_GRAPHIC 14
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 0,0 19 2 
+GRAPHIC 0,0 20 2 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1535,0 24 0 
+GRAPHIC 2360,0 25 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1603,0 25 0 
+GRAPHIC 2331,0 26 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 845,0 26 0 
+GRAPHIC 1603,0 27 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1565,0 27 0 
+GRAPHIC 845,0 28 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 766,0 28 0 
+GRAPHIC 1565,0 29 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 774,0 29 0 
+GRAPHIC 2380,0 30 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 853,0 30 0 
+GRAPHIC 766,0 31 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1559,0 31 0 
+GRAPHIC 774,0 32 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1541,0 32 0 
+GRAPHIC 853,0 33 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1246,0 33 0 
+GRAPHIC 1559,0 34 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1436,0 34 0 
+GRAPHIC 1541,0 35 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1442,0 35 0 
+GRAPHIC 1246,0 36 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1547,0 36 0 
+GRAPHIC 1436,0 37 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 2038,0 37 0 
+GRAPHIC 1442,0 38 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1601,0 38 0 
+GRAPHIC 1547,0 39 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1613,0 39 0 
+GRAPHIC 1601,0 40 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1252,0 40 0 
+GRAPHIC 1613,0 41 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1448,0 41 0 
+GRAPHIC 1252,0 42 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-NO_GRAPHIC 42
+GRAPHIC 2558,0 43 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 955,0 44 0 
+GRAPHIC 1448,0 44 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-NO_GRAPHIC 46
+NO_GRAPHIC 45
+DESIGN @simple@poetic@b@l@d@c
+VIEW struct.bd
+GRAPHIC 2504,0 47 0 
+DESIGN @simple@poetic@b@l@d@c
+VIEW struct.bd
+GRAPHIC 955,0 48 0 
+DESIGN @simple@poetic@b@l@d@c
+VIEW struct.bd
+NO_GRAPHIC 50
+LIBRARY Board
+DESIGN @d@f@f
+VIEW sim
+GRAPHIC 2305,0 52 0 
+DESIGN @d@f@f
+VIEW symbol.sb
+GRAPHIC 57,0 54 0 
+DESIGN @d@f@f
+VIEW symbol.sb
+GRAPHIC 63,0 55 0 
+DESIGN @d@f@f
+VIEW symbol.sb
+GRAPHIC 51,0 56 0 
+DESIGN @d@f@f
+VIEW symbol.sb
+GRAPHIC 69,0 57 0 
 LIBRARY Gates
 DESIGN and2inv1
 VIEW sim
-GRAPHIC 1454,0 48 0 
+GRAPHIC 1454,0 60 0 
 DESIGN and2inv1
 VIEW symbol.sb
-GRAPHIC 17,0 49 1 
+GRAPHIC 17,0 61 1 
 DESIGN and2inv1
 VIEW symbol.sb
-GRAPHIC 51,0 53 0 
+GRAPHIC 51,0 65 0 
 DESIGN and2inv1
 VIEW symbol.sb
-GRAPHIC 63,0 54 0 
+GRAPHIC 63,0 66 0 
 DESIGN and2inv1
 VIEW symbol.sb
-GRAPHIC 69,0 55 0 
+GRAPHIC 69,0 67 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 755,0 58 0 
+GRAPHIC 755,0 70 0 
 DESIGN logic0
 VIEW symbol.sb
-GRAPHIC 22,0 60 0 
+GRAPHIC 22,0 72 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 740,0 63 0 
+GRAPHIC 740,0 75 0 
 DESIGN logic1
 VIEW symbol.sb
-GRAPHIC 22,0 65 0 
+GRAPHIC 22,0 77 0 
 LIBRARY Modulation
 DESIGN pwm@modulator
 VIEW @r@t@l
-GRAPHIC 1173,0 68 0 
+GRAPHIC 1173,0 80 0 
 DESIGN pwm@modulator
 VIEW symbol.sb
-GRAPHIC 14,0 69 1 
+GRAPHIC 14,0 81 1 
 DESIGN pwm@modulator
 VIEW symbol.sb
-GRAPHIC 62,0 73 0 
+GRAPHIC 62,0 85 0 
 DESIGN pwm@modulator
 VIEW symbol.sb
-GRAPHIC 77,0 74 0 
+GRAPHIC 77,0 86 0 
 DESIGN pwm@modulator
 VIEW symbol.sb
-GRAPHIC 72,0 75 0 
+GRAPHIC 72,0 87 0 
 DESIGN pwm@modulator
 VIEW symbol.sb
-GRAPHIC 87,0 76 0 
+GRAPHIC 87,0 88 0 
 LIBRARY Poetic
-DESIGN @b@l@d@c@controller
-VIEW @b@l@d@c
-GRAPHIC 1043,0 79 0 
-DESIGN @b@l@d@c@controller
+DESIGN @a@d@c
+VIEW ads7886_decoder
+GRAPHIC 2468,0 91 0 
+DESIGN @a@d@c
 VIEW symbol.sb
-GRAPHIC 56,0 81 0 
-DESIGN @b@l@d@c@controller
+GRAPHIC 14,0 92 1 
+DESIGN @a@d@c
 VIEW symbol.sb
-GRAPHIC 61,0 82 0 
-DESIGN @b@l@d@c@controller
+GRAPHIC 66,0 96 0 
+DESIGN @a@d@c
 VIEW symbol.sb
-GRAPHIC 66,0 83 0 
-DESIGN @b@l@d@c@controller
+GRAPHIC 71,0 97 0 
+DESIGN @a@d@c
 VIEW symbol.sb
-GRAPHIC 71,0 84 0 
-DESIGN @b@l@d@c@controller
+GRAPHIC 51,0 98 0 
+DESIGN @a@d@c
 VIEW symbol.sb
-GRAPHIC 51,0 85 0 
-DESIGN @b@l@d@c@controller
+GRAPHIC 168,0 99 0 
+DESIGN @a@d@c
 VIEW symbol.sb
-GRAPHIC 76,0 86 0 
-DESIGN @b@l@d@c@controller
+GRAPHIC 61,0 100 0 
+DESIGN @a@d@c
 VIEW symbol.sb
-GRAPHIC 81,0 87 0 
-DESIGN @b@l@d@c@controller
+GRAPHIC 56,0 101 0 
+DESIGN @a@d@c
 VIEW symbol.sb
-GRAPHIC 86,0 88 0 
-DESIGN @b@l@d@c@controller
-VIEW symbol.sb
-GRAPHIC 91,0 89 0 
-DESIGN @b@l@d@c@controller
-VIEW symbol.sb
-GRAPHIC 96,0 90 0 
-DESIGN @b@l@d@c@controller
-VIEW symbol.sb
-GRAPHIC 101,0 91 0 
-DESIGN @b@l@d@c@controller
-VIEW symbol.sb
-GRAPHIC 106,0 92 0 
+GRAPHIC 196,0 102 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1127,0 95 0 
-DESIGN @b@l@d@c@speed@controller
+GRAPHIC 1043,0 105 0 
+DESIGN @b@l@d@c@controller
 VIEW symbol.sb
-GRAPHIC 56,0 97 0 
-DESIGN @b@l@d@c@speed@controller
+GRAPHIC 56,0 107 0 
+DESIGN @b@l@d@c@controller
 VIEW symbol.sb
-GRAPHIC 61,0 98 0 
-DESIGN @b@l@d@c@speed@controller
+GRAPHIC 61,0 108 0 
+DESIGN @b@l@d@c@controller
 VIEW symbol.sb
-GRAPHIC 66,0 99 0 
-DESIGN @b@l@d@c@speed@controller
+GRAPHIC 66,0 109 0 
+DESIGN @b@l@d@c@controller
 VIEW symbol.sb
-GRAPHIC 51,0 100 0 
-DESIGN @b@l@d@c@speed@controller
+GRAPHIC 71,0 110 0 
+DESIGN @b@l@d@c@controller
 VIEW symbol.sb
-GRAPHIC 71,0 101 0 
-DESIGN @b@l@d@c@speed@controller
+GRAPHIC 51,0 111 0 
+DESIGN @b@l@d@c@controller
 VIEW symbol.sb
-GRAPHIC 76,0 102 0 
+GRAPHIC 76,0 112 0 
+DESIGN @b@l@d@c@controller
+VIEW symbol.sb
+GRAPHIC 81,0 113 0 
+DESIGN @b@l@d@c@controller
+VIEW symbol.sb
+GRAPHIC 86,0 114 0 
+DESIGN @b@l@d@c@controller
+VIEW symbol.sb
+GRAPHIC 91,0 115 0 
+DESIGN @b@l@d@c@controller
+VIEW symbol.sb
+GRAPHIC 96,0 116 0 
+DESIGN @b@l@d@c@controller
+VIEW symbol.sb
+GRAPHIC 101,0 117 0 
+DESIGN @b@l@d@c@controller
+VIEW symbol.sb
+GRAPHIC 106,0 118 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 664,0 105 0 
-DESIGN @d@a@c
+GRAPHIC 1127,0 121 0 
+DESIGN @b@l@d@c@speed@controller
 VIEW symbol.sb
-GRAPHIC 14,0 106 1 
-DESIGN @d@a@c
+GRAPHIC 56,0 123 0 
+DESIGN @b@l@d@c@speed@controller
 VIEW symbol.sb
-GRAPHIC 358,0 112 0 
-DESIGN @d@a@c
+GRAPHIC 61,0 124 0 
+DESIGN @b@l@d@c@speed@controller
 VIEW symbol.sb
-GRAPHIC 208,0 113 0 
-DESIGN @d@a@c
+GRAPHIC 66,0 125 0 
+DESIGN @b@l@d@c@speed@controller
 VIEW symbol.sb
-GRAPHIC 131,0 114 0 
-DESIGN @d@a@c
+GRAPHIC 51,0 126 0 
+DESIGN @b@l@d@c@speed@controller
 VIEW symbol.sb
-GRAPHIC 136,0 115 0 
-DESIGN @d@a@c
+GRAPHIC 71,0 127 0 
+DESIGN @b@l@d@c@speed@controller
 VIEW symbol.sb
-GRAPHIC 201,0 116 0 
-DESIGN @d@a@c
-VIEW symbol.sb
-GRAPHIC 213,0 117 0 
-DESIGN @d@a@c
-VIEW symbol.sb
-GRAPHIC 141,0 118 0 
-DESIGN @d@a@c
-VIEW symbol.sb
-GRAPHIC 343,0 119 0 
-DESIGN @d@a@c
-VIEW symbol.sb
-GRAPHIC 348,0 120 0 
+GRAPHIC 76,0 128 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 710,0 123 0 
+GRAPHIC 664,0 131 0 
+DESIGN @d@a@c
+VIEW symbol.sb
+GRAPHIC 14,0 132 1 
+DESIGN @d@a@c
+VIEW symbol.sb
+GRAPHIC 358,0 138 0 
+DESIGN @d@a@c
+VIEW symbol.sb
+GRAPHIC 208,0 139 0 
+DESIGN @d@a@c
+VIEW symbol.sb
+GRAPHIC 131,0 140 0 
+DESIGN @d@a@c
+VIEW symbol.sb
+GRAPHIC 136,0 141 0 
+DESIGN @d@a@c
+VIEW symbol.sb
+GRAPHIC 201,0 142 0 
+DESIGN @d@a@c
+VIEW symbol.sb
+GRAPHIC 213,0 143 0 
+DESIGN @d@a@c
+VIEW symbol.sb
+GRAPHIC 141,0 144 0 
+DESIGN @d@a@c
+VIEW symbol.sb
+GRAPHIC 343,0 145 0 
+DESIGN @d@a@c
+VIEW symbol.sb
+GRAPHIC 348,0 146 0 
+DESIGN @simple@poetic@b@l@d@c
+VIEW struct.bd
+GRAPHIC 710,0 149 0 
 DESIGN clock@generator
 VIEW symbol.sb
-GRAPHIC 14,0 124 1 
+GRAPHIC 14,0 150 1 
 DESIGN clock@generator
 VIEW symbol.sb
-GRAPHIC 51,0 129 0 
+GRAPHIC 51,0 155 0 
 DESIGN clock@generator
 VIEW symbol.sb
-GRAPHIC 61,0 130 0 
+GRAPHIC 61,0 156 0 
 DESIGN clock@generator
 VIEW symbol.sb
-GRAPHIC 154,0 131 0 
+GRAPHIC 154,0 157 0 
 DESIGN clock@generator
 VIEW symbol.sb
-GRAPHIC 56,0 132 0 
+GRAPHIC 56,0 158 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1093,0 135 0 
+GRAPHIC 1093,0 161 0 
 DESIGN regulator
 VIEW symbol.sb
-GRAPHIC 14,0 136 1 
+GRAPHIC 14,0 162 1 
 DESIGN regulator
 VIEW symbol.sb
-GRAPHIC 91,0 140 0 
+GRAPHIC 91,0 166 0 
 DESIGN regulator
 VIEW symbol.sb
-GRAPHIC 51,0 141 0 
+GRAPHIC 51,0 167 0 
 DESIGN regulator
 VIEW symbol.sb
-GRAPHIC 56,0 142 0 
+GRAPHIC 56,0 168 0 
 DESIGN regulator
 VIEW symbol.sb
-GRAPHIC 61,0 143 0 
+GRAPHIC 61,0 169 0 
 DESIGN regulator
 VIEW symbol.sb
-GRAPHIC 66,0 144 0 
+GRAPHIC 66,0 170 0 
 DESIGN regulator
 VIEW symbol.sb
-GRAPHIC 71,0 145 0 
+GRAPHIC 71,0 171 0 
 DESIGN regulator
 VIEW symbol.sb
-GRAPHIC 76,0 146 0 
+GRAPHIC 76,0 172 0 
 DESIGN regulator
 VIEW symbol.sb
-GRAPHIC 86,0 147 0 
+GRAPHIC 86,0 173 0 
 DESIGN regulator
 VIEW symbol.sb
-GRAPHIC 288,0 148 0 
+GRAPHIC 288,0 174 0 
 DESIGN regulator
 VIEW symbol.sb
-GRAPHIC 81,0 149 0 
+GRAPHIC 81,0 175 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1371,0 152 0 
+GRAPHIC 1371,0 178 0 
 DESIGN serial@ascii@decoder
 VIEW symbol.sb
-GRAPHIC 186,0 154 0 
+GRAPHIC 186,0 180 0 
 DESIGN serial@ascii@decoder
 VIEW symbol.sb
-GRAPHIC 131,0 155 0 
+GRAPHIC 131,0 181 0 
 DESIGN serial@ascii@decoder
 VIEW symbol.sb
-GRAPHIC 136,0 156 0 
+GRAPHIC 136,0 182 0 
 DESIGN serial@ascii@decoder
 VIEW symbol.sb
-GRAPHIC 141,0 157 0 
+GRAPHIC 141,0 183 0 
 DESIGN serial@ascii@decoder
 VIEW symbol.sb
-GRAPHIC 191,0 158 0 
+GRAPHIC 191,0 184 0 
 DESIGN serial@ascii@decoder
 VIEW symbol.sb
-GRAPHIC 146,0 159 0 
+GRAPHIC 146,0 185 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1317,0 162 0 
+GRAPHIC 1317,0 188 0 
 DESIGN uart@controller
 VIEW symbol.sb
-GRAPHIC 14,0 163 1 
+GRAPHIC 14,0 189 1 
 DESIGN uart@controller
 VIEW symbol.sb
-GRAPHIC 344,0 167 0 
+GRAPHIC 344,0 193 0 
 DESIGN uart@controller
 VIEW symbol.sb
-GRAPHIC 359,0 168 0 
+GRAPHIC 359,0 194 0 
 DESIGN uart@controller
 VIEW symbol.sb
-GRAPHIC 364,0 169 0 
+GRAPHIC 364,0 195 0 
 DESIGN uart@controller
 VIEW symbol.sb
-GRAPHIC 369,0 170 0 
+GRAPHIC 369,0 196 0 
 DESIGN uart@controller
 VIEW symbol.sb
-GRAPHIC 520,0 171 0 
+GRAPHIC 520,0 197 0 
 DESIGN uart@controller
 VIEW symbol.sb
-GRAPHIC 349,0 172 0 
+GRAPHIC 349,0 198 0 
 DESIGN uart@controller
 VIEW symbol.sb
-GRAPHIC 441,0 173 0 
+GRAPHIC 441,0 199 0 
 DESIGN uart@controller
 VIEW symbol.sb
-GRAPHIC 354,0 174 0 
+GRAPHIC 354,0 200 0 
 DESIGN uart@controller
 VIEW symbol.sb
-GRAPHIC 374,0 175 0 
+GRAPHIC 374,0 201 0 
 DESIGN uart@controller
 VIEW symbol.sb
-GRAPHIC 515,0 176 0 
+GRAPHIC 515,0 202 0 
 DESIGN uart@controller
 VIEW symbol.sb
-GRAPHIC 525,0 177 0 
+GRAPHIC 525,0 203 0 
 LIBRARY RS232
 DESIGN serial@port@f@i@f@o
 VIEW struct
-GRAPHIC 1268,0 180 0 
+GRAPHIC 1268,0 206 0 
 DESIGN serial@port@f@i@f@o
 VIEW symbol.sb
-GRAPHIC 14,0 181 1 
+GRAPHIC 14,0 207 1 
 DESIGN serial@port@f@i@f@o
 VIEW symbol.sb
-GRAPHIC 168,0 188 0 
+GRAPHIC 168,0 214 0 
 DESIGN serial@port@f@i@f@o
 VIEW symbol.sb
-GRAPHIC 183,0 189 0 
+GRAPHIC 183,0 215 0 
 DESIGN serial@port@f@i@f@o
 VIEW symbol.sb
-GRAPHIC 173,0 190 0 
+GRAPHIC 173,0 216 0 
 DESIGN serial@port@f@i@f@o
 VIEW symbol.sb
-GRAPHIC 178,0 191 0 
+GRAPHIC 178,0 217 0 
 DESIGN serial@port@f@i@f@o
 VIEW symbol.sb
-GRAPHIC 193,0 192 0 
+GRAPHIC 193,0 218 0 
 DESIGN serial@port@f@i@f@o
 VIEW symbol.sb
-GRAPHIC 203,0 193 0 
+GRAPHIC 203,0 219 0 
 DESIGN serial@port@f@i@f@o
 VIEW symbol.sb
-GRAPHIC 368,0 194 0 
+GRAPHIC 368,0 220 0 
 DESIGN serial@port@f@i@f@o
 VIEW symbol.sb
-GRAPHIC 375,0 195 0 
+GRAPHIC 375,0 221 0 
 DESIGN serial@port@f@i@f@o
 VIEW symbol.sb
-GRAPHIC 198,0 196 0 
+GRAPHIC 198,0 222 0 
 DESIGN serial@port@f@i@f@o
 VIEW symbol.sb
-GRAPHIC 208,0 197 0 
+GRAPHIC 208,0 223 0 
 LIBRARY Poetic
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-NO_GRAPHIC 200
+NO_GRAPHIC 226
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1043,0 203 0 
+GRAPHIC 2468,0 229 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1127,0 204 0 
+GRAPHIC 1043,0 230 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 664,0 205 0 
+GRAPHIC 1127,0 231 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1454,0 206 0 
+GRAPHIC 664,0 232 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1988,0 207 0 
+GRAPHIC 2305,0 233 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 755,0 208 0 
+GRAPHIC 1454,0 234 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 918,0 209 0 
+GRAPHIC 2478,0 235 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1173,0 210 0 
+GRAPHIC 755,0 236 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1093,0 211 0 
+GRAPHIC 918,0 237 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1371,0 212 0 
+GRAPHIC 1173,0 238 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1268,0 213 0 
+GRAPHIC 1093,0 239 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1317,0 214 0 
+GRAPHIC 1371,0 240 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-NO_GRAPHIC 217
+GRAPHIC 1268,0 241 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-NO_GRAPHIC 219
+GRAPHIC 1317,0 242 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1454,0 221 0 
+NO_GRAPHIC 245
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1461,0 222 1 
+NO_GRAPHIC 247
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1537,0 226 0 
+GRAPHIC 2305,0 249 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1477,0 227 0 
+GRAPHIC 2315,0 251 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1543,0 228 0 
+GRAPHIC 2323,0 252 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 755,0 230 0 
+GRAPHIC 2333,0 253 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 768,0 232 0 
+GRAPHIC 2362,0 254 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 861,0 234 0 
+GRAPHIC 1454,0 256 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 897,0 236 0 
+GRAPHIC 1461,0 257 1 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 876,0 238 0 
+GRAPHIC 2382,0 261 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 891,0 240 0 
+GRAPHIC 1477,0 262 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 903,0 242 0 
+GRAPHIC 1543,0 263 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 945,0 244 0 
+GRAPHIC 2337,0 265 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1866,0 246 0 
+GRAPHIC 2344,0 266 1 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 502,0 248 0 
+GRAPHIC 2366,0 270 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 740,0 250 0 
+GRAPHIC 2362,0 271 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 776,0 252 0 
+GRAPHIC 2382,0 272 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 918,0 254 0 
+GRAPHIC 755,0 274 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 939,0 256 0 
+GRAPHIC 768,0 276 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1173,0 258 0 
+GRAPHIC 861,0 278 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1180,0 259 1 
+GRAPHIC 897,0 280 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1198,0 263 0 
+GRAPHIC 876,0 282 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1248,0 264 0 
+GRAPHIC 891,0 284 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1206,0 265 0 
+GRAPHIC 903,0 286 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1615,0 266 0 
+GRAPHIC 945,0 288 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1043,0 268 0 
+GRAPHIC 1866,0 290 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1137,0 270 0 
+GRAPHIC 502,0 292 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1149,0 271 0 
+GRAPHIC 740,0 294 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1161,0 272 0 
+GRAPHIC 776,0 296 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1615,0 273 0 
+GRAPHIC 918,0 298 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1661,0 274 0 
+GRAPHIC 939,0 300 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1653,0 275 0 
+GRAPHIC 1173,0 302 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 558,0 276 0 
+GRAPHIC 1180,0 303 1 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 572,0 277 0 
+GRAPHIC 1198,0 307 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 586,0 278 0 
+GRAPHIC 1248,0 308 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 600,0 279 0 
+GRAPHIC 1206,0 309 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 614,0 280 0 
+GRAPHIC 1615,0 310 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 628,0 281 0 
+GRAPHIC 2468,0 312 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1127,0 283 0 
+GRAPHIC 2475,0 313 1 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1143,0 285 0 
+GRAPHIC 2504,0 317 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1155,0 286 0 
+GRAPHIC 2418,0 318 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1167,0 287 0 
+GRAPHIC 2570,0 319 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1669,0 288 0 
+GRAPHIC 2534,0 320 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1677,0 289 0 
+GRAPHIC 2562,0 321 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1254,0 290 0 
+GRAPHIC 2432,0 322 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 664,0 292 0 
+GRAPHIC 2544,0 323 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 671,0 293 1 
+GRAPHIC 1043,0 325 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 955,0 299 0 
+GRAPHIC 1137,0 327 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 829,0 300 0 
+GRAPHIC 1149,0 328 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 847,0 301 0 
+GRAPHIC 1161,0 329 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1693,0 302 0 
+GRAPHIC 1615,0 330 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 855,0 303 0 
+GRAPHIC 1661,0 331 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 837,0 304 0 
+GRAPHIC 1653,0 332 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 2040,0 305 0 
+GRAPHIC 558,0 333 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 404,0 306 0 
+GRAPHIC 572,0 334 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 418,0 307 0 
+GRAPHIC 586,0 335 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 710,0 309 0 
+GRAPHIC 600,0 336 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 717,0 310 1 
+GRAPHIC 614,0 337 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 807,0 315 0 
+GRAPHIC 628,0 338 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 793,0 316 0 
+GRAPHIC 1127,0 340 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 815,0 317 0 
+GRAPHIC 1143,0 342 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 390,0 318 0 
+GRAPHIC 1155,0 343 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1483,0 320 0 
+GRAPHIC 1167,0 344 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1490,0 321 1 
+GRAPHIC 1669,0 345 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1523,0 326 0 
+GRAPHIC 1677,0 346 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1517,0 327 0 
+GRAPHIC 2552,0 347 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1529,0 328 0 
+GRAPHIC 664,0 349 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1537,0 329 0 
+GRAPHIC 671,0 350 1 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1816,0 331 0 
+GRAPHIC 955,0 356 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1823,0 332 1 
+GRAPHIC 829,0 357 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1860,0 337 0 
+GRAPHIC 847,0 358 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1842,0 338 0 
+GRAPHIC 1693,0 359 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1848,0 339 0 
+GRAPHIC 855,0 360 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 516,0 340 0 
+GRAPHIC 837,0 361 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1988,0 342 0 
+GRAPHIC 2157,0 362 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1995,0 343 1 
+GRAPHIC 404,0 363 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 2026,0 348 0 
+GRAPHIC 418,0 364 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 2020,0 349 0 
+GRAPHIC 710,0 366 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 2014,0 350 0 
+GRAPHIC 717,0 367 1 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 2040,0 351 0 
+GRAPHIC 807,0 372 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1093,0 353 0 
+GRAPHIC 793,0 373 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1100,0 354 1 
+GRAPHIC 815,0 374 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1607,0 358 0 
+GRAPHIC 390,0 375 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1262,0 359 0 
+GRAPHIC 1483,0 377 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1214,0 360 0 
+GRAPHIC 1490,0 378 1 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 376,0 361 0 
+GRAPHIC 1523,0 383 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 488,0 362 0 
+GRAPHIC 1517,0 384 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 530,0 363 0 
+GRAPHIC 1529,0 385 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 432,0 364 0 
+GRAPHIC 2333,0 386 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1222,0 365 0 
+GRAPHIC 1816,0 388 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1232,0 366 0 
+GRAPHIC 1823,0 389 1 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1248,0 367 0 
+GRAPHIC 1860,0 394 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1371,0 369 0 
+GRAPHIC 1842,0 395 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1571,0 371 0 
+GRAPHIC 1848,0 396 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1555,0 372 0 
+GRAPHIC 516,0 397 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1567,0 373 0 
+GRAPHIC 2478,0 399 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1561,0 374 0 
+GRAPHIC 2485,0 400 1 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1579,0 375 0 
+GRAPHIC 2518,0 405 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1589,0 376 0 
+GRAPHIC 2510,0 406 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1317,0 378 0 
+GRAPHIC 2526,0 407 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1324,0 379 1 
+GRAPHIC 2404,0 408 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1428,0 383 0 
+GRAPHIC 1093,0 410 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1420,0 384 0 
+GRAPHIC 1100,0 411 1 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1438,0 385 0 
+GRAPHIC 1607,0 415 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1444,0 386 0 
+GRAPHIC 1262,0 416 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1450,0 387 0 
+GRAPHIC 1214,0 417 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1555,0 388 0 
+GRAPHIC 376,0 418 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1567,0 389 0 
+GRAPHIC 488,0 419 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1561,0 390 0 
+GRAPHIC 530,0 420 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1549,0 391 0 
+GRAPHIC 432,0 421 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1268,0 395 0 
+GRAPHIC 1222,0 422 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1275,0 396 1 
+GRAPHIC 1232,0 423 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 656,0 403 0 
+GRAPHIC 1248,0 424 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 642,0 404 0 
+GRAPHIC 1371,0 426 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1412,0 405 0 
+GRAPHIC 1571,0 428 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1404,0 406 0 
+GRAPHIC 1555,0 429 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1444,0 407 0 
+GRAPHIC 1567,0 430 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1549,0 408 0 
+GRAPHIC 1561,0 431 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1438,0 409 0 
+GRAPHIC 1579,0 432 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1595,0 410 0 
+GRAPHIC 1589,0 433 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1450,0 411 0 
+GRAPHIC 1317,0 435 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 1543,0 412 0 
+GRAPHIC 1324,0 436 1 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-GRAPHIC 955,0 416 0 
+GRAPHIC 1428,0 440 0 
 DESIGN @simple@poetic@b@l@d@c
 VIEW struct.bd
-NO_GRAPHIC 418
+GRAPHIC 1420,0 441 0 
+DESIGN @simple@poetic@b@l@d@c
+VIEW struct.bd
+GRAPHIC 1438,0 442 0 
+DESIGN @simple@poetic@b@l@d@c
+VIEW struct.bd
+GRAPHIC 1444,0 443 0 
+DESIGN @simple@poetic@b@l@d@c
+VIEW struct.bd
+GRAPHIC 1450,0 444 0 
+DESIGN @simple@poetic@b@l@d@c
+VIEW struct.bd
+GRAPHIC 1555,0 445 0 
+DESIGN @simple@poetic@b@l@d@c
+VIEW struct.bd
+GRAPHIC 1567,0 446 0 
+DESIGN @simple@poetic@b@l@d@c
+VIEW struct.bd
+GRAPHIC 1561,0 447 0 
+DESIGN @simple@poetic@b@l@d@c
+VIEW struct.bd
+GRAPHIC 1549,0 448 0 
+DESIGN @simple@poetic@b@l@d@c
+VIEW struct.bd
+GRAPHIC 1268,0 452 0 
+DESIGN @simple@poetic@b@l@d@c
+VIEW struct.bd
+GRAPHIC 1275,0 453 1 
+DESIGN @simple@poetic@b@l@d@c
+VIEW struct.bd
+GRAPHIC 656,0 460 0 
+DESIGN @simple@poetic@b@l@d@c
+VIEW struct.bd
+GRAPHIC 642,0 461 0 
+DESIGN @simple@poetic@b@l@d@c
+VIEW struct.bd
+GRAPHIC 1412,0 462 0 
+DESIGN @simple@poetic@b@l@d@c
+VIEW struct.bd
+GRAPHIC 1404,0 463 0 
+DESIGN @simple@poetic@b@l@d@c
+VIEW struct.bd
+GRAPHIC 1444,0 464 0 
+DESIGN @simple@poetic@b@l@d@c
+VIEW struct.bd
+GRAPHIC 1549,0 465 0 
+DESIGN @simple@poetic@b@l@d@c
+VIEW struct.bd
+GRAPHIC 1438,0 466 0 
+DESIGN @simple@poetic@b@l@d@c
+VIEW struct.bd
+GRAPHIC 1595,0 467 0 
+DESIGN @simple@poetic@b@l@d@c
+VIEW struct.bd
+GRAPHIC 1450,0 468 0 
+DESIGN @simple@poetic@b@l@d@c
+VIEW struct.bd
+GRAPHIC 1543,0 469 0 
+DESIGN @simple@poetic@b@l@d@c
+VIEW struct.bd
+GRAPHIC 2504,0 473 0 
+DESIGN @simple@poetic@b@l@d@c
+VIEW struct.bd
+GRAPHIC 955,0 474 0 
+DESIGN @simple@poetic@b@l@d@c
+VIEW struct.bd
+NO_GRAPHIC 476

@@ -761,6 +761,11 @@
 
     <do_var_list>
         <cell>
+            <name>Hall Effect Sensor1.Hall.h_A</name>
+            <address>2048</address>
+        </cell>
+
+        <cell>
             <name>Hall Effect Sensor1.Hall.h_C</name>
             <address>2050</address>
         </cell>
@@ -768,11 +773,6 @@
         <cell>
             <name>Hall Effect Sensor1.Hall.h_B</name>
             <address>2049</address>
-        </cell>
-
-        <cell>
-            <name>Hall Effect Sensor1.Hall.h_A</name>
-            <address>2048</address>
         </cell>
 
     </do_var_list>

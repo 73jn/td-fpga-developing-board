@@ -75,7 +75,7 @@ displayValue = data
                     <x_title><![CDATA[x axes]]></x_title>
                     <y_title><![CDATA[y axes]]></y_title>
                     <y_range_min>0.0</y_range_min>
-                    <y_range_max>160.0</y_range_max>
+                    <y_range_max>800.0</y_range_max>
                     <time_window>10</time_window>
                     <auto_scale_enabled>False</auto_scale_enabled>
                     <legend_enabled>True</legend_enabled>
@@ -136,8 +136,8 @@ displayValue = 0.0
                 <decimals><![CDATA[2]]></decimals>
                 <updateRate>1000</updateRate>
                 <widget_settings>
-                    <x>240</x>
-                    <y>40</y>
+                    <x>240.0</x>
+                    <y>40.0</y>
                     <width>168</width>
                     <height>56</height>
                     <appearance><![CDATA[Flat]]></appearance>
@@ -225,8 +225,8 @@ displayValue = data
                 <execution_rate>None</execution_rate>
                 <background_color>white</background_color>
                 <widget_settings>
-                    <x>32</x>
-                    <y>96</y>
+                    <x>32.0</x>
+                    <y>96.0</y>
                     <width>400</width>
                     <height>200</height>
                     <appearance><![CDATA[Flat]]></appearance>
@@ -337,8 +337,8 @@ displayValue = 0.0
                 <decimals><![CDATA[2]]></decimals>
                 <updateRate>1000</updateRate>
                 <widget_settings>
-                    <x>592</x>
-                    <y>24</y>
+                    <x>592.0</x>
+                    <y>24.0</y>
                     <width>136</width>
                     <height>56</height>
                     <appearance><![CDATA[Flat]]></appearance>
@@ -502,8 +502,8 @@ displayValue = 0.0
                             <layout>Grid</layout>
                             <legend>True</legend>
                             <show_viewports>4</show_viewports>
-                            <decimation>11</decimation>
-                            <time_base>0.01</time_base>
+                            <decimation>1</decimation>
+                            <time_base>5e-05</time_base>
                             <analog_signals>
                             <analog>
                             <channel>0</channel>
@@ -534,7 +534,7 @@ displayValue = 0.0
                             <name><![CDATA[Vond]]></name>
                             <is_locked>False</is_locked>
                             <vertical_scale>Auto</vertical_scale>
-                            <vertical_offset>0</vertical_offset>
+                            <vertical_offset>0.0</vertical_offset>
                             <coupling>False</coupling>
                             <viewports>
                                 
@@ -710,7 +710,7 @@ displayValue = 0.0
                     </capture>
 
                     <scope>
-                        <time_base>0.01 </time_base>
+                        <time_base>5e-05 </time_base>
                         <background_color>black</background_color>
                         <layout>Grid</layout>
                         <legend>True</legend>
@@ -753,7 +753,7 @@ displayValue = 0.0
                             <name><![CDATA[Vond]]></name>
                             <is_locked>False</is_locked>
                             <vertical_scale>Auto</vertical_scale>
-                            <vertical_offset>0</vertical_offset>
+                            <vertical_offset>0.0</vertical_offset>
                             <coupling>False</coupling>
                             <viewports>
                                 

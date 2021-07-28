@@ -81,7 +81,7 @@ rtds_write 0x00830142 0.0
 rtds_write 0x00830162 0.0
 rtds_file_write 0x00838034 mch0_file_ch2.txt
 rtds_write 0x00800001 5e-07
-rtds_write 0x00800011 0.0015
+rtds_write 0x00800011 1.5e-05
 rtds_write 0x00800012 0.3333333333333333
 rtds_write 0x00800005 0x00000000
 rtds_write 0x00800020 0x00000000

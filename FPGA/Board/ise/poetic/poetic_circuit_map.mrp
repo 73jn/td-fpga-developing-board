@@ -11,23 +11,23 @@ Target Device  : xc6slx150
 Target Package : fgg484
 Target Speed   : -3
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Tue Jul 27 20:13:17 2021
+Mapped Date    : Wed Jul 28 16:12:43 2021
 
 Design Summary
 --------------
 Number of errors:      0
 Number of warnings:    2
 Slice Logic Utilization:
-  Number of Slice Registers:                   645 out of 184,304    1%
-    Number used as Flip Flops:                 642
+  Number of Slice Registers:                   622 out of 184,304    1%
+    Number used as Flip Flops:                 619
     Number used as Latches:                      2
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                1
-  Number of Slice LUTs:                      1,092 out of  92,152    1%
-    Number used as logic:                    1,068 out of  92,152    1%
-      Number using O6 output only:             484
-      Number using O5 output only:             300
-      Number using O5 and O6:                  284
+  Number of Slice LUTs:                      1,016 out of  92,152    1%
+    Number used as logic:                      975 out of  92,152    1%
+      Number using O6 output only:             464
+      Number using O5 output only:             262
+      Number using O5 and O6:                  249
       Number used as ROM:                        0
     Number used as Memory:                       8 out of  21,680    1%
       Number used as Dual Port RAM:              8
@@ -36,21 +36,21 @@ Slice Logic Utilization:
         Number using O5 and O6:                  4
       Number used as Single Port RAM:            0
       Number used as Shift Register:             0
-    Number used exclusively as route-thrus:     16
-      Number with same-slice register load:      4
-      Number with same-slice carry load:        12
+    Number used exclusively as route-thrus:     33
+      Number with same-slice register load:     22
+      Number with same-slice carry load:        11
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                   393 out of  23,038    1%
-  Number of MUXCYs used:                       644 out of  46,076    1%
-  Number of LUT Flip Flop pairs used:        1,242
-    Number with an unused Flip Flop:           723 out of   1,242   58%
-    Number with an unused LUT:                 150 out of   1,242   12%
-    Number of fully used LUT-FF pairs:         369 out of   1,242   29%
+  Number of occupied Slices:                   379 out of  23,038    1%
+  Number of MUXCYs used:                       560 out of  46,076    1%
+  Number of LUT Flip Flop pairs used:        1,173
+    Number with an unused Flip Flop:           673 out of   1,173   57%
+    Number with an unused LUT:                 157 out of   1,173   13%
+    Number of fully used LUT-FF pairs:         343 out of   1,173   29%
     Number of unique control sets:              39
     Number of slice register sites lost
-      to control set restrictions:             104 out of 184,304    1%
+      to control set restrictions:              95 out of 184,304    1%
 
   A LUT Flip Flop pair for this architecture represents one LUT paired with
   one Flip Flop within a slice.  A control set is a unique combination of
@@ -59,8 +59,8 @@ Slice Logic Distribution:
   over-mapped for a non-slice resource or if Placement fails.
 
 IO Utilization:
-  Number of bonded IOBs:                        18 out of     338    5%
-    Number of LOCed IOBs:                       18 out of      18  100%
+  Number of bonded IOBs:                        21 out of     338    6%
+    Number of LOCed IOBs:                       21 out of      21  100%
 
 Specific Feature Utilization:
   Number of RAMB16BWERs:                         0 out of     268    0%
@@ -87,11 +87,11 @@ Specific Feature Utilization:
   Number of STARTUPs:                            0 out of       1    0%
   Number of SUSPEND_SYNCs:                       0 out of       1    0%
 
-Average Fanout of Non-Clock Nets:                2.65
+Average Fanout of Non-Clock Nets:                2.71
 
 Peak Memory Usage:  4851 MB
-Total REAL time to MAP completion:  32 secs 
-Total CPU time to MAP completion:   32 secs 
+Total REAL time to MAP completion:  29 secs 
+Total CPU time to MAP completion:   29 secs 
 
 Table of Contents
 -----------------
@@ -174,6 +174,9 @@ Section 6 - IOB Properties
 | IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
 |                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ADC0_CS                            | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| ADC0_SDO                           | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| ADC_SCLK                           | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
 | DAC_SCLK                           | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
 | DAC_SDO                            | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
 | DAC_SYNC                           | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |

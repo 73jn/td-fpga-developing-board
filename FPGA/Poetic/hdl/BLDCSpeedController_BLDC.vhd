@@ -50,7 +50,7 @@ BEGIN
             rotationCounter := rotationCounter + 1;
           end if;
         when print =>
-          speed <= std_ulogic_vector(resize(20*5*to_unsigned(rotationCounter, speed'length), speed'length)); -- * 10/2 pour tr/secondes, *20 pour mettre a 2000 100tr/s
+          speed <= std_ulogic_vector(resize(10*shift_right(to_unsigned(rotationCounter, speed'length),1), speed'length)); -- * 10/2 pour tr/secondes
           mainState <= setToZero;
         when setToZero =>
           rotationCounter := 0;

@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Tue Jul 27 20:13:48 2021
+// Written by: Map P.20131013 on Wed Jul 28 16:13:12 2021
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -19,8 +19,11 @@ COMP "Sc_bot" LOCATE = SITE "F20" LEVEL 1;
 COMP "Sa_top" LOCATE = SITE "C19" LEVEL 1;
 COMP "Sb_top" LOCATE = SITE "D19" LEVEL 1;
 COMP "Sc_top" LOCATE = SITE "E20" LEVEL 1;
+COMP "ADC0_SDO" LOCATE = SITE "H14" LEVEL 1;
+COMP "ADC_SCLK" LOCATE = SITE "B18" LEVEL 1;
 COMP "DAC_SCLK" LOCATE = SITE "AB19" LEVEL 1;
 COMP "DAC_SYNC" LOCATE = SITE "AB17" LEVEL 1;
+COMP "ADC0_CS" LOCATE = SITE "F15" LEVEL 1;
 COMP "DAC_SDO" LOCATE = SITE "AB16" LEVEL 1;
 SCHEMATIC END;
 
