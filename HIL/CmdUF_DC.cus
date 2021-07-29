@@ -503,7 +503,7 @@ displayValue = 0.0
                             <legend>True</legend>
                             <show_viewports>4</show_viewports>
                             <decimation>1</decimation>
-                            <time_base>5e-05</time_base>
+                            <time_base>0.001</time_base>
                             <analog_signals>
                             <analog>
                             <channel>0</channel>
@@ -710,7 +710,7 @@ displayValue = 0.0
                     </capture>
 
                     <scope>
-                        <time_base>5e-05 </time_base>
+                        <time_base>0.001 </time_base>
                         <background_color>black</background_color>
                         <layout>Grid</layout>
                         <legend>True</legend>
@@ -885,9 +885,10 @@ displayValue = 0.0
                 <name><![CDATA[Load Torque]]></name>
                 <type>SliderMacro</type>
                 <description><![CDATA[]]></description>
-                <on_use_code active="True"><![CDATA[# HIL API is imported as 'hil'
+                <on_use_code active="True"><![CDATA[hil.set_machine_constant_torque(name='Brushless DC Machine1', value=inputValue)
+# HIL API is imported as 'hil'
 # NOTE: entered value is available through variable 'inputValue'
-hil.set_machine_constant_torque(name='Induction Machine With Squirrel Cage', value=inputValue)
+# hil.set_machine_constant_torque(name='Induction Machine With Squirrel Cage', value=inputValue)
 ]]></on_use_code>
                 <on_start_code active="True"><![CDATA[# NOTE: The code specified in this handler will be executed on simulation start.
 # NOTE: Variables specified here will be available in other handlers.
@@ -914,13 +915,13 @@ widgetValue = None
 widgetValue = None
 ]]></on_timer_code>
                 <on_start_code_source><![CDATA[Custom code]]></on_start_code_source>
-                <inputValue><![CDATA[0.24]]></inputValue>
-                <min>-10.0</min>
+                <inputValue><![CDATA[9.6]]></inputValue>
+                <min>0.0</min>
                 <max>10.0</max>
                 <step>0.01</step>
                 <widget_settings>
-                    <x>952.0</x>
-                    <y>512.0</y>
+                    <x>952</x>
+                    <y>512</y>
                     <width>288</width>
                     <height>48</height>
                     <appearance><![CDATA[Raised]]></appearance>

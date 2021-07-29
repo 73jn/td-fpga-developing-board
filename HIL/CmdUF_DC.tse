@@ -2,7 +2,7 @@ version = 4.2
 
 //
 // Saved by sw version: 2021.2
-// Save timestamp: 21-Jul-2021 @ 05:20:04 PM
+// Save timestamp: 29-Jul-2021 @ 06:16:11 PM
 //
 
 model "CmdUF_DC" {
@@ -128,7 +128,7 @@ model "CmdUF_DC" {
         ]
 
         component src_voltage Vs1 {
-            init_const_value = "50"
+            init_const_value = "350"
         }
         [
             position = 5784, 7168
@@ -157,7 +157,9 @@ model "CmdUF_DC" {
         ]
 
         component "core/Brushless DC Machine" "Brushless DC Machine1" {
+            Vpk_over_krpm = "1.2"
             mech_angle_out = "True"
+            pms = "3"
         }
         [
             position = 6976, 7168
