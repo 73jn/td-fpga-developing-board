@@ -210,7 +210,7 @@ INFO:HDLCompiler:679 - "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board
 Elaborating entity <serialPortReceiver> (architecture <RTL>) with generics from library <work>.
 
 Elaborating entity <serialPortTransmitter> (architecture <RTL>) with generics from library <work>.
-WARNING:Xst:2972 - "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd" line 2787. All outputs of instance <U_8> of block <BLDCSpeedController> are unconnected in block <SimplePoeticBLDC>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd" line 2788. All outputs of instance <U_8> of block <BLDCSpeedController> are unconnected in block <SimplePoeticBLDC>. Underlying logic will be removed.
 
 =========================================================================
 *                           HDL Synthesis                               *
@@ -243,9 +243,9 @@ Synthesizing Unit <SimplePoeticBLDC>.
         dacopBitNb = 2
         dacchBitNb = 2
         dataBitNb = 8
-INFO:Xst:3210 - "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd" line 2787: Output port <speed> of the instance <U_8> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd" line 2882: Output port <txData> of the instance <I22> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd" line 2882: Output port <txWr> of the instance <I22> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd" line 2788: Output port <speed> of the instance <U_8> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd" line 2887: Output port <txData> of the instance <I22> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd" line 2887: Output port <txWr> of the instance <I22> is unconnected or connected to loadless signal.
     Summary:
 	no macro.
 Unit <SimplePoeticBLDC> synthesized.
@@ -364,11 +364,12 @@ Unit <DAC> synthesized.
 Synthesizing Unit <clockGenerator_1>.
     Related source file is "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd".
         counterBitNb = 10
-        countValue = 3
+        frequencyIn = 100000000
+        frequencyOut = 40000000
     Found 10-bit register for signal <counter>.
     Found 1-bit register for signal <clockOut_int>.
     Found 10-bit adder for signal <counter[9]_GND_20_o_add_0_OUT> created at line 1241.
-    Found 10-bit comparator greater for signal <n0002> created at line 2001
+    Found 10-bit comparator greater for signal <n0002> created at line 2003
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred  11 D-type flip-flop(s).
@@ -379,11 +380,12 @@ Unit <clockGenerator_1> synthesized.
 Synthesizing Unit <clockGenerator_2>.
     Related source file is "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd".
         counterBitNb = 30
-        countValue = 100000000
+        frequencyIn = 100000000
+        frequencyOut = 1
     Found 30-bit register for signal <counter>.
     Found 1-bit register for signal <clockOut_int>.
     Found 30-bit adder for signal <counter[29]_GND_22_o_add_0_OUT> created at line 1241.
-    Found 30-bit comparator greater for signal <n0002> created at line 2001
+    Found 30-bit comparator greater for signal <n0002> created at line 2003
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred  31 D-type flip-flop(s).
@@ -393,15 +395,16 @@ Unit <clockGenerator_2> synthesized.
 
 Synthesizing Unit <clockGenerator_3>.
     Related source file is "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd".
-        counterBitNb = 25
-        countValue = 6
-    Found 25-bit register for signal <counter>.
+        counterBitNb = 30
+        frequencyIn = 100000000
+        frequencyOut = 10000000
+    Found 30-bit register for signal <counter>.
     Found 1-bit register for signal <clockOut_int>.
-    Found 25-bit adder for signal <counter[24]_GND_24_o_add_0_OUT> created at line 1241.
-    Found 25-bit comparator greater for signal <n0002> created at line 2001
+    Found 30-bit adder for signal <counter[29]_GND_24_o_add_0_OUT> created at line 1241.
+    Found 30-bit comparator greater for signal <n0002> created at line 2003
     Summary:
 	inferred   1 Adder/Subtractor(s).
-	inferred  26 D-type flip-flop(s).
+	inferred  31 D-type flip-flop(s).
 	inferred   1 Comparator(s).
 	inferred   2 Multiplexer(s).
 Unit <clockGenerator_3> synthesized.
@@ -672,9 +675,8 @@ Macro Statistics
  14-bit adder                                          : 2
  19-bit adder                                          : 1
  2-bit adder                                           : 1
- 25-bit adder                                          : 1
  3-bit adder                                           : 2
- 30-bit adder                                          : 2
+ 30-bit adder                                          : 3
  32-bit adder                                          : 13
  32-bit subtractor                                     : 2
  33-bit adder                                          : 1
@@ -689,9 +691,8 @@ Macro Statistics
  18-bit register                                       : 2
  19-bit register                                       : 1
  2-bit register                                        : 1
- 25-bit register                                       : 1
  3-bit register                                        : 2
- 30-bit register                                       : 2
+ 30-bit register                                       : 3
  32-bit register                                       : 6
  33-bit register                                       : 1
  4-bit register                                        : 1
@@ -700,9 +701,8 @@ Macro Statistics
  10-bit comparator greater                             : 1
  12-bit comparator greater                             : 1
  19-bit comparator greater                             : 2
- 25-bit comparator greater                             : 1
  3-bit comparator equal                                : 1
- 30-bit comparator greater                             : 2
+ 30-bit comparator greater                             : 3
  32-bit comparator equal                               : 2
  32-bit comparator greater                             : 1
 # Multiplexers                                         : 71
@@ -713,9 +713,8 @@ Macro Statistics
  12-bit 2-to-1 multiplexer                             : 2
  14-bit 2-to-1 multiplexer                             : 3
  2-bit 2-to-1 multiplexer                              : 1
- 25-bit 2-to-1 multiplexer                             : 1
  3-bit 2-to-1 multiplexer                              : 1
- 30-bit 2-to-1 multiplexer                             : 2
+ 30-bit 2-to-1 multiplexer                             : 3
  32-bit 2-to-1 multiplexer                             : 24
  4-bit 2-to-1 multiplexer                              : 1
  8-bit 12-to-1 multiplexer                             : 1
@@ -820,9 +819,8 @@ Macro Statistics
  12-bit up counter                                     : 1
  14-bit up counter                                     : 1
  2-bit up counter                                      : 1
- 25-bit up counter                                     : 1
  3-bit up counter                                      : 2
- 30-bit up counter                                     : 2
+ 30-bit up counter                                     : 3
  4-bit up counter                                      : 1
 # Accumulators                                         : 1
  33-bit up accumulator                                 : 1
@@ -832,9 +830,8 @@ Macro Statistics
  10-bit comparator greater                             : 1
  12-bit comparator greater                             : 1
  19-bit comparator greater                             : 2
- 25-bit comparator greater                             : 1
  3-bit comparator equal                                : 1
- 30-bit comparator greater                             : 2
+ 30-bit comparator greater                             : 3
  32-bit comparator equal                               : 2
  32-bit comparator greater                             : 1
 # Multiplexers                                         : 61
@@ -1020,14 +1017,18 @@ Optimizing unit <serialAsciiDecoder> ...
 Optimizing unit <uartController> ...
 WARNING:Xst:2677 - Node <I0/I0/I_rxFifo/g0.I1/full> of sequential type is unconnected in block <poetic_circuit>.
 WARNING:Xst:1710 - FF/Latch <I0/U_12/counter_27> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_3/counter_9> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_12/counter_29> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_12/counter_26> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_3/counter_8> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_3/counter_6> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_3/counter_5> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_3/counter_7> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_3/counter_9> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_3/counter_5> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_3/counter_4> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_3/counter_6> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_3/counter_3> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_3/counter_2> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_3/counter_4> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_3/counter_0> (without init value) has a constant value of 1 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_3/counter_1> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_17/counterReadData_10> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_17/counterReadData_9> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_17/counterReadData_8> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
@@ -1043,32 +1044,38 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <I0/U_10/counter_27>
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <I0/U_10/counter_26> has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <I0/U_10/counter_25> has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <I0/U_10/counter_24> has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_24> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_29> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_28> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_26> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_25> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_27> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_23> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_21> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_20> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_22> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_24> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_20> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_19> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_21> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_18> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_16> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_15> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_17> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_15> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_14> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_13> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_11> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_10> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_16> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_12> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_8> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_7> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_11> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_13> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_9> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_5> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_4> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_8> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_10> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_7> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_6> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_4> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_3> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_12/counter_29> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_18/counter_5> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <I0/U_12/counter_28> (without init value) has a constant value of 0 in block <poetic_circuit>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <I0/I43/sawtooth_0> in Unit <poetic_circuit> is equivalent to the following FF/Latch, which will be removed : <I0/U_3/clockOut_int> 
+INFO:Xst:2261 - The FF/Latch <I0/U_1/risingSCLK> in Unit <poetic_circuit> is equivalent to the following FF/Latch, which will be removed : <I0/U_1/memSCLK> 
 INFO:Xst:2261 - The FF/Latch <I0/U_1/masterWr> in Unit <poetic_circuit> is equivalent to the following FF/Latch, which will be removed : <I0/U_1/masterData_9> 
-INFO:Xst:3203 - The FF/Latch <I0/I43/sawtooth_0> in Unit <poetic_circuit> is the opposite to the following 2 FFs/Latches, which will be removed : <I0/U_18/counter_0> <I0/U_12/counter_0> 
+INFO:Xst:3203 - The FF/Latch <I0/I43/sawtooth_0> in Unit <poetic_circuit> is the opposite to the following FF/Latch, which will be removed : <I0/U_12/counter_0> 
 
 Mapping all equations...
 Building and optimizing final netlist ...
@@ -1086,8 +1093,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 619
- Flip-Flops                                            : 619
+# Registers                                            : 615
+ Flip-Flops                                            : 615
 
 =========================================================================
 
@@ -1110,22 +1117,22 @@ Top Level Output File Name         : poetic_circuit.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 2096
+# BELS                             : 2089
 #      GND                         : 1
 #      INV                         : 90
-#      LUT1                        : 274
-#      LUT2                        : 252
+#      LUT1                        : 273
+#      LUT2                        : 249
 #      LUT3                        : 89
 #      LUT4                        : 37
 #      LUT5                        : 104
 #      LUT6                        : 270
-#      MUXCY                       : 487
+#      MUXCY                       : 486
 #      MUXF7                       : 25
 #      VCC                         : 1
-#      XORCY                       : 466
-# FlipFlops/Latches                : 621
+#      XORCY                       : 464
+# FlipFlops/Latches                : 617
 #      FD                          : 5
-#      FDC                         : 146
+#      FDC                         : 142
 #      FDCE                        : 437
 #      FDE                         : 3
 #      FDP                         : 7
@@ -1149,17 +1156,17 @@ Selected Device : 6slx150fgg484-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             621  out of  184304     0%  
- Number of Slice LUTs:                 1124  out of  92152     1%  
-    Number used as Logic:              1116  out of  92152     1%  
+ Number of Slice Registers:             617  out of  184304     0%  
+ Number of Slice LUTs:                 1120  out of  92152     1%  
+    Number used as Logic:              1112  out of  92152     1%  
     Number used as Memory:                8  out of  21680     0%  
        Number used as RAM:                8
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   1336
-   Number with an unused Flip Flop:     715  out of   1336    53%  
-   Number with an unused LUT:           212  out of   1336    15%  
-   Number of fully used LUT-FF pairs:   409  out of   1336    30%  
+ Number of LUT Flip Flop pairs used:   1332
+   Number with an unused Flip Flop:     715  out of   1332    53%  
+   Number with an unused LUT:           212  out of   1332    15%  
+   Number of fully used LUT-FF pairs:   405  out of   1332    30%  
    Number of unique control sets:        38
 
 IO Utilization: 
@@ -1191,7 +1198,7 @@ Clock Information:
 -----------------------------------+------------------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)              | Load  |
 -----------------------------------+------------------------------------+-------+
-clock                              | BUFGP                              | 622   |
+clock                              | BUFGP                              | 618   |
 I_dff/Q                            | NONE(I0/U_17/mainState_FSM_FFd1_LD)| 2     |
 -----------------------------------+------------------------------------+-------+
 INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
@@ -1206,7 +1213,7 @@ Speed Grade: -3
 
    Minimum period: 8.268ns (Maximum Frequency: 120.952MHz)
    Minimum input arrival time before clock: 3.848ns
-   Maximum output required time after clock: 7.149ns
+   Maximum output required time after clock: 7.179ns
    Maximum combinational path delay: 5.362ns
 
 Timing Details:
@@ -1216,7 +1223,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clock'
   Clock period: 8.268ns (frequency: 120.952MHz)
-  Total number of paths / destination ports: 147333 / 1711
+  Total number of paths / destination ports: 146485 / 1703
 -------------------------------------------------------------------------
 Delay:               8.268ns (Levels of Logic = 19)
   Source:            I0/I23/decode.uOutput_2 (FF)
@@ -1278,7 +1285,7 @@ Offset:              3.848ns (Levels of Logic = 3)
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
   Total number of paths / destination ports: 280 / 13
 -------------------------------------------------------------------------
-Offset:              7.149ns (Levels of Logic = 9)
+Offset:              7.179ns (Levels of Logic = 9)
   Source:            I0/I43/sawtooth_0 (FF)
   Destination:       Sa_bot (PAD)
   Source Clock:      clock rising
@@ -1287,7 +1294,7 @@ Offset:              7.149ns (Levels of Logic = 9)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q              5   0.447   0.943  I0/I43/sawtooth_0 (I0/I43/sawtooth_0)
+     FDC:C->Q              6   0.447   0.973  I0/I43/sawtooth_0 (I0/I43/sawtooth_0)
      LUT4:I1->O            1   0.205   0.000  I0/I43/Mcompar_serialOut_lut<0> (I0/I43/Mcompar_serialOut_lut<0>)
      MUXCY:S->O            1   0.172   0.000  I0/I43/Mcompar_serialOut_cy<0> (I0/I43/Mcompar_serialOut_cy<0>)
      MUXCY:CI->O           1   0.019   0.000  I0/I43/Mcompar_serialOut_cy<1> (I0/I43/Mcompar_serialOut_cy<1>)
@@ -1298,8 +1305,8 @@ Offset:              7.149ns (Levels of Logic = 9)
      LUT3:I0->O            1   0.205   0.579  I0/U_9/Mmux_Sc_top11 (Sc_top_OBUF)
      OBUF:I->O                 2.571          Sc_top_OBUF (Sc_top)
     ----------------------------------------
-    Total                      7.149ns (4.075ns logic, 3.074ns route)
-                                       (57.0% logic, 43.0% route)
+    Total                      7.179ns (4.075ns logic, 3.104ns route)
+                                       (56.8% logic, 43.2% route)
 
 =========================================================================
 Timing constraint: Default path analysis
@@ -1337,14 +1344,14 @@ clock          |    8.268|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 13.00 secs
-Total CPU time to Xst completion: 12.44 secs
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 12.07 secs
  
 --> 
 
-Total memory usage is 4560288 kilobytes
+Total memory usage is 4559156 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  103 (   0 filtered)
-Number of infos    :   12 (   0 filtered)
+Number of warnings :  111 (   0 filtered)
+Number of infos    :   14 (   0 filtered)
 

@@ -80,7 +80,5 @@ BEGIN
       end if;
     end if;
   end process detectRisingSCLK;
-  
-  
 END ARCHITECTURE ads7886_decoder;
 

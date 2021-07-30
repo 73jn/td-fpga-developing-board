@@ -8,6 +8,7 @@
 -- using Mentor Graphics HDL Designer(TM) 2019.2 (Build 5)
 --
 ARCHITECTURE clockDivider OF clockGenerator IS
+  constant countValue : integer := integer(real(frequencyIn) / real((frequencyOut*2)));
   signal counter : unsigned(counterBitNb-1 DOWNTO 0);
   signal clockOut_int : std_ulogic;
 BEGIN

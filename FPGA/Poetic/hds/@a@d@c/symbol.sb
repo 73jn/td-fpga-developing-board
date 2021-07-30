@@ -480,23 +480,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hdl"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\@a@d@c\\symbol.sb.info"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\@a@d@c\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\@a@d@c\\symbol.sb.user"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\@a@d@c\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds"
 )
 (vvPair
 variable "appl"
@@ -516,23 +516,23 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\@a@d@c"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\@a@d@c"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\ADC"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\ADC"
 )
 (vvPair
 variable "date"
-value "30.06.2021"
+value "30.07.2021"
 )
 (vvPair
 variable "day"
-value "mer."
+value "ven."
 )
 (vvPair
 variable "day_long"
-value "mercredi"
+value "vendredi"
 )
 (vvPair
 variable "dd"
@@ -560,11 +560,11 @@ value "symbol"
 )
 (vvPair
 variable "graphical_source_author"
-value "jeann"
+value "jean.nanchen"
 )
 (vvPair
 variable "graphical_source_date"
-value "30.06.2021"
+value "30.07.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -572,11 +572,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "DESKTOP-V46KISN"
+value "WEA30407"
 )
 (vvPair
 variable "graphical_source_time"
-value "09:20:19"
+value "11:04:59"
 )
 (vvPair
 variable "group"
@@ -584,7 +584,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "DESKTOP-V46KISN"
+value "WEA30407"
 )
 (vvPair
 variable "language"
@@ -600,7 +600,7 @@ value "$SCRATCH_DIR/Poetic"
 )
 (vvPair
 variable "mm"
-value "06"
+value "07"
 )
 (vvPair
 variable "module_name"
@@ -608,19 +608,19 @@ value "ADC"
 )
 (vvPair
 variable "month"
-value "juin"
+value "juil."
 )
 (vvPair
 variable "month_long"
-value "juin"
+value "juillet"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\@a@d@c\\symbol.sb"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\@a@d@c\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\ADC\\symbol.sb"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\ADC\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -648,7 +648,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "09:20:19"
+value "11:04:59"
 )
 (vvPair
 variable "unit"
@@ -656,7 +656,7 @@ value "ADC"
 )
 (vvPair
 variable "user"
-value "jeann"
+value "jean.nanchen"
 )
 (vvPair
 variable "version"
@@ -715,7 +715,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4000,60000,4800"
-st "clock  : IN     std_ulogic  ;"
+st "clock  : IN     std_ulogic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -759,7 +760,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,6400,60000,7200"
-st "CS_n   : OUT    std_ulogic  ;"
+st "CS_n   : OUT    std_ulogic  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -805,7 +807,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,5600,60000,6400"
-st "reset  : IN     std_ulogic  ;"
+st "reset  : IN     std_ulogic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -820,7 +823,6 @@ suid 3,0
 uid 66,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 67,0
 ro 90
 va (VaSet
 vasetType 1
@@ -849,7 +851,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2400,60000,3200"
-st "SCLK   : IN     std_ulogic  ;"
+st "SCLK   : IN     std_ulogic  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -894,7 +897,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,3200,60000,4000"
-st "SDO    : IN     std_ulogic  ;"
+st "SDO    : IN     std_ulogic  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -939,7 +943,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4800,60000,5600"
-st "enable : IN     std_ulogic  ;"
+st "enable : IN     std_ulogic  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -961,7 +966,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "27000,12625,27750,13375"
+xt "28000,12625,28750,13375"
 )
 tg (CPTG
 uid 198,0
@@ -972,10 +977,10 @@ uid 199,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "22200,12300,26000,13700"
+xt "23200,12300,27000,13700"
 st "Data"
 ju 2
-blo "26000,13500"
+blo "27000,13500"
 tm "CptPortNameMgr"
 )
 )
@@ -985,7 +990,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,7200,73500,8000"
-st "Data   : OUT    std_ulogic_vector (adcBitNb-1 DOWNTO 0)"
+st "Data   : OUT    std_ulogic_vector (adcBitNb-1 DOWNTO 0)
+"
 )
 thePort (LogicalPort
 lang 11
@@ -1008,7 +1014,7 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "15000,6000,27000,26000"
+xt "15000,6000,28000,26000"
 )
 oxt "15000,6000,26000,17000"
 biTextGroup (BiTextGroup
@@ -1047,7 +1053,8 @@ font "Courier New,8,0"
 xt "15000,26600,27000,29000"
 st "Generic Declarations
 
-adcBitNb integer 12  "
+adcBitNb integer 12  
+"
 )
 header "Generic Declarations"
 showHdrWhenContentsEmpty 1
@@ -1092,7 +1099,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "36200,48000,45400,49000"
+xt "36200,48000,48000,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1441,8 +1448,8 @@ tm "PackageList"
 )
 ]
 )
-windowSize "96,54,1124,744"
-viewArea "-680,-11580,71320,39000"
+windowSize "130,116,1160,806"
+viewArea "-700,-11600,71480,36460"
 cachedDiagramExtent "0,0,73500,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-10000,0"
@@ -1715,6 +1722,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 457,0
-activeModelName "Symbol"
+lastUid 510,0
+activeModelName "Symbol:GEN"
 )
