@@ -37,9 +37,9 @@ Setup/Hold to clock clock
             |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
 Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
 ------------+------------+------------+------------+------------+------------------+--------+
-ADC0_SDO    |    5.404(R)|      SLOW  |   -3.084(R)|      FAST  |clock_BUFGP       |   0.000|
-USB_TX      |    5.177(R)|      SLOW  |   -1.306(R)|      FAST  |clock_BUFGP       |   0.000|
-reset_N     |    0.121(R)|      FAST  |    0.938(R)|      SLOW  |clock_BUFGP       |   0.000|
+ADC0_SDO    |    5.119(R)|      SLOW  |   -2.896(R)|      FAST  |clock_BUFGP       |   0.000|
+USB_TX      |    5.819(R)|      SLOW  |   -1.228(R)|      FAST  |clock_BUFGP       |   0.000|
+reset_N     |    3.773(R)|      SLOW  |   -2.007(R)|      FAST  |clock_BUFGP       |   0.000|
 ------------+------------+------------+------------+------------+------------------+--------+
 
 Clock clock to Pad
@@ -47,19 +47,19 @@ Clock clock to Pad
             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
 Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
-ADC0_CS     |        11.797(R)|      SLOW  |         6.800(R)|      FAST  |clock_BUFGP       |   0.000|
-ADC_SCLK    |        11.130(R)|      SLOW  |         6.480(R)|      FAST  |clock_BUFGP       |   0.000|
-DAC_SCLK    |        15.674(R)|      SLOW  |         9.307(R)|      FAST  |clock_BUFGP       |   0.000|
-DAC_SDO     |        13.700(R)|      SLOW  |         8.047(R)|      FAST  |clock_BUFGP       |   0.000|
-DAC_SYNC    |        13.669(R)|      SLOW  |         8.017(R)|      FAST  |clock_BUFGP       |   0.000|
-LED0_1      |        10.154(R)|      SLOW  |         5.938(R)|      FAST  |clock_BUFGP       |   0.000|
-Sa_bot      |        16.083(R)|      SLOW  |         8.178(R)|      FAST  |clock_BUFGP       |   0.000|
-Sa_top      |        19.186(R)|      SLOW  |        10.037(R)|      FAST  |clock_BUFGP       |   0.000|
-Sb_bot      |        15.462(R)|      SLOW  |         7.825(R)|      FAST  |clock_BUFGP       |   0.000|
-Sb_top      |        15.262(R)|      SLOW  |         7.680(R)|      FAST  |clock_BUFGP       |   0.000|
-Sc_bot      |        14.516(R)|      SLOW  |         7.253(R)|      FAST  |clock_BUFGP       |   0.000|
-Sc_top      |        14.189(R)|      SLOW  |         7.020(R)|      FAST  |clock_BUFGP       |   0.000|
-USB_RX      |        15.967(R)|      SLOW  |         8.861(R)|      FAST  |clock_BUFGP       |   0.000|
+ADC0_CS     |        13.537(R)|      SLOW  |         7.904(R)|      FAST  |clock_BUFGP       |   0.000|
+ADC_SCLK    |        13.536(R)|      SLOW  |         7.939(R)|      FAST  |clock_BUFGP       |   0.000|
+DAC_SCLK    |        11.004(R)|      SLOW  |         6.392(R)|      FAST  |clock_BUFGP       |   0.000|
+DAC_SDO     |        13.359(R)|      SLOW  |         7.859(R)|      FAST  |clock_BUFGP       |   0.000|
+DAC_SYNC    |        13.568(R)|      SLOW  |         7.971(R)|      FAST  |clock_BUFGP       |   0.000|
+LED0_1      |        10.760(R)|      SLOW  |         6.382(R)|      FAST  |clock_BUFGP       |   0.000|
+Sa_bot      |        15.179(R)|      SLOW  |         7.486(R)|      FAST  |clock_BUFGP       |   0.000|
+Sa_top      |        18.269(R)|      SLOW  |         9.319(R)|      FAST  |clock_BUFGP       |   0.000|
+Sb_bot      |        14.559(R)|      SLOW  |         7.138(R)|      FAST  |clock_BUFGP       |   0.000|
+Sb_top      |        14.359(R)|      SLOW  |         6.993(R)|      FAST  |clock_BUFGP       |   0.000|
+Sc_bot      |        13.859(R)|      SLOW  |         6.670(R)|      FAST  |clock_BUFGP       |   0.000|
+Sc_top      |        13.587(R)|      SLOW  |         6.444(R)|      FAST  |clock_BUFGP       |   0.000|
+USB_RX      |        15.070(R)|      SLOW  |         8.516(R)|      FAST  |clock_BUFGP       |   0.000|
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
 
 Clock to Setup on destination clock clock
@@ -67,7 +67,7 @@ Clock to Setup on destination clock clock
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clock          |   11.030|         |         |         |
+clock          |   10.067|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Pad to Pad
@@ -76,27 +76,27 @@ Source Pad     |Destination Pad|  Delay  |
 ---------------+---------------+---------+
 Hall_A         |Sb_bot         |    8.793|
 Hall_A         |Sb_top         |    8.593|
-Hall_A         |Sc_bot         |   10.712|
-Hall_A         |Sc_top         |   10.385|
-Hall_B         |Sa_bot         |    8.711|
-Hall_B         |Sa_top         |   11.814|
-Hall_B         |Sc_bot         |   10.681|
-Hall_B         |Sc_top         |   10.354|
-Hall_C         |Sa_bot         |    8.887|
-Hall_C         |Sa_top         |   11.990|
-Hall_C         |Sb_bot         |    8.698|
-Hall_C         |Sb_top         |    8.498|
+Hall_A         |Sc_bot         |   10.864|
+Hall_A         |Sc_top         |   10.592|
+Hall_B         |Sa_bot         |    8.502|
+Hall_B         |Sa_top         |   11.592|
+Hall_B         |Sc_bot         |   10.999|
+Hall_B         |Sc_top         |   10.727|
+Hall_C         |Sa_bot         |    8.571|
+Hall_C         |Sa_top         |   11.661|
+Hall_C         |Sb_bot         |    8.547|
+Hall_C         |Sb_top         |    8.347|
 ---------------+---------------+---------+
 
 
-Analysis completed Fri Jul 30 11:35:46 2021 
+Analysis completed Fri Jul 30 16:40:34 2021 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 4796 MB
+Peak Memory Usage: 4812 MB
 
 
 

@@ -271,7 +271,7 @@ value "100000000"
 (GiElement
 name "frequencyOut"
 type "integer"
-value "20000000"
+value "10000000"
 )
 ]
 mwi 0
@@ -343,7 +343,7 @@ value "100000000"
 (GiElement
 name "frequencyOut"
 type "integer"
-value "40000000"
+value "20000000"
 )
 ]
 mwi 0
@@ -459,7 +459,7 @@ value "WEA30407"
 )
 (vvPair
 variable "graphical_source_time"
-value "11:11:25"
+value "16:38:38"
 )
 (vvPair
 variable "group"
@@ -531,7 +531,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "11:11:25"
+value "16:38:38"
 )
 (vvPair
 variable "unit"
@@ -956,8 +956,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,8800,37000,9600"
-st "clock          : std_ulogic
-"
+st "clock          : std_ulogic"
 )
 )
 *14 (PortIoIn
@@ -1020,8 +1019,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,3200,37000,4000"
-st "D              : std_ulogic
-"
+st "D              : std_ulogic"
 )
 )
 *16 (PortIoOut
@@ -1083,8 +1081,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,12800,37000,13600"
-st "DAC0_SCLK      : std_ulogic
-"
+st "DAC0_SCLK      : std_ulogic"
 )
 )
 *18 (PortIoOut
@@ -1146,8 +1143,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,13600,37000,14400"
-st "DAC0_SDO       : std_ulogic
-"
+st "DAC0_SDO       : std_ulogic"
 )
 )
 *20 (PortIoOut
@@ -1209,8 +1205,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,14400,37000,15200"
-st "DAC0_SYNC      : std_ulogic
-"
+st "DAC0_SYNC      : std_ulogic"
 )
 )
 *22 (PortIoIn
@@ -1273,8 +1268,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,9600,37000,10400"
-st "enable         : std_ulogic
-"
+st "enable         : std_ulogic"
 )
 )
 *24 (PortIoIn
@@ -1337,8 +1331,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,4000,37000,4800"
-st "Hall_A         : std_ulogic
-"
+st "Hall_A         : std_ulogic"
 )
 )
 *26 (PortIoIn
@@ -1401,8 +1394,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,4800,37000,5600"
-st "Hall_B         : std_ulogic
-"
+st "Hall_B         : std_ulogic"
 )
 )
 *28 (PortIoIn
@@ -1465,8 +1457,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,5600,37000,6400"
-st "Hall_C         : std_ulogic
-"
+st "Hall_C         : std_ulogic"
 )
 )
 *30 (PortIoIn
@@ -1529,8 +1520,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,6400,37000,7200"
-st "I              : std_ulogic
-"
+st "I              : std_ulogic"
 )
 )
 *32 (PortIoOut
@@ -1592,8 +1582,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,20800,37000,21600"
-st "ledState_0     : std_ulogic
-"
+st "ledState_0     : std_ulogic"
 )
 )
 *34 (PortIoOut
@@ -1655,8 +1644,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,21600,37000,22400"
-st "ledState_1     : std_ulogic
-"
+st "ledState_1     : std_ulogic"
 )
 )
 *36 (PortIoIn
@@ -1719,8 +1707,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,7200,37000,8000"
-st "P              : std_ulogic
-"
+st "P              : std_ulogic"
 )
 )
 *38 (PortIoIn
@@ -1783,8 +1770,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,10400,37000,11200"
-st "reset          : std_ulogic
-"
+st "reset          : std_ulogic"
 )
 )
 *40 (PortIoOut
@@ -1846,8 +1832,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,15200,37000,16000"
-st "Sa_bot         : std_ulogic
-"
+st "Sa_bot         : std_ulogic"
 )
 )
 *42 (PortIoOut
@@ -1909,8 +1894,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,16000,37000,16800"
-st "Sa_top         : std_ulogic
-"
+st "Sa_top         : std_ulogic"
 )
 )
 *44 (PortIoOut
@@ -1972,8 +1956,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,16800,37000,17600"
-st "Sb_bot         : std_ulogic
-"
+st "Sb_bot         : std_ulogic"
 )
 )
 *46 (PortIoOut
@@ -2035,8 +2018,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,17600,37000,18400"
-st "Sb_top         : std_ulogic
-"
+st "Sb_top         : std_ulogic"
 )
 )
 *48 (PortIoOut
@@ -2098,8 +2080,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,18400,37000,19200"
-st "Sc_bot         : std_ulogic
-"
+st "Sc_bot         : std_ulogic"
 )
 )
 *50 (PortIoOut
@@ -2161,8 +2142,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,19200,37000,20000"
-st "Sc_top         : std_ulogic
-"
+st "Sc_top         : std_ulogic"
 )
 )
 *52 (PortIoOut
@@ -2225,8 +2205,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,20000,37000,20800"
-st "USB_RX         : std_ulogic
-"
+st "USB_RX         : std_ulogic"
 )
 )
 *54 (PortIoIn
@@ -2289,8 +2268,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,8000,37000,8800"
-st "USB_TX         : std_ulogic
-"
+st "USB_TX         : std_ulogic"
 )
 )
 *56 (SaComponent
@@ -3006,8 +2984,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,28400,40500,29200"
-st "SIGNAL logic_0        : std_uLogic
-"
+st "SIGNAL logic_0        : std_uLogic"
 )
 )
 *80 (Net
@@ -3024,8 +3001,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,29200,40500,30000"
-st "SIGNAL logic_1        : std_uLogic
-"
+st "SIGNAL logic_1        : std_uLogic"
 )
 )
 *81 (Net
@@ -3044,8 +3020,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,26000,56000,26800"
-st "SIGNAL dacSel         : std_ulogic_vector(dacChBitNb-1 DOWNTO 0)
-"
+st "SIGNAL dacSel         : std_ulogic_vector(dacChBitNb-1 DOWNTO 0)"
 )
 )
 *82 (Net
@@ -3064,8 +3039,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,30000,56000,30800"
-st "SIGNAL mode           : std_ulogic_vector(dacOpBitNb-1 DOWNTO 0)
-"
+st "SIGNAL mode           : std_ulogic_vector(dacOpBitNb-1 DOWNTO 0)"
 )
 )
 *83 (SaComponent
@@ -5138,8 +5112,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,32400,50500,33200"
-st "SIGNAL output         : unsigned(pidBitNb-1 DOWNTO 0)
-"
+st "SIGNAL output         : unsigned(pidBitNb-1 DOWNTO 0)"
 )
 )
 *152 (Net
@@ -5158,8 +5131,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,37200,51000,38000"
-st "SIGNAL speed          : std_ulogic_vector(11 DOWNTO 0)
-"
+st "SIGNAL speed          : std_ulogic_vector(11 DOWNTO 0)"
 )
 )
 *153 (SaComponent
@@ -6396,8 +6368,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,33200,55500,34000"
-st "SIGNAL rxData         : std_ulogic_vector(dataBitNb-1 DOWNTO 0)
-"
+st "SIGNAL rxData         : std_ulogic_vector(dataBitNb-1 DOWNTO 0)"
 )
 )
 *193 (Net
@@ -6415,8 +6386,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,34000,40500,34800"
-st "SIGNAL rxEmpty        : std_ulogic
-"
+st "SIGNAL rxEmpty        : std_ulogic"
 )
 )
 *194 (Net
@@ -6434,8 +6404,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,38800,40500,39600"
-st "SIGNAL txFull         : std_ulogic
-"
+st "SIGNAL txFull         : std_ulogic"
 )
 )
 *195 (SaComponent
@@ -6669,8 +6638,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,31600,40500,32400"
-st "SIGNAL out1           : std_uLogic
-"
+st "SIGNAL out1           : std_uLogic"
 )
 )
 *204 (Net
@@ -6688,8 +6656,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,34800,40500,35600"
-st "SIGNAL rxRd           : std_ulogic
-"
+st "SIGNAL rxRd           : std_ulogic"
 )
 )
 *205 (Net
@@ -6707,8 +6674,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,30800,40500,31600"
-st "SIGNAL newCharacter   : std_ulogic
-"
+st "SIGNAL newCharacter   : std_ulogic"
 )
 )
 *206 (Net
@@ -6726,8 +6692,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,26800,40500,27600"
-st "SIGNAL endOfMsg       : std_ulogic
-"
+st "SIGNAL endOfMsg       : std_ulogic"
 )
 )
 *207 (Net
@@ -6746,8 +6711,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,35600,55500,36400"
-st "SIGNAL serialConsigne : std_ulogic_vector(dataBitNb-1 DOWNTO 0)
-"
+st "SIGNAL serialConsigne : std_ulogic_vector(dataBitNb-1 DOWNTO 0)"
 )
 )
 *208 (Net
@@ -6766,8 +6730,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,25200,55000,26000"
-st "SIGNAL consigne       : std_ulogic_vector(pidBitNb-1 DOWNTO 0)
-"
+st "SIGNAL consigne       : std_ulogic_vector(pidBitNb-1 DOWNTO 0)"
 )
 )
 *209 (Net
@@ -6784,8 +6747,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,36400,40500,37200"
-st "SIGNAL serialOut      : std_ulogic
-"
+st "SIGNAL serialOut      : std_ulogic"
 )
 )
 *210 (SaComponent
@@ -7183,8 +7145,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,24400,40500,25200"
-st "SIGNAL clockOut       : std_ulogic
-"
+st "SIGNAL clockOut       : std_ulogic"
 )
 )
 *225 (SaComponent
@@ -7416,8 +7377,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,23600,40500,24400"
-st "SIGNAL Q              : std_uLogic
-"
+st "SIGNAL Q              : std_uLogic"
 )
 )
 *234 (Net
@@ -7434,8 +7394,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,27600,40500,28400"
-st "SIGNAL in1            : std_uLogic
-"
+st "SIGNAL in1            : std_uLogic"
 )
 )
 *235 (PortIoOut
@@ -7498,8 +7457,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,12000,37000,12800"
-st "ADC_SCLK       : std_ulogic
-"
+st "ADC_SCLK       : std_ulogic"
 )
 )
 *237 (PortIoIn
@@ -7562,8 +7520,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,2400,37000,3200"
-st "ADC0_SDO       : std_ulogic
-"
+st "ADC0_SDO       : std_ulogic"
 )
 )
 *239 (PortIoOut
@@ -7626,8 +7583,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,11200,37000,12000"
-st "ADC0_CS        : std_ulogic
-"
+st "ADC0_CS        : std_ulogic"
 )
 )
 *241 (Net
@@ -7646,8 +7602,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,38000,51000,38800"
-st "SIGNAL speedUnused    : std_ulogic_vector(11 DOWNTO 0)
-"
+st "SIGNAL speedUnused    : std_ulogic_vector(11 DOWNTO 0)"
 )
 )
 *242 (SaComponent
@@ -8209,7 +8164,8 @@ font "Courier New,8,0"
 xt "254000,79000,276500,81400"
 st "counterBitNb = 30           ( integer )  
 frequencyIn  = 100000000    ( integer )  
-frequencyOut = 20000000     ( integer )  "
+frequencyOut = 10000000     ( integer )  
+"
 )
 header ""
 )
@@ -8227,7 +8183,7 @@ value "100000000"
 (GiElement
 name "frequencyOut"
 type "integer"
-value "20000000"
+value "10000000"
 )
 ]
 )
@@ -8461,8 +8417,7 @@ font "Courier New,8,0"
 xt "100000,103000,122500,105400"
 st "counterBitNb = 30           ( integer )  
 frequencyIn  = 100000000    ( integer )  
-frequencyOut = 1            ( integer )  
-"
+frequencyOut = 1            ( integer )  "
 )
 header ""
 )
@@ -8714,8 +8669,7 @@ font "Courier New,8,0"
 xt "96000,25000,118500,27400"
 st "counterBitNb = 30           ( integer )  
 frequencyIn  = 100000000    ( integer )  
-frequencyOut = 1            ( integer )  
-"
+frequencyOut = 1            ( integer )  "
 )
 header ""
 )
@@ -8967,8 +8921,7 @@ font "Courier New,8,0"
 xt "79000,-48000,101500,-45600"
 st "counterBitNb = 10           ( integer )  
 frequencyIn  = 100000000    ( integer )  
-frequencyOut = 40000000     ( integer )  
-"
+frequencyOut = 20000000     ( integer )  "
 )
 header ""
 )
@@ -8986,7 +8939,7 @@ value "100000000"
 (GiElement
 name "frequencyOut"
 type "integer"
-value "40000000"
+value "20000000"
 )
 ]
 )
@@ -11762,7 +11715,6 @@ pts [
 )
 start &365
 end &163
-es 0
 sat 32
 eat 32
 sty 1
@@ -13035,11 +12987,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,14,1921,1080"
-viewArea "5277,-106640,204204,3575"
+viewArea "225972,35343,348911,101424"
 cachedDiagramExtent "0,-85200,325400,106000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-17000,-98000"
-lastUid 3133,0
+lastUid 3391,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

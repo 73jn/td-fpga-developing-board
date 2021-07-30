@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-WEA30407::  Fri Jul 30 11:35:18 2021
+WEA30407::  Fri Jul 30 16:40:05 2021
 
 par -w -intstyle ise -ol high -mt off poetic_circuit_map.ncd poetic_circuit.ncd
 poetic_circuit.pcf 
@@ -41,16 +41,16 @@ Device speed data version:  "PRODUCTION 1.23 2013-10-13".
 Device Utilization Summary:
 
 Slice Logic Utilization:
-  Number of Slice Registers:                   618 out of 184,304    1%
-    Number used as Flip Flops:                 615
+  Number of Slice Registers:                   655 out of 184,304    1%
+    Number used as Flip Flops:                 652
     Number used as Latches:                      2
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                1
-  Number of Slice LUTs:                      1,018 out of  92,152    1%
-    Number used as logic:                      971 out of  92,152    1%
-      Number using O6 output only:             462
-      Number using O5 output only:             261
-      Number using O5 and O6:                  248
+  Number of Slice LUTs:                      1,073 out of  92,152    1%
+    Number used as logic:                    1,034 out of  92,152    1%
+      Number using O6 output only:             478
+      Number using O5 output only:             292
+      Number using O5 and O6:                  264
       Number used as ROM:                        0
     Number used as Memory:                       8 out of  21,680    1%
       Number used as Dual Port RAM:              8
@@ -59,18 +59,18 @@ Slice Logic Utilization:
         Number using O5 and O6:                  4
       Number used as Single Port RAM:            0
       Number used as Shift Register:             0
-    Number used exclusively as route-thrus:     39
-      Number with same-slice register load:     28
+    Number used exclusively as route-thrus:     31
+      Number with same-slice register load:     20
       Number with same-slice carry load:        11
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                   370 out of  23,038    1%
-  Number of MUXCYs used:                       556 out of  46,076    1%
-  Number of LUT Flip Flop pairs used:        1,154
-    Number with an unused Flip Flop:           676 out of   1,154   58%
-    Number with an unused LUT:                 136 out of   1,154   11%
-    Number of fully used LUT-FF pairs:         342 out of   1,154   29%
+  Number of occupied Slices:                   414 out of  23,038    1%
+  Number of MUXCYs used:                       592 out of  46,076    1%
+  Number of LUT Flip Flop pairs used:        1,236
+    Number with an unused Flip Flop:           722 out of   1,236   58%
+    Number with an unused LUT:                 163 out of   1,236   13%
+    Number of fully used LUT-FF pairs:         351 out of   1,236   28%
     Number of slice register sites lost
       to control set restrictions:               0 out of 184,304    0%
 
@@ -120,28 +120,28 @@ WARNING:Par:288 - The signal I0/I0/I_txFifo/g1.I0/Mram_memoryArray1_RAMD_D1_O ha
 Starting Router
 
 
-Phase  1  : 5926 unrouted;      REAL time: 7 secs 
+Phase  1  : 6236 unrouted;      REAL time: 8 secs 
 
-Phase  2  : 4083 unrouted;      REAL time: 9 secs 
+Phase  2  : 4323 unrouted;      REAL time: 9 secs 
 
-Phase  3  : 1448 unrouted;      REAL time: 11 secs 
+Phase  3  : 1489 unrouted;      REAL time: 12 secs 
 
-Phase  4  : 1448 unrouted; (Par is working to improve performance)     REAL time: 15 secs 
+Phase  4  : 1489 unrouted; (Par is working to improve performance)     REAL time: 16 secs 
 
 Updating file: poetic_circuit.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 18 secs 
 
-Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 18 secs 
 
-Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 18 secs 
 
-Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 18 secs 
 
-Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 18 secs 
 
-Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
-Total REAL time to Router completion: 17 secs 
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 18 secs 
+Total REAL time to Router completion: 18 secs 
 Total CPU time to Router completion: 18 secs 
 
 Partition Implementation Status
@@ -162,8 +162,8 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net clo | SETUP       |         N/A|    11.030ns|     N/A|           0
-  ck_BUFGP                                  | HOLD        |     0.333ns|            |       0|           0
+  Autotimespec constraint for clock net clo | SETUP       |         N/A|    10.067ns|     N/A|           0
+  ck_BUFGP                                  | HOLD        |     0.243ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
 
 
@@ -181,8 +181,8 @@ All signals are completely routed.
 
 WARNING:Par:283 - There are 1 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
 
-Total REAL time to PAR completion: 18 secs 
-Total CPU time to PAR completion: 18 secs 
+Total REAL time to PAR completion: 19 secs 
+Total CPU time to PAR completion: 19 secs 
 
 Peak Memory Usage:  4749 MB
 
