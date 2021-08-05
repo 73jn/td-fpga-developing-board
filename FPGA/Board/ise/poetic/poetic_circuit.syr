@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total CPU time to Xst completion: 0.14 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total CPU time to Xst completion: 0.14 secs
  
 --> Reading design: poetic_circuit.prj
 
@@ -210,7 +210,7 @@ INFO:HDLCompiler:679 - "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board
 Elaborating entity <serialPortReceiver> (architecture <RTL>) with generics from library <work>.
 
 Elaborating entity <serialPortTransmitter> (architecture <RTL>) with generics from library <work>.
-WARNING:Xst:2972 - "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd" line 2794. All outputs of instance <U_8> of block <BLDCSpeedController> are unconnected in block <SimplePoeticBLDC>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd" line 2797. All outputs of instance <U_8> of block <BLDCSpeedController> are unconnected in block <SimplePoeticBLDC>. Underlying logic will be removed.
 
 =========================================================================
 *                           HDL Synthesis                               *
@@ -243,9 +243,9 @@ Synthesizing Unit <SimplePoeticBLDC>.
         dacopBitNb = 2
         dacchBitNb = 2
         dataBitNb = 8
-INFO:Xst:3210 - "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd" line 2794: Output port <speed> of the instance <U_8> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd" line 2893: Output port <txData> of the instance <I22> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd" line 2893: Output port <txWr> of the instance <I22> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd" line 2797: Output port <speed> of the instance <U_8> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd" line 2896: Output port <txData> of the instance <I22> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd" line 2896: Output port <txWr> of the instance <I22> is unconnected or connected to loadless signal.
     Summary:
 	no macro.
 Unit <SimplePoeticBLDC> synthesized.
@@ -283,6 +283,7 @@ Unit <pwmModulator> synthesized.
 Synthesizing Unit <ADC>.
     Related source file is "C:\Users\jean.nanchen\Downloads\td-fpga-developing-board\FPGA\Board\concat\poetic.vhd".
         adcBitNb = 12
+        highSpeedEn = 0
     Found 1-bit register for signal <CS_n>.
     Found 12-bit register for signal <Data>.
     Found 12-bit register for signal <dataReg>.
@@ -308,7 +309,7 @@ Synthesizing Unit <ADC>.
     -----------------------------------------------------------------------
     Found 2-bit adder for signal <counterWaitData[1]_GND_13_o_add_2_OUT> created at line 1241.
     Found 11-bit adder for signal <counterReadData[10]_GND_13_o_add_8_OUT> created at line 1241.
-    Found 32-bit adder for signal <decode.counterTq[31]_GND_13_o_add_15_OUT> created at line 2196.
+    Found 32-bit adder for signal <decode.counterTq[31]_GND_13_o_add_15_OUT> created at line 2197.
     Summary:
 	inferred   3 Adder/Subtractor(s).
 	inferred  72 D-type flip-flop(s).
@@ -1118,9 +1119,9 @@ Primitive and Black Box Usage:
 ------------------------------
 # BELS                             : 2234
 #      GND                         : 1
-#      INV                         : 92
+#      INV                         : 91
 #      LUT1                        : 304
-#      LUT2                        : 249
+#      LUT2                        : 250
 #      LUT3                        : 92
 #      LUT4                        : 72
 #      LUT5                        : 105
@@ -1222,7 +1223,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clock'
   Clock period: 8.268ns (frequency: 120.952MHz)
-  Total number of paths / destination ports: 149448 / 1808
+  Total number of paths / destination ports: 149449 / 1808
 -------------------------------------------------------------------------
 Delay:               8.268ns (Levels of Logic = 19)
   Source:            I0/I23/decode.uOutput_2 (FF)
@@ -1344,11 +1345,11 @@ clock          |    8.268|         |         |         |
 
 
 Total REAL time to Xst completion: 13.00 secs
-Total CPU time to Xst completion: 12.62 secs
+Total CPU time to Xst completion: 13.25 secs
  
 --> 
 
-Total memory usage is 4559180 kilobytes
+Total memory usage is 4559144 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  109 (   0 filtered)
