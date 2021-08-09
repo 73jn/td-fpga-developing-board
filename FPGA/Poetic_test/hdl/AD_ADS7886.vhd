@@ -14,6 +14,7 @@ ARCHITECTURE ADS7886 OF AD IS
   signal mainState : decodeState;
   signal memCS, fallingCS : std_ulogic;
   signal memSCLK, fallingSCLK : std_ulogic;
+  signal dataReg : unsigned(adcBitNb-1 DOWNTO 0);
 
 BEGIN
   decode : process(reset, clock)
@@ -36,6 +37,7 @@ BEGIN
             SDO <= '0';
             if counterWaitData = 3 then
               mainState <= sendData;
+              dataReg <= unsigned(DataToSend);
               counterWaitData := 0;
             end if;
           end if;
@@ -46,7 +48,7 @@ BEGIN
               SDO <= '0';
               counterSendData := 0;
             else
-              SDO <= DataToSend(adcBitNb-1 - counterSendData);
+              SDO <= dataReg(adcBitNb-1 - counterSendData);
               mainState <= incrementCounterSendData;
             end if;
           end if;
