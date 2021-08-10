@@ -329,7 +329,7 @@ value "100000000"
 (GiElement
 name "frequencyOut"
 type "integer"
-value "20000000"
+value "40000000"
 )
 ]
 mwi 0
@@ -464,7 +464,7 @@ value "WEA30407"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:10:42"
+value "14:23:55"
 )
 (vvPair
 variable "group"
@@ -536,7 +536,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "14:10:42"
+value "14:23:55"
 )
 (vvPair
 variable "unit"
@@ -7821,8 +7821,7 @@ font "Courier New,8,0"
 xt "254000,79000,276500,81400"
 st "counterBitNb = 30           ( integer )  
 frequencyIn  = 100000000    ( integer )  
-frequencyOut = 20000000     ( integer )  
-"
+frequencyOut = 20000000     ( integer )  "
 )
 header ""
 )
@@ -8578,7 +8577,8 @@ font "Courier New,8,0"
 xt "79000,-48000,101500,-45600"
 st "counterBitNb = 10           ( integer )  
 frequencyIn  = 100000000    ( integer )  
-frequencyOut = 20000000     ( integer )  "
+frequencyOut = 40000000     ( integer )  
+"
 )
 header ""
 )
@@ -8596,7 +8596,7 @@ value "100000000"
 (GiElement
 name "frequencyOut"
 type "integer"
-value "20000000"
+value "40000000"
 )
 ]
 )
@@ -12998,7 +12998,7 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,14,1921,1080"
-viewArea "245300,42700,368889,109130"
+viewArea "39467,-93564,163056,-27134"
 cachedDiagramExtent "0,-85200,325400,106000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-17000,-98000"

@@ -8,11 +8,12 @@
 -- using Mentor Graphics HDL Designer(TM) 2019.2 (Build 5)
 --
 ARCHITECTURE DAC124S085 OF DAC IS
+  constant numberOfDataToSend : integer := 12;
   signal memSCLK, risingSCLK : std_ulogic;
   signal masterWr : std_ulogic;
   signal masterData : std_ulogic_vector(dacBitNb+dacChBitNb+dacOpBitNb-1 DOWNTO 0);
   type transmitState is(
-    waitForATransmission, sendData, sendLowSync, sendHighSync, sendFourZero
+    waitForATransmission, sendData, sendLowSync, sendHighSync, sendZero
   );
   signal mainState : transmitState;
 BEGIN
@@ -51,7 +52,7 @@ BEGIN
             decounter := decounter - 1;
             Dout <= masterData(decounter);
             if decounter = 0 then
-              mainState <= sendFourZero;
+              mainState <= sendZero;
             end if;
           end if;
         when sendLowSync =>
@@ -62,18 +63,18 @@ BEGIN
           end if;
         when sendHighSync =>
           decounter := masterData'length-1;
-		  counter := 0;
+          counter := 0;
           if risingSCLK = '1' then
             Sync_n <= '1';
             mainState <= waitForATransmission;
           end if;
-		when sendFourZero =>
+		when sendZero =>
 		  if risingSCLK = '1' then
 		    Dout <= '0';
 			counter := counter + 1;
-			if counter = 4 then
+      end if;
+			if counter >= numberOfDataToSend - dacBitNb then
 			  mainState <= sendHighSync;
-			end if;
 		  end if;
       end case;
     end if;
