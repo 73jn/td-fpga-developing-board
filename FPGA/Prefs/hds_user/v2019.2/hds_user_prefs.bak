@@ -1284,7 +1284,7 @@ projectPaths [
 "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\hds.hdp"
 "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\hds.hdp"
 ]
-libMappingsRootDir ""
+libMappingsRootDir "$HDS_PROJECT_DIR"
 teamLibMappingsRootDir ""
 projectSetupRootDir ""
 defaultPackages "LIBRARY ieee;
@@ -4151,7 +4151,7 @@ hdsWorkspaceLocation ""
 relativeLibraryRootDir ""
 vmLabelLatestDontAskAgain 0
 vmLabelWorkspaceDontAskAgain 0
-logWindowGeometry "1142x770+409+111"
+logWindowGeometry "1142x770+208+208"
 diagramBrowserTabNo 0
 showInsertPortHint 0
 showContentFirstTime 0
@@ -6361,7 +6361,7 @@ yPos 0
 width 1936
 height 1066
 activeSidePanelTab 2
-activeLibraryTab 12
+activeLibraryTab 2
 sidePanelSize 278
 showUnixHiddenFiles 0
 componentBrowserXpos 1053
@@ -6380,6 +6380,7 @@ componentBrowserLibraryNames [
 "std"
 "Gates"
 "Board"
+"Poetic_test"
 ]
 )
 (SmPreferences
