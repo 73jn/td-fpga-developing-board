@@ -197,23 +197,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hdl"
+value "C:\\Users\\jeann\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds"
+value "C:\\Users\\jeann\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\poetic_test\\struct.bd.info"
+value "C:\\Users\\jeann\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\poetic_test\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\poetic_test\\struct.bd.user"
+value "C:\\Users\\jeann\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\poetic_test\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds"
+value "C:\\Users\\jeann\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -237,27 +237,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\poetic_test"
+value "C:\\Users\\jeann\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\poetic_test"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\poetic_test"
+value "C:\\Users\\jeann\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\poetic_test"
 )
 (vvPair
 variable "date"
-value "10.08.2021"
+value "11.08.2021"
 )
 (vvPair
 variable "day"
-value "mar."
+value "mer."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "mercredi"
 )
 (vvPair
 variable "dd"
-value "10"
+value "11"
 )
 (vvPair
 variable "designName"
@@ -285,11 +285,11 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "jean.nanchen"
+value "jeann"
 )
 (vvPair
 variable "graphical_source_date"
-value "10.08.2021"
+value "11.08.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -297,11 +297,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WEA30407"
+value "DESKTOP-V46KISN"
 )
 (vvPair
 variable "graphical_source_time"
-value "19:35:56"
+value "14:17:34"
 )
 (vvPair
 variable "group"
@@ -309,7 +309,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WEA30407"
+value "DESKTOP-V46KISN"
 )
 (vvPair
 variable "language"
@@ -349,11 +349,11 @@ value "août"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\poetic_test\\struct.bd"
+value "C:\\Users\\jeann\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\poetic_test\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\poetic_test\\struct.bd"
+value "C:\\Users\\jeann\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\poetic_test\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -429,7 +429,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "19:35:56"
+value "14:17:34"
 )
 (vvPair
 variable "unit"
@@ -437,7 +437,7 @@ value "poetic_test"
 )
 (vvPair
 variable "user"
-value "jean.nanchen"
+value "jeann"
 )
 (vvPair
 variable "version"
@@ -539,22 +539,6 @@ value "8"
 )
 ]
 )
-ordering 1
-blkPorts [
-"ledState_1"
-"ledState_0"
-"DAC0_SCLK"
-"DAC0_SYNC"
-"DAC0_SDO"
-"USB_TX"
-"USB_RX"
-"P"
-"I"
-"D"
-"enable"
-"clock"
-"reset"
-]
 )
 *5 (Net
 uid 6543,0
@@ -849,14 +833,14 @@ vasetType 1
 fg "65535,65535,65535"
 lineStyle 2
 )
-xt "64000,-37000,70000,-35000"
+xt "138000,-37000,144000,-35000"
 )
 oxt "0,0,18000,5000"
 text (MLText
 uid 8218,0
 va (VaSet
 )
-xt "64200,-36800,69700,-35600"
+xt "138200,-36800,143700,-35600"
 st "
 -- eb1 1                                        
 LowpassIn <= (others => serialOut);
@@ -875,7 +859,7 @@ va (VaSet
 vasetType 1
 fg "65535,65535,32768"
 )
-xt "62000,-38000,72000,-34000"
+xt "136000,-38000,146000,-34000"
 )
 oxt "0,0,8000,10000"
 ttg (MlTextGroup
@@ -887,18 +871,18 @@ textVec [
 uid 8213,0
 va (VaSet
 )
-xt "63400,-36000,64600,-35000"
+xt "137400,-36000,138600,-35000"
 st "eb1"
-blo "63400,-35200"
+blo "137400,-35200"
 tm "HdlTextNameMgr"
 )
 *19 (Text
 uid 8214,0
 va (VaSet
 )
-xt "63400,-35000,63800,-34000"
+xt "137400,-35000,137800,-34000"
 st "1"
-blo "63400,-34200"
+blo "137400,-34200"
 tm "HdlTextNumberMgr"
 )
 ]
@@ -2735,11 +2719,12 @@ va (VaSet
 vasetType 3
 lineWidth 2
 )
-xt "63000,-34000,65250,-13000"
+xt "63000,-36000,136000,-13000"
 pts [
 "65250,-13000"
 "63000,-13000"
-"63000,-34000"
+"63000,-36000"
+"136000,-36000"
 ]
 )
 start &24
@@ -3154,12 +3139,12 @@ uid 10590,0
 va (VaSet
 vasetType 3
 )
-xt "72000,-37000,194000,-29000"
+xt "146000,-37000,194000,-29000"
 pts [
 "185750,-29000"
 "194000,-29000"
 "194000,-37000"
-"72000,-37000"
+"146000,-37000"
 ]
 )
 start &40
@@ -3714,8 +3699,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-7,0,967,1057"
-viewArea "84707,-40122,139613,24278"
+windowSize "0,0,1921,1056"
+viewArea "25400,-58714,267257,69857"
 cachedDiagramExtent "0,-38000,197000,72400"
 pageSetupInfo (PageSetupInfo
 ptrCmd "Generic PostScript Printer,winspool,"
@@ -3739,8 +3724,8 @@ exportedDirectories [
 boundaryWidth 0
 )
 hasePageBreakOrigin 1
-pageBreakOrigin "0,-132000"
-lastUid 10832,0
+pageBreakOrigin "0,-66000"
+lastUid 10978,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

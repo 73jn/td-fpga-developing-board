@@ -21,8 +21,8 @@ BEGIN
 	variable uOutput : integer;
   begin
     if reset = '1' then
-      uOutput := 3232;
-      output <= (others => '1');
+      uOutput := 0;
+      output <= (others => '0');
       mainState <= ready;
       counterCharacter := 0;
       counterAdder := 0;
@@ -34,7 +34,8 @@ BEGIN
         when ready =>
 		  uOutput := 0;
           if newCharacter = '1' then
-            mainState <= isReceiving;
+            r_Mem(counterCharacter) <= consigne;
+            mainState <= increment;
           end if;
         when isReceiving =>
           if endOfMsg = '1' then
