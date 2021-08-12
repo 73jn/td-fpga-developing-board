@@ -740,23 +740,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Board\\hdl"
+value "C:\\Users\\jeann\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Board\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Board\\hds"
+value "C:\\Users\\jeann\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Board\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Board\\hds\\poetic_circuit\\symbol.sb.info"
+value "C:\\Users\\jeann\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Board\\hds\\poetic_circuit\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Board\\hds\\poetic_circuit\\symbol.sb.user"
+value "C:\\Users\\jeann\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Board\\hds\\poetic_circuit\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Board\\hds"
+value "C:\\Users\\jeann\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Board\\hds"
 )
 (vvPair
 variable "appl"
@@ -780,27 +780,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Board\\hds\\poetic_circuit"
+value "C:\\Users\\jeann\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Board\\hds\\poetic_circuit"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Board\\hds\\poetic_circuit"
+value "C:\\Users\\jeann\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Board\\hds\\poetic_circuit"
 )
 (vvPair
 variable "date"
-value "28.07.2021"
+value "12.08.2021"
 )
 (vvPair
 variable "day"
-value "mer."
+value "jeu."
 )
 (vvPair
 variable "day_long"
-value "mercredi"
+value "jeudi"
 )
 (vvPair
 variable "dd"
-value "28"
+value "12"
 )
 (vvPair
 variable "designName"
@@ -828,11 +828,11 @@ value "symbol"
 )
 (vvPair
 variable "graphical_source_author"
-value "jean.nanchen"
+value "jeann"
 )
 (vvPair
 variable "graphical_source_date"
-value "28.07.2021"
+value "12.08.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -840,11 +840,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WEA30407"
+value "DESKTOP-V46KISN"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:47:05"
+value "16:09:36"
 )
 (vvPair
 variable "group"
@@ -852,7 +852,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WEA30407"
+value "DESKTOP-V46KISN"
 )
 (vvPair
 variable "language"
@@ -884,7 +884,7 @@ value "U:\\SEm_curves\\Synthesis"
 )
 (vvPair
 variable "mm"
-value "07"
+value "08"
 )
 (vvPair
 variable "module_name"
@@ -892,19 +892,19 @@ value "poetic_circuit"
 )
 (vvPair
 variable "month"
-value "juil."
+value "août"
 )
 (vvPair
 variable "month_long"
-value "juillet"
+value "août"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Board\\hds\\poetic_circuit\\symbol.sb"
+value "C:\\Users\\jeann\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Board\\hds\\poetic_circuit\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Board\\hds\\poetic_circuit\\symbol.sb"
+value "C:\\Users\\jeann\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Board\\hds\\poetic_circuit\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -980,7 +980,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "15:47:05"
+value "16:09:36"
 )
 (vvPair
 variable "unit"
@@ -988,7 +988,7 @@ value "poetic_circuit"
 )
 (vvPair
 variable "user"
-value "jean.nanchen"
+value "jeann"
 )
 (vvPair
 variable "version"
@@ -2686,7 +2686,7 @@ xt "0,9000,0,9000"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1134,0
+lastUid 1180,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 )

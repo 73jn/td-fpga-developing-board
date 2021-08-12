@@ -633,7 +633,7 @@ uid 873,0
 generic (GiElement
 name "pwmBitNb"
 type "positive"
-value "pidBitNb"
+value "12"
 )
 uid 875,0
 )
@@ -695,7 +695,7 @@ font "Tahoma,10,0"
 )
 emptyMRCItem *91 (MRCItem
 litem &61
-pos 6
+pos 17
 dimension 20
 )
 uid 159,0
@@ -892,23 +892,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hdl"
+value "C:\\Users\\jeann\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds"
+value "C:\\Users\\jeann\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\@simple@poetic@dc@motor\\symbol.sb.info"
+value "C:\\Users\\jeann\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\@simple@poetic@dc@motor\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\@simple@poetic@dc@motor\\symbol.sb.user"
+value "C:\\Users\\jeann\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\@simple@poetic@dc@motor\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds"
+value "C:\\Users\\jeann\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds"
 )
 (vvPair
 variable "appl"
@@ -928,27 +928,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\@simple@poetic@dc@motor"
+value "C:\\Users\\jeann\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\@simple@poetic@dc@motor"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\SimplePoeticDcMotor"
+value "C:\\Users\\jeann\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\SimplePoeticDcMotor"
 )
 (vvPair
 variable "date"
-value "10.08.2021"
+value "12.08.2021"
 )
 (vvPair
 variable "day"
-value "mar."
+value "jeu."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "jeudi"
 )
 (vvPair
 variable "dd"
-value "10"
+value "12"
 )
 (vvPair
 variable "entity_name"
@@ -972,11 +972,11 @@ value "symbol"
 )
 (vvPair
 variable "graphical_source_author"
-value "jean.nanchen"
+value "jeann"
 )
 (vvPair
 variable "graphical_source_date"
-value "10.08.2021"
+value "12.08.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -984,11 +984,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WEA30407"
+value "DESKTOP-V46KISN"
 )
 (vvPair
 variable "graphical_source_time"
-value "18:45:03"
+value "15:57:53"
 )
 (vvPair
 variable "group"
@@ -996,7 +996,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WEA30407"
+value "DESKTOP-V46KISN"
 )
 (vvPair
 variable "language"
@@ -1028,11 +1028,11 @@ value "août"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\@simple@poetic@dc@motor\\symbol.sb"
+value "C:\\Users\\jeann\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\@simple@poetic@dc@motor\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\SimplePoeticDcMotor\\symbol.sb"
+value "C:\\Users\\jeann\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic\\hds\\SimplePoeticDcMotor\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -1060,7 +1060,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "18:45:03"
+value "15:57:53"
 )
 (vvPair
 variable "unit"
@@ -1068,7 +1068,7 @@ value "SimplePoeticDcMotor"
 )
 (vvPair
 variable "user"
-value "jean.nanchen"
+value "jeann"
 )
 (vvPair
 variable "version"
@@ -1914,7 +1914,7 @@ uid 15,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "-2500,22000,19500,37200"
+xt "16000,44800,38000,60000"
 st "Generic Declarations
 
 dataBitNb           positive 8          
@@ -1929,12 +1929,11 @@ uartRxFifo          positive 8
 fpgaFrequency       integer  100000000  
 dacFrequency        integer  40000000   
 adcFrequency        integer  20000000   
-pwmBitNb            positive pidBitNb   
+pwmBitNb            positive 12         
 clockDividerBitNb   positive 30         
 uartUpdateFrequency integer  1          
 ledFrequency        integer  1          
-uartBaudRateDivide  integer  10417      
-"
+uartBaudRateDivide  integer  10417      "
 )
 header "Generic Declarations"
 showHdrWhenContentsEmpty 1
@@ -2003,7 +2002,7 @@ value "20000000"
 (GiElement
 name "pwmBitNb"
 type "positive"
-value "pidBitNb"
+value "12"
 )
 (GiElement
 name "clockDividerBitNb"
@@ -2059,7 +2058,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "36200,48000,48200,49000"
+xt "36200,48000,45600,49000"
 st "
 by %user on %dd %month %year
 "
@@ -2408,9 +2407,9 @@ tm "PackageList"
 )
 ]
 )
-windowSize "946,0,1921,1057"
-viewArea "-14500,-28800,52730,54810"
-cachedDiagramExtent "-7000,-22000,73000,49000"
+windowSize "943,0,1921,1057"
+viewArea "-14500,-3960,53000,79650"
+cachedDiagramExtent "-7000,-22000,73000,60000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-76000,-49000"
 defaultCommentText (CommentText
@@ -2682,7 +2681,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 952,0
+lastUid 1021,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"

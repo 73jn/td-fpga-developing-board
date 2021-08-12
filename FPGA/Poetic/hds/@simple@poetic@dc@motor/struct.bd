@@ -394,19 +394,19 @@ value "C:\\Users\\jeann\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\P
 )
 (vvPair
 variable "date"
-value "11.08.2021"
+value "12.08.2021"
 )
 (vvPair
 variable "day"
-value "mer."
+value "jeu."
 )
 (vvPair
 variable "day_long"
-value "mercredi"
+value "jeudi"
 )
 (vvPair
 variable "dd"
-value "11"
+value "12"
 )
 (vvPair
 variable "entity_name"
@@ -434,7 +434,7 @@ value "jeann"
 )
 (vvPair
 variable "graphical_source_date"
-value "11.08.2021"
+value "12.08.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -446,7 +446,7 @@ value "DESKTOP-V46KISN"
 )
 (vvPair
 variable "graphical_source_time"
-value "11:44:44"
+value "15:57:04"
 )
 (vvPair
 variable "group"
@@ -518,7 +518,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "11:44:44"
+value "15:57:04"
 )
 (vvPair
 variable "unit"
@@ -571,7 +571,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "26200,48000,38200,49000"
+xt "26200,48000,35600,49000"
 st "
 by %user on %dd %month %year
 "
@@ -942,8 +942,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,12800,-63000,13600"
-st "PWM_out        : std_ulogic
-"
+st "PWM_out        : std_ulogic"
 )
 )
 *14 (Net
@@ -961,8 +960,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,6400,-63000,7200"
-st "clock          : std_ulogic
-"
+st "clock          : std_ulogic"
 )
 )
 *15 (Net
@@ -980,8 +978,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,8000,-63000,8800"
-st "reset          : std_ulogic
-"
+st "reset          : std_ulogic"
 )
 )
 *16 (SaComponent
@@ -2351,8 +2348,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,30000,-49000,30800"
-st "SIGNAL speed          : std_ulogic_vector(11 DOWNTO 0)
-"
+st "SIGNAL speed          : std_ulogic_vector(11 DOWNTO 0)"
 )
 )
 *61 (Net
@@ -2369,8 +2365,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,22800,-59500,23600"
-st "SIGNAL logic_1        : std_uLogic
-"
+st "SIGNAL logic_1        : std_uLogic"
 )
 )
 *62 (Net
@@ -2389,8 +2384,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,19600,-44000,20400"
-st "SIGNAL dacSel         : std_ulogic_vector(dacChBitNb-1 DOWNTO 0)
-"
+st "SIGNAL dacSel         : std_ulogic_vector(dacChBitNb-1 DOWNTO 0)"
 )
 )
 *63 (Net
@@ -2409,8 +2403,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,23600,-44000,24400"
-st "SIGNAL mode           : std_ulogic_vector(dacOpBitNb-1 DOWNTO 0)
-"
+st "SIGNAL mode           : std_ulogic_vector(dacOpBitNb-1 DOWNTO 0)"
 )
 )
 *64 (PortIoIn
@@ -3271,8 +3264,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,18800,-45000,19600"
-st "SIGNAL consigne       : std_ulogic_vector(pidBitNb-1 DOWNTO 0)
-"
+st "SIGNAL consigne       : std_ulogic_vector(pidBitNb-1 DOWNTO 0)"
 )
 )
 *91 (Net
@@ -3289,8 +3281,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,22000,-59500,22800"
-st "SIGNAL logic_0        : std_uLogic
-"
+st "SIGNAL logic_0        : std_uLogic"
 )
 )
 *92 (Net
@@ -3309,8 +3300,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,26000,-49500,26800"
-st "SIGNAL output         : unsigned(pidBitNb-1 DOWNTO 0)
-"
+st "SIGNAL output         : unsigned(pidBitNb-1 DOWNTO 0)"
 )
 )
 *93 (SaComponent
@@ -5941,8 +5931,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,20400,-59500,21200"
-st "SIGNAL endOfMsg       : std_ulogic
-"
+st "SIGNAL endOfMsg       : std_ulogic"
 )
 )
 *179 (Net
@@ -5960,8 +5949,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,27600,-59500,28400"
-st "SIGNAL rxEmpty        : std_ulogic
-"
+st "SIGNAL rxEmpty        : std_ulogic"
 )
 )
 *180 (Net
@@ -5979,8 +5967,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,30800,-59500,31600"
-st "SIGNAL txFull         : std_ulogic
-"
+st "SIGNAL txFull         : std_ulogic"
 )
 )
 *181 (Net
@@ -5997,8 +5984,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,25200,-59500,26000"
-st "SIGNAL out1           : std_uLogic
-"
+st "SIGNAL out1           : std_uLogic"
 )
 )
 *182 (Net
@@ -6016,8 +6002,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,28400,-59500,29200"
-st "SIGNAL rxRd           : std_ulogic
-"
+st "SIGNAL rxRd           : std_ulogic"
 )
 )
 *183 (Net
@@ -6036,8 +6021,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,26800,-44500,27600"
-st "SIGNAL rxData         : std_ulogic_vector(dataBitNb-1 DOWNTO 0)
-"
+st "SIGNAL rxData         : std_ulogic_vector(dataBitNb-1 DOWNTO 0)"
 )
 )
 *184 (Net
@@ -6056,8 +6040,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,29200,-44500,30000"
-st "SIGNAL serialConsigne : std_ulogic_vector(dataBitNb-1 DOWNTO 0)
-"
+st "SIGNAL serialConsigne : std_ulogic_vector(dataBitNb-1 DOWNTO 0)"
 )
 )
 *185 (Net
@@ -6075,8 +6058,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,24400,-59500,25200"
-st "SIGNAL newCharacter   : std_ulogic
-"
+st "SIGNAL newCharacter   : std_ulogic"
 )
 )
 *186 (Net
@@ -6093,8 +6075,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,17200,-59500,18000"
-st "SIGNAL Q              : std_uLogic
-"
+st "SIGNAL Q              : std_uLogic"
 )
 )
 *187 (Net
@@ -6112,8 +6093,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,18000,-59500,18800"
-st "SIGNAL clockOut       : std_ulogic
-"
+st "SIGNAL clockOut       : std_ulogic"
 )
 )
 *188 (Net
@@ -6130,8 +6110,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,21200,-59500,22000"
-st "SIGNAL in1            : std_uLogic
-"
+st "SIGNAL in1            : std_uLogic"
 )
 )
 *189 (SaComponent
@@ -6888,8 +6867,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,9600,-63000,10400"
-st "ADC_SCLK       : std_ulogic
-"
+st "ADC_SCLK       : std_ulogic"
 )
 )
 *215 (Net
@@ -6907,8 +6885,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,2400,-63000,3200"
-st "ADC0_SDO       : std_ulogic
-"
+st "ADC0_SDO       : std_ulogic"
 )
 )
 *216 (Net
@@ -6926,8 +6903,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,8800,-63000,9600"
-st "ADC0_CS        : std_ulogic
-"
+st "ADC0_CS        : std_ulogic"
 )
 )
 *217 (Net
@@ -6945,8 +6921,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,10400,-63000,11200"
-st "DAC0_SCLK      : std_ulogic
-"
+st "DAC0_SCLK      : std_ulogic"
 )
 )
 *218 (Net
@@ -6964,8 +6939,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,11200,-63000,12000"
-st "DAC0_SDO       : std_ulogic
-"
+st "DAC0_SDO       : std_ulogic"
 )
 )
 *219 (Net
@@ -6983,8 +6957,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,12000,-63000,12800"
-st "DAC0_SYNC      : std_ulogic
-"
+st "DAC0_SYNC      : std_ulogic"
 )
 )
 *220 (Net
@@ -7002,8 +6975,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,7200,-63000,8000"
-st "enable         : std_ulogic
-"
+st "enable         : std_ulogic"
 )
 )
 *221 (Net
@@ -7021,8 +6993,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,4800,-63000,5600"
-st "P              : std_ulogic
-"
+st "P              : std_ulogic"
 )
 )
 *222 (Net
@@ -7040,8 +7011,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,4000,-63000,4800"
-st "I              : std_ulogic
-"
+st "I              : std_ulogic"
 )
 )
 *223 (Net
@@ -7059,8 +7029,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,3200,-63000,4000"
-st "D              : std_ulogic
-"
+st "D              : std_ulogic"
 )
 )
 *224 (Net
@@ -7078,8 +7047,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,5600,-63000,6400"
-st "USB_TX         : std_ulogic
-"
+st "USB_TX         : std_ulogic"
 )
 )
 *225 (Net
@@ -7097,8 +7065,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,13600,-63000,14400"
-st "USB_RX         : std_ulogic
-"
+st "USB_RX         : std_ulogic"
 )
 )
 *226 (Net
@@ -7116,8 +7083,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,15200,-63000,16000"
-st "ledState_1     : std_ulogic
-"
+st "ledState_1     : std_ulogic"
 )
 )
 *227 (Net
@@ -7135,8 +7101,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-78000,14400,-63000,15200"
-st "ledState_0     : std_ulogic
-"
+st "ledState_0     : std_ulogic"
 )
 )
 *228 (PortIoIn
@@ -10786,11 +10751,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,14,1921,1080"
-viewArea "41937,-95216,92421,-68081"
+viewArea "5404,-60945,129403,5705"
 cachedDiagramExtent "-152400,-100600,110950,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-156000,-147000"
-lastUid 7045,0
+lastUid 7154,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -12786,7 +12751,7 @@ uid 6778,0
 generic (GiElement
 name "pwmBitNb"
 type "positive"
-value "pidBitNb"
+value "12"
 )
 uid 6780,0
 )
