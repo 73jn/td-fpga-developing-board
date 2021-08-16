@@ -1,5 +1,6 @@
 [Concat]
 Board = $HDS_PROJECT_DIR/../Board/concat
+Messy_test = $HDS_PROJECT_DIR\..\Messy_test\concat
 Poetic_test = $HDS_PROJECT_DIR/../Poetic_test/concat
 [ModelSim]
 Board = $SCRATCH_DIR/Board
@@ -12,6 +13,8 @@ Filter_test = $SCRATCH_DIR/Filter_test
 Gates = $SCRATCH_DIR/Gates
 Memory = $SCRATCH_DIR/Memory
 Memory_test = $SCRATCH_DIR/Memory_test
+Messy = $SCRATCH_DIR/Messy
+Messy_test = $SCRATCH_DIR/Messy_test
 Modulation = $SCRATCH_DIR/Modulation
 Modulation_test = $SCRATCH_DIR/Modulation_test
 Poetic = $SCRATCH_DIR/Poetic
@@ -22,8 +25,6 @@ SPI = $SCRATCH_DIR/SPI
 SPI_test = $SCRATCH_DIR/SPI_test
 WaveformGenerator = $SCRATCH_DIR/WaveformGenerator
 WaveformGenerator_test = $SCRATCH_DIR/WaveformGenerator_test
-Messy = $SCRATCH_DIR/Messy
-Messy_test = $SCRATCH_DIR/Messy_test
 [hdl]
 Board = $HDS_PROJECT_DIR/../Board/hdl
 Common = $HDS_PROJECT_DIR/../Libs/Common/hdl
@@ -36,6 +37,8 @@ Gates = $HDS_PROJECT_DIR/../Libs/Gates/hdl
 ieee = $HDS_HOME/hdl_libs/ieee/hdl
 Memory = $HDS_PROJECT_DIR/../Libs/Memory/hdl
 Memory_test = $HDS_PROJECT_DIR/../Libs/Memory_test/hdl
+Messy = $HDS_PROJECT_DIR/../Messy/hdl
+Messy_test = $HDS_PROJECT_DIR/../Messy_test/hdl
 Modulation = $HDS_PROJECT_DIR/../Libs/Modulation/hdl
 Modulation_test = $HDS_PROJECT_DIR/../Libs/Modulation_test/hdl
 Poetic = $HDS_PROJECT_DIR/../Poetic/hdl
@@ -47,8 +50,6 @@ SPI_test = $HDS_PROJECT_DIR/../Libs/SPI_test/hdl
 std = $HDS_HOME/hdl_libs/std/hdl
 WaveformGenerator = $HDS_PROJECT_DIR/../Libs/WaveformGenerator/hdl
 WaveformGenerator_test = $HDS_PROJECT_DIR/../Libs/WaveformGenerator_test/hdl
-Messy = $HDS_PROJECT_DIR/../Messy/hdl
-Messy_test = $HDS_PROJECT_DIR/../Messy_test/hdl
 [hds]
 Board = $HDS_PROJECT_DIR/../Board/hds
 Common = $HDS_PROJECT_DIR/../Libs/Common/hds
@@ -61,6 +62,8 @@ Gates = $HDS_PROJECT_DIR/../Libs/Gates/hds
 ieee = $HDS_HOME/hdl_libs/ieee/hds
 Memory = $HDS_PROJECT_DIR/../Libs/Memory/hds
 Memory_test = $HDS_PROJECT_DIR/../Libs/Memory_test/hds
+Messy = $HDS_PROJECT_DIR/../Messy/hds
+Messy_test = $HDS_PROJECT_DIR/../Messy_test/hds
 Modulation = $HDS_PROJECT_DIR/../Libs/Modulation/hds
 Modulation_test = $HDS_PROJECT_DIR/../Libs/Modulation_test/hds
 Poetic = $HDS_PROJECT_DIR/../Poetic/hds
@@ -72,11 +75,8 @@ SPI_test = $HDS_PROJECT_DIR/../Libs/SPI_test/hds
 std = $HDS_HOME/hdl_libs/std/hds
 WaveformGenerator = $HDS_PROJECT_DIR/../Libs/WaveformGenerator/hds
 WaveformGenerator_test = $HDS_PROJECT_DIR/../Libs/WaveformGenerator_test/hds
-Messy = $HDS_PROJECT_DIR/../Messy/hds
-Messy_test = $HDS_PROJECT_DIR/../Messy_test/hds
 [hds_settings]
 default_library = Board
-[library_files_inclusion]
 [library_type]
 ieee = standard
 std = standard

@@ -21,8 +21,8 @@ BEGIN
 	variable uOutput : integer;
   begin
     if reset = '1' then
-      uOutput := 3232;
-      output <= (others => '1');
+      uOutput := 0;
+      output <= (others => '0');
       mainState <= ready;
       counterCharacter := 0;
       counterAdder := 0;

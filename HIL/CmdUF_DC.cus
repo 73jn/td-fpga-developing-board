@@ -57,12 +57,12 @@ displayValue = data
                 <digital_signals><![CDATA[[]]]></digital_signals>
                 <streaming_analog_signals><![CDATA[[]]]></streaming_analog_signals>
                 <streaming_digital_signals><![CDATA[[]]]></streaming_digital_signals>
-                <update_rate>250</update_rate>
+                <update_rate>500</update_rate>
                 <execution_rate>None</execution_rate>
                 <background_color>white</background_color>
                 <widget_settings>
-                    <x>448.0</x>
-                    <y>96.0</y>
+                    <x>32</x>
+                    <y>112</y>
                     <width>400</width>
                     <height>192</height>
                     <appearance><![CDATA[Flat]]></appearance>
@@ -74,9 +74,9 @@ displayValue = data
                 <advance_widget_settings>
                     <x_title><![CDATA[x axes]]></x_title>
                     <y_title><![CDATA[y axes]]></y_title>
-                    <y_range_min>0.0</y_range_min>
-                    <y_range_max>800.0</y_range_max>
-                    <time_window>10</time_window>
+                    <y_range_min>-2000.0</y_range_min>
+                    <y_range_max>0.0</y_range_max>
+                    <time_window>20</time_window>
                     <auto_scale_enabled>False</auto_scale_enabled>
                     <legend_enabled>True</legend_enabled>
                     <x_axis_title_enabled>False</x_axis_title_enabled>
@@ -133,11 +133,11 @@ displayValue = 0.0
                 <signal_name><![CDATA[machine mechanical speed]]></signal_name>
                 <unit><![CDATA[rad/s]]></unit>
                 <automatic_unit>True</automatic_unit>
-                <decimals><![CDATA[2]]></decimals>
+                <decimals><![CDATA[1]]></decimals>
                 <updateRate>1000</updateRate>
                 <widget_settings>
-                    <x>240.0</x>
-                    <y>40.0</y>
+                    <x>240</x>
+                    <y>40</y>
                     <width>168</width>
                     <height>56</height>
                     <appearance><![CDATA[Flat]]></appearance>
@@ -173,8 +173,8 @@ displayValue = 0.0
                 <decimals><![CDATA[2]]></decimals>
                 <updateRate>1000</updateRate>
                 <widget_settings>
-                    <x>48.0</x>
-                    <y>24.0</y>
+                    <x>72</x>
+                    <y>40</y>
                     <width>144</width>
                     <height>56</height>
                     <appearance><![CDATA[Flat]]></appearance>
@@ -225,8 +225,8 @@ displayValue = data
                 <execution_rate>None</execution_rate>
                 <background_color>white</background_color>
                 <widget_settings>
-                    <x>32.0</x>
-                    <y>96.0</y>
+                    <x>936</x>
+                    <y>216</y>
                     <width>400</width>
                     <height>200</height>
                     <appearance><![CDATA[Flat]]></appearance>
@@ -300,8 +300,8 @@ displayValue = 0.0
                 <decimals><![CDATA[2]]></decimals>
                 <updateRate>1000</updateRate>
                 <widget_settings>
-                    <x>432.0</x>
-                    <y>24.0</y>
+                    <x>768</x>
+                    <y>544</y>
                     <width>136</width>
                     <height>56</height>
                     <appearance><![CDATA[Flat]]></appearance>
@@ -337,8 +337,8 @@ displayValue = 0.0
                 <decimals><![CDATA[2]]></decimals>
                 <updateRate>1000</updateRate>
                 <widget_settings>
-                    <x>592.0</x>
-                    <y>24.0</y>
+                    <x>624</x>
+                    <y>544</y>
                     <width>136</width>
                     <height>56</height>
                     <appearance><![CDATA[Flat]]></appearance>
@@ -374,8 +374,8 @@ displayValue = 0.0
                 <decimals><![CDATA[2]]></decimals>
                 <updateRate>1000</updateRate>
                 <widget_settings>
-                    <x>752.0</x>
-                    <y>24.0</y>
+                    <x>440</x>
+                    <y>544</y>
                     <width>176</width>
                     <height>56</height>
                     <appearance><![CDATA[Flat]]></appearance>
@@ -411,8 +411,8 @@ displayValue = 0.0
                 <decimals><![CDATA[2]]></decimals>
                 <updateRate>1000</updateRate>
                 <widget_settings>
-                    <x>960.0</x>
-                    <y>24.0</y>
+                    <x>296</x>
+                    <y>544</y>
                     <width>136</width>
                     <height>56</height>
                     <appearance><![CDATA[Flat]]></appearance>
@@ -435,8 +435,8 @@ displayValue = 0.0
                 <description><![CDATA[]]></description>
                 <working_mode>windowed</working_mode>
                 <widget_settings>
-                    <x>48</x>
-                    <y>304</y>
+                    <x>24</x>
+                    <y>416</y>
                     <width>120</width>
                     <height>120</height>
                     <hierarchy_position>1</hierarchy_position>
@@ -915,13 +915,13 @@ widgetValue = None
 widgetValue = None
 ]]></on_timer_code>
                 <on_start_code_source><![CDATA[Custom code]]></on_start_code_source>
-                <inputValue><![CDATA[9.6]]></inputValue>
+                <inputValue><![CDATA[1.36]]></inputValue>
                 <min>0.0</min>
                 <max>10.0</max>
                 <step>0.01</step>
                 <widget_settings>
-                    <x>952</x>
-                    <y>512</y>
+                    <x>952.0</x>
+                    <y>512.0</y>
                     <width>288</width>
                     <height>48</height>
                     <appearance><![CDATA[Raised]]></appearance>
@@ -966,8 +966,8 @@ displayValue = data
                 <execution_rate>None</execution_rate>
                 <background_color>white</background_color>
                 <widget_settings>
-                    <x>912.0</x>
-                    <y>96.0</y>
+                    <x>928</x>
+                    <y>24</y>
                     <width>400</width>
                     <height>192</height>
                     <appearance><![CDATA[Flat]]></appearance>

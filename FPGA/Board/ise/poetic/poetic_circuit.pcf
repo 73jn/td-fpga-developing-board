@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Mon Aug 09 14:25:00 2021
+// Written by: Map P.20131013 on Mon Aug 16 19:43:08 2021
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -19,6 +19,11 @@ COMP "Sc_bot" LOCATE = SITE "F20" LEVEL 1;
 COMP "Sa_top" LOCATE = SITE "C19" LEVEL 1;
 COMP "Sb_top" LOCATE = SITE "D19" LEVEL 1;
 COMP "Sc_top" LOCATE = SITE "E20" LEVEL 1;
+COMP "BP_GPIO_26" LOCATE = SITE "K22" LEVEL 1;
+COMP "BP_GPIO_27" LOCATE = SITE "M22" LEVEL 1;
+COMP "BP_GPIO_28" LOCATE = SITE "P22" LEVEL 1;
+COMP "BP_PWM_12A" LOCATE = SITE "H21" LEVEL 1;
+COMP "BP_PWM_12B" LOCATE = SITE "J22" LEVEL 1;
 COMP "ADC0_SDO" LOCATE = SITE "H14" LEVEL 1;
 COMP "ADC_SCLK" LOCATE = SITE "B18" LEVEL 1;
 COMP "DAC_SCLK" LOCATE = SITE "AB19" LEVEL 1;

@@ -96,4 +96,3 @@ BEGIN
     end if;
   end process detectRisingSCLK;
 END ARCHITECTURE DAC124S085;
-
