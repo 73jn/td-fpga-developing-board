@@ -445,3 +445,45 @@ map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -r
 par -w -intstyle ise -ol high -mt off poetic_circuit_map.ncd poetic_circuit.ncd poetic_circuit.pcf 
 trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml poetic_circuit.twx poetic_circuit.ncd -o poetic_circuit.twr poetic_circuit.pcf 
 bitgen -intstyle ise -f poetic_circuit.ut poetic_circuit.ncd 
+xst -intstyle ise -ifn "C:/Users/jean.nanchen/Downloads/td-fpga-developing-board/FPGA/Board/ise/poetic/poetic_circuit.xst" -ofn "C:/Users/jean.nanchen/Downloads/td-fpga-developing-board/FPGA/Board/ise/poetic/poetic_circuit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/jean.nanchen/Downloads/td-fpga-developing-board/FPGA/Board/concat/poetic.ucf -p xc6slx150-fgg484-3 poetic_circuit.ngc poetic_circuit.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o poetic_circuit_map.ncd poetic_circuit.ngd poetic_circuit.pcf 
+par -w -intstyle ise -ol high -mt off poetic_circuit_map.ncd poetic_circuit.ncd poetic_circuit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml poetic_circuit.twx poetic_circuit.ncd -o poetic_circuit.twr poetic_circuit.pcf 
+bitgen -intstyle ise -f poetic_circuit.ut poetic_circuit.ncd 
+xst -intstyle ise -ifn "C:/Users/jean.nanchen/Downloads/td-fpga-developing-board/FPGA/Board/ise/poetic/poetic_circuit.xst" -ofn "C:/Users/jean.nanchen/Downloads/td-fpga-developing-board/FPGA/Board/ise/poetic/poetic_circuit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/jean.nanchen/Downloads/td-fpga-developing-board/FPGA/Board/concat/poetic.ucf -p xc6slx150-fgg484-3 poetic_circuit.ngc poetic_circuit.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o poetic_circuit_map.ncd poetic_circuit.ngd poetic_circuit.pcf 
+par -w -intstyle ise -ol high -mt off poetic_circuit_map.ncd poetic_circuit.ncd poetic_circuit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml poetic_circuit.twx poetic_circuit.ncd -o poetic_circuit.twr poetic_circuit.pcf 
+bitgen -intstyle ise -f poetic_circuit.ut poetic_circuit.ncd 
+xst -intstyle ise -ifn "C:/Users/jean.nanchen/Downloads/td-fpga-developing-board/FPGA/Board/ise/poetic/poetic_circuit.xst" -ofn "C:/Users/jean.nanchen/Downloads/td-fpga-developing-board/FPGA/Board/ise/poetic/poetic_circuit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/jean.nanchen/Downloads/td-fpga-developing-board/FPGA/Board/concat/poetic.ucf -p xc6slx150-fgg484-3 poetic_circuit.ngc poetic_circuit.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o poetic_circuit_map.ncd poetic_circuit.ngd poetic_circuit.pcf 
+par -w -intstyle ise -ol high -mt off poetic_circuit_map.ncd poetic_circuit.ncd poetic_circuit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml poetic_circuit.twx poetic_circuit.ncd -o poetic_circuit.twr poetic_circuit.pcf 
+bitgen -intstyle ise -f poetic_circuit.ut poetic_circuit.ncd 
+xst -intstyle ise -ifn "C:/Users/jean.nanchen/Downloads/td-fpga-developing-board/FPGA/Board/ise/poetic/poetic_circuit.xst" -ofn "C:/Users/jean.nanchen/Downloads/td-fpga-developing-board/FPGA/Board/ise/poetic/poetic_circuit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/jean.nanchen/Downloads/td-fpga-developing-board/FPGA/Board/concat/poetic.ucf -p xc6slx150-fgg484-3 poetic_circuit.ngc poetic_circuit.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o poetic_circuit_map.ncd poetic_circuit.ngd poetic_circuit.pcf 
+par -w -intstyle ise -ol high -mt off poetic_circuit_map.ncd poetic_circuit.ncd poetic_circuit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml poetic_circuit.twx poetic_circuit.ncd -o poetic_circuit.twr poetic_circuit.pcf 
+bitgen -intstyle ise -f poetic_circuit.ut poetic_circuit.ncd 
+xst -intstyle ise -ifn "C:/Users/jean.nanchen/Downloads/td-fpga-developing-board/FPGA/Board/ise/poetic/poetic_circuit.xst" -ofn "C:/Users/jean.nanchen/Downloads/td-fpga-developing-board/FPGA/Board/ise/poetic/poetic_circuit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/jean.nanchen/Downloads/td-fpga-developing-board/FPGA/Board/concat/poetic.ucf -p xc6slx150-fgg484-3 poetic_circuit.ngc poetic_circuit.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o poetic_circuit_map.ncd poetic_circuit.ngd poetic_circuit.pcf 
+par -w -intstyle ise -ol high -mt off poetic_circuit_map.ncd poetic_circuit.ncd poetic_circuit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml poetic_circuit.twx poetic_circuit.ncd -o poetic_circuit.twr poetic_circuit.pcf 
+bitgen -intstyle ise -f poetic_circuit.ut poetic_circuit.ncd 
+xst -intstyle ise -ifn "C:/Users/jean.nanchen/Downloads/td-fpga-developing-board/FPGA/Board/ise/poetic/poetic_circuit.xst" -ofn "C:/Users/jean.nanchen/Downloads/td-fpga-developing-board/FPGA/Board/ise/poetic/poetic_circuit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/jean.nanchen/Downloads/td-fpga-developing-board/FPGA/Board/concat/poetic.ucf -p xc6slx150-fgg484-3 poetic_circuit.ngc poetic_circuit.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o poetic_circuit_map.ncd poetic_circuit.ngd poetic_circuit.pcf 
+par -w -intstyle ise -ol high -mt off poetic_circuit_map.ncd poetic_circuit.ncd poetic_circuit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml poetic_circuit.twx poetic_circuit.ncd -o poetic_circuit.twr poetic_circuit.pcf 
+bitgen -intstyle ise -f poetic_circuit.ut poetic_circuit.ncd 
+xst -intstyle ise -ifn "C:/Users/jean.nanchen/Downloads/td-fpga-developing-board/FPGA/Board/ise/poetic/poetic_circuit.xst" -ofn "C:/Users/jean.nanchen/Downloads/td-fpga-developing-board/FPGA/Board/ise/poetic/poetic_circuit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/jean.nanchen/Downloads/td-fpga-developing-board/FPGA/Board/concat/poetic.ucf -p xc6slx150-fgg484-3 poetic_circuit.ngc poetic_circuit.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o poetic_circuit_map.ncd poetic_circuit.ngd poetic_circuit.pcf 
+par -w -intstyle ise -ol high -mt off poetic_circuit_map.ncd poetic_circuit.ncd poetic_circuit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml poetic_circuit.twx poetic_circuit.ncd -o poetic_circuit.twr poetic_circuit.pcf 
+bitgen -intstyle ise -f poetic_circuit.ut poetic_circuit.ncd 

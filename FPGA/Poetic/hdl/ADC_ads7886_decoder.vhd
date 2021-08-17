@@ -41,7 +41,7 @@ BEGIN
         when waitForData =>
           if risingSCLK = '1' then
             counterWaitData <= counterWaitData +1;
-            if counterWaitData = 3 + highSpeedEn then
+            if counterWaitData = 3 then
               mainState <= readData;
               counterWaitData <= (others => '0');
             end if;
