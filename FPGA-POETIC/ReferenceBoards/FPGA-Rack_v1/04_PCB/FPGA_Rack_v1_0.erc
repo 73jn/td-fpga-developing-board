@@ -1,0 +1,98 @@
+P:\PCB\Produit\Logical\FPGARack\FPGA_Rack_v1_0.erc:
+
+ERC Report Options:
+-------------------
+
+Single Node Nets:   On
+No Node Nets:       On
+Electrical Rules:        Off
+Unconnected Pins:        Off
+Unconnected Wires:       On
+Bus/Net Rules:           On
+Component Rules:         On
+Net Connectivity Rules:  On
+Hierarchy Rules:         On
+
+ERC Errors:
+-----------
+
+
+SINGLE NODE NETS:
+
+Error 1 -- Net VME_5V_STANDBY is a single node net
+Error 2 -- Net VME_+12V is a single node net
+Error 3 -- Net VME_-12V is a single node net
+
+0 warning(s) detected.
+3 error(s) detected.
+
+NO NODE NETS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+UNCONNECTED WIRES:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+BUS/NET RULES:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+COMPONENT RULES:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+NET CONNECTIVITY RULES:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+HIERARCHY RULES:
+
+
+Hierarchy is simple.
+Hierarchy is resolved.
+
+0 warning(s) detected.
+0 error(s) detected.
+
+ERC Summary:
+------------
+
+Single Node:
+	Errors:         3
+	Warnings:       0
+	Ignored Errors: 0
+No Node:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Unconnected Wire:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Bus/Net:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Component:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Net Connectivity:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Hierarchy:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0

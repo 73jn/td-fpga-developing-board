@@ -1,0 +1,46 @@
+Altium Designer Pick and Place Locations
+I:\RaD\SI-ET\Projets\PowerElectronics_Drives\Projets Internes\POETIC\PCB\Backplane\POETIC_Backplane_V2\Project Outputs for POETIC_Backplane_V2\Pick Place for POETIC_Backplane_V2.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       14.08.19
+Time:       09:57
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+Designator Comment          Description                                                         Footprint                                        Layer    Center-X(mm) Center-Y(mm) Rotation 
+J3         09032967824      "DIN41612 FEM 3X32 ABC STRAIGHT"                                    DIN41612_FEM_3x32_ABC_Straight                   TopLayer 125,4800     64,0000      90       
+J6         09032967824      "DIN41612 FEM 3X32 ABC STRAIGHT"                                    DIN41612_FEM_3x32_ABC_Straight                   TopLayer 171,2000     64,0000      90       
+J8         09032967824      "DIN41612 FEM 3X32 ABC STRAIGHT"                                    DIN41612_FEM_3x32_ABC_Straight                   TopLayer 201,4800     64,0000      90       
+J10        09032967824      "DIN41612 FEM 3X32 ABC STRAIGHT"                                    DIN41612_FEM_3x32_ABC_Straight                   TopLayer 232,1600     64,0000      90       
+J18        09032967824      "DIN41612 FEM 3X32 ABC STRAIGHT"                                    DIN41612_FEM_3x32_ABC_Straight                   TopLayer 262,6400     64,0000      90       
+J20        09032967824      "DIN41612 FEM 3X32 ABC STRAIGHT"                                    DIN41612_FEM_3x32_ABC_Straight                   TopLayer 293,1200     64,0000      90       
+J22        09032967824      "DIN41612 FEM 3X32 ABC STRAIGHT"                                    DIN41612_FEM_3x32_ABC_Straight                   TopLayer 384,5600     64,0000      90       
+J24        09032967824      "DIN41612 FEM 3X32 ABC STRAIGHT"                                    DIN41612_FEM_3x32_ABC_Straight                   TopLayer 354,0800     64,0000      90       
+J26        09032967824      "DIN41612 FEM 3X32 ABC STRAIGHT"                                    DIN41612_FEM_3x32_ABC_Straight                   TopLayer 323,6000     64,0000      90       
+C2         "100n / 35v"     Capacitor                                                           Capacitor_P2.5_C4.5x2.5_H4.0                     TopLayer 81,9998      18,9998      360      
+C4         "100n / 35v"     Capacitor                                                           Capacitor_P2.5_C4.5x2.5_H4.0                     TopLayer 81,9998      46,7998      360      
+C6         "100n / 35v"     Capacitor                                                           Capacitor_P2.5_C4.5x2.5_H4.0                     TopLayer 81,9998      98,9998      360      
+C1         "100u / 50V"     "Capacitor polarized"                                               Capacitor_POL_P3.5_D8.0_H13.0                    TopLayer 82,0000      30,1000      180      
+C3         "100u / 50V"     "Capacitor polarized"                                               Capacitor_POL_P3.5_D8.0_H13.0                    TopLayer 82,0000      57,8000      180      
+C5         "100u / 50V"     "Capacitor polarized"                                               Capacitor_POL_P3.5_D8.0_H13.0                    TopLayer 82,0000      87,9000      180      
+J11        1790351          "Phoenix Contact PCB terminal block - FFKDSA/H1-7,62 - 1790351"     PC_FFKDSA/H1-7,62_-_1790351                      TopLayer 11,2000      86,1000      270      
+J12        1790351          "Phoenix Contact PCB terminal block - FFKDSA/H1-7,62 - 1790351"     PC_FFKDSA/H1-7,62_-_1790351                      TopLayer 11,2000      93,7000      270      
+J13        1790351          "Phoenix Contact PCB terminal block - FFKDSA/H1-7,62 - 1790351"     PC_FFKDSA/H1-7,62_-_1790351                      TopLayer 11,2000      101,3000     270      
+F1         1A               "Fuse Cartridge 5x20"                                               Fuse_Cartridge_5x20_Shurter                      TopLayer 15,0000      30,8000      270      
+C9         "22u / 50V"      "Capacitor polarized"                                               Capacitor_POL_P2.00_D5.5_H12.0                   TopLayer 82,0000      94,8000      180      
+C8         "22u / 50V"      "Capacitor polarized"                                               Capacitor_POL_P2.00_D5.5_H12.0                   TopLayer 82,0000      50,9000      180      
+C7         "22u / 50V"      "Capacitor polarized"                                               Capacitor_POL_P2.00_D5.5_H12.0                   TopLayer 82,0000      23,2000      180      
+L3         "2u2, 6A, R=10m" Inductor                                                            L_P5.0_D10.0_H13.0                               TopLayer 82,0000      78,4000      360      
+L2         "2u2, 6A, R=10m" Inductor                                                            L_P5.0_D10.0_H13.0                               TopLayer 82,0000      67,4000      360      
+L1         "2u2, 6A, R=10m" Inductor                                                            L_P5.0_D10.0_H13.0                               TopLayer 82,0000      39,6000      360      
+J16        43045-0412       "Micro-Fit 3.0 Vertical Header, 3.00mm Pitch, Dual Row, 4 Circuits" MOLEX_43045-0412                                 TopLayer 54,0000      107,7750     0        
+J15        43045-0412       "Micro-Fit 3.0 Vertical Header, 3.00mm Pitch, Dual Row, 4 Circuits" MOLEX_43045-0412                                 TopLayer 68,0000      107,7750     0        
+J14        43045-0412       "Micro-Fit 3.0 Vertical Header, 3.00mm Pitch, Dual Row, 4 Circuits" MOLEX_43045-0412                                 TopLayer 82,0000      107,7750     0        
+J28        43045-0612       "Micro-Fit 3.0 Vertical Header, 3.00mm Pitch, Dual Row, 6 Circuits" MOLEX_43045-0612                                 TopLayer 38,5000      107,7750     360      
+J27        98414-G06-14ULF  FlatCable2x7                                                        FlatCable2x7_2MM_Straight_TH_FCI_98414-G06-14ULF TopLayer 100,9000     38,0000      360      
+U1         IRM20-24         "AC-DC 20W Single Output Encapsulated Type Converter"               MEAN_WELL_IRM-20_Series                          TopLayer 50,0001      31,1999      360      
+U2         IRM20-3.3        "AC-DC 20W Single Output Encapsulated Type Converter"               MEAN_WELL_IRM-20_Series                          TopLayer 50,0001      58,9999      360      
+U3         IRM20-5          "AC-DC 20W Single Output Encapsulated Type Converter"               MEAN_WELL_IRM-20_Series                          TopLayer 50,0001      86,7999      360      

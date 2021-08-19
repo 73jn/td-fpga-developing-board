@@ -1,0 +1,66 @@
+P-CAD Online DRC Error Log                                   DICE_V2.pcb
+
+======================================================================
+
+OnlineDRC.ERR.txt:
+
+NETLIST VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+CLEARANCE VIOLATIONS:
+
+Error 15 -- Clearance Violation between:
+   * Via at (143.000,100.100) mm [Top layer]
+   * Line at (141.446, 99.695):(142.595, 99.695) mm [Top layer]
+   * Calculated Clearance: 0.096mm.
+   * Rule: Layer{Top}.ViaToLineClearance=6.0mil
+
+0 warning(s) detected.
+1 error(s) detected.
+
+WIDTH VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+
+17-Mar-17  10:24                                            Page    1
+

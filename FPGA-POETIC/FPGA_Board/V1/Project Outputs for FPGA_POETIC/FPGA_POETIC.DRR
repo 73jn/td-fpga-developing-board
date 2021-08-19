@@ -1,0 +1,34 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: FPGA_POETIC.PcbDoc   05.07.2021  17:17:47
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : FPGA_POETIC-RoundHoles.TXT
+ASCII SlotHoles File : FPGA_POETIC-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.15mm (6mil)                                             Round             518       PTH        0.00mm (0.00inch)
+T2      0.25mm (10mil)                                            Round             5         PTH        0.00mm (0.00inch)
+T3      0.4mm (16mil)                                             Round             14        PTH        0.00mm (0.00inch)
+T4      0.6mm (24mil)                                             Slot              4         PTH        0.00mm (0.00inch)
+T5      0.8mm (31mil)                                             Round             10        PTH        0.00mm (0.00inch)
+T6      0.9mm (35mil)                                             Round             6         PTH        0.00mm (0.00inch)
+T7      1mm (39mil)                                               Round             131       PTH        0.00mm (0.00inch)
+T8      1.1mm (43mil)                                             Round             8         PTH        0.00mm (0.00inch)
+T9      1.2mm (47mil)                                             Round             10        PTH        0.00mm (0.00inch)
+T10     1.6mm (63mil)                                             Round             2         PTH        0.00mm (0.00inch)
+T11     3mm (118mil)                                              Round             5         PTH        0.00mm (0.00inch)
+T12     1.6mm (63mil)                                             Round             4         NPTH       0.00mm (0.00inch)
+T13     3.2mm (126mil)                                            Round             2         NPTH       0.00mm (0.00inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              719
+
+Two holes at same point : 4
+-----------------------
+2974,315
+4348,315
+2974,3622
+4348,3622
+
+Total Processing Time (hh:mm:ss) : 00:00:00

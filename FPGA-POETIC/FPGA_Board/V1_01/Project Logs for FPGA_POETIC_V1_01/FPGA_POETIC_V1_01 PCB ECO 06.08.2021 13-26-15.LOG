@@ -1,0 +1,31 @@
+Removed Pin From Net: NetName=NetC24_2 Pin=IC3-5
+Removed Pin From Net: NetName=FLASH_SPI_CS_N Pin=R31-1
+Removed Pin From Net: NetName=FLASH_SPI_CLK Pin=U2-AA21
+Removed Pin From Net: NetName=FLASH_SPI_CS_N Pin=U2-AB20
+Removed Pin From Net: NetName=FLASH_SPI_DO Pin=U2-AB21
+Removed Pin From Net: NetName=FLASH_SPI_CS_N Pin=U3-1
+Removed Pin From Net: NetName=FLASH_SPI_DI Pin=U3-2
+Removed Pin From Net: NetName=GND_D Pin=U3-4
+Removed Pin From Net: NetName=FLASH_SPI_DO Pin=U3-5
+Removed Pin From Net: NetName=FLASH_SPI_CLK Pin=U3-6
+Removed Pin From Net: NetName=+3V3_D Pin=U3-8
+Removed Member From Class: ClassName=FPGA_1 Member=U3
+Added Pin To Net: NetName=NetC24_2 Pin=IC3-4
+Added Pin To Net: NetName=FLASH_SPI_CS_N Pin=R30-1
+Added Pin To Net: NetName=FLASH_SPI_DO Pin=U2-AB20
+Added Pin To Net: NetName=FLASH_SPI_CS_N Pin=U2-T5
+Added Pin To Net: NetName=FLASH_SPI_CLK Pin=U2-Y21
+Added Pin To Net: NetName=NetIC3_5 Pin=IC3-5
+Added Pin To Net: NetName=NetIC3_5 Pin=L2-1
+Added Net: Name=NetIC3_5
+Added Pin To Net: NetName=NetIC5_1 Pin=R31-1
+Added Net: Name=NetIC5_1
+Added Pin To Net: NetName=NetIC5_9 Pin=R32-1
+Added Net: Name=NetIC5_9
+Change Class Name : Old Net Name=Connector_0 New Net Name=Connector_0_V1_01
+Change Class Name : Old Net Name=Ethernet_0 New Net Name=Ethernet_0_V1_01
+Change Class Name : Old Net Name=FPGA_0 New Net Name=FPGA_0_V1_01
+Change Class Name : Old Net Name=FPGA_1 New Net Name=FPGA_1_V1_01
+Change Class Name : Old Net Name=Supply_0 New Net Name=Supply_0_V1_01
+Change Class Name : Old Net Name=UserInterface_0 New Net Name=UserInterface_0_V1_01
+Added Member To Class: ClassName=Ethernet_0_V1_01 Member=Component R17 49.9
