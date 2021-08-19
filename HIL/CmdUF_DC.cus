@@ -57,12 +57,12 @@ displayValue = data
                 <digital_signals><![CDATA[[]]]></digital_signals>
                 <streaming_analog_signals><![CDATA[[]]]></streaming_analog_signals>
                 <streaming_digital_signals><![CDATA[[]]]></streaming_digital_signals>
-                <update_rate>250</update_rate>
+                <update_rate>500</update_rate>
                 <execution_rate>None</execution_rate>
                 <background_color>white</background_color>
                 <widget_settings>
-                    <x>448.0</x>
-                    <y>96.0</y>
+                    <x>32</x>
+                    <y>112</y>
                     <width>400</width>
                     <height>192</height>
                     <appearance><![CDATA[Flat]]></appearance>
@@ -74,9 +74,9 @@ displayValue = data
                 <advance_widget_settings>
                     <x_title><![CDATA[x axes]]></x_title>
                     <y_title><![CDATA[y axes]]></y_title>
-                    <y_range_min>0.0</y_range_min>
-                    <y_range_max>800.0</y_range_max>
-                    <time_window>10</time_window>
+                    <y_range_min>-2000.0</y_range_min>
+                    <y_range_max>0.0</y_range_max>
+                    <time_window>20</time_window>
                     <auto_scale_enabled>False</auto_scale_enabled>
                     <legend_enabled>True</legend_enabled>
                     <x_axis_title_enabled>False</x_axis_title_enabled>
@@ -133,11 +133,11 @@ displayValue = 0.0
                 <signal_name><![CDATA[machine mechanical speed]]></signal_name>
                 <unit><![CDATA[rad/s]]></unit>
                 <automatic_unit>True</automatic_unit>
-                <decimals><![CDATA[2]]></decimals>
+                <decimals><![CDATA[1]]></decimals>
                 <updateRate>1000</updateRate>
                 <widget_settings>
-                    <x>240.0</x>
-                    <y>40.0</y>
+                    <x>240</x>
+                    <y>40</y>
                     <width>168</width>
                     <height>56</height>
                     <appearance><![CDATA[Flat]]></appearance>
@@ -173,8 +173,8 @@ displayValue = 0.0
                 <decimals><![CDATA[2]]></decimals>
                 <updateRate>1000</updateRate>
                 <widget_settings>
-                    <x>48.0</x>
-                    <y>24.0</y>
+                    <x>72</x>
+                    <y>40</y>
                     <width>144</width>
                     <height>56</height>
                     <appearance><![CDATA[Flat]]></appearance>
@@ -225,8 +225,8 @@ displayValue = data
                 <execution_rate>None</execution_rate>
                 <background_color>white</background_color>
                 <widget_settings>
-                    <x>32.0</x>
-                    <y>96.0</y>
+                    <x>936</x>
+                    <y>216</y>
                     <width>400</width>
                     <height>200</height>
                     <appearance><![CDATA[Flat]]></appearance>
@@ -300,8 +300,8 @@ displayValue = 0.0
                 <decimals><![CDATA[2]]></decimals>
                 <updateRate>1000</updateRate>
                 <widget_settings>
-                    <x>432.0</x>
-                    <y>24.0</y>
+                    <x>768</x>
+                    <y>544</y>
                     <width>136</width>
                     <height>56</height>
                     <appearance><![CDATA[Flat]]></appearance>
@@ -337,8 +337,8 @@ displayValue = 0.0
                 <decimals><![CDATA[2]]></decimals>
                 <updateRate>1000</updateRate>
                 <widget_settings>
-                    <x>592.0</x>
-                    <y>24.0</y>
+                    <x>624</x>
+                    <y>544</y>
                     <width>136</width>
                     <height>56</height>
                     <appearance><![CDATA[Flat]]></appearance>
@@ -374,8 +374,8 @@ displayValue = 0.0
                 <decimals><![CDATA[2]]></decimals>
                 <updateRate>1000</updateRate>
                 <widget_settings>
-                    <x>752.0</x>
-                    <y>24.0</y>
+                    <x>440</x>
+                    <y>544</y>
                     <width>176</width>
                     <height>56</height>
                     <appearance><![CDATA[Flat]]></appearance>
@@ -411,8 +411,8 @@ displayValue = 0.0
                 <decimals><![CDATA[2]]></decimals>
                 <updateRate>1000</updateRate>
                 <widget_settings>
-                    <x>960.0</x>
-                    <y>24.0</y>
+                    <x>296</x>
+                    <y>544</y>
                     <width>136</width>
                     <height>56</height>
                     <appearance><![CDATA[Flat]]></appearance>
@@ -435,8 +435,8 @@ displayValue = 0.0
                 <description><![CDATA[]]></description>
                 <working_mode>windowed</working_mode>
                 <widget_settings>
-                    <x>48</x>
-                    <y>304</y>
+                    <x>24</x>
+                    <y>416</y>
                     <width>120</width>
                     <height>120</height>
                     <hierarchy_position>1</hierarchy_position>
@@ -501,9 +501,9 @@ displayValue = 0.0
                             <background_color>black</background_color>
                             <layout>Grid</layout>
                             <legend>True</legend>
-                            <show_viewports>4</show_viewports>
+                            <show_viewports>3</show_viewports>
                             <decimation>1</decimation>
-                            <time_base>0.001</time_base>
+                            <time_base>0.0005</time_base>
                             <analog_signals>
                             <analog>
                             <channel>0</channel>
@@ -514,7 +514,7 @@ displayValue = 0.0
                             <coupling>False</coupling>
                             <viewports>
                                 
-                                <num_viewport>4</num_viewport>
+                                <num_viewport>2</num_viewport>
                                 
                            </viewports>
                         </analog>
@@ -531,7 +531,7 @@ displayValue = 0.0
                         </analog>
                             <analog>
                             <channel>2</channel>
-                            <name><![CDATA[Vond]]></name>
+                            <name><![CDATA[machine sine encoder A]]></name>
                             <is_locked>False</is_locked>
                             <vertical_scale>Auto</vertical_scale>
                             <vertical_offset>0.0</vertical_offset>
@@ -546,14 +546,10 @@ displayValue = 0.0
                             <channel>0</channel>
                             <name><![CDATA[Hall Effect Sensor1.Hall.h_A]]></name>
                             <is_locked>False</is_locked>
-                            <vertical_offset>-4.0</vertical_offset>
+                            <vertical_offset>-3.0</vertical_offset>
                             <viewports>
                                 
-                                <num_viewport>2</num_viewport>
-                                
                                 <num_viewport>3</num_viewport>
-                                
-                                <num_viewport>1</num_viewport>
                                 
                            </viewports>
                         </digital>
@@ -561,10 +557,8 @@ displayValue = 0.0
                             <channel>1</channel>
                             <name><![CDATA[Hall Effect Sensor1.Hall.h_B]]></name>
                             <is_locked>False</is_locked>
-                            <vertical_offset>3.0</vertical_offset>
+                            <vertical_offset>0.0</vertical_offset>
                             <viewports>
-                                
-                                <num_viewport>2</num_viewport>
                                 
                                 <num_viewport>3</num_viewport>
                                 
@@ -574,10 +568,8 @@ displayValue = 0.0
                             <channel>2</channel>
                             <name><![CDATA[Hall Effect Sensor1.Hall.h_C]]></name>
                             <is_locked>False</is_locked>
-                            <vertical_offset>2.0</vertical_offset>
+                            <vertical_offset>3.0</vertical_offset>
                             <viewports>
-                                
-                                <num_viewport>2</num_viewport>
                                 
                                 <num_viewport>3</num_viewport>
                                 
@@ -654,8 +646,8 @@ displayValue = 0.0
                                 <device>0</device>
                                 <is_force>False</is_force>
                                 <type>Digital</type>
-                                <source>HIL0 digital input 2</source>
-                                <edge>Rising edge</edge>
+                                <source>Hall Effect Sensor1.Hall.h_A</source>
+                                <edge>Falling edge</edge>
                                 <treshold>0.0</treshold>
                                 <offset>50.0</offset>
                                 <useFirstTrigger>False</useFirstTrigger>
@@ -710,15 +702,15 @@ displayValue = 0.0
                     </capture>
 
                     <scope>
-                        <time_base>0.001 </time_base>
+                        <time_base>0.0005 </time_base>
                         <background_color>black</background_color>
                         <layout>Grid</layout>
                         <legend>True</legend>
                         <trigger>
                             <mode>Auto</mode>
                             <type>Digital</type>
-                            <source>HIL0 digital input 2</source>
-                            <edge>Rising edge</edge>
+                            <source>Hall Effect Sensor1.Hall.h_A</source>
+                            <edge>Falling edge</edge>
                             <treshold>0.0</treshold>
                             <offset>50.0</offset>
                         </trigger>
@@ -733,7 +725,7 @@ displayValue = 0.0
                             <coupling>False</coupling>
                             <viewports>
                                 
-                                <num_viewport>4</num_viewport>
+                                <num_viewport>2</num_viewport>
                                 
                            </viewports>
                         </analog>
@@ -750,7 +742,7 @@ displayValue = 0.0
                         </analog>
                             <analog>
                             <channel>2</channel>
-                            <name><![CDATA[Vond]]></name>
+                            <name><![CDATA[machine sine encoder A]]></name>
                             <is_locked>False</is_locked>
                             <vertical_scale>Auto</vertical_scale>
                             <vertical_offset>0.0</vertical_offset>
@@ -766,14 +758,10 @@ displayValue = 0.0
                             <channel>0</channel>
                             <name><![CDATA[Hall Effect Sensor1.Hall.h_A]]></name>
                             <is_locked>False</is_locked>
-                            <vertical_offset>-4.0</vertical_offset>
+                            <vertical_offset>-3.0</vertical_offset>
                             <viewports>
                                 
-                                <num_viewport>2</num_viewport>
-                                
                                 <num_viewport>3</num_viewport>
-                                
-                                <num_viewport>1</num_viewport>
                                 
                            </viewports>
                         </digital>
@@ -781,10 +769,8 @@ displayValue = 0.0
                             <channel>1</channel>
                             <name><![CDATA[Hall Effect Sensor1.Hall.h_B]]></name>
                             <is_locked>False</is_locked>
-                            <vertical_offset>3.0</vertical_offset>
+                            <vertical_offset>0.0</vertical_offset>
                             <viewports>
-                                
-                                <num_viewport>2</num_viewport>
                                 
                                 <num_viewport>3</num_viewport>
                                 
@@ -794,10 +780,8 @@ displayValue = 0.0
                             <channel>2</channel>
                             <name><![CDATA[Hall Effect Sensor1.Hall.h_C]]></name>
                             <is_locked>False</is_locked>
-                            <vertical_offset>2.0</vertical_offset>
+                            <vertical_offset>3.0</vertical_offset>
                             <viewports>
-                                
-                                <num_viewport>2</num_viewport>
                                 
                                 <num_viewport>3</num_viewport>
                                 
@@ -915,13 +899,13 @@ widgetValue = None
 widgetValue = None
 ]]></on_timer_code>
                 <on_start_code_source><![CDATA[Custom code]]></on_start_code_source>
-                <inputValue><![CDATA[9.6]]></inputValue>
+                <inputValue><![CDATA[0.24]]></inputValue>
                 <min>0.0</min>
                 <max>10.0</max>
                 <step>0.01</step>
                 <widget_settings>
-                    <x>952</x>
-                    <y>512</y>
+                    <x>952.0</x>
+                    <y>512.0</y>
                     <width>288</width>
                     <height>48</height>
                     <appearance><![CDATA[Raised]]></appearance>
@@ -966,8 +950,8 @@ displayValue = data
                 <execution_rate>None</execution_rate>
                 <background_color>white</background_color>
                 <widget_settings>
-                    <x>912.0</x>
-                    <y>96.0</y>
+                    <x>928</x>
+                    <y>24</y>
                     <width>400</width>
                     <height>192</height>
                     <appearance><![CDATA[Flat]]></appearance>
