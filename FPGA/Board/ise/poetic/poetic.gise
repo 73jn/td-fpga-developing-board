@@ -105,7 +105,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1629224112" xil_pn:in_ck="2320263404346916753" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-322944365452291940" xil_pn:start_ts="1629224096">
+    <transform xil_pn:end_ts="1630340661" xil_pn:in_ck="2320263404346916753" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-322944365452291940" xil_pn:start_ts="1630340645">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -127,7 +127,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1629224118" xil_pn:in_ck="8001918642933451977" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="3835613945307225646" xil_pn:start_ts="1629224112">
+    <transform xil_pn:end_ts="1630340668" xil_pn:in_ck="8001918642933451977" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="3835613945307225646" xil_pn:start_ts="1630340661">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="_ngo"/>
@@ -136,12 +136,9 @@
       <outfile xil_pn:name="poetic_circuit.ngd"/>
       <outfile xil_pn:name="poetic_circuit_ngdbuild.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1629224153" xil_pn:in_ck="8001918642933451978" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="-1012449745606653236" xil_pn:start_ts="1629224118">
+    <transform xil_pn:end_ts="1630340705" xil_pn:in_ck="8001918642933451978" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="-1012449745606653236" xil_pn:start_ts="1630340668">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
       <outfile xil_pn:name="poetic_circuit.pcf"/>
       <outfile xil_pn:name="poetic_circuit_map.map"/>
@@ -152,7 +149,7 @@
       <outfile xil_pn:name="poetic_circuit_summary.xml"/>
       <outfile xil_pn:name="poetic_circuit_usage.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1629224183" xil_pn:in_ck="-7428610404088942365" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-2362651792651823936" xil_pn:start_ts="1629224153">
+    <transform xil_pn:end_ts="1630340736" xil_pn:in_ck="-7428610404088942365" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-2362651792651823936" xil_pn:start_ts="1630340705">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -167,7 +164,7 @@
       <outfile xil_pn:name="poetic_circuit_pad.txt"/>
       <outfile xil_pn:name="poetic_circuit_par.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1629224215" xil_pn:in_ck="-3845690921558575015" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="8144905581504103502" xil_pn:start_ts="1629224195">
+    <transform xil_pn:end_ts="1630340815" xil_pn:in_ck="-3845690921558575015" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="8144905581504103502" xil_pn:start_ts="1630340794">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -186,7 +183,7 @@
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="InputChanged"/>
     </transform>
-    <transform xil_pn:end_ts="1629224183" xil_pn:in_ck="8001918642933451846" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1629224174">
+    <transform xil_pn:end_ts="1630340736" xil_pn:in_ck="8001918642933451846" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1630340727">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>

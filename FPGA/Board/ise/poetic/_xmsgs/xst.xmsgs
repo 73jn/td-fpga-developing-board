@@ -387,25 +387,25 @@ Xilinx highly recommends one of the following:
 <msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">I0/U_12/counter_29</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">poetic_circuit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">I0/U_17/risingSCLK</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">poetic_circuit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;I0/U_1/risingSCLK&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">I0/U_17/risingSCLK</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">poetic_circuit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;I0/U_1/risingSCLK&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">I0/U_18/counter_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">poetic_circuit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;I0/U_3/counter_0&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">I0/U_18/counter_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">poetic_circuit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;I0/U_3/counter_0&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">I0/U_18/counter_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">poetic_circuit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;I0/U_3/counter_1&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">I0/U_18/counter_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">poetic_circuit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;I0/U_3/counter_1&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">I0/U_18/clockOut_int</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">poetic_circuit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;I0/U_3/clockOut_int&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">I0/U_18/clockOut_int</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">poetic_circuit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;I0/U_3/clockOut_int&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">I0/U_17/memSCLK</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">poetic_circuit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;I0/U_1/memSCLK&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">I0/U_17/memSCLK</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">poetic_circuit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;I0/U_1/memSCLK&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">I0/U_1/masterWr</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">poetic_circuit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;I0/U_1/masterData_9&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="3203" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">I0/I43/sawtooth_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">poetic_circuit</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;I0/U_12/counter_0&gt; </arg>
+<msg type="info" file="Xst" num="3203" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">I0/I43/sawtooth_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">poetic_circuit</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;I0/U_12/counter_0&gt; </arg>
 </msg>
 
 <msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">I0/U_17/mainState_FSM_FFd1_LD</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">poetic_circuit</arg>.
