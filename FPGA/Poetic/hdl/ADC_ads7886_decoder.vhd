@@ -18,8 +18,10 @@ ARCHITECTURE ads7886_decoder OF ADC IS
   signal dataReg : unsigned(adcBitNb-1 DOWNTO 0);
 BEGIN
   decode : process(reset, clock)
+    variable counterTq : integer;
   begin
     if reset = '1' then
+      counterTq := 0;
       mainState <= ready;
       Data <= (others => '0');
       CS_n <= '1';
@@ -30,6 +32,7 @@ BEGIN
       case mainState is 
         when ready =>
           if enable = '1' AND risingSCLK = '1' then
+            counterTq := 0;
             mainState <= sendLowCS;
           end if;
         when sendLowCS =>
@@ -38,7 +41,7 @@ BEGIN
         when waitForData =>
           if risingSCLK = '1' then
             counterWaitData <= counterWaitData +1;
-            if counterWaitData = 2 then
+            if counterWaitData = 3 then
               mainState <= readData;
               counterWaitData <= (others => '0');
             end if;
@@ -59,7 +62,10 @@ BEGIN
         when sendHighCS =>
             if risingSCLK = '1' then
               CS_n <= '1';
-              mainState <= ready;
+              counterTq := counterTq + 1;
+              if counterTq = 2 then
+                mainState <= ready;
+              end if;
             end if;
       end case;
     end if;
@@ -80,7 +86,5 @@ BEGIN
       end if;
     end if;
   end process detectRisingSCLK;
-  
-  
 END ARCHITECTURE ads7886_decoder;
 

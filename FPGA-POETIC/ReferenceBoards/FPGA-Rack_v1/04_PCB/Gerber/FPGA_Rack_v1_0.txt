@@ -1,0 +1,75 @@
+P-CAD Board Statistics           P:\PCB\Produit\...\FPGA_Rack_v1_0.pcb
+
+======================================================================
+
+Primitives Count
+
+
+Components:         215
+Total Pads:         1713
+Thru Hole Pads:     237
+Top SMT Pads:       1107
+Bottom SMT Pads:    369
+Vias:               1076
+Nets:               379
+
+Board Dimensions
+------------------------------------------------------------------------
+Board Layer: 160.254mm x 100.254mm
+
+All Layers:  269.494mm x 183.134mm
+
+Line Widths Used
+------------------------------------------------------------------------
+0.508mm     1.000mm     0.150mm     0.127mm     0.254mm     0.152mm     0.152mm     
+
+Layer Types Used
+------------------------------------------------------------------------
+Signal:     6
+Nonsignal:  13
+Plane:      2
+
+Hole Diameters and Quantities
+------------------------------------------------------------------------
+Diameter      Plated        Quantity:
+
+1.600mm       Plated        8
+3.200mm       Plated        2
+1.000mm       Plated        17
+1.600mm       Plated        3
+3.000mm       Plated        6
+0.900mm       Plated        123
+0.800mm       Plated        70
+1.300mm       Plated        8
+0.000mm       Nonplated     1476
+0.150mm       Plated        1076
+
+
+
+
+
+LAYERS STACKUP
+------------------------------------------------------------------------
+
+File				Name			Type		Thickness
+
+FPGA_Rack_v1_0.TSK		TOP SILK		silk
+FPGA_Rack_v1_0.TMK		TOP SOLDER MASK		solder mask		
+FPGA_Rack_v1_0.TOP		TOP			Signal Layer	35um
+FPGA_Rack_v1_0.SIG1		SIGNAL1			Signal Layer	35um
+FPGA_Rack_v1_0.SIG2		SIGNAL2			Signal Layer	35um
+FPGA_Rack_v1_0.GND		GND			Plane layer	35um
+FPGA_Rack_v1_0.VCC		VCC			Plane layer	35um
+FPGA_Rack_v1_0.SIG3		SIGNAL3			Signal Layer	35um
+FPGA_Rack_v1_0.SIG4		SIGNAL4			Signal Layer	35um
+FPGA_Rack_v1_0.BOT		BOT			Signal Layer	35um
+FPGA_Rack_v1_0.BMK		BOT SOLDER MASK 	solder mask 
+FPGA_Rack_v1_0.NCD		N/C DRILL		Drilling datas
+
+
+
+
+
+
+
+

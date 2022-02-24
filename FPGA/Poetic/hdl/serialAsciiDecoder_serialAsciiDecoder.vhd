@@ -34,7 +34,8 @@ BEGIN
         when ready =>
 		  uOutput := 0;
           if newCharacter = '1' then
-            mainState <= isReceiving;
+            r_Mem(counterCharacter) <= consigne;
+            mainState <= increment;
           end if;
         when isReceiving =>
           if endOfMsg = '1' then

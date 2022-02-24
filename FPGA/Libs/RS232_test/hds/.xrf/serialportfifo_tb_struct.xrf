@@ -27,7 +27,7 @@ VIEW struct.bd
 GRAPHIC 6751,0 28 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 7495,0 29 0 
+GRAPHIC 7924,0 29 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
 GRAPHIC 7507,0 30 0 
@@ -48,266 +48,272 @@ VIEW struct.bd
 GRAPHIC 7344,0 35 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 6791,0 36 0 
+GRAPHIC 7914,0 36 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 6783,0 37 0 
+GRAPHIC 6791,0 37 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 6775,0 38 0 
+GRAPHIC 6783,0 38 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-NO_GRAPHIC 39
+GRAPHIC 6775,0 39 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
 NO_GRAPHIC 40
+DESIGN serial@port@f@i@f@o_tb
+VIEW struct.bd
+NO_GRAPHIC 41
 LIBRARY Poetic
 DESIGN serial@ascii@decoder
 VIEW serial@ascii@decoder
-GRAPHIC 7658,0 42 0 
+GRAPHIC 7852,0 43 0 
 DESIGN serial@ascii@decoder
 VIEW symbol.sb
-GRAPHIC 186,0 44 0 
+GRAPHIC 186,0 45 0 
 DESIGN serial@ascii@decoder
 VIEW symbol.sb
-GRAPHIC 131,0 45 0 
+GRAPHIC 131,0 46 0 
 DESIGN serial@ascii@decoder
 VIEW symbol.sb
-GRAPHIC 136,0 46 0 
+GRAPHIC 136,0 47 0 
 DESIGN serial@ascii@decoder
 VIEW symbol.sb
-GRAPHIC 141,0 47 0 
+GRAPHIC 141,0 48 0 
 DESIGN serial@ascii@decoder
 VIEW symbol.sb
-GRAPHIC 191,0 48 0 
+GRAPHIC 191,0 49 0 
 DESIGN serial@ascii@decoder
 VIEW symbol.sb
-GRAPHIC 146,0 49 0 
+GRAPHIC 146,0 50 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 7770,0 52 0 
+GRAPHIC 7905,0 53 0 
 DESIGN uart@controller
 VIEW symbol.sb
-GRAPHIC 14,0 53 1 
+GRAPHIC 14,0 54 1 
 DESIGN uart@controller
 VIEW symbol.sb
-GRAPHIC 344,0 57 0 
+GRAPHIC 344,0 58 0 
 DESIGN uart@controller
 VIEW symbol.sb
-GRAPHIC 359,0 58 0 
+GRAPHIC 359,0 59 0 
 DESIGN uart@controller
 VIEW symbol.sb
-GRAPHIC 364,0 59 0 
+GRAPHIC 364,0 60 0 
 DESIGN uart@controller
 VIEW symbol.sb
-GRAPHIC 369,0 60 0 
+GRAPHIC 369,0 61 0 
 DESIGN uart@controller
 VIEW symbol.sb
-GRAPHIC 520,0 61 0 
+GRAPHIC 520,0 62 0 
 DESIGN uart@controller
 VIEW symbol.sb
-GRAPHIC 349,0 62 0 
+GRAPHIC 349,0 63 0 
 DESIGN uart@controller
 VIEW symbol.sb
-GRAPHIC 441,0 63 0 
+GRAPHIC 441,0 64 0 
 DESIGN uart@controller
 VIEW symbol.sb
-GRAPHIC 354,0 64 0 
+GRAPHIC 354,0 65 0 
 DESIGN uart@controller
 VIEW symbol.sb
-GRAPHIC 374,0 65 0 
+GRAPHIC 374,0 66 0 
 DESIGN uart@controller
 VIEW symbol.sb
-GRAPHIC 515,0 66 0 
+GRAPHIC 515,0 67 0 
 DESIGN uart@controller
 VIEW symbol.sb
-GRAPHIC 525,0 67 0 
+GRAPHIC 525,0 68 0 
 LIBRARY RS232
 DESIGN serial@port@f@i@f@o
 VIEW struct
-GRAPHIC 7141,0 70 0 
+GRAPHIC 7141,0 71 0 
 DESIGN serial@port@f@i@f@o
 VIEW symbol.sb
-GRAPHIC 14,0 71 1 
+GRAPHIC 14,0 72 1 
 DESIGN serial@port@f@i@f@o
 VIEW symbol.sb
-GRAPHIC 168,0 78 0 
+GRAPHIC 168,0 79 0 
 DESIGN serial@port@f@i@f@o
 VIEW symbol.sb
-GRAPHIC 183,0 79 0 
+GRAPHIC 183,0 80 0 
 DESIGN serial@port@f@i@f@o
 VIEW symbol.sb
-GRAPHIC 173,0 80 0 
+GRAPHIC 173,0 81 0 
 DESIGN serial@port@f@i@f@o
 VIEW symbol.sb
-GRAPHIC 178,0 81 0 
+GRAPHIC 178,0 82 0 
 DESIGN serial@port@f@i@f@o
 VIEW symbol.sb
-GRAPHIC 193,0 82 0 
+GRAPHIC 193,0 83 0 
 DESIGN serial@port@f@i@f@o
 VIEW symbol.sb
-GRAPHIC 203,0 83 0 
+GRAPHIC 203,0 84 0 
 DESIGN serial@port@f@i@f@o
 VIEW symbol.sb
-GRAPHIC 368,0 84 0 
+GRAPHIC 368,0 85 0 
 DESIGN serial@port@f@i@f@o
 VIEW symbol.sb
-GRAPHIC 375,0 85 0 
+GRAPHIC 375,0 86 0 
 DESIGN serial@port@f@i@f@o
 VIEW symbol.sb
-GRAPHIC 198,0 86 0 
+GRAPHIC 198,0 87 0 
 DESIGN serial@port@f@i@f@o
 VIEW symbol.sb
-GRAPHIC 208,0 87 0 
+GRAPHIC 208,0 88 0 
 LIBRARY RS232_test
 DESIGN serial@port@f@i@f@o_tester
 VIEW test
-GRAPHIC 1774,0 90 0 
+GRAPHIC 1774,0 91 0 
 DESIGN serial@port@f@i@f@o_tester
 VIEW interface
-GRAPHIC 14,0 91 1 
+GRAPHIC 14,0 92 1 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 6761,0 97 0 
+GRAPHIC 6761,0 98 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 6817,0 98 0 
+GRAPHIC 6817,0 99 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 6809,0 99 0 
+GRAPHIC 6809,0 100 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 6785,0 100 0 
+GRAPHIC 6785,0 101 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 6769,0 101 0 
+GRAPHIC 6769,0 102 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 6753,0 102 0 
+GRAPHIC 6753,0 103 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 6745,0 103 0 
+GRAPHIC 6745,0 104 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 6793,0 104 0 
+GRAPHIC 6793,0 105 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 6777,0 105 0 
+GRAPHIC 6777,0 106 0 
 LIBRARY RS232_test
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-NO_GRAPHIC 108
+NO_GRAPHIC 109
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 7658,0 111 0 
+GRAPHIC 7852,0 112 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 7141,0 112 0 
+GRAPHIC 7141,0 113 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 1774,0 113 0 
+GRAPHIC 1774,0 114 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 7770,0 114 0 
+GRAPHIC 7905,0 115 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-NO_GRAPHIC 117
+NO_GRAPHIC 118
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-NO_GRAPHIC 119
+NO_GRAPHIC 120
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 7658,0 121 0 
+GRAPHIC 7852,0 122 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 7489,0 123 0 
+GRAPHIC 7489,0 124 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 7497,0 124 0 
+GRAPHIC 7497,0 125 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 7509,0 125 0 
+GRAPHIC 7509,0 126 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 7503,0 126 0 
+GRAPHIC 7503,0 127 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 7481,0 127 0 
+GRAPHIC 7481,0 128 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 7770,0 130 0 
+GRAPHIC 7918,0 129 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 7777,0 131 1 
+GRAPHIC 7905,0 131 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 7275,0 135 0 
+GRAPHIC 7912,0 132 1 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 7283,0 136 0 
+GRAPHIC 7275,0 136 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 7289,0 137 0 
+GRAPHIC 7283,0 137 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 7295,0 138 0 
+GRAPHIC 7289,0 138 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 7720,0 139 0 
+GRAPHIC 7295,0 139 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 7497,0 140 0 
+GRAPHIC 7720,0 140 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 7509,0 141 0 
+GRAPHIC 7497,0 141 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 7503,0 142 0 
+GRAPHIC 7509,0 142 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 7346,0 143 0 
+GRAPHIC 7503,0 143 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 7141,0 147 0 
+GRAPHIC 7346,0 144 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 7148,0 148 1 
+GRAPHIC 7141,0 148 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 6769,0 155 0 
+GRAPHIC 7148,0 149 1 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 6761,0 156 0 
+GRAPHIC 6769,0 156 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 6753,0 157 0 
+GRAPHIC 6761,0 157 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 6745,0 158 0 
+GRAPHIC 6753,0 158 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 6809,0 159 0 
+GRAPHIC 6745,0 159 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 7346,0 160 0 
+GRAPHIC 6809,0 160 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 6817,0 161 0 
+GRAPHIC 7346,0 161 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 6793,0 162 0 
+GRAPHIC 6817,0 162 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 6785,0 163 0 
+GRAPHIC 6793,0 163 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 6777,0 164 0 
+GRAPHIC 6785,0 164 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 1774,0 166 0 
+GRAPHIC 6777,0 165 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-GRAPHIC 1781,0 167 1 
+GRAPHIC 1774,0 167 0 
 DESIGN serial@port@f@i@f@o_tb
 VIEW struct.bd
-NO_GRAPHIC 184
+GRAPHIC 1781,0 168 1 
+DESIGN serial@port@f@i@f@o_tb
+VIEW struct.bd
+NO_GRAPHIC 185

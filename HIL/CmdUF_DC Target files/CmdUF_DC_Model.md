@@ -30,14 +30,14 @@ rtds_file_write 0x00810010 bldc_gprst.txt
 rtds_write 0x00810000 0x00000008
 rtds_write 0x00810001 0x00000009
 rtds_write 0x00810002 0x0000000A
-rtds_write 0x00810400 0x3E800000
-rtds_write 0x00810401 0x00000000
+rtds_write 0x00810400 0x3EAAAAAA
+rtds_write 0x00810401 0xAAAAC000
 
 
 REM Machine 2D LUT inputs...
 rtds_write 0x00830000 0
 rtds_write 0x00830020 11.0
-rtds_write 0x00830040 7.639437268410977
+rtds_write 0x00830040 5.729577951308232
 rtds_write 0x00830060 -0.0
 rtds_write 0x008300E0 13
 rtds_write 0x00830080 0.0
@@ -53,7 +53,7 @@ rtds_file_write 0x00838000 mch0_file_ch0.txt
 REM Machine 2D LUT inputs...
 rtds_write 0x00830001 26
 rtds_write 0x00830021 11.0
-rtds_write 0x00830041 7.639437268410977
+rtds_write 0x00830041 5.729577951308232
 rtds_write 0x00830061 -0.0
 rtds_write 0x008300E1 13
 rtds_write 0x00830081 0.0
@@ -69,7 +69,7 @@ rtds_file_write 0x0083801A mch0_file_ch1.txt
 REM Machine 2D LUT inputs...
 rtds_write 0x00830002 52
 rtds_write 0x00830022 11.0
-rtds_write 0x00830042 7.639437268410977
+rtds_write 0x00830042 5.729577951308232
 rtds_write 0x00830062 -0.0
 rtds_write 0x008300E2 13
 rtds_write 0x00830082 0.0
@@ -81,8 +81,8 @@ rtds_write 0x00830142 0.0
 rtds_write 0x00830162 0.0
 rtds_file_write 0x00838034 mch0_file_ch2.txt
 rtds_write 0x00800001 5e-07
-rtds_write 0x00800011 0.002
-rtds_write 0x00800012 0.25
+rtds_write 0x00800011 0.0015
+rtds_write 0x00800012 0.3333333333333333
 rtds_write 0x00800005 0x00000000
 rtds_write 0x00800020 0x00000000
 rtds_write 0x0080001E 0.0
@@ -100,10 +100,10 @@ rtds_write 0x0080002D 0x00000000
 rtds_write 0x0080002E 0x00000000
 rtds_write 0x00800026 0.0
 rtds_write 0x00800027 1.0
-rtds_write 0x00800040 1.5707963267948966
-rtds_write 0x00800041 3.0
-rtds_write 0x00800044 1.5707963267948966
-rtds_write 0x00800045 3.0
+rtds_write 0x00800040 2.0943951023931953
+rtds_write 0x00800041 2.0
+rtds_write 0x00800044 2.0943951023931953
+rtds_write 0x00800045 2.0
 
 
 REM LUT solver inputs...

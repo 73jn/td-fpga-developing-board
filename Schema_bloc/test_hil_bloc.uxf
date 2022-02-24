@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>11</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>517</x>
+      <y>286</y>
+      <w>121</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>*FPGA*
+layer=3
+bg=cyan
+fontsize=18</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>308</x>
+      <y>121</y>
+      <w>836</w>
+      <h>385</h>
+    </coordinates>
+    <panel_attributes>*POETIC*
+fontsize=18
+bg=light_gray
+transparency=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>660</x>
+      <y>286</y>
+      <w>242</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>*DI/DO*
+Config 0
+layer=3
+bg=cyan
+fontsize=18</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>924</x>
+      <y>286</y>
+      <w>198</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>*FIBER OPTIC*
+Config 0
+layer=3
+bg=cyan
+fontsize=18</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>308</x>
+      <y>583</y>
+      <w>836</w>
+      <h>264</h>
+    </coordinates>
+    <panel_attributes>*HIL*
+valign=bottom
+halign=center
+layer=0
+bg=red
+fontsize=18</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>979</x>
+      <y>429</y>
+      <w>132</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>lt=[fiber 0..5]-[fiber 1..6]
+6x PWM
+lw=2
+layer=5
+fontsize=18</panel_attributes>
+    <additional_attributes>30.0;10.0;30.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>704</x>
+      <y>429</y>
+      <w>110</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>lt=[9p Sub-D]-[9p Sub-D]
+3x Hall
+lw=2
+layer=5
+fontsize=18</panel_attributes>
+    <additional_attributes>30.0;10.0;30.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>671</x>
+      <y>363</y>
+      <w>132</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>*INPUT*
+layer=4</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>814</x>
+      <y>363</y>
+      <w>77</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>*OUTPUT*
+layer=4</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>924</x>
+      <y>583</y>
+      <w>187</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>*OPTICAL INPUT*
+valign=center
+halign=center
+layer=3
+bg=white
+transparency=0
+fontsize=18</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>286</y>
+      <w>121</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>*MEASURE*
+layer=3
+bg=black
+fontsize=18</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>319</x>
+      <y>583</y>
+      <w>165</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>*Analog Output*
+valign=center
+halign=center
+layer=3
+bg=white
+transparency=0
+fontsize=18</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>682</x>
+      <y>583</y>
+      <w>110</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>*Do1*
+valign=center
+halign=center
+layer=3
+bg=white
+transparency=0
+fontsize=18</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>352</x>
+      <y>429</y>
+      <w>121</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>lt=[RJ45 A0]-[RJ45 Ao1]
+Speed
+lw=2
+layer=5
+fontsize=18</panel_attributes>
+    <additional_attributes>40.0;10.0;40.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>528</x>
+      <y>187</y>
+      <w>88</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lw=2
+3x Hall
+fontsize=18</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>440</x>
+      <y>374</y>
+      <w>99</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lw=2
+Speed
+fontsize=18</panel_attributes>
+    <additional_attributes>70.0;30.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>154</y>
+      <w>792</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>*BACKPLANE*
+fontsize=18
+bg=black
+layer=3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>770</x>
+      <y>187</y>
+      <w>88</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lw=2
+3x Hall
+fontsize=18</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>605</x>
+      <y>187</y>
+      <w>110</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lw=2
+6x PWM
+fontsize=18</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1001</x>
+      <y>187</y>
+      <w>110</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lw=2
+6x PWM
+fontsize=18</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>858</x>
+      <y>715</y>
+      <w>253</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>*POWER DRIVER*
+layer=3
+bg=white
+transparency=0
+fontsize=18</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>627</x>
+      <y>715</y>
+      <w>154</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>*BLDC MOTOR*
+layer=3
+bg=white
+transparency=0
+fontsize=18</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>770</x>
+      <y>737</y>
+      <w>110</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>10.0;20.0;80.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>770</x>
+      <y>715</y>
+      <w>110</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>10.0;20.0;80.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>770</x>
+      <y>759</y>
+      <w>110</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>10.0;20.0;80.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>385</x>
+      <y>649</y>
+      <w>264</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lw=2
+Speed
+fontsize=18</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0;220.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>726</x>
+      <y>649</y>
+      <w>88</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+lw=2
+3x Hall
+fontsize=18</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1012</x>
+      <y>649</y>
+      <w>110</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+lw=2
+6x PWM
+fontsize=18</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+</diagram>

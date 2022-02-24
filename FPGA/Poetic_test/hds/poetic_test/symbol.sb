@@ -5,8 +5,8 @@ dialect 11
 dmPackageRefs [
 ]
 )
-version "26.1"
-appVersion "2018.1 (Build 12)"
+version "27.1"
+appVersion "2019.2 (Build 5)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
@@ -61,17 +61,17 @@ sheetRow (SheetRow
 headerVa (MVa
 cellColor "49152,49152,49152"
 fontColor "0,0,0"
-font "courier,10,0"
+font "Tahoma,10,0"
 )
 cellVa (MVa
 cellColor "65535,65535,65535"
 fontColor "0,0,0"
-font "courier,10,0"
+font "Tahoma,10,0"
 )
 groupVa (MVa
 cellColor "39936,56832,65280"
 fontColor "0,0,0"
-font "courier,10,0"
+font "Tahoma,10,0"
 )
 emptyMRCItem *15 (MRCItem
 litem &1
@@ -105,7 +105,7 @@ sheetCol (SheetCol
 propVa (MVa
 cellColor "0,49152,49152"
 fontColor "0,0,0"
-font "courier,10,0"
+font "Tahoma,10,0"
 textAngle 90
 )
 uid 54,0
@@ -207,53 +207,95 @@ tm "GenericPragmaColHdrMgr"
 *38 (EolColHdr
 tm "GenericEolColHdrMgr"
 )
+*39 (LogGeneric
+generic (GiElement
+name "baudRate"
+type "real"
+value "9600.0"
+)
+uid 157,0
+)
+*40 (LogGeneric
+generic (GiElement
+name "clockFrequency"
+type "real"
+value "66.0E6"
+)
+uid 159,0
+)
+*41 (LogGeneric
+generic (GiElement
+name "dataBitNb"
+type "positive"
+value "8"
+)
+uid 161,0
+)
 ]
 )
 pdm (PhysicalDM
 uid 109,0
 optionalChildren [
-*39 (Sheet
+*42 (Sheet
 sheetRow (SheetRow
 headerVa (MVa
 cellColor "49152,49152,49152"
 fontColor "0,0,0"
-font "courier,10,0"
+font "Tahoma,10,0"
 )
 cellVa (MVa
 cellColor "65535,65535,65535"
 fontColor "0,0,0"
-font "courier,10,0"
+font "Tahoma,10,0"
 )
 groupVa (MVa
 cellColor "39936,56832,65280"
 fontColor "0,0,0"
-font "courier,10,0"
+font "Tahoma,10,0"
 )
-emptyMRCItem *40 (MRCItem
+emptyMRCItem *43 (MRCItem
 litem &27
 pos 3
 dimension 20
 )
 uid 80,0
 optionalChildren [
-*41 (MRCItem
+*44 (MRCItem
 litem &28
 pos 0
 dimension 20
 uid 83,0
 )
-*42 (MRCItem
+*45 (MRCItem
 litem &29
 pos 1
 dimension 23
 uid 85,0
 )
-*43 (MRCItem
+*46 (MRCItem
 litem &30
 pos 2
 hidden 1
 dimension 20
 uid 87,0
+)
+*47 (MRCItem
+litem &39
+pos 0
+dimension 20
+uid 156,0
+)
+*48 (MRCItem
+litem &40
+pos 1
+dimension 20
+uid 158,0
+)
+*49 (MRCItem
+litem &41
+pos 2
+dimension 20
+uid 160,0
 )
 ]
 )
@@ -261,48 +303,48 @@ sheetCol (SheetCol
 propVa (MVa
 cellColor "0,49152,49152"
 fontColor "0,0,0"
-font "courier,10,0"
+font "Tahoma,10,0"
 textAngle 90
 )
 uid 81,0
 optionalChildren [
-*44 (MRCItem
+*50 (MRCItem
 litem &31
 pos 0
 dimension 20
 uid 89,0
 )
-*45 (MRCItem
+*51 (MRCItem
 litem &33
 pos 1
 dimension 50
 uid 93,0
 )
-*46 (MRCItem
+*52 (MRCItem
 litem &34
 pos 2
 dimension 100
 uid 95,0
 )
-*47 (MRCItem
+*53 (MRCItem
 litem &35
 pos 3
 dimension 100
 uid 97,0
 )
-*48 (MRCItem
+*54 (MRCItem
 litem &36
 pos 4
 dimension 50
 uid 99,0
 )
-*49 (MRCItem
+*55 (MRCItem
 litem &37
 pos 5
 dimension 50
 uid 101,0
 )
-*50 (MRCItem
+*56 (MRCItem
 litem &38
 pos 6
 dimension 80
@@ -330,23 +372,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "/home/francois/Documents/HEVs/SEm/SEm_labs/VHDL/Lissajous/Prefs/../Lissajous_test/hdl"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/francois/Documents/HEVs/SEm/SEm_labs/VHDL/Lissajous/Prefs/../Lissajous_test/hds"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/francois/Documents/HEVs/SEm/SEm_labs/VHDL/Lissajous/Prefs/../Lissajous_test/hds/lissajous@generator_test/symbol.sb.info"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\poetic_test\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/francois/Documents/HEVs/SEm/SEm_labs/VHDL/Lissajous/Prefs/../Lissajous_test/hds/lissajous@generator_test/symbol.sb.user"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\poetic_test\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/francois/Documents/HEVs/SEm/SEm_labs/VHDL/Lissajous/Prefs/../Lissajous_test/hds"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -370,27 +412,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/francois/Documents/HEVs/SEm/SEm_labs/VHDL/Lissajous/Prefs/../Lissajous_test/hds/lissajous@generator_test"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\poetic_test"
 )
 (vvPair
 variable "d_logical"
-value "/home/francois/Documents/HEVs/SEm/SEm_labs/VHDL/Lissajous/Prefs/../Lissajous_test/hds/lissajousGenerator_test"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\poetic_test"
 )
 (vvPair
 variable "date"
-value "02/19/19"
+value "10.08.2021"
 )
 (vvPair
 variable "day"
-value "Tue"
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "Tuesday"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "19"
+value "10"
 )
 (vvPair
 variable "designName"
@@ -398,7 +440,7 @@ value "$DESIGN_NAME"
 )
 (vvPair
 variable "entity_name"
-value "lissajousGenerator_test"
+value "poetic_test"
 )
 (vvPair
 variable "ext"
@@ -418,31 +460,31 @@ value "symbol"
 )
 (vvPair
 variable "graphical_source_author"
-value "francois"
+value "jean.nanchen"
 )
 (vvPair
 variable "graphical_source_date"
-value "02/19/19"
+value "10.08.2021"
 )
 (vvPair
 variable "graphical_source_group"
-value "francois"
+value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "Aphelia"
+value "WEA30407"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:07:27"
+value "19:00:31"
 )
 (vvPair
 variable "group"
-value "francois"
+value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "Aphelia"
+value "WEA30407"
 )
 (vvPair
 variable "language"
@@ -450,11 +492,11 @@ value "VHDL"
 )
 (vvPair
 variable "library"
-value "Lissajous_test"
+value "Poetic_test"
 )
 (vvPair
 variable "library_downstream_Concatenation"
-value "$HDS_PROJECT_DIR/../Lissajous_test/concat"
+value "$HDS_PROJECT_DIR/../Poetic_test/concat"
 )
 (vvPair
 variable "library_downstream_ModelSim"
@@ -462,31 +504,31 @@ value "D:\\Projects\\Biquad\\Development\\Tools\\VHDL\\VHDL_comp"
 )
 (vvPair
 variable "library_downstream_ModelSimCompiler"
-value "$SCRATCH_DIR/Lissajous_test"
+value "$SCRATCH_DIR/Poetic_test"
 )
 (vvPair
 variable "mm"
-value "02"
+value "08"
 )
 (vvPair
 variable "module_name"
-value "lissajousGenerator_test"
+value "poetic_test"
 )
 (vvPair
 variable "month"
-value "Feb"
+value "août"
 )
 (vvPair
 variable "month_long"
-value "February"
+value "août"
 )
 (vvPair
 variable "p"
-value "/home/francois/Documents/HEVs/SEm/SEm_labs/VHDL/Lissajous/Prefs/../Lissajous_test/hds/lissajous@generator_test/symbol.sb"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\poetic_test\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "/home/francois/Documents/HEVs/SEm/SEm_labs/VHDL/Lissajous/Prefs/../Lissajous_test/hds/lissajousGenerator_test/symbol.sb"
+value "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\..\\Poetic_test\\hds\\poetic_test\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -494,7 +536,7 @@ value "<Undefined Variable>"
 )
 (vvPair
 variable "project_name"
-value "lissajous"
+value "hds"
 )
 (vvPair
 variable "series"
@@ -534,19 +576,19 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "13:07:27"
+value "19:00:31"
 )
 (vvPair
 variable "unit"
-value "lissajousGenerator_test"
+value "poetic_test"
 )
 (vvPair
 variable "user"
-value "francois"
+value "jean.nanchen"
 )
 (vvPair
 variable "version"
-value "2018.1 (Build 12)"
+value "2019.2 (Build 5)"
 )
 (vvPair
 variable "view"
@@ -554,18 +596,18 @@ value "symbol"
 )
 (vvPair
 variable "year"
-value "2019"
+value "2021"
 )
 (vvPair
 variable "yy"
-value "19"
+value "21"
 )
 ]
 )
 LanguageMgr "Vhdl2008LangMgr"
 uid 51,0
 optionalChildren [
-*51 (SymbolBody
+*57 (SymbolBody
 uid 8,0
 shape (Rectangle
 uid 9,0
@@ -584,23 +626,23 @@ stg "VerticalLayoutStrategy"
 first (Text
 uid 11,0
 va (VaSet
-font "courier,9,1"
+font "Verdana,9,1"
 )
-xt "22600,14800,30100,15700"
-st "Lissajous_test"
-blo "22600,15500"
+xt "22600,14800,29700,16000"
+st "Poetic_test"
+blo "22600,15800"
 )
 second (Text
 uid 12,0
 va (VaSet
-font "courier,9,1"
+font "Verdana,9,1"
 )
-xt "22600,15700,34600,16600"
-st "lissajousGenerator_test"
-blo "22600,16400"
+xt "22600,16000,29600,17200"
+st "poetic_test"
+blo "22600,17000"
 )
 )
-gi *52 (GenericInterface
+gi *58 (GenericInterface
 uid 13,0
 ps "CenterOffsetStrategy"
 matrix (Matrix
@@ -609,25 +651,45 @@ text (MLText
 uid 15,0
 va (VaSet
 isHidden 1
-font "courier,8,0"
+font "Verdana,8,0"
 )
-xt "0,12000,10500,12900"
-st "Generic Declarations"
+xt "0,12000,14400,17000"
+st "Generic Declarations
+
+baudRate       real     9600.0  
+clockFrequency real     66.0E6  
+dataBitNb      positive 8       
+"
 )
 header "Generic Declarations"
 showHdrWhenContentsEmpty 1
 )
 elements [
+(GiElement
+name "baudRate"
+type "real"
+value "9600.0"
+)
+(GiElement
+name "clockFrequency"
+type "real"
+value "66.0E6"
+)
+(GiElement
+name "dataBitNb"
+type "positive"
+value "8"
+)
 ]
 )
 portInstanceVisAsIs 1
 portInstanceVis (PortSigDisplay
 )
 )
-*53 (Grouping
+*59 (Grouping
 uid 16,0
 optionalChildren [
-*54 (CommentText
+*60 (CommentText
 uid 18,0
 shape (Rectangle
 uid 19,0
@@ -645,7 +707,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,48000,53000,49000"
+xt "36200,48500,36200,48500"
 st "
 by %user on %dd %month %year
 "
@@ -657,7 +719,7 @@ visibleWidth 17000
 position 1
 ignorePrefs 1
 )
-*55 (CommentText
+*61 (CommentText
 uid 21,0
 shape (Rectangle
 uid 22,0
@@ -675,7 +737,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "53200,44000,56800,45000"
+xt "53200,44500,53200,44500"
 st "
 Project:
 "
@@ -687,7 +749,7 @@ visibleWidth 4000
 position 1
 ignorePrefs 1
 )
-*56 (CommentText
+*62 (CommentText
 uid 24,0
 shape (Rectangle
 uid 25,0
@@ -705,7 +767,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,46000,52400,47000"
+xt "36200,46500,36200,46500"
 st "
 <enter diagram title here>
 "
@@ -717,7 +779,7 @@ visibleWidth 17000
 position 1
 ignorePrefs 1
 )
-*57 (CommentText
+*63 (CommentText
 uid 27,0
 shape (Rectangle
 uid 28,0
@@ -735,7 +797,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "32200,46000,35800,47000"
+xt "32200,46500,32200,46500"
 st "
 Title:
 "
@@ -747,7 +809,7 @@ visibleWidth 4000
 position 1
 ignorePrefs 1
 )
-*58 (CommentText
+*64 (CommentText
 uid 30,0
 shape (Rectangle
 uid 31,0
@@ -765,7 +827,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "53200,45200,66400,46200"
+xt "53200,45200,67300,46400"
 st "
 <enter comments here>
 "
@@ -776,7 +838,7 @@ visibleWidth 20000
 )
 ignorePrefs 1
 )
-*59 (CommentText
+*65 (CommentText
 uid 33,0
 shape (Rectangle
 uid 34,0
@@ -794,7 +856,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "57200,44000,72800,45000"
+xt "57200,44500,57200,44500"
 st "
 <enter project name here>
 "
@@ -806,7 +868,7 @@ visibleWidth 16000
 position 1
 ignorePrefs 1
 )
-*60 (CommentText
+*66 (CommentText
 uid 36,0
 shape (Rectangle
 uid 37,0
@@ -823,7 +885,7 @@ uid 38,0
 va (VaSet
 fg "32768,0,0"
 )
-xt "38000,44500,47000,45500"
+xt "37350,44400,47650,45600"
 st "
 <company name>
 "
@@ -836,7 +898,7 @@ visibleWidth 21000
 position 1
 ignorePrefs 1
 )
-*61 (CommentText
+*67 (CommentText
 uid 39,0
 shape (Rectangle
 uid 40,0
@@ -854,7 +916,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "32200,47000,35200,48000"
+xt "32200,47500,32200,47500"
 st "
 Path:
 "
@@ -866,7 +928,7 @@ visibleWidth 4000
 position 1
 ignorePrefs 1
 )
-*62 (CommentText
+*68 (CommentText
 uid 42,0
 shape (Rectangle
 uid 43,0
@@ -884,7 +946,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "32200,48000,35800,49000"
+xt "32200,48500,32200,48500"
 st "
 Edited:
 "
@@ -896,7 +958,7 @@ visibleWidth 4000
 position 1
 ignorePrefs 1
 )
-*63 (CommentText
+*69 (CommentText
 uid 45,0
 shape (Rectangle
 uid 46,0
@@ -914,7 +976,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,47000,46400,48000"
+xt "36200,47500,36200,47500"
 st "
 %library/%unit/%view
 "
@@ -951,20 +1013,20 @@ xShown 1
 yShown 1
 color "26368,26368,26368"
 )
-packageList *64 (PackageList
+packageList *70 (PackageList
 uid 48,0
 stg "VerticalLayoutStrategy"
 textVec [
-*65 (Text
+*71 (Text
 uid 49,0
 va (VaSet
-font "courier,8,1"
+font "Verdana,8,1"
 )
 xt "0,0,5400,1000"
 st "Package List"
 blo "0,800"
 )
-*66 (MLText
+*72 (MLText
 uid 50,0
 va (VaSet
 )
@@ -990,9 +1052,8 @@ xt "0,0,15000,5000"
 text (MLText
 va (VaSet
 fg "0,0,32768"
-font "courier,9,0"
 )
-xt "200,200,2200,1100"
+xt "200,200,3200,1400"
 st "
 Text
 "
@@ -1018,9 +1079,9 @@ autoResize 1
 text (MLText
 va (VaSet
 fg "0,0,32768"
-font "courier,8,0"
+font "Verdana,8,0"
 )
-xt "450,2150,1450,3050"
+xt "450,2150,1450,3150"
 st "
 Text
 "
@@ -1044,7 +1105,7 @@ title (TextAssociate
 ps "TopLeftStrategy"
 text (Text
 va (VaSet
-font "courier,9,1"
+font "Verdana,9,1"
 )
 xt "1000,1000,4400,2200"
 st "Panel0"
@@ -1073,7 +1134,7 @@ ps "CenterOffsetStrategy"
 stg "VerticalLayoutStrategy"
 first (Text
 va (VaSet
-font "courier,9,1"
+font "Verdana,9,1"
 )
 xt "22600,14800,27400,16000"
 st "<library>"
@@ -1081,20 +1142,20 @@ blo "22600,15800"
 )
 second (Text
 va (VaSet
-font "courier,9,1"
+font "Verdana,9,1"
 )
 xt "22600,16000,25900,17200"
 st "<cell>"
 blo "22600,17000"
 )
 )
-gi *67 (GenericInterface
+gi *73 (GenericInterface
 ps "CenterOffsetStrategy"
 matrix (Matrix
 text (MLText
 va (VaSet
 isHidden 1
-font "courier,8,0"
+font "Verdana,8,0"
 )
 xt "0,12000,0,12000"
 )
@@ -1122,7 +1183,7 @@ ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
 xt "0,750,1500,1650"
 st "In0"
@@ -1132,7 +1193,7 @@ tm "CptPortNameMgr"
 )
 dt (MLText
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
 )
 thePort (LogicalPort
@@ -1160,7 +1221,7 @@ ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
 xt "0,750,3500,1650"
 st "Buffer0"
@@ -1170,7 +1231,7 @@ tm "CptPortNameMgr"
 )
 dt (MLText
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
 )
 thePort (LogicalPort
@@ -1184,13 +1245,13 @@ o 0
 )
 )
 )
-DeclarativeBlock *68 (SymDeclBlock
+DeclarativeBlock *74 (SymDeclBlock
 uid 1,0
 stg "SymDeclLayoutStrategy"
 declLabel (Text
 uid 2,0
 va (VaSet
-font "courier,8,1"
+font "Verdana,8,1"
 )
 xt "42000,0,47400,1000"
 st "Declarations"
@@ -1199,7 +1260,7 @@ blo "42000,800"
 portLabel (Text
 uid 3,0
 va (VaSet
-font "courier,8,1"
+font "Verdana,8,1"
 )
 xt "42000,1000,44700,2000"
 st "Ports:"
@@ -1208,7 +1269,7 @@ blo "42000,1800"
 externalLabel (Text
 uid 4,0
 va (VaSet
-font "courier,8,1"
+font "Verdana,8,1"
 )
 xt "42000,2000,44500,2900"
 st "User:"
@@ -1218,7 +1279,7 @@ internalLabel (Text
 uid 6,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
 xt "42000,0,47800,1000"
 st "Internal User:"
@@ -1227,7 +1288,7 @@ blo "42000,800"
 externalText (MLText
 uid 5,0
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
 xt "44000,2900,44000,2900"
 tm "SyDeclarativeTextMgr"
@@ -1236,13 +1297,13 @@ internalText (MLText
 uid 7,0
 va (VaSet
 isHidden 1
-font "courier,8,0"
+font "Verdana,8,0"
 )
 xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 132,0
+lastUid 161,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 )

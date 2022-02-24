@@ -1,0 +1,20 @@
+Change Component Comment : Designator=IC5 Old Comment=Comment New Comment=S25FL064P0XMFA000
+Change component parameters: Designator = "IC5"; Footprint = "SOIC127P1030X265-16N"; UniqueID = "\JSIJHMXU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "S25FL064P0XMFA000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/s25fl064p0xmfa000/cypress-semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.cypress.com/file/196856/download"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "2.65mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Cypress Semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "S25FL064P0XMFA000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "727-S25FL064P0XMFA00"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Cypress-Semiconductor/S25FL064P0XMFA000?qs=oeTp6q%252Bm7GOWFbkeKvUJ6w%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetIC5_1 Pin=IC5-1
+Added Pin To Net: NetName=+3V3_D Pin=IC5-2
+Added Pin To Net: NetName=FLASH_SPI_CS_N Pin=IC5-7
+Added Pin To Net: NetName=FLASH_SPI_DI Pin=IC5-8
+Added Pin To Net: NetName=NetIC5_9 Pin=IC5-9
+Added Pin To Net: NetName=GND_D Pin=IC5-10
+Added Pin To Net: NetName=FLASH_SPI_DO Pin=IC5-15
+Added Pin To Net: NetName=FLASH_SPI_CLK Pin=IC5-16
+Added Member To Class: ClassName=FPGA_1_V1_01 Member=Component IC5 S25FL064P0XMFA000

@@ -8,13 +8,13 @@
 -- using Mentor Graphics HDL Designer(TM) 2019.2 (Build 5)
 --
 ARCHITECTURE dc OF motor IS
-  constant clockFrequency: real := 10.0E03;
+  constant clockFrequency: real := 100.0E03;
   constant clockPeriod: real := (1.0/clockFrequency);
   constant L : real := 0.1;
   constant Kphi : real := 0.2;
   constant J : real := 0.1;
   constant B : real := 0.1;
-  constant R : real := 2.0;
+  constant R : real := 1.6;
 BEGIN
   decode : process(reset, clock)
     variable di_dt : real;

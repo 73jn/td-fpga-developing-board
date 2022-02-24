@@ -1,0 +1,462 @@
+P-CAD Design Rule Check Report
+
+======================================================================
+
+P:\PCB\Produit\Logical\FPGARack\FPGA_Rack_v1_0.drc:
+
+
+Design Clearances (in   mm):
+-------------------------------
+Silk Screen Clearance:  12.0mil
+Hole-Hole Clearance:    13.0mil
+Board Edge Clearance:   Not Defined
+
+
+Layer Clearances (in   mm):
+-------------------------------
+
+Layer Name          Pad-Pad  Pad-Line Line-Line   Pad-Via  Via-Line   Via-Via
+
+Top                   0.150     0.150     0.150     0.150     0.150     0.150
+SIG1                  0.150     0.150     0.150     0.150     0.150     0.150
+SIG2                  0.150     0.150     0.150     0.150     0.150     0.150
+Gnd                   0.150     0.150     0.150     0.150     0.150     0.150
+Vcc 3.3V              0.150     0.150     0.150     0.150     0.150     0.150
+SIG3                  0.150     0.150     0.150     0.150     0.150     0.150
+SIG4                  0.150     0.150     0.150     0.150     0.150     0.150
+Bottom                0.150     0.150     0.150     0.150     0.150     0.150
+
+
+Net Class Clearances (in   mm):
+-------------------------------
+Net Class Name      Pad-Pad  Pad-Line Line-Line   Pad-Via  Via-Line   Via-Via
+
+
+
+Net Clearances (In   mm):
+-------------------------
+Net Name            Pad-Pad  Pad-Line Line-Line   Pad-Via  Via-Line   Via-Via
+
+
+Net Class To Net Class Clearances (in   mm):
+--------------------------------------------
+Net Class Names     Pad-Pad  Pad-Line Line-Line   Pad-Via  Via-Line   Via-Via
+
+
+
+Area Checked:
+-------------
+
+DRC Extents:            Entire Workspace
+
+
+DRC Report Options:
+-------------------
+
+Net List Compare:                       On
+Clearance Violations:                   On
+  Ignored Rules:
+    Outside Board Area
+Text Violations:                        Off
+Same-Parent-Component Pad Violations:   On
+Net List Violations:                    On
+
+----------------------------------------------------------------------
+
+25-May-12  14:37                                            Page    1
+
+P-CAD Design Rule Check Report
+
+======================================================================
+
+Unrouted Nets:                          On
+Unconnected Pins:                       Off
+Net Length Violations:                  On
+Silk Violations:                        Off
+Copper Pour Violations:                 On
+Plane Violations:                       On
+Component Violations:                   On
+Drill Violations:                       On
+Test Point Violations:                  On
+
+DRC Errors:
+-----------
+
+
+NETLIST COMPARE:
+
+Netlist filename: P:\PCB\Produit\Logical\FPGARack\FPGA_Rack_v1_0.net
+Warning: Net VME_5V_STANDBY has less than two nodes.
+Warning: Net VME_+12V has less than two nodes.
+Warning: Net VME_-12V has less than two nodes.
+Error: Component 1 found on the board but not in the netlist.
+Error: Component 2 found on the board but not in the netlist.
+Error: Component 3 found on the board but not in the netlist.
+Error: Component 4 found on the board but not in the netlist.
+
+3 warning(s) detected.
+4 error(s) detected.
+
+NETLIST VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+CLEARANCE VIOLATIONS:
+
+Error 1 -- Clearance Violation between:
+   * Pad J4-(unused) at (200.330,144.869) mm [Top layer]
+   * Pad J5-(unused) at (200.330,144.869) mm [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{Top}.PadToPadClearance=0.150mm
+Error 2 -- Clearance Violation between:
+   * Pad J4-(unused) at (200.330,144.869) mm [Bottom layer]
+   * Pad J5-(unused) at (200.330,144.869) mm [Bottom layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{Bottom}.PadToPadClearance=0.150mm
+Error 3 -- Clearance Violation between:
+   * Pad J4-(unused) at (200.330,144.869) mm [SIG1 layer]
+   * Pad J5-(unused) at (200.330,144.869) mm [SIG1 layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{SIG1}.PadToPadClearance=0.150mm
+Error 4 -- Clearance Violation between:
+   * Pad J4-(unused) at (200.330,144.869) mm [SIG3 layer]
+   * Pad J5-(unused) at (200.330,144.869) mm [SIG3 layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{SIG3}.PadToPadClearance=0.150mm
+Error 5 -- Clearance Violation between:
+
+----------------------------------------------------------------------
+
+25-May-12  14:37                                            Page    2
+
+P-CAD Design Rule Check Report
+
+======================================================================
+
+   * Pad J4-(unused) at (200.330,144.869) mm [SIG2 layer]
+   * Pad J5-(unused) at (200.330,144.869) mm [SIG2 layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{SIG2}.PadToPadClearance=0.150mm
+Error 6 -- Clearance Violation between:
+   * Pad J4-(unused) at (200.330,144.869) mm [SIG4 layer]
+   * Pad J5-(unused) at (200.330,144.869) mm [SIG4 layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{SIG4}.PadToPadClearance=0.150mm
+Error 7 -- Clearance Violation between:
+   * Pad J4-(unused) at (165.430,144.869) mm [Top layer]
+   * Pad J5-(unused) at (165.430,144.869) mm [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{Top}.PadToPadClearance=0.150mm
+Error 8 -- Clearance Violation between:
+   * Pad J4-(unused) at (165.430,144.869) mm [Bottom layer]
+   * Pad J5-(unused) at (165.430,144.869) mm [Bottom layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{Bottom}.PadToPadClearance=0.150mm
+Error 9 -- Clearance Violation between:
+   * Pad J4-(unused) at (165.430,144.869) mm [SIG1 layer]
+   * Pad J5-(unused) at (165.430,144.869) mm [SIG1 layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{SIG1}.PadToPadClearance=0.150mm
+Error 10 -- Clearance Violation between:
+   * Pad J4-(unused) at (165.430,144.869) mm [SIG3 layer]
+   * Pad J5-(unused) at (165.430,144.869) mm [SIG3 layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{SIG3}.PadToPadClearance=0.150mm
+Error 11 -- Clearance Violation between:
+   * Pad J4-(unused) at (165.430,144.869) mm [SIG2 layer]
+   * Pad J5-(unused) at (165.430,144.869) mm [SIG2 layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{SIG2}.PadToPadClearance=0.150mm
+Error 12 -- Clearance Violation between:
+   * Pad J4-(unused) at (165.430,144.869) mm [SIG4 layer]
+   * Pad J5-(unused) at (165.430,144.869) mm [SIG4 layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{SIG4}.PadToPadClearance=0.150mm
+Error 13 -- Clearance Violation between:
+   * Pad J2-(unused) at (200.330, 60.871) mm [Top layer]
+   * Pad J3-(unused) at (200.330, 60.871) mm [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{Top}.PadToPadClearance=0.150mm
+Error 14 -- Clearance Violation between:
+   * Pad J2-(unused) at (200.330, 60.871) mm [Bottom layer]
+   * Pad J3-(unused) at (200.330, 60.871) mm [Bottom layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{Bottom}.PadToPadClearance=0.150mm
+Error 15 -- Clearance Violation between:
+   * Pad J2-(unused) at (200.330, 60.871) mm [SIG1 layer]
+   * Pad J3-(unused) at (200.330, 60.871) mm [SIG1 layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{SIG1}.PadToPadClearance=0.150mm
+Error 16 -- Clearance Violation between:
+   * Pad J2-(unused) at (200.330, 60.871) mm [SIG3 layer]
+   * Pad J3-(unused) at (200.330, 60.871) mm [SIG3 layer]
+
+----------------------------------------------------------------------
+
+25-May-12  14:37                                            Page    3
+
+P-CAD Design Rule Check Report
+
+======================================================================
+
+   * Calculated Clearance: Touching.
+   * Rule: Layer{SIG3}.PadToPadClearance=0.150mm
+Error 17 -- Clearance Violation between:
+   * Pad J2-(unused) at (200.330, 60.871) mm [SIG2 layer]
+   * Pad J3-(unused) at (200.330, 60.871) mm [SIG2 layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{SIG2}.PadToPadClearance=0.150mm
+Error 18 -- Clearance Violation between:
+   * Pad J2-(unused) at (200.330, 60.871) mm [SIG4 layer]
+   * Pad J3-(unused) at (200.330, 60.871) mm [SIG4 layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{SIG4}.PadToPadClearance=0.150mm
+Error 19 -- Clearance Violation between:
+   * Pad J2-(unused) at (165.430, 60.871) mm [Top layer]
+   * Pad J3-(unused) at (165.430, 60.871) mm [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{Top}.PadToPadClearance=0.150mm
+Error 20 -- Clearance Violation between:
+   * Pad J2-(unused) at (165.430, 60.871) mm [Bottom layer]
+   * Pad J3-(unused) at (165.430, 60.871) mm [Bottom layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{Bottom}.PadToPadClearance=0.150mm
+Error 21 -- Clearance Violation between:
+   * Pad J2-(unused) at (165.430, 60.871) mm [SIG1 layer]
+   * Pad J3-(unused) at (165.430, 60.871) mm [SIG1 layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{SIG1}.PadToPadClearance=0.150mm
+Error 22 -- Clearance Violation between:
+   * Pad J2-(unused) at (165.430, 60.871) mm [SIG3 layer]
+   * Pad J3-(unused) at (165.430, 60.871) mm [SIG3 layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{SIG3}.PadToPadClearance=0.150mm
+Error 23 -- Clearance Violation between:
+   * Pad J2-(unused) at (165.430, 60.871) mm [SIG2 layer]
+   * Pad J3-(unused) at (165.430, 60.871) mm [SIG2 layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{SIG2}.PadToPadClearance=0.150mm
+Error 24 -- Clearance Violation between:
+   * Pad J2-(unused) at (165.430, 60.871) mm [SIG4 layer]
+   * Pad J3-(unused) at (165.430, 60.871) mm [SIG4 layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{SIG4}.PadToPadClearance=0.150mm
+
+0 warning(s) detected.
+24 error(s) detected.
+
+UNROUTED NETS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+Warning: Net length violation tests were not performed because
+         of missing MinNetLength, MaxNetLength, or MatchedLength rules.
+
+NETLIST LENGTH VIOLATIONS:
+
+
+
+----------------------------------------------------------------------
+
+25-May-12  14:37                                            Page    4
+
+P-CAD Design Rule Check Report
+
+======================================================================
+
+0 warning(s) detected.
+0 error(s) detected.
+
+WIDTH VIOLATIONS:
+
+Warning: Width violation tests were not performed because
+         of missing Width rule.
+
+0 warning(s) detected.
+0 error(s) detected.
+
+COPPER POUR VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+PLANE VIOLATIONS:
+
+Warning 1 -- The Via may be partially connected to a plane:
+   * Via at (188.500, 88.300) mm [Gnd layer]
+Warning 2 -- The Via may be partially connected to a plane:
+   * Via at (188.500,122.500) mm [Vcc 3.3V layer]
+Warning 3 -- The Via may be partially connected to a plane:
+   * Via at (186.500,115.500) mm [Vcc 3.3V layer]
+Warning 4 -- The Via may be partially connected to a plane:
+   * Via at (187.500,110.500) mm [Vcc 3.3V layer]
+Warning 5 -- The Via may be partially connected to a plane:
+   * Via at (185.500,115.500) mm [Vcc 3.3V layer]
+Warning 6 -- The Via may be partially connected to a plane:
+   * Via at (187.500,123.500) mm [Vcc 3.3V layer]
+Warning 7 -- The Via may be partially connected to a plane:
+   * Via at ( 99.000, 94.100) mm [Vcc 3.3V layer]
+Warning 8 -- The Via may be partially connected to a plane:
+   * Via at (194.000,104.000) mm [Vcc 3.3V layer]
+
+8 warning(s) detected.
+0 error(s) detected.
+
+COMPONENT VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+DRILL VIOLATIONS:
+
+Error 25 -- Hole Clearance Violation between:
+   * Pad hole1.6 at 200.330mm 144.869mm and
+   * Pad hole1.6 at 200.330mm 144.869mm.
+   * Calculated clearance: 0.000mm.
+   * Rule: Design.HoleToHoleClearance=13.0mil
+
+Error 26 -- Hole Clearance Violation between:
+   * Pad hole1.6 at 165.430mm 144.869mm and
+   * Pad hole1.6 at 165.430mm 144.869mm.
+   * Calculated clearance: 0.000mm.
+
+----------------------------------------------------------------------
+
+25-May-12  14:37                                            Page    5
+
+P-CAD Design Rule Check Report
+
+======================================================================
+
+   * Rule: Design.HoleToHoleClearance=13.0mil
+
+Error 27 -- Hole Clearance Violation between:
+   * Pad hole1.6 at 200.330mm 60.871mm and
+   * Pad hole1.6 at 200.330mm 60.871mm.
+   * Calculated clearance: 0.000mm.
+   * Rule: Design.HoleToHoleClearance=13.0mil
+
+Error 28 -- Hole Clearance Violation between:
+   * Pad hole1.6 at 165.430mm 60.871mm and
+   * Pad hole1.6 at 165.430mm 60.871mm.
+   * Calculated clearance: 0.000mm.
+   * Rule: Design.HoleToHoleClearance=13.0mil
+
+
+0 warning(s) detected.
+4 error(s) detected.
+
+TEST POINT VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+DRC Summary:
+------------
+
+Netlist Compare:
+	Errors:   4
+	Warnings: 3
+Netlist:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Clearance:
+	Errors:         24
+	Warnings:       0
+	Ignored Errors: 0
+Unrouted Nets:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Net Length:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Width:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Copper Pour:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Plane:
+	Errors:         0
+	Warnings:       8
+
+----------------------------------------------------------------------
+
+25-May-12  14:37                                            Page    6
+
+P-CAD Design Rule Check Report
+
+======================================================================
+
+	Ignored Errors: 0
+Component:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Drilling:
+	Errors:         4
+	Warnings:       0
+	Ignored Errors: 0
+Test Point:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+
+25-May-12  14:37                                            Page    7
+

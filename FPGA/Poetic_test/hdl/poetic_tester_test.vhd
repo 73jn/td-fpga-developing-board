@@ -8,7 +8,6 @@
 -- using Mentor Graphics HDL Designer(TM) 2019.2 (Build 5)
 --
 ARCHITECTURE test OF poetic_tester IS
-  constant clockFrequency: real := 66.0E6;
   constant clockPeriod: time := (1.0/clockFrequency) * 1 sec;
   signal sClock: std_uLogic := '1';
 BEGIN
@@ -22,11 +21,8 @@ BEGIN
                                                                        -- enable
                                                                        
   enable <= '0', '1' after 1 us;
-  notenable <= '0';
-  SetVal <= "000000000000", "011111111111" after 15 us;
-  dacData <= "00000000", "01010010" after 10 us;
-  dacSel <= "11";
-  dacMode <= "01";
-  send <= '0', '1' after 11 us;
+  P <= '0', '1' after 1 us;
+  I <= '0', '1' after 1 us;
+  D <= '0', '1' after 1 us;
 END ARCHITECTURE test;
 

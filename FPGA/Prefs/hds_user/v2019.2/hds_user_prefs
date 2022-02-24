@@ -1283,8 +1283,9 @@ projectPaths [
 "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board-main\\td-fpga-developing-board-main\\FPGA\\Prefs\\hds.hdp"
 "C:\\Users\\jeann\\Documents\\TD\\td-fpga-developing-board\\FPGA\\Prefs\\hds.hdp"
 "C:\\Users\\jean.nanchen\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\hds.hdp"
+"C:\\Users\\jeann\\Downloads\\td-fpga-developing-board\\FPGA\\Prefs\\hds.hdp"
 ]
-libMappingsRootDir ""
+libMappingsRootDir "$HDS_PROJECT_DIR"
 teamLibMappingsRootDir ""
 projectSetupRootDir ""
 defaultPackages "LIBRARY ieee;
@@ -1303,7 +1304,7 @@ exportedDirectories [
 exportStdIncludeRefs 1
 exportStdPackageRefs 1
 )
-printerName "OneNote for Windows 10"
+printerName "Microsoft Print to PDF"
 pageSizes [
 (PageSizeInfo
 name "Letter"
@@ -1311,10 +1312,58 @@ width 783
 height 1013
 )
 (PageSizeInfo
+name "Tabloid"
+type 3
+width 1013
+height 1566
+)
+(PageSizeInfo
+name "Legal"
+type 5
+width 783
+height 1290
+)
+(PageSizeInfo
+name "Statement"
+type 6
+width 506
+height 783
+)
+(PageSizeInfo
+name "Executive"
+type 7
+width 667
+height 967
+)
+(PageSizeInfo
+name "A3"
+type 8
+width 1077
+height 1523
+)
+(PageSizeInfo
 name "A4"
 type 9
 width 761
 height 1077
+)
+(PageSizeInfo
+name "A5"
+type 11
+width 536
+height 761
+)
+(PageSizeInfo
+name "B4 (JIS)"
+type 12
+width 932
+height 1320
+)
+(PageSizeInfo
+name "B5 (JIS)"
+type 13
+width 660
+height 932
 )
 ]
 exportPageSetupInfo (PageSetupInfo
@@ -3959,7 +4008,7 @@ hdsWorkspaceLocation ""
 relativeLibraryRootDir ""
 vmLabelLatestDontAskAgain 0
 vmLabelWorkspaceDontAskAgain 0
-logWindowGeometry "1142x770+409+111"
+logWindowGeometry "1142x770+208+208"
 diagramBrowserTabNo 0
 showInsertPortHint 0
 showContentFirstTime 0
@@ -5841,6 +5890,96 @@ disableFilters 1
 ]
 layoutExpression "V(H(A(C(DesignUnits),C(LogicalObjects)),A(C(Files))),A(C(DesignHierarchy)))"
 )
+(Viewpoint_v2
+name "Parse Errors Report"
+TreeListVPDatas [
+(TreeListVPData
+theList "Hierarchy"
+columns [
+(TreeListVPData_Column
+name "Design Unit Name"
+displayName ""
+width 150
+)
+(TreeListVPData_Column
+name "Extends"
+displayName ""
+width 100
+)
+(TreeListVPData_Column
+name "Name"
+displayName ""
+width 250
+)
+(TreeListVPData_Column
+name "Library"
+displayName ""
+width 120
+)
+]
+filterString ""
+accessRights 2
+)
+]
+SmartTableVPDatas [
+(SmartTableVPData
+theList "Logical Objects"
+columns [
+(SmartTableVPData_Column
+name "Parse Error"
+width 22
+alignment 0
+)
+(SmartTableVPData_Column
+name "File Name"
+width 150
+alignment 0
+)
+(SmartTableVPData_Column
+name "Language"
+width 100
+alignment 0
+)
+(SmartTableVPData_Column
+name "Library"
+width 120
+alignment 0
+)
+(SmartTableVPData_Column
+name "Location"
+width 200
+alignment 0
+)
+(SmartTableVPData_Column
+name "Absolute Path"
+width 14
+alignment 1
+)
+]
+filterNames [
+"Architectures and Modules"
+"Configurations"
+"Entities"
+"Files"
+"Instances"
+"Packages"
+"SV Classes"
+"SV Interfaces"
+"SV Packages"
+"SV Program Blocks"
+]
+filterString "1"
+filterColumn "Parse Error"
+matchCase 0
+matchWholeWordOnly 0
+regularExpression 1
+groupNames [
+]
+disableFilters 1
+)
+]
+layoutExpression "V(A(C(LogicalObjects)))"
+)
 ]
 WorkTabs [
 (WorkTab
@@ -6103,16 +6242,6 @@ declHierarchy [
 activeViewpointIdx 0
 )
 (WorkTab
-name "std"
-showingHierarchy 0
-openLibs [
-"std"
-]
-declHierarchy [
-]
-activeViewpointIdx 0
-)
-(WorkTab
 name "ieee"
 showingHierarchy 0
 openLibs [
@@ -6142,8 +6271,29 @@ declHierarchy [
 ]
 activeViewpointIdx 0
 )
+(WorkTab
+name "std"
+showingHierarchy 0
+openLibs [
+"std"
+]
+declHierarchy [
+]
+activeViewpointIdx 0
+)
+(WorkTab
+name "Messy_test"
+showingHierarchy 0
+openLibs [
+"Messy_test"
+]
+declHierarchy [
+]
+activeViewpointIdx 0
+)
 ]
 ViewpointsOnOutlookBar [
+"Parse Errors Report"
 "Requirements"
 "Default Viewpoint"
 "Version Management"
@@ -6166,14 +6316,14 @@ size 180
 displayHierarchy 0
 xPos 0
 yPos 0
-width 1932
-height 1045
+width 1936
+height 1066
 activeSidePanelTab 2
-activeLibraryTab 2
+activeLibraryTab 12
 sidePanelSize 278
 showUnixHiddenFiles 0
-componentBrowserXpos 569
-componentBrowserYpos 300
+componentBrowserXpos 1053
+componentBrowserYpos 263
 componentBrowserWidth 315
 componentBrowserHeight 532
 componentBrowserLibraryNames [
@@ -6187,6 +6337,8 @@ componentBrowserLibraryNames [
 "Filter"
 "std"
 "Gates"
+"Board"
+"Poetic_test"
 ]
 )
 (SmPreferences
